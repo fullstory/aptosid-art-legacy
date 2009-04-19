@@ -1,0 +1,43 @@
+[KSplash Theme: sidux-gaia]
+Name = sidux-gaia
+Description = Fading splash screen for sidux 2007-03 based loosely on MoodinKDE by Christian Leh <moodwrod@web.de>
+Version = 1.0
+Author = Bernard Gray
+Homepage = http://sidux.com
+Engine = Moodin
+
+BeginOpacity = 0.1
+BaseResolution = 1600,1200
+
+UseIconSet = true
+IconSetSize = 48
+LabelShadow = false
+
+Image1 = kcmsystem
+Image2 = kcontrol
+Image3 = kcmpci
+Image7 = kmenuedit
+Image8 = kmenu
+
+ImageCoords1 = 570,656
+ImageCoords2 = 628,680
+ImageCoords3 = 686,680
+ImageCoords4 = 744,680
+ImageCoords5 = 802,680
+ImageCoords6 = 859,680
+ImageCoords7 = 917,680
+ImageCoords8 = 980,680
+
+LineUpImages = false
+
+Labels = 1
+Label1 = Please Wait
+LabelFont1 = Verdana,20,-1,0,0,0
+LabelColor1 = #AFAA8E
+LabelCoords1 = -1,547
+
+StatusCoords = -1,625
+StatusColor = #AFAA8E
+StatusFont = Verdana,12,-1,0,0,0
+
+ImageOffset1 = 0,20

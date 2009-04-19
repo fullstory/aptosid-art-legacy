@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE greeter SYSTEM "greeter.dtd">
+<greeter>
+	
+	<!-- main pic, login pic -->
+	<item type="pixmap">
+		<normal file="background.png"/>
+		<pos x="0" y="0" width="100%" height="100%"/>
+		
+		<!-- at the moment, the userlist doesn't support alpha or pixmap, so it looks ugly --><!--
+		<item type="rect" id="userlist-background">
+			<pos x="30%" y="50%" width="90" height="30%"/>
+			<fixed>
+				<item type="rect" id="userlist">
+					<normal color="#FFFFFF" alpha="0.1"/>
+					<pos anchor="c" x="0" y="0" width="100%" height="100%"/>
+					<show type="userlist"/>
+				</item>
+			</fixed>
+  		</item>
+		-->
+		
+		<item type="pixmap">
+			<normal file="login.png"/>
+			<pos anchor="c" x="50%" y="50%"/>
+		</item>	
+		
+		<item type="pixmap">
+			<normal file="sidux-logo.png"/>
+			<pos anchor="c" x="85%" y="10%"/>
+		</item>	
+		
+		<item type="rect">		
+			<pos anchor="c" x="50%" y="50%" width="360" height="280"/>
+			
+			<!-- username-label -->
+			<item type="label">
+				<pos anchor="w" x="55" y="170"/>
+				<normal color="#AFAA8E" font="Verdana 12"/>
+				<stock type="username-label"/>
+			</item>
+			
+			<!-- password-label -->
+			<item type="label">
+				<pos anchor="w" x="55" y="205"/>
+				<normal color="#AFAA8E" font="Verdana 12"/>
+				<stock type="password-label"/>
+			</item>
+				
+			<!-- username-entry -->
+			<item type="entry" id="user-entry">
+				<pos anchor="c" x="215" y="170" height="23" width="135"/>
+			</item>
+			
+			<!-- password-entry -->
+			<item type="entry" id="pw-entry">
+				<pos anchor="c" x="215" y="205" height="23" width="135"/>
+			</item>
+
+			<!-- Welcome on ... -->
+			<item type="label">
+				<pos anchor="c" x="50%" y="60"/>
+				<normal color="#999073" font="Verdana 18"/>
+				<stock type="welcome-label"/>
+			</item>
+	
+			<item type="label" id="clock">
+				<normal color="#AFAA8E" font="Verdana 11"/>
+				<pos anchor="c" x="50%" y="90"/>		
+				<text>%c</text>
+			</item>
+	
+			<!-- Login-Error -->
+			<item type="label" id="pam-error">
+				<pos anchor="c" x="50%" y="110"/>
+				<normal color="#a20000" font="Verdana 13"/>
+				<text></text>
+			</item>
+		
+			<!-- capslock-warning -->
+			<item type="label" id="caps-lock-warning">
+				<pos anchor="c" x="50%" y="130"/>
+				<normal color="#001692" font="Verdana 11"/>
+				<stock type="caps-lock-warning"/>
+			</item>
+		</item>			
+		
+	</item>
+	
+	
+	<item type="rect" id="disconnect_button" button="true">
+		<show modes="flexi,remote"/>
+		<pos x="81%" y="92%" width="32" height="60"/>
+		<item type="pixmap">
+			<pos anchor="c" y="36" x="0%"/>
+			<normal file="options.png"/>
+			<prelight file="options.png"/>
+			<pressed file="options.png"/>
+		</item> 				
+		<item type="label">
+			<normal color="#B3B938" font="Verdana 11"/>
+			<prelight color="#FFFFFF" font="Verdana 11"/>
+			<active color="#000000" font="Verdana 11"/>
+			<pos anchor="c" y="10" x="0%"/>
+			<stock type="disconnect"/>
+	        	<show modes="remote"/>
+		</item>
+		<item type="label">
+			<normal color="#B3B938" font="Verdana 11"/>
+			<prelight color="#FFFFFF" font="Verdana 11"/>
+			<active color="#000000" font="Verdana 11"/>
+			<pos anchor="c" y="10" x="0%"/>
+			<stock type="quit"/>
+	        	<show modes="flexi"/>
+		</item>
+	</item>
+	
+	<item type="rect" id="session_button" button="true">
+		<pos x="81%" y="92%" width="5%" height="10%"/>
+		<item type="pixmap">
+			<pos anchor="c" y="36" x="0%"/>
+			<normal file="session_normal.png"/>
+			<prelight file="session_over.png"/>
+			<pressed file="session_pressed.png"/>
+		</item> 				
+		<item type="label">
+			<normal color="#DFD8AF" font="Verdana 11"/>
+			<prelight color="#FFFFFF" font="Verdana 11"/>
+			<active color="#000000" font="Verdana 11"/>
+			<pos anchor="c" y="10" x="0%"/>
+			<stock type="session"/>
+		</item>
+	</item>
+	
+	<!-- menu-button -->
+	<item type="rect" id="system_button" button="true">
+		<show modes="console" type="system"/>
+		<pos x="93%" y="92%" width="5%" height="10%"/>
+		<item type="pixmap" button="true">
+			<pos anchor="c" y="36" x="0%"/>
+			<normal file="system_normal.png"/>
+			<prelight file="system_over.png"/>
+			<pressed file="system_pressed.png"/>
+		</item>				 
+		<item type="label">
+			<normal color="#DFD8AF" font="Verdana 11"/>
+			<prelight color="#FFFFFF" font="Verdana 11"/>
+			<active color="#000000" font="Verdana 11"/>
+			<pos anchor="c" y="10" x="0%"/>
+			<stock type="system"/>
+		</item>
+	</item>
+</greeter>

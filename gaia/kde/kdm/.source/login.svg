@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg4065"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docbase="/media/sda6/svn/svn.berlios.de-fullstory/sidux-art-kde/trunk/kdm/.source"
+   sodipodi:docname="login.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4067">
+    <linearGradient
+       id="linearGradient3374">
+      <stop
+         style="stop-color:#efecce;stop-opacity:1;"
+         offset="0"
+         id="stop3376" />
+      <stop
+         style="stop-color:#e8e5c7;stop-opacity:0;"
+         offset="1"
+         id="stop3379" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3374"
+       id="linearGradient2712"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.7544949,0,0,-1.2037055,-808.04305,1752.8659)"
+       x1="2228.0195"
+       y1="769.875"
+       x2="2230.3767"
+       y2="833.81598" />
+    <filter
+       inkscape:collect="always"
+       x="-0.267645"
+       width="1.53529"
+       y="-1.3094018"
+       height="3.6188035"
+       id="filter3715">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="59.104939"
+         id="feGaussianBlur3717" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3370"
+       id="linearGradient2710"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.7591325,0,0,1.2185943,-15.608639,182.2801)"
+       x1="1138.0161"
+       y1="141.35242"
+       x2="1138.0161"
+       y2="218.04684" />
+    <linearGradient
+       id="linearGradient3370">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3372" />
+      <stop
+         id="stop3378"
+         offset="0.5"
+         style="stop-color:#ffffff;stop-opacity:0.69387758;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.24705882;"
+         offset="0.75"
+         id="stop3380" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3374" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3370"
+       id="linearGradient2708"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.7591325,0,0,1.2185943,-15.608639,182.2801)"
+       x1="1138.0161"
+       y1="141.35242"
+       x2="1138.0161"
+       y2="454.34821" />
+    <linearGradient
+       id="linearGradient3430">
+      <stop
+         style="stop-color:#d9d5b7;stop-opacity:0.91836733;"
+         offset="0"
+         id="stop3432" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop3434" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3430"
+       id="linearGradient2706"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.7591325,0,0,1.2185943,-15.608639,182.2801)"
+       x1="1469.9875"
+       y1="473.65482"
+       x2="1467.4189"
+       y2="444.51807" />
+    <filter
+       inkscape:collect="always"
+       id="filter3433">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.5133333"
+         id="feGaussianBlur3435" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter3470">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.5511666"
+         id="feGaussianBlur3472" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter3438">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="8.9599999"
+         id="feGaussianBlur3440" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3374"
+       id="linearGradient2199"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.4074162,0,0,-0.6217453,-715.00375,1406.9335)"
+       x1="2228.0195"
+       y1="769.875"
+       x2="2230.3767"
+       y2="833.81598" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3370"
+       id="linearGradient2203"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.4099205,0,0,0.6294358,-287.10074,595.68498)"
+       x1="1138.0161"
+       y1="141.35242"
+       x2="1138.0161"
+       y2="218.04684" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3370"
+       id="linearGradient2206"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.4099205,0,0,0.6294358,-287.10074,595.68498)"
+       x1="1138.0161"
+       y1="141.35242"
+       x2="1138.0161"
+       y2="454.34821" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3430"
+       id="linearGradient2209"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.4099205,0,0,0.6294358,-287.10074,595.68498)"
+       x1="1469.9875"
+       y1="473.65482"
+       x2="1467.4189"
+       y2="444.51807" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.71838385"
+     inkscape:cx="372.04724"
+     inkscape:cy="136.41732"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="746"
+     inkscape:window-height="586"
+     inkscape:window-x="0"
+     inkscape:window-y="0" />
+  <metadata
+     id="metadata4070">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>login</dc:title>
+        <dc:date>27th June 2007</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Bernard Gray</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Copyright</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:description>login pic for a kdm theme</dc:description>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Bernard Gray &lt;bernard.gray@gmail.com&gt;</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/GPL/2.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/GPL/2.0/">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/Notice" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/ShareAlike" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/SourceCode" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/bernie/software/sidux-art/gaia/ksplash-logo.png"
+       ry="15"
+       y="174.33333"
+       x="761"
+       height="371.66666"
+       width="795"
+       id="rect3427"
+       style="fill:none;fill-opacity:0.96067415;stroke:#000000;stroke-width:14;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;filter:url(#filter3438)"
+       transform="matrix(0.4099205,0,0,0.6294358,-287.10074,595.68498)" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/bernie/software/sidux-art/gaia/ksplash-logo.png"
+       ry="15"
+       y="172.33333"
+       x="757"
+       height="371.66666"
+       width="795"
+       id="rect3382"
+       style="opacity:0.76033056;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;filter:url(#filter3470)"
+       transform="matrix(0.4099205,0,0,0.6294358,-287.10074,595.68498)" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/bernie/software/sidux-art/gaia/ksplash-logo.png"
+       ry="15"
+       y="166.33333"
+       x="755"
+       height="371.66666"
+       width="795"
+       id="rect3357"
+       style="opacity:0.57954544;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:22;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;filter:url(#filter3433)"
+       transform="matrix(0.4099205,0,0,0.6294358,-287.10074,595.68498)" />
+    <rect
+       style="fill:#e7e6dd;fill-opacity:0.96067415;stroke:#000000;stroke-width:0.50795531;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
+       id="rect2370"
+       width="325.88675"
+       height="233.94028"
+       x="22.389204"
+       y="700.3811"
+       ry="9.4415359"
+       inkscape:export-filename="/home/bernie/software/sidux-art/gaia/ksplash-logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:0.42148761;fill:url(#linearGradient2206);fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
+       d="M 29.932618,700.95374 C 26.556478,700.95374 23.838499,705.12721 23.838499,710.31129 L 23.838499,824.16796 C 67.336116,833.25173 175.68783,818.12252 194.46107,821.58827 C 251.57992,832.13304 314.95827,826.38063 346.8267,819.22638 L 346.8267,710.31129 C 346.8267,705.12721 344.10868,700.95374 340.73253,700.95374 L 29.932618,700.95374 z "
+       id="rect3361"
+       sodipodi:nodetypes="cccscccc" />
+    <path
+       id="path3426"
+       d="M 29.932618,700.95374 C 26.556478,700.95374 23.838499,705.12721 23.838499,710.31129 L 23.838499,786.82144 L 346.8267,789.15083 L 346.8267,710.31129 C 346.8267,705.12721 344.10868,700.95374 340.73253,700.95374 L 29.932618,700.95374 z "
+       style="fill:url(#linearGradient2203);fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.79545456;fill:#ffffff;fill-opacity:1;display:inline;filter:url(#filter3715)"
+       id="path3617"
+       sodipodi:cx="1136.6666"
+       sodipodi:cy="414.16666"
+       sodipodi:rx="265"
+       sodipodi:ry="54.166668"
+       d="M 1401.6666 414.16666 A 265 54.166668 0 1 1  871.66663,414.16666 A 265 54.166668 0 1 1  1401.6666 414.16666 z"
+       transform="matrix(0.3377332,0,0,0.5185917,-205.04789,627.74529)"
+       inkscape:export-filename="/home/bernie/software/sidux-art/gaia/ksplash-logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>
