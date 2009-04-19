@@ -1,0 +1,33 @@
+This package was debianized by Horst Tritremmel <hjt@sidux.com> on
+Wed, 24 Oct 2007 14:58:14 +0200.
+
+The original source can always be found at:
+        http://developer.berlios.de/projects/fullstory
+
+        Copyright:
+                © 2006-2007 F.U.L.L.S.T.O.R.Y Project
+
+The following artwork has been contributed to this package:
+
+sidux wing Wallpaper 
+Copyright © 2007  Bernard Gray <bernard.gray@gmail.com>
+          © 2007  Horst Tritremmel <hjt@sidux.com>
+
+License: GPL2 or later
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License version 2 as published
+  by the Free Software Foundation.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this package; if not, write to the Free Software
+  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+The Debian packaging is © 2007, Horst Tritremmel <hjt@sidux.com> and
+is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
+
