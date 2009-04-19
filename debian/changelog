@@ -6,8 +6,7 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * fix postinst handling.
   * remove stray */debian/control.
   * add compat layer 7.
-  * fix gaia:
-    - wallpaper
   * remove individual changelogs.
+  * harmonize wallpapers.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 19 Apr 2009 23:26:22 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 19 Apr 2009 23:33:28 +0200
