@@ -1,0 +1,4 @@
+dm-gdm/*.png		usr/share/gdm/themes/sidux-pontos
+dm-gdm/screenshot.jpg	usr/share/gdm/themes/sidux-pontos
+dm-gdm/*.desktop	usr/share/gdm/themes/sidux-pontos
+dm-gdm/pontos.xml	usr/share/gdm/themes/sidux-pontos

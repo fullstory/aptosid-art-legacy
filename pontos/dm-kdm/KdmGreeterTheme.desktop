@@ -1,0 +1,7 @@
+[GdmGreeterTheme]
+Author=sidux art team
+Copyright=GPL
+Description="sidux 2008-04 pontos" 
+Greeter=pontos.xml
+Name=sidux-pontos
+Screenshot=screenshot.jpg

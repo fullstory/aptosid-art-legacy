@@ -1,0 +1,19 @@
+# Default KSplash/ML Theme
+
+[KSplash Theme: sidux-pontos]
+Name = sidux-pontos
+Description = KDE splash theme for sidux 2008-04 (pontos)
+Version = 1.0
+Author = sidux art team
+
+# Theme behaviour settings.
+Engine = Default
+
+# Should icons blink ala KDE, or not?
+Icons Flashing = false
+
+# Show progress bar?
+Always Show Progress = false
+
+# Status text colour
+Label Foreground = #FFFFFF

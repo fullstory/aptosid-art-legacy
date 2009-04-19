@@ -1,0 +1,4 @@
+dm-kdm/*.png		usr/share/apps/kdm/themes/sidux-pontos
+dm-kdm/screenshot.jpg	usr/share/apps/kdm/themes/sidux-pontos
+dm-kdm/*.desktop	usr/share/apps/kdm/themes/sidux-pontos
+dm-kdm/pontos.xml	usr/share/apps/kdm/themes/sidux-pontos
