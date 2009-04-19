@@ -1,0 +1,49 @@
+# $Id: themerc 12849 2008-05-20 17:57:33Z cleary $
+#
+# Default sidux 2008-03 ourea theme 
+# for xfce4 based on the balou engine
+#
+# Copyright (c) 2008 Bernard Gray <bernard.gray@gmail.com>
+# Copyright (c) 2008 Daniel Prien <d-s-p@d-s-p.de>
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# On Debian systems, the complete text of the GNU General
+# Public License can be found in `/usr/share/common-licenses/GPL'.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
+# 02111-1307, USA.
+#
+
+
+#
+# Info section
+#
+[Info]
+Name=sidux 2008-03 (ourea)
+Description=default xfce theme for sidux 2008-03 release
+
+#
+# splash screen settings
+#
+[Splash Screen]
+# The background color, can be a single color or a vertical gradient. The
+# latter is written as <color1>:<color2>.
+bgcolor=#000000
+# The foreground color, used for text.
+fgcolor=#fefefe
+# The logo file, if the extension is missing, xfce4-session will search
+# for .svg, .png, .jpeg, .jpg, .xpm
+logo=logo
+
+

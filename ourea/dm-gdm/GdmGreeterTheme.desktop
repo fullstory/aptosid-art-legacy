@@ -1,0 +1,7 @@
+[GdmGreeterTheme]
+Author=sidux art team
+Copyright=GPL
+Description="sidux 2008-03 ourea" 
+Greeter=ourea.xml
+Name=sidux-ourea
+Screenshot=screenshot.jpg
