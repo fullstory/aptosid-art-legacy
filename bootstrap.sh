@@ -16,6 +16,7 @@ RELEASES="
 
 cat ./debian/templates/control.source.in > debian/control
 for i in $RELEASES; do
+	# write debian/control from templates
 	TEMPLATES_BIN="./debian/templates/control.binary.in"
 	if [ "x$(echo ${i} | cut -d\: -f4)" = "xedu" ]; then
 		TEMPLATES_BIN="${TEMPLATES_BIN} ./debian/templates/control.edu.in"
@@ -25,4 +26,11 @@ for i in $RELEASES; do
 		-e s/\@CODENAME\@/$(echo ${i} | cut -d\: -f2)/g \
 		-e s/\@VERSION\@/$(echo ${i} | cut -d\: -f3)/g \
 			${TEMPLATES_BIN} >> ./debian/control
+
+	# write debian/*.install from templates
+	# FIXME
+
+	# write debian/*.postinst from templates
+	cat "./debian/templates/postinst" \
+		> "./debian/sidux-art-kdm-$(echo ${i} | cut -d\: -f1).postinst"
 done
