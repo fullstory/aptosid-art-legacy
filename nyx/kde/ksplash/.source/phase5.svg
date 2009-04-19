@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="63.875"
+   height="63.875"
+   id="svg5550"
+   sodipodi:version="0.32"
+   inkscape:version="0.45+devel"
+   sodipodi:docbase="/home/bernie/svn/svn.berlios.de-fullstory/sidux-art-wallpaper-gaia/trunk/.source"
+   sodipodi:docname="phase5.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   inkscape:export-filename="/home/bernie/svn/svn.berlios.de-fullstory/sidux-art-kde-nyx/trunk/ksplash/phase5.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   style="display:inline;enable-background:new">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="1"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="0"
+     inkscape:zoom="12.273973"
+     inkscape:cx="8.1473233"
+     inkscape:cy="31.937502"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1400"
+     inkscape:window-height="990"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     height="1200px"
+     width="1600px"
+     borderlayer="true"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-intersection-line-segments="true"
+     inkscape:object-paths="true"
+     inkscape:snap-bbox="true"
+     inkscape:object-nodes="true"
+     objecttolerance="3"
+     gridtolerance="3"
+     guidetolerance="4">
+    <inkscape:grid
+       id="grid54210"
+       type="xygrid"
+       visible="true"
+       enabled="true"
+       empspacing="5" />
+  </sodipodi:namedview>
+  <defs
+     id="defs5552" />
+  <metadata
+     id="metadata5555">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+        <dc:date />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title />
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title />
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title />
+          </cc:Agent>
+        </dc:publisher>
+        <dc:identifier />
+        <dc:source />
+        <dc:relation />
+        <dc:language />
+        <dc:subject>
+          <rdf:Bag />
+        </dc:subject>
+        <dc:coverage />
+        <dc:description />
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title />
+          </cc:Agent>
+        </dc:contributor>
+        <cc:license
+           rdf:resource="" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="display:inline"
+     inkscape:label="logo-watermark"
+     id="layer1"
+     inkscape:groupmode="layer"
+     transform="translate(-847.5625,-635)">
+    <path
+       id="path23611"
+       d="M 879.5,635 C 861.8906,635 847.56239,649.32811 847.5625,666.9375 C 847.5625,684.54688 861.89079,698.875 879.5,698.875 C 897.1094,698.875 911.43759,684.54689 911.4375,666.9375 C 911.4375,649.32812 897.10949,635 879.5,635 z M 883.40625,640.28125 C 883.43696,640.27655 883.46926,640.28584 883.5,640.28125 C 896.48173,642.2206 906.46875,653.41846 906.46875,666.9375 C 906.46874,680.45654 896.48174,691.6544 883.5,693.59375 C 870.51826,691.65439 860.53125,680.45654 860.53125,666.9375 C 860.53124,653.45047 870.46954,642.25975 883.40625,640.28125 z"
+       style="opacity:0.3;fill:#99a3a5;fill-opacity:1;stroke:none;stroke-width:1.44634032000000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;enable-background:new"
+       sodipodi:nodetypes="cssscccscsc"
+       clip-path="none" />
+  </g>
+</svg>

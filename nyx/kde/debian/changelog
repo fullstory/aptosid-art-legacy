@@ -1,0 +1,133 @@
+sidux-art-kde-nyx (0.17) ORPHANED; urgency=low
+
+  * NOT RELEASED YET
+  * temporarily ORPHAN PACKAGE
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 07 Apr 2009 23:43:32 +0200
+
+sidux-art-kde-nyx (0.16) unstable; urgency=low
+
+  * Moved postinst to sidux-art-wallpaper-nyx
+
+ -- Michiel de Boer <locsmif@sidux.com>  Tue, 07 Apr 2009 05:52:36 +0200
+
+sidux-art-kde-nyx (0.15) unstable; urgency=low
+
+  * ugly hack to remove /etc/default/kdm.d/kdmtheme, which would break on
+    upgrades to kde4.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 06 Apr 2009 21:29:48 +0200
+
+sidux-art-kde-nyx (0.14) unstable; urgency=low
+
+  * fix desktop-entry-contains-encoding-key.
+  * clarify licensing.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 20 Feb 2009 17:35:54 +0100
+
+sidux-art-kde-nyx (0.13) unstable; urgency=low
+
+  * make lintian happy and depend on ${misc:Depends}.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 08 Dec 2008 23:29:04 +0100
+
+sidux-art-kde-nyx (0.12) unstable; urgency=low
+
+  * bump standards version to 3.8.0, no changes necessary.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 08 Jun 2008 18:40:39 +0200
+
+sidux-art-kde-nyx (0.11) unstable; urgency=low
+
+  * switch to the new dh implementation of debhelper 7.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 07 May 2008 01:57:48 +0200
+
+sidux-art-kde-nyx (0.10) unstable; urgency=low
+
+  * update logo in kdm with reflection to match wallpaper 
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Thu, 20 Mar 2008 21:19:23 +1100
+
+sidux-art-kde-nyx (0.9) unstable; urgency=low
+
+  * add nyx kde-theme 
+  * update recommends to include some extra things for kde-theme pkg 
+  * remove vbox window surround from kde-theme preview 
+  * resize kde-theme preview to the 640x480 used in the kde-theme manager 
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Wed, 19 Mar 2008 17:14:07 +1100
+
+sidux-art-kde-nyx (0.8) unstable; urgency=low
+
+  * break icons source into individual pieces for auto generation
+  * update ksplash preview for icon changes 
+  * update kdm xml def to make buttons more responsive
+  * update kdm icons to suit better with new sidux icons
+  * update kdm preview to reflect changes
+  * remove unused kdm icon options.png 
+  * update copyright to include new kdm icons 
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Tue, 18 Mar 2008 23:36:31 +1100
+
+sidux-art-kde-nyx (0.7) unstable; urgency=low
+
+  * add dummy 1x1 transparent icon to work around ksplash moodin display bug 
+  * update ksplash Theme.rc to use dummy icon
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Fri, 29 Feb 2008 10:56:33 +1100
+
+sidux-art-kde-nyx (0.6) unstable; urgency=low
+
+  * remove sidux logo completely
+  * make first icon line up (seems to be bug with y offset)
+  * update ksplash preview to match nyx theme
+  * move/resize kdm sidux logo for better multi res support
+  * update kdm screenshot to match nyx theme
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Wed, 27 Feb 2008 20:31:56 +1100
+
+sidux-art-kde-nyx (0.5) unstable; urgency=low
+
+  * update sidux-logo pngs to current source
+  * update backgrounds to current source 
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Tue, 26 Feb 2008 12:20:08 +1100
+
+sidux-art-kde-nyx (0.4) unstable; urgency=low
+
+  * Provides: sidux-art-kde-theme.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 23 Feb 2008 13:46:41 +0100
+
+sidux-art-kde-nyx (0.3) unstable; urgency=low
+
+  * update logo and background to match wallpaper 
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Thu, 21 Feb 2008 23:20:31 +1100
+
+sidux-art-kde-nyx (0.2) unstable; urgency=low
+
+  * appease lintian and write (C) as © in debian/copyright.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 21 Feb 2008 00:04:34 +0100
+
+sidux-art-kde-nyx (0.1) unstable; urgency=low
+
+  * Initial Release.
+  * add kdm theme
+  * fix copyright year
+  * fix kdm release numbering
+  * add ksplash theme (not releasable)
+  * update logo in kdm and ksplash to match wallpaper
+  * update login panel bg for ksplash and kdm
+  * remove black border from kdm login.png
+  * recommit, something didn't work with last
+  * update sidux-logo in ksplash and kdm
+  * modify ksplash them so it's releasable
+  * remove kde-theme dir temporarily
+  * add some custom themed ksplash icons
+  * update sidux-logo for ksplash and kdm
+  * update debian/control for nyx 
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Mon, 18 Feb 2008 22:25:23 +1100

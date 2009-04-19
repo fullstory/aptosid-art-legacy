@@ -1,0 +1,45 @@
+[KSplash Theme: sidux-nyx]
+Name = sidux-nyx
+Description = sidux 2008-01 Nyx ksplash theme
+Version = 1.0
+Author = Bernard Gray <bernard.gray@gmail.com>
+Homepage = http://sidux.com
+Engine = Moodin
+
+BeginOpacity = 0.1
+BaseResolution = 1600,1200
+
+UseIconSet = false
+LabelShadow = false
+
+Image1 = ./dummy.png
+Image2 = ./phase1.png
+Image3 = ./phase2.png
+Image4 = ./phase3.png
+Image5 = ./phase4.png
+Image6 = ./phase5.png
+Image7 = ./phase6.png
+Image8 = ./phase7.png
+
+ImageCoords1 = 0,0
+ImageCoords2 = 527,635
+ImageCoords3 = 608,635
+ImageCoords4 = 688,635
+ImageCoords5 = 768,635
+ImageCoords6 = 848,635
+ImageCoords7 = 928,635
+ImageCoords8 = 1008,635
+
+LineUpImages = false
+
+Labels = 1
+Label1 = Please Wait
+LabelFont1 = Verdana,20,-1,0,0,0
+LabelColor1 = #FFFFFF
+LabelCoords1 = -1,467
+
+StatusCoords = -1,545
+StatusColor = #FFFFFF
+StatusFont = Verdana,12,-1,0,0,0
+
+ImageOffset1 = 0,20

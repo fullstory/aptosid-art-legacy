@@ -1,0 +1,161 @@
+<!DOCTYPE ktheme>
+<ktheme version="1" >
+  <general>
+    <author value="Bernard Gray/sidux Art Team" />
+    <email value="bernard.gray@gmail.com" />
+    <homepage value="http://www.sidux.com" />
+    <comment value="Provides kde theme for the sidux 2008-01 (Nyx) release" />
+    <version value="1.0" />
+  </general>
+  <desktop number="0" common="1" >
+    <mode id="Flat" />
+    <color1 rgb="#003082" />
+    <color2 rgb="#c0c0c0" />
+    <blending mode="NoBlending" balance="100" reverse="0" />
+    <pattern name="" />
+    <wallpaper mode="Scaled" url="theme:/wallpapers/desktop/nyx-reflect-1.png" />
+  </desktop>
+  <screensaver name="" />
+  <icons name="crystalsvg" >
+    <Animated value="1" object="desktop" />
+    <DoublePixels value="0" object="desktop" />
+    <Size value="32" object="desktop" />
+    <ActiveColor rgb="#a99cff" object="desktop" />
+    <ActiveColor2 rgb="#000000" object="desktop" />
+    <ActiveEffect name="togamma" object="desktop" />
+    <ActiveSemiTransparent value="0" object="desktop" />
+    <ActiveValue value="1" object="desktop" />
+    <DefaultColor rgb="#9080f8" object="desktop" />
+    <DefaultColor2 rgb="#000000" object="desktop" />
+    <DefaultEffect name="none" object="desktop" />
+    <DefaultSemiTransparent value="0" object="desktop" />
+    <DefaultValue value="1" object="desktop" />
+    <DisabledColor rgb="#22ca00" object="desktop" />
+    <DisabledColor2 rgb="#000000" object="desktop" />
+    <DisabledEffect name="togray" object="desktop" />
+    <DisabledSemiTransparent value="1" object="desktop" />
+    <DisabledValue value="1" object="desktop" />
+    <Animated value="0" object="mainToolbar" />
+    <DoublePixels value="0" object="mainToolbar" />
+    <Size value="22" object="mainToolbar" />
+    <ActiveColor rgb="#a99cff" object="mainToolbar" />
+    <ActiveColor2 rgb="#000000" object="mainToolbar" />
+    <ActiveEffect name="none" object="mainToolbar" />
+    <ActiveSemiTransparent value="0" object="mainToolbar" />
+    <ActiveValue value="1" object="mainToolbar" />
+    <DefaultColor rgb="#9080f8" object="mainToolbar" />
+    <DefaultColor2 rgb="#000000" object="mainToolbar" />
+    <DefaultEffect name="none" object="mainToolbar" />
+    <DefaultSemiTransparent value="0" object="mainToolbar" />
+    <DefaultValue value="1" object="mainToolbar" />
+    <DisabledColor rgb="#22ca00" object="mainToolbar" />
+    <DisabledColor2 rgb="#000000" object="mainToolbar" />
+    <DisabledEffect name="togray" object="mainToolbar" />
+    <DisabledSemiTransparent value="1" object="mainToolbar" />
+    <DisabledValue value="1" object="mainToolbar" />
+    <Animated value="0" object="panel" />
+    <DoublePixels value="0" object="panel" />
+    <Size value="32" object="panel" />
+    <ActiveColor rgb="#a99cff" object="panel" />
+    <ActiveColor2 rgb="#000000" object="panel" />
+    <ActiveEffect name="togamma" object="panel" />
+    <ActiveSemiTransparent value="0" object="panel" />
+    <ActiveValue value="1" object="panel" />
+    <DefaultColor rgb="#9080f8" object="panel" />
+    <DefaultColor2 rgb="#000000" object="panel" />
+    <DefaultEffect name="none" object="panel" />
+    <DefaultSemiTransparent value="0" object="panel" />
+    <DefaultValue value="1" object="panel" />
+    <DisabledColor rgb="#22ca00" object="panel" />
+    <DisabledColor2 rgb="#000000" object="panel" />
+    <DisabledEffect name="togray" object="panel" />
+    <DisabledSemiTransparent value="1" object="panel" />
+    <DisabledValue value="1" object="panel" />
+    <Animated value="0" object="small" />
+    <DoublePixels value="0" object="small" />
+    <Size value="16" object="small" />
+    <ActiveColor rgb="#a99cff" object="small" />
+    <ActiveColor2 rgb="#000000" object="small" />
+    <ActiveEffect name="none" object="small" />
+    <ActiveSemiTransparent value="0" object="small" />
+    <ActiveValue value="1" object="small" />
+    <DefaultColor rgb="#9080f8" object="small" />
+    <DefaultColor2 rgb="#000000" object="small" />
+    <DefaultEffect name="none" object="small" />
+    <DefaultSemiTransparent value="0" object="small" />
+    <DefaultValue value="1" object="small" />
+    <DisabledColor rgb="#22ca00" object="small" />
+    <DisabledColor2 rgb="#000000" object="small" />
+    <DisabledEffect name="togray" object="small" />
+    <DisabledSemiTransparent value="1" object="small" />
+    <DisabledValue value="1" object="small" />
+    <Animated value="0" object="toolbar" />
+    <DoublePixels value="0" object="toolbar" />
+    <Size value="22" object="toolbar" />
+    <ActiveColor rgb="#a99cff" object="toolbar" />
+    <ActiveColor2 rgb="#000000" object="toolbar" />
+    <ActiveEffect name="none" object="toolbar" />
+    <ActiveSemiTransparent value="0" object="toolbar" />
+    <ActiveValue value="1" object="toolbar" />
+    <DefaultColor rgb="#9080f8" object="toolbar" />
+    <DefaultColor2 rgb="#000000" object="toolbar" />
+    <DefaultEffect name="none" object="toolbar" />
+    <DefaultSemiTransparent value="0" object="toolbar" />
+    <DefaultValue value="1" object="toolbar" />
+    <DisabledColor rgb="#22ca00" object="toolbar" />
+    <DisabledColor2 rgb="#000000" object="toolbar" />
+    <DisabledEffect name="togray" object="toolbar" />
+    <DisabledSemiTransparent value="1" object="toolbar" />
+    <DisabledValue value="1" object="toolbar" />
+  </icons>
+  <sounds/>
+  <colors contrast="7" >
+    <background rgb="#efefef" object="global" />
+    <selectBackground rgb="#dfdfdf" object="global" />
+    <foreground rgb="#000000" object="global" />
+    <windowForeground rgb="#000000" object="global" />
+    <windowBackground rgb="#ffffff" object="global" />
+    <selectForeground rgb="#000000" object="global" />
+    <buttonBackground rgb="#efefef" object="global" />
+    <buttonForeground rgb="#000000" object="global" />
+    <linkColor rgb="#0000c0" object="global" />
+    <visitedLinkColor rgb="#800080" object="global" />
+    <alternateBackground rgb="#efefef" object="global" />
+    <activeForeground rgb="#000000" object="kwin" />
+    <inactiveBackground rgb="#efefef" object="kwin" />
+    <inactiveBlend rgb="#efefef" object="kwin" />
+    <activeBackground rgb="#efefef" object="kwin" />
+    <activeBlend rgb="#efefef" object="kwin" />
+    <inactiveForeground rgb="#999999" object="kwin" />
+    <activeTitleBtnBg rgb="#000000" object="kwin" />
+    <inactiveTitleBtnBg rgb="#efefef" object="kwin" />
+    <frame rgb="#efefef" object="kwin" />
+    <inactiveFrame rgb="#efefef" object="kwin" />
+    <handle rgb="#efefef" object="kwin" />
+    <inactiveHandle rgb="#efefef" object="kwin" />
+  </colors>
+  <cursors name="" />
+  <wm type="builtin" name="kwin3_plastik" >
+    <border size="0" />
+  </wm>
+  <konqueror>
+    <wallpaper url="" />
+    <bgcolor rgb="#000000" />
+  </konqueror>
+  <panel>
+    <transparent value="0" />
+    <position value="3" />
+    <showlefthidebutton value="0" />
+    <showrighthidebutton value="1" />
+  </panel>
+  <widgets name="qtcurve" />
+  <fonts>
+    <font value="Bitstream Vera Sans,10,-1,5,50,0,0,0,0,0" object="General" />
+    <fixed value="Monospace,10,-1,5,50,0,0,0,0,0" object="General" />
+    <toolBarFont value="Bitstream Vera Sans,10,-1,5,50,0,0,0,0,0" object="General" />
+    <menuFont value="Bitstream Vera Sans,10,-1,5,50,0,0,0,0,0" object="General" />
+    <activeFont value="Bitstream Vera Sans,10,-1,5,75,0,0,0,0,0" object="WM" />
+    <taskbarFont value="Bitstream Vera Sans,10,-1,5,50,0,0,0,0,0" object="General" />
+    <StandardFont value="Bitstream Vera Sans,10,-1,5,50,0,0,0,0,0" object="FMSettings" />
+  </fonts>
+</ktheme>
