@@ -1,0 +1,18 @@
+Source: sidux-art-gnome-gaia
+Section: graphics
+Priority: extra
+Maintainer: Bernard Gray <bernard.gray@gmail.com>
+Uploaders: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.0
+Vcs-Svn: svn://svn.berlios.de/fullstory/sidux-art-gnome-gaia/trunk
+Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/sidux-art-gnome-gaia/trunk/
+
+Package: sidux-art-gnome-gaia
+Architecture: all
+Provides: sidux-art-gnome
+Depends: ${misc:Depends},
+         gdm
+Description: GNOME theme for sidux 2007-03 gaia
+ Provides gdm theme only at this stage, 
+ for sidux 2007-03 Gaia release
