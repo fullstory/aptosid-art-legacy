@@ -32,5 +32,10 @@ for i in $RELEASES; do
 
 	# write debian/*.postinst from templates
 	cat "./debian/templates/postinst" \
-		> "./debian/sidux-art-kdm-$(echo ${i} | cut -d\: -f1).postinst"
+		> "./debian/sidux-art-wallpaper-$(echo ${i} | cut -d\: -f1).postinst"
+
+	if [ "x$(echo ${i} | cut -d\: -f4)" = "xedu" ]; then
+		cat "./debian/templates/postinst" \
+			> "./debian/sidux-art-wallpaper-$(echo ${i} | cut -d\: -f1)-edu.postinst"
+	fi
 done

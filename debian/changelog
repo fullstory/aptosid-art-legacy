@@ -3,5 +3,7 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * Initial release.
   * add bootstrap.sh, to generate debian/control.
   * add postinst handling to bootstrap.sh.
+  * fix postinst handling.
+  * remove stray */debian/control.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 19 Apr 2009 23:03:30 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 19 Apr 2009 23:10:01 +0200
