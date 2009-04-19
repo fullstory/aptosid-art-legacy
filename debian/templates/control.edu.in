@@ -1,0 +1,10 @@
+Package: sidux-art-wallpaper-@CODENAME_SAFE@-edu
+Provides: sidux-art-wallpaper-theme
+Depends: ${misc:Depends}
+Conflicts: sidux-art-wallpaper-@CODENAME_SAFE@
+Architecture: all
+Description: sidux-edu wallpaper for @VERSION@ release
+ the wallpaper for the @VERSION@ (@CODENAME@)
+ sidux-edu release. Includes 1920x1200, 1600x1200
+ and 1280x1024 versions
+
