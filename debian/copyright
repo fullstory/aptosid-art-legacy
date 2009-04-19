@@ -1,0 +1,49 @@
+Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=428
+Upstream-Name: sidux-art-legacy
+Upstream-Maintainer: Bernard Gray <bernard.gray@gmail.com>
+Upstream-Source: svn://svn.berlios.de/fullstory/sidux-art-legacy/
+
+FIXME: erebos
+FIXME: eros
+
+Files: gaia/*
+Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+License: GPL-2+
+
+Files: gaia/gnome/*
+Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+Copyright: © 2006 Andre Luiz Rodrigues Ferreira <andrelrf@ossystems.com.br>
+License: GPL-2+
+
+Files: gaia/kde/kdisplay/*
+Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+Copyright: © 2007 by knithx <knithx@gmail.com>
+License: GPL-2+
+
+FIXME: nyx
+FIXME: ouranos
+FIXME: ourea
+FIXME: pontos
+FIXME: aether
+
+Files: debian/*
+Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+Copyright: © 2007-2009, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+License: GPL-2
+
+License: GPL-2
+  This package is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License version 2 as
+  published by the Free Software Foundation.
+  .
+  This package is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  .
+  You should have received a copy of the GNU General Public License
+  along with this package; if not, write to the Free Software
+  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+  .
+  On Debian systems, the complete text of the GNU General
+  Public License can be found in '/usr/share/common-licenses/GPL-2'.
