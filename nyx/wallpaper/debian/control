@@ -1,0 +1,20 @@
+Source: sidux-art-wallpaper-nyx
+Section: graphics
+Priority: extra
+Maintainer: Bernard Gray <bernard.gray@gmail.com>
+Uploaders: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Build-Depends: debhelper (>= 7),
+               inkscape,
+               ttf-sidux
+Standards-Version: 3.8.0
+Vcs-Svn: svn://svn.berlios.de/fullstory/sidux-art-wallpaper-nyx/trunk
+Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/sidux-art-wallpaper-nyx/trunk/
+
+Package: sidux-art-wallpaper-nyx
+Depends: ${misc:Depends}
+Provides: sidux-art-wallpaper-theme
+Conflicts: sidux-art-wallpaper-nyx-edu
+Architecture: all
+Description: sidux wallpaper for 2008-01 release
+ the default wallpaper for the 2008-01 (Nyx)
+ sidux release.
