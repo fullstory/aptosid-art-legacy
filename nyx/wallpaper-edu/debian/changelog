@@ -1,0 +1,58 @@
+sidux-art-wallpaper-nyx-edu (0.9) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 07 Apr 2009 20:00:33 +0200
+
+sidux-art-wallpaper-nyx-edu (0.8) unstable; urgency=low
+
+  * Copied postinst from sidux-art-wallpaper-nyx here
+
+ -- Michiel de Boer <locsmif@sidux.com>  Tue, 07 Apr 2009 05:55:27 +0200
+
+sidux-art-wallpaper-nyx-edu (0.7) unstable; urgency=low
+
+  * make lintian happy and depend on ${misc:Depends}.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 08 Dec 2008 23:43:31 +0100
+
+sidux-art-wallpaper-nyx-edu (0.6) unstable; urgency=low
+
+  * bump standards version to 3.8.0, no changes necessary.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 08 Jun 2008 19:11:33 +0200
+
+sidux-art-wallpaper-nyx-edu (0.5) unstable; urgency=low
+
+  * switch to the new dh implementation of debhelper 7.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 21 May 2008 20:17:33 +0200
+
+sidux-art-wallpaper-nyx-edu (0.4) unstable; urgency=low
+
+  * corrected inkscape errors
+
+ -- Ferdinand Thommes <devil@sidux.com>  Mon, 17 Mar 2008 14:49:56 +0100
+
+sidux-art-wallpaper-nyx-edu (0.3) unstable; urgency=low
+
+  * applied new seminarix-logo to wallpapers, icons are now visible on 
+    Desktop (freeze).
+
+ -- Dinko Sabo <cobra@sidux.com>  Fri, 14 Mar 2008 05:30:58 +0100
+
+sidux-art-wallpaper-nyx-edu (0.1) unstable; urgency=low
+
+  [ Dinko Sabo ]
+  * Initial release
+  * updated 1920x1200 version
+  * added code for source svg to png conversion
+  * minor fixes
+
+  [ Stefan Lippers-Hollmann ]
+  * fix and refine dependency relations.
+  * update package.
+  * *.svg should never be executable.
+  * debian/rules is a Makefile, which means it is sensitive to white space.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 10 Mar 2008 01:08:22 +0100

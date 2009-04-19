@@ -1,0 +1,20 @@
+Source: sidux-art-wallpaper-nyx-edu
+Section: graphics
+Priority: extra
+Maintainer: Dinko Sabo <cobra@sidux.com>
+Uploaders: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Build-Depends: debhelper (>= 7),
+               inkscape
+Standards-Version: 3.8.0
+Vcs-Svn: svn://svn.berlios.de/fullstory/sidux-art-wallpaper-nyx-edu/trunk
+Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/sidux-art-wallpaper-nyx-edu/trunk/
+
+Package: sidux-art-wallpaper-nyx-edu
+Depends: ${misc:Depends}
+Provides: sidux-art-wallpaper-theme
+Conflicts: sidux-art-wallpaper-nyx
+Architecture: all
+Description: sidux-edu wallpaper for 2008-01 release 
+ the education wallpaper for the 2008-01 (Nyx Education)
+ sidux release. Includes 1920x1200, 1600x1200
+ and 1280x1024 versions
