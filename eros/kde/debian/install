@@ -1,0 +1,4 @@
+ksplash/*	usr/share/apps/ksplash/Themes/sidux-eros
+kdm/*		usr/share/apps/kdm/themes/sidux-eros
+kdisplay/*	usr/share/apps/kdisplay/color-schemes
+kde-theme/*	usr/share/apps/kthememanager/themes/sidux-eros
