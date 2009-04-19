@@ -1,0 +1,4 @@
+dm-kdm/*.png		usr/share/apps/kdm/themes/sidux-ouranos
+dm-kdm/screenshot.jpg	usr/share/apps/kdm/themes/sidux-ouranos
+dm-kdm/*.desktop	usr/share/apps/kdm/themes/sidux-ouranos
+dm-kdm/ouranos.xml	usr/share/apps/kdm/themes/sidux-ouranos
