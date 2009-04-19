@@ -1,0 +1,7 @@
+[GdmGreeterTheme]
+Author=Bernard Gray
+Copyright=GPL
+Description="sidux 2008-01 Nyx" theme based loosely on "true-nature" by Stephen Spies
+Greeter=sidux-nyx.xml
+Name=sidux-nyx
+Screenshot=screenshot.png
