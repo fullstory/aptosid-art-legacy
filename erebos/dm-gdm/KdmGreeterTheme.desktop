@@ -1,0 +1,7 @@
+[GdmGreeterTheme]
+Author=sidux art team
+Copyright=GPL
+Description="sidux 2008-02 erebos" 
+Greeter=erebos.xml
+Name=sidux-erebos
+Screenshot=screenshot.jpg

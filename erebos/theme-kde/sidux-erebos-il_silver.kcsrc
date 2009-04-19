@@ -1,0 +1,27 @@
+[Color Scheme]
+Name=Invisible Light (by knithx)
+activeBackground=239,239,239
+activeBlend=239,239,239
+activeForeground=0,0,0
+activeTitleBtnBg=239,239,239
+alternateBackground=239,239,239
+background=239,239,239
+buttonBackground=239,239,239
+buttonForeground=0,0,0
+contrast=7
+foreground=0,0,0
+frame=239,239,239
+handle=239,239,239
+inactiveBackground=239,239,239
+inactiveBlend=239,239,239
+inactiveForeground=153,153,153
+inactiveFrame=239,239,239
+inactiveHandle=239,239,239
+inactiveTitleBtnBg=239,239,239
+linkColor=0,0,192
+selectBackground=223,223,223
+selectForeground=0,0,0
+shadeSortColumn=false
+visitedLinkColor=128,0,128
+windowBackground=255,255,255
+windowForeground=0,0,0

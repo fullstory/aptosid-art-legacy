@@ -1,0 +1,19 @@
+# Default KSplash/ML Theme
+
+[KSplash Theme: sidux-erebos]
+Name = sidux-erebos
+Description = KDE splash theme for sidux 2008-02 (Erebos)
+Version = 1.0
+Author = sidux art team
+
+# Theme behaviour settings.
+Engine = Default
+
+# Should icons blink ala KDE, or not?
+Icons Flashing = false
+
+# Show progress bar?
+Always Show Progress = false
+
+# Status text colour
+Label Foreground = #FFFFFF

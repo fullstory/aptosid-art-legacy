@@ -1,0 +1,163 @@
+sidux-art-erebos (0.17) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 07 Apr 2009 23:40:10 +0200
+
+sidux-art-erebos (0.16) unstable; urgency=low
+
+  * temporarily drop kde3 themes, until they can be adapted.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 07 Apr 2009 23:36:40 +0200
+
+sidux-art-erebos (0.15) unstable; urgency=low
+
+  * ugly hack to remove /etc/default/kdm.d/kdmtheme, which would break on
+    upgrades to kde4.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 06 Apr 2009 21:15:54 +0200
+
+sidux-art-erebos (0.14) unstable; urgency=low
+
+  * fix desktop-entry-contains-encoding-key.
+  * clarify licensing.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 20 Feb 2009 17:18:58 +0100
+
+sidux-art-erebos (0.13) unstable; urgency=low
+
+  * make lintian happy and depend on ${misc:Depends}.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 08 Dec 2008 23:14:22 +0100
+
+sidux-art-erebos (0.12) unstable; urgency=low
+
+  * sidux-art-xfce moved to it's own source package, so removed from here
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Wed, 27 Aug 2008 08:35:16 +1000
+
+sidux-art-erebos (0.11) unstable; urgency=low
+
+  * centre "welcome on" component of kdm properly
+  * revert 18627 - domino -> qtcurve theme
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Wed, 18 Jun 2008 22:54:04 +1000
+
+sidux-art-erebos (0.10) unstable; urgency=low
+
+  * move pam/caps-lock errors to useful location
+  * finish sync of gdm to kdm look, add userlist, move 'welcome on'
+  * add kde theme for sidux-erebos 
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Sun, 15 Jun 2008 20:28:47 +1000
+
+sidux-art-erebos (0.9) unstable; urgency=low
+
+  * add userlist to kdm
+  * update kdm screenshot
+  * begin syncing gdm to kdm layout - cleanup and right-justify menus
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Sat, 14 Jun 2008 01:51:08 +1000
+
+sidux-art-erebos (0.8) unstable; urgency=low
+
+  * fix typo in gtk-qt-engine control
+  * add userlist to kdm 
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Sat, 14 Jun 2008 00:52:45 +1000
+
+sidux-art-erebos (0.7) unstable; urgency=low
+
+  * remove sidux logo from xfce splash to closer resemble ksplash
+  * shrink the logo on the normal aspect ratio wallpaper slightly
+  * set xfce splash bg to black to closer match ksplash
+  * migrate sidux-art-wallpaper-erebos-edu source to this package 
+  * add sidux-erebos/domino colour scheme definition file
+  * remove dependencies on *qtcurve* in kde art packages
+  * change internal name on the kcsrc colour theme file 
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Wed, 11 Jun 2008 14:23:57 +1000
+
+sidux-art-erebos (0.6) unstable; urgency=low
+
+  [ Bernard Gray ]
+  * add shutdown icon to resolve failure to load gdm theme
+  * include gobutton (shutdown button) in bitmap creation
+  * fix debian/rules to export the correct gobutton.svg
+
+  [ Stefan Lippers-Hollmann ]
+  * bump standards version to 3.8.0, no changes necessary.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 08 Jun 2008 16:41:37 +0200
+
+sidux-art-erebos (0.5) unstable; urgency=low
+
+  * update kdm erebos.xml based on BC_Open_Future theme
+   - cleaner object placement, and usage
+   - has better support for langs and more screen res'
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Wed, 28 May 2008 18:36:40 +1000
+
+sidux-art-erebos (0.4) unstable; urgency=low
+
+  * fix vcs browser uris to point at correct source trunk
+  * enlarge sidux logo on normal aspect ratio wallpaper
+  * set ksplash active_bar layer to 100% opacity
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Tue, 27 May 2008 17:39:42 +1000
+
+sidux-art-erebos (0.3) unstable; urgency=low
+
+  * add sidux-art-xfce virtual package for use by desktop-defaults-xfce
+   - not equivalent kde package is in a separate trunk, I'm assuming it
+     is desirable to move it here at some stage...
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Mon, 26 May 2008 18:08:20 +1000
+
+sidux-art-erebos (0.2) unstable; urgency=low
+
+  * add kde colour theme to kde virt package
+  * install wallpapers to right dir (not usr/share/wallpaper)
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Mon, 26 May 2008 07:00:51 +1000
+
+sidux-art-erebos (0.1) unstable; urgency=low
+
+  [ Bernard Gray ]
+  * Initial Release.
+  * add actual normal aspect ratio wallpaper version
+  * add kdm artwork - there are binaries there that need to go 
+       but they're there as a template until debian/rules is sorted
+  * remove no session and menu buttons (cruft from nyx kdm template)
+  * add kdm export svg to bitmap code to debian/rules 
+  * add copyright info
+  * add ksplash export info to debian/rules
+  * adjust ksplash source so coordinates are easily exportable
+  * configure ksplash Theme.rc to correct name/contact info
+  * add gdm theme conf - can reuse the bitmaps from kdm
+  * revert unneeded gdm stuff in debian/rules 
+  * make dm part of debian/rules output to non-kde specific dir as per above
+    bitmap reuse
+  * move ksplash and xfce theme control scripts out of their temp binary dirs
+  * add package*.install conf files
+  * change the dump of all binary files from tmp into their respective dirs in
+    the $CURDIR to workaround issue with gdm failing to build
+  * rename wallpaper/*.svg to format dictated by previous packages sidux-*
+  * change spelling in desc of Xfce splash pkg to resolve lintian warning
+  * packages are building with:
+  svn-buildpackage --svn-ignore --svn-no-links --svn-builder=debuild -us -uc -sa
+  * add a gdm screenshot  
+  * make the screenshot install in .install script
+  * add jpg screenshot to dm-kdm section to avoid clobbering with *.png
+    regexps
+  * update kdm .install and .greeters to handle it
+  * remove hardcoded ksplash bitmaps, mv Preview.png into root dir (this will
+    be clobbered by *.png regexps, I don't know what consequences that will
+    have)
+  * remove hardcoded xfce splash bitmaps
+
+  [ Stefan Lippers-Hollmann ]
+  * remove unnecessary build-dep on cdbs.
+  * fix lintian warnings regarding the correct Xfce spelling.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 25 May 2008 14:35:40 +0200
