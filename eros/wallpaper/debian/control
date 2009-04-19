@@ -1,0 +1,19 @@
+Source: sidux-art-wallpaper-eros
+Section: graphics
+Priority: extra
+Maintainer: Bernard Gray <bernard.gray@gmail.com>
+Uploaders: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.0
+Vcs-Svn: svn://svn.berlios.de/fullstory/sidux-art-wallpaper-eros/trunk
+Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/sidux-art-wallpaper-eros/trunk/
+
+Package: sidux-art-wallpaper-eros
+Depends: ${misc:Depends}
+Provides: sidux-art-wallpaper-theme
+Conflicts: sidux-art-wallpaper-eros-edu
+Architecture: all
+Description: sidux wallpaper for 2007-04 release 
+ the default wallpaper for the 2007-04 (Eros)
+ sidux release. Includes 1920x1200, 1600x1200
+ and 1280x1024 versions
