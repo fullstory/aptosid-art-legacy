@@ -8,5 +8,6 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * add compat layer 7.
   * remove individual changelogs.
   * harmonize wallpapers.
+  * move svg into view.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 19 Apr 2009 23:33:28 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 28 Apr 2009 16:05:14 +0200
