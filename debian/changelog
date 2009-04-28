@@ -9,5 +9,7 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * remove individual changelogs.
   * harmonize wallpapers.
   * move svg into view.
+  * merge copyrights, thanks to RoEn.
+  * add CC-by-SA 3.0 license text.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 28 Apr 2009 16:05:14 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 29 Apr 2009 01:00:39 +0200
