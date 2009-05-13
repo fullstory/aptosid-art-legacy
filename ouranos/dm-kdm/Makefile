@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-BITMAPS= arrow.png background.png gobutton.png sidux-logo.png
+BITMAPS= arrow.png background.png rect.png
 
 all: $(BITMAPS)
 
@@ -9,17 +9,10 @@ arrow.png:
 		--export-png="$@" arrow.svg
 
 background.png:
-	inkscape --without-gui --export-width=1600 --export-height=1200 \
-		--export-png="$@" background.svg
+	inkscape --without-gui --export-png="$@" background.svg
 
-gobutton.png:
-	inkscape --without-gui --export-width=32 --export-height=32 \
-		--export-png="$@" gobutton.svg
-
-sidux-logo.png:
-	inkscape --without-gui --export-width=1000 \
-		--export-png="$@" sidux-logo.svg
-	
+rect.png:
+	inkscape --without-gui --export-png="$@" rect.svg
 
 clean:
 	$(RM) *.png

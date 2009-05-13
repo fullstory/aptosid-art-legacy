@@ -1,7 +1,7 @@
-[GdmGreeterTheme]
-Author=sidux art team
-Copyright=GPL
-Description="sidux 2009-01 ouranos" 
+[KdmGreeterTheme]
 Greeter=ouranos.xml
 Name=sidux-ouranos
+Description="sidux 2009-01 ouranos" 
+Author=sidux art team
+Copyright=GPL
 Screenshot=screenshot.jpg

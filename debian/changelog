@@ -1,5 +1,6 @@
 sidux-art-legacy (2009.01.1) unstable; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * Initial release.
   * add bootstrap.sh, to generate debian/control.
   * add postinst handling to bootstrap.sh.
@@ -12,4 +13,9 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * merge copyrights, thanks to RoEn.
   * add CC-by-SA 3.0 license text.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 29 Apr 2009 01:00:39 +0200
+  [ Bernard Gray ]
+  * initial acceptable (looking) kde4 compat kdm theme for ouranos
+    - xml could do with serious cleanup/simplification
+    - needs more thorough testing, xdmcp currently failing for me
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Wed, 13 May 2009 20:43:35 +1000
