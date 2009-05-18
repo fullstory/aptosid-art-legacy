@@ -17,5 +17,6 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * initial acceptable (looking) kde4 compat kdm theme for ouranos
     - xml could do with serious cleanup/simplification
     - needs more thorough testing, xdmcp currently failing for me
+  * redo kdm theme - thanks to destructchaos aka rgb 
 
- -- Bernard Gray <bernard.gray@gmail.com>  Wed, 13 May 2009 20:43:35 +1000
+ -- Bernard Gray <bernard.gray@gmail.com>  Mon, 18 May 2009 21:15:48 +1000
