@@ -22,5 +22,6 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * make pontos/dm-kdm/background.svg 1920x1200 by default
   * migrate pontos/dm-kdm to kdm4
   * remove unneeded rect.svg from ouranos/dm-kdm/
+  * remove temporary -destructchaos naming in KdmGreeters
 
- -- Bernard Gray <bernard.gray@gmail.com>  Tue, 19 May 2009 19:10:18 +1000
+ -- Bernard Gray <bernard.gray@gmail.com>  Tue, 19 May 2009 19:16:24 +1000
