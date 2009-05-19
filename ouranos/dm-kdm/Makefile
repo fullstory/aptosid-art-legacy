@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-BITMAPS= arrow.png background.png rect.png
+BITMAPS= background.png
 
 all: $(BITMAPS)
 
