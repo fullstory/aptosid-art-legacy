@@ -26,5 +26,6 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * change nyx/ to mirror source dir structure of newer art packages
   * change eros/ to mirror source dir structure of newer art packages
   * remove kde4 incompatible nyx/theme-kde/ files
+  * change gaia/ to mirror source dir structure of newer art packages
 
- -- Bernard Gray <bernard.gray@gmail.com>  Tue, 19 May 2009 20:02:32 +1000
+ -- Bernard Gray <bernard.gray@gmail.com>  Tue, 19 May 2009 20:22:27 +1000
