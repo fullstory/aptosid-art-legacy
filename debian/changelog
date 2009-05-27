@@ -27,5 +27,6 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * change eros/ to mirror source dir structure of newer art packages
   * remove kde4 incompatible nyx/theme-kde/ files
   * change gaia/ to mirror source dir structure of newer art packages
+  * add chaos kdm theme - thanks destructchaos/rgb
 
- -- Bernard Gray <bernard.gray@gmail.com>  Tue, 19 May 2009 20:22:27 +1000
+ -- Bernard Gray <bernard.gray@gmail.com>  Wed, 27 May 2009 22:10:38 +1000
