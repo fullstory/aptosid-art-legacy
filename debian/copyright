@@ -32,12 +32,12 @@ Files: eros/*
 Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
-Files: eros/gnome/gdm/sidux-eros.xml
+Files: eros/dm-gdm/sidux-eros.xml
 Copyright: © 2006, Andre Luiz Rodrigues Ferreira <andrelrf@ossystems.com.br>
 Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2
 
-Files: eros/kde/theme-kde/*
+Files: eros/theme-kde/*
 Copyright: © 2007, knithx <knithx@gmail.com>
 Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
@@ -51,17 +51,17 @@ Files: gaia/*
 Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
-Files: gaia/gnome/*
+Files: gaia/dm-gdm/*
 Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 Copyright: © 2006, Andre Luiz Rodrigues Ferreira <andrelrf@ossystems.com.br>
 License: GPL-2+
 
-Files: gaia/kde/kdisplay/*
+Files: gaia/splash-kde/*
 Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 Copyright: © 2007, knithx <knithx@gmail.com>
 License: GPL-2+
 
-Files nyx/gdm/*
+Files nyx/dm-gdm/
 Copyright: © 2008, Daniel Prien <d-s-p@d-s-p.de>
 Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
@@ -71,12 +71,12 @@ Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 Copyright: © 2008, Daniel Prien <d-s-p@d-s-p.de>
 License: GPL-2+
 
-Files: nyx/kde/kdisplay/sidux-nyx-il_silver.kcsrc
+Files: nyx/theme-kde/sidux-nyx-il_silver.kcsrc
 Copyright: © 2008, <knithx knithx@gmail.com>
 Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
-Files: nyx/kde/kdm/session.png, nyx/kde/kdm/system.png
+Files: nyx/dm-kdm/session.png, nyx/dm-kdm/system.png
 Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 Copyright: © 2007, David Vignoni <david@icon-king.com>
 Copyright: © 2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>

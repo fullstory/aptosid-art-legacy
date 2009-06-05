@@ -12,6 +12,7 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * move svg into view.
   * merge copyrights, thanks to RoEn.
   * add CC-by-SA 3.0 license text.
+  * update debian/copyright, thanks to RoEn.
 
   [ Bernard Gray ]
   * initial acceptable (looking) kde4 compat kdm theme for ouranos
@@ -27,8 +28,6 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * change eros/ to mirror source dir structure of newer art packages
   * remove kde4 incompatible nyx/theme-kde/ files
   * change gaia/ to mirror source dir structure of newer art packages
-  * add chaos kdm theme - thanks destructchaos/rgb
   * update kdm theme xml files, thanks rgb
-  * add tartaros kdm skeleton, thanks rgb
 
- -- Bernard Gray <bernard.gray@gmail.com>  Wed, 27 May 2009 22:23:09 +1000
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 05 Jun 2009 19:21:46 +0200
