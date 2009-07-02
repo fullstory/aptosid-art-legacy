@@ -1,7 +1,7 @@
 Package: sidux-art-gdm-@CODENAME_SAFE@
 Architecture: all
 Depends: ${misc:Depends},
-         gdm
+ gdm
 Description: GDM theme for sidux @VERSION@ release
  the default GDM theme for the @VERSION@ (@CODENAME@)
  sidux release.
@@ -9,7 +9,7 @@ Description: GDM theme for sidux @VERSION@ release
 Package: sidux-art-kdm-@CODENAME_SAFE@
 Architecture: all
 Depends: ${misc:Depends},
-         kdm
+ kdm
 Description: KDM theme for sidux @VERSION@ release
  the default KDM theme for the @VERSION@ (@CODENAME@)
  sidux release.
@@ -17,7 +17,7 @@ Description: KDM theme for sidux @VERSION@ release
 Package: sidux-art-ksplash-@CODENAME_SAFE@
 Architecture: all
 Depends: ${misc:Depends},
-         kdebase-workspace-bin
+ kdebase-workspace-bin
 Description: KDE ksplash theme for sidux @VERSION@ release
  the default KDE ksplash theme for the @VERSION@
  (@CODENAME@) sidux release, using the default ksplash engine
@@ -25,7 +25,7 @@ Description: KDE ksplash theme for sidux @VERSION@ release
 Package: sidux-art-xsplash-@CODENAME_SAFE@
 Architecture: all
 Depends: ${misc:Depends},
-         xfce4-session
+ xfce4-session
 Description: Xfce splash theme for sidux @VERSION@ release
  the default Xfce splash theme for the @VERSION@
  (@CODENAME@) sidux release, based on balou theme engine.
@@ -42,9 +42,10 @@ Package: sidux-art-kde-@CODENAME_SAFE@
 Architecture: all
 Provides: sidux-art-kde-theme
 Depends: ${misc:Depends},
-         sidux-art-ksplash-@CODENAME_SAFE@,
-         sidux-art-kdm-@CODENAME_SAFE@,
-Recommends: sidux-art-wallpaper-@CODENAME_SAFE@, dmz-cursor-theme
+ sidux-art-ksplash-@CODENAME_SAFE@,
+ sidux-art-kdm-@CODENAME_SAFE@,
+Recommends: sidux-art-wallpaper-@CODENAME_SAFE@,
+ dmz-cursor-theme
 Description: KDE theme for sidux @VERSION@ release
  Virtual package providing ksplash, kdm and KDE themes
  for sidux @VERSION@ (@CODENAME@) release
@@ -53,9 +54,10 @@ Package: sidux-art-xfce-@CODENAME_SAFE@
 Architecture: all
 Provides: sidux-art-xfce-theme
 Depends: ${misc:Depends},
-         sidux-art-xsplash-@CODENAME_SAFE@,
-         sidux-art-gdm-@CODENAME_SAFE@
-Recommends: sidux-art-wallpaper-@CODENAME_SAFE@, dmz-cursor-theme
+ sidux-art-xsplash-@CODENAME_SAFE@,
+ sidux-art-gdm-@CODENAME_SAFE@
+Recommends: sidux-art-wallpaper-@CODENAME_SAFE@,
+ dmz-cursor-theme
 Description: Xfce theme for sidux @VERSION@ release
  Virtual package providing Xfce-splash and gdm themes
  for sidux @VERSION@ (@CODENAME@) release

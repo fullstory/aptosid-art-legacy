@@ -13,6 +13,7 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * merge copyrights, thanks to RoEn.
   * add CC-by-SA 3.0 license text.
   * update debian/copyright, thanks to RoEn.
+  * bump standards version to 3.8.2, no changes necessary.
 
   [ Bernard Gray ]
   * initial acceptable (looking) kde4 compat kdm theme for ouranos
@@ -30,4 +31,4 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * change gaia/ to mirror source dir structure of newer art packages
   * update kdm theme xml files, thanks rgb
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 05 Jun 2009 19:21:46 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 02 Jul 2009 23:42:29 +0200
