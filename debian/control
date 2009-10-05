@@ -5,7 +5,7 @@ Maintainer: Bernard Gray <bernard.gray@gmail.com>
 Uploaders: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Build-Depends: debhelper (>= 7),
  inkscape
-Standards-Version: 3.8.2
+Standards-Version: 3.8.3
 Vcs-Svn: svn://svn.berlios.de/fullstory/sidux-art-legacy/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/sidux-art-legacy/trunk/
 
