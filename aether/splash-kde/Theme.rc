@@ -1,0 +1,9 @@
+[KSplash Theme: sidux-aether]
+Name = sidux 2009-02 (Aether) Splash Screen
+Description = sidux Aether Splash Screen
+Version = 1.0
+Author = Bernard Gray <bernard.gray@gmail.com>
+Homepage = http://www.sidux.com
+
+# Theme behaviour settings.
+Engine = KSplashX

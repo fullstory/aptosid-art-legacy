@@ -1,0 +1,3 @@
+dm-gdm/*.png			usr/share/gdm/themes/sidux-aether
+dm-gdm/GdmGreeterTheme.desktop	usr/share/gdm/themes/sidux-aether
+dm-gdm/aether.xml		usr/share/gdm/themes/sidux-aether

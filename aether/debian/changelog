@@ -1,0 +1,150 @@
+sidux-art-aether (0.16) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+  * bump standards version to 3.9.0, no changes necessary.
+  * rename theme-kde/sidux.colors -> theme-kde/sidux-aether.colors
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Aug 2010 01:15:07 +0200
+
+sidux-art-aether (0.15) unstable; urgency=low
+
+  * switch to dpkg-source 3.0 (native) format.
+  * update standards version to 3.8.4, no changes necessary.
+  * fix wrapping in debian/control.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 26 Apr 2010 00:49:50 +0200
+
+sidux-art-aether (0.14) unstable; urgency=low
+
+  * add missing build dependency on libxml-parser-perl.
+  * update standards version to 3.8.2, no changes necessary.
+  * fix Αιθήρ name in debian/control.
+  * whitespace cleanups in debian/control.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 14 Jul 2009 11:59:57 +0200
+
+sidux-art-aether (0.13) unstable; urgency=low
+
+  * hack the install and Makefile to make sure icon_anim.png gets installed
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Tue, 14 Jul 2009 16:29:28 +1000
+
+sidux-art-aether (0.12) unstable; urgency=low
+
+  * add new artwork for dm-gdm theme
+  * update gdm screenshot 
+  * point GdmGreeter at the right screenshot
+  * add new artwork for dm-kdm theme
+  * update kdm screenshot
+  * add new artwork for ksplash
+  * add ttf-dustin as build depends, required for wallpaper
+  * add new artwork for xfce splash
+  * add new artwork for wallpaper
+  * add preview for ksplash
+  * update copyright for dm-kdm/aether.xml
+  * add stanza for license of bfree's svg_anim.pl script, license still unknown
+  * update license for svg_anim.pl to gplv2 as per bfree's direction
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Sat, 04 Jul 2009 19:07:11 +1000
+
+sidux-art-aether (0.11) unstable; urgency=low
+
+  * add transparency gradient (black 100% --> 0% at half the screen width), 
+    this helps with the icon text readability.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 26 Jun 2009 00:55:43 +0200
+
+sidux-art-aether (0.10) unstable; urgency=low
+
+  * update splash-xfce to use new theme
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Fri, 29 May 2009 17:36:05 +1000
+
+sidux-art-aether (0.9) unstable; urgency=low
+
+  [ Bernard Gray ]
+  * complete aether theme update for pre
+  * dm-gdm fix Makefile, set screenshot plain black
+  * dm-kdm - set screenshot plain black
+
+  [ Stefan Lippers-Hollmann ]
+  * hook up dm-kdm into the buildsystem.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 24 May 2009 14:43:07 +0200
+
+sidux-art-aether (0.8) unstable; urgency=low
+
+  * add install file for the kde colours file in sidux-art-kde-aether
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Mon, 18 May 2009 12:52:08 +1000
+
+sidux-art-aether (0.7) unstable; urgency=low
+
+  * symlink standard res wallpaper in /usr/share/wallpapers/ to ease non-kde4 
+    desktop preseeding for FLL_WALLPAPER.
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Sun, 17 May 2009 10:56:47 +1000
+
+sidux-art-aether (0.6) unstable; urgency=low
+
+  [ Bernard Gray ]
+  * add kde color scheme, reinstate sidux-art-kde-${RELEASE} to distribute it.
+
+  [ Stefan Lippers-Hollmann ]
+  * remove duplicate entry from debian/control, introduced in r23391, and fix
+    dependencies.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 17 May 2009 00:18:32 +0200
+
+sidux-art-aether (0.5) unstable; urgency=low
+
+  * increase color contrasts of the wallpaper, allowing to use fonts without
+    shadows.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 30 Apr 2009 00:58:06 +0200
+
+sidux-art-aether (0.4) unstable; urgency=low
+
+  * (finally) resolve non-working ksplash - add missing icons, description, 
+    and image files.
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Mon, 27 Apr 2009 16:21:50 +1000
+
+sidux-art-aether (0.3) unstable; urgency=low
+
+  * fix path for ksplash Theme.rc install
+  * adjust output sizes for ksplash, seems only to work with a specific subset 
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Fri, 24 Apr 2009 12:37:49 +1000
+
+sidux-art-aether (0.2) unstable; urgency=low
+
+  * fix name references in metadata.desktop.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 23 Apr 2009 02:41:14 +0200
+
+sidux-art-aether (0.1) unstable; urgency=low
+
+  [ Bernard Gray ]
+  * Initial Release.
+  * add dummy wallpaper
+  * add wallpaper metadata.desktop to suit kde4
+  * modify wallpaper Makefile, debian/install to suit kde4
+  * remove comment junk from wallpaper/Makefile
+  * add kdm dummy theme
+  * add gdm dummy theme
+  * remove Makefile in kdm dummy (not needed for now)
+  * add dummy xfce and kde splash themes
+  * fix dependencies for new ksplashx engine usage in ksplash theme
+  * update standards version to make lintian happy
+  * remove *qtcurve* dependencies which is kde3 specific only
+  * remove *.kcsrc and associated kde theme files
+  * update standards version to make lintian happy (really do it, this time)
+
+
+  [ Stefan Lippers-Hollmann ]
+  * fix release name.
+  * remove hopefully unneeded postinst.
+  * fix spelling once more.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 21 Apr 2009 10:55:40 +0200

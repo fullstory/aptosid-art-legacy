@@ -3,6 +3,27 @@ Name: sidux-art-legacy
 Maintainer: Bernard Gray <bernard.gray@gmail.com>
 Source: svn://svn.berlios.de/fullstory/sidux-art-legacy/trunk/
 
+Files: aether/*
+Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+           2009, David Creedy <djcreedy@iinet.net.au>
+License: GPL-2+
+
+Files: aether/dm-kdm/session.png, aether/dm-kdm/system.png
+Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+           2007, David Vignoni <david@icon-king.com>
+           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
+           2007, Kenneth Wimer <kwwii@bootsplash.org>
+           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
+           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
+           2007, David Miller <miller@oxygen-icons.org>
+License: CC-BY-SA | LGPL-2+
+
+Files: aether/dm-gdm/sidux-aether.xml
+Copyright: 2008, Urs Wolfer <uwolfer@kde.org>
+           2008, Oswald Buddenhagen <ossi@kde.org>
+           2007-2009, Bernard Gray <bernard.gray@gmail.com>
+License: GPL-2
+
 Files: erebos/*
 Copyright: 2008, Daniel Prien <d-s-p@d-s-p.de>
            2007-2009, Bernard Gray <bernard.gray@gmail.com>

@@ -1,0 +1,6 @@
+dm-kdm/*.png			usr/share/kde4/apps/kdm/themes/sidux-aether
+dm-kdm/oxygen-box.svg		usr/share/kde4/apps/kdm/themes/sidux-aether
+dm-kdm/oxygen.svg		usr/share/kde4/apps/kdm/themes/sidux-aether
+dm-kdm/KdmGreeterTheme.desktop	usr/share/kde4/apps/kdm/themes/sidux-aether
+dm-kdm/aether.xml		usr/share/kde4/apps/kdm/themes/sidux-aether
+

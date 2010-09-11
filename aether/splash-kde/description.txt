@@ -1,0 +1,8 @@
+SCALE ON
+BACKGROUND #000000
+SCALE OFF
+
+# this replays the icon_anim.png until the desktop loads
+ANIM_REL 1 CC 0 0 CC 29 icon_anim.png 85 0
+WAIT_STATE ready
+

@@ -10,6 +10,7 @@ RELEASES="
 	ourea:Ουρέα:2008-03:edu:
 	pontos:Πόντος:2008-04::
 	ouranos:Οὐρανος:2009-01::
+	aether:Αιθήρ:2009-02::
 "
 
 [ -d ./debian ] || exit 1
