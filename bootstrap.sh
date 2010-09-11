@@ -28,6 +28,7 @@ RELEASES="
 
 # clean up obsolete stuff
 rm -f	./debian/*.install \
+	./debian/*.links \
 	./debian/*.postinst \
 	./debian/*.postrm
 
@@ -61,12 +62,13 @@ for i in $RELEASES; do
 					> ./debian/sidux-art-${j}-$(echo ${i} | cut -d\: -f1).install
 	done
 
-	# write debian/*.postinst from templates
-	cat "./debian/templates/postinst" \
-		> "./debian/sidux-art-wallpaper-$(echo ${i} | cut -d\: -f1).postinst"
-
+	# link KDE4 style wallpapers to /usrt/share/wallpapers/
+	sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
+			./debian/templates/sidux-art-wallpaper-CODENAME_SAFE.links.in \
+				> ./debian/sidux-art-wallpaper-$(echo ${i} | cut -d\: -f1).links
 	if [ "x$(echo ${i} | cut -d\: -f4)" = "xedu" ]; then
-		cat "./debian/templates/postinst" \
-			> "./debian/sidux-art-wallpaper-$(echo ${i} | cut -d\: -f1)-edu.postinst"
+		sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
+				./debian/templates/sidux-art-wallpaper-CODENAME_SAFE-edu.links.in \
+					> ./debian/sidux-art-wallpaper-$(echo ${i} | cut -d\: -f1)-edu.links
 	fi
 done

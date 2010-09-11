@@ -1,9 +1,11 @@
-sidux-art-moros (1.3) UNRELEASED; urgency=low
+sidux-art-moros (1.3) ORPHANED; urgency=low
 
   * NOT RELEASED YET
+  * ORPHAN PACKAGE, must now be built from sidux-art-legacy.
   * bump standards version to 3.9.1, no changes necessary.
+  * switch to compat level 8.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Aug 2010 01:29:05 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 08 Aug 2010 05:18:37 +0200
 
 sidux-art-moros (1.2) unstable; urgency=low
 
@@ -42,7 +44,7 @@ sidux-art-moros (0.0.2) unstable; urgency=low
   [ David Creedy ]
   * added normal and wide aspect ratio source svgs
   * update metadata
-  * update splash-xfce background to suit moros themes 
+  * update splash-xfce background to suit moros themes
   * update splash-kde background, makefile and preview images
   * update gdm and kdm themes to use same background as wallpaper
 

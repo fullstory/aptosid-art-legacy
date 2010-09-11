@@ -1,9 +1,11 @@
-sidux-art-hypnos (0.1.6) UNRELEASED; urgency=low
+sidux-art-hypnos (0.1.6) ORPHANED; urgency=low
 
   * NOT RELEASED YET
+  * ORPHAN PACKAGE, must now be built from sidux-art-legacy.
   * bump standards version to 3.9.1, no changes necessary.
+  * switch to compat level 8.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Aug 2010 01:26:20 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 08 Aug 2010 05:09:06 +0200
 
 sidux-art-hypnos (0.1.5) unstable; urgency=low
 

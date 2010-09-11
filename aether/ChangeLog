@@ -1,10 +1,12 @@
-sidux-art-aether (0.16) UNRELEASED; urgency=low
+sidux-art-aether (0.16) ORPHANED; urgency=low
 
   * NOT RELEASED YET
+  * ORPHAN PACKAGE, must now be built from sidux-art-legacy.
   * bump standards version to 3.9.0, no changes necessary.
   * rename theme-kde/sidux.colors -> theme-kde/sidux-aether.colors
+  * switch to compat level 8.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Aug 2010 01:15:07 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 08 Aug 2010 05:08:48 +0200
 
 sidux-art-aether (0.15) unstable; urgency=low
 
@@ -32,7 +34,7 @@ sidux-art-aether (0.13) unstable; urgency=low
 sidux-art-aether (0.12) unstable; urgency=low
 
   * add new artwork for dm-gdm theme
-  * update gdm screenshot 
+  * update gdm screenshot
   * point GdmGreeter at the right screenshot
   * add new artwork for dm-kdm theme
   * update kdm screenshot
@@ -49,7 +51,7 @@ sidux-art-aether (0.12) unstable; urgency=low
 
 sidux-art-aether (0.11) unstable; urgency=low
 
-  * add transparency gradient (black 100% --> 0% at half the screen width), 
+  * add transparency gradient (black 100% --> 0% at half the screen width),
     this helps with the icon text readability.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 26 Jun 2009 00:55:43 +0200
@@ -80,7 +82,7 @@ sidux-art-aether (0.8) unstable; urgency=low
 
 sidux-art-aether (0.7) unstable; urgency=low
 
-  * symlink standard res wallpaper in /usr/share/wallpapers/ to ease non-kde4 
+  * symlink standard res wallpaper in /usr/share/wallpapers/ to ease non-kde4
     desktop preseeding for FLL_WALLPAPER.
 
  -- Bernard Gray <bernard.gray@gmail.com>  Sun, 17 May 2009 10:56:47 +1000
@@ -105,7 +107,7 @@ sidux-art-aether (0.5) unstable; urgency=low
 
 sidux-art-aether (0.4) unstable; urgency=low
 
-  * (finally) resolve non-working ksplash - add missing icons, description, 
+  * (finally) resolve non-working ksplash - add missing icons, description,
     and image files.
 
  -- Bernard Gray <bernard.gray@gmail.com>  Mon, 27 Apr 2009 16:21:50 +1000
@@ -113,7 +115,7 @@ sidux-art-aether (0.4) unstable; urgency=low
 sidux-art-aether (0.3) unstable; urgency=low
 
   * fix path for ksplash Theme.rc install
-  * adjust output sizes for ksplash, seems only to work with a specific subset 
+  * adjust output sizes for ksplash, seems only to work with a specific subset
 
  -- Bernard Gray <bernard.gray@gmail.com>  Fri, 24 Apr 2009 12:37:49 +1000
 
