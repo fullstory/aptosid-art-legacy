@@ -52,6 +52,6 @@ sidux-art-legacy (2010.01.1) UNRELEASED; urgency=low
   * vacuum SVG files.
   * use bzip2 to compress source and binaries.
   * clean up, before bootstrapping.
-  * drop Αιθήρ for the time being, its buildsystem is broken.
+  * ensure that theme-kde theme-xfce exist for all releases.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 15:19:43 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 16:16:10 +0200
