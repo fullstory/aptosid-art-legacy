@@ -1,0 +1,51 @@
+sidux-art-momos (1.2.5) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+  * bump standards version to 3.9.1, no changes necessary.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Aug 2010 01:28:43 +0200
+
+sidux-art-momos (1.2.4) unstable; urgency=low
+
+  * switch to dpkg-source 3.0 (native) format.
+  * update standards version to 3.8.4, no changes necessary.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 26 Apr 2010 01:03:09 +0200
+
+sidux-art-momos (1.2.3) unstable; urgency=low
+
+  * add symlink to wide wallpaper version for xfce users 
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Mon, 04 Jan 2010 15:36:40 +1100
+
+sidux-art-momos (1.2.2) unstable; urgency=low
+
+  * import seminarix wallpaper-edu, thanks to klaymen.
+  * hook up into buildsystem.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 11 Nov 2009 00:48:31 +0100
+
+sidux-art-momos (1.2.1) unstable; urgency=low
+
+  * fix exporting options for normal aspect ratios - source image is 1680x1050, 
+    not 1920x1200 which the original makefile catered to
+  * fix xfce splash export - aspect ratio was getting buggered up -
+    use native 640x480 size
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Fri, 25 Sep 2009 20:12:15 +1000
+
+sidux-art-momos (1.2.0) unstable; urgency=low
+
+  * New upstream release
+  * fix kde-theme *.install release misname
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Mon, 21 Sep 2009 23:09:59 +1000
+
+sidux-art-momos (1.0.1) unstable; urgency=low
+
+  * Initial Release.
+  * cleanup from cruft accidentally committed
+  * update *.install to handle new output locations
+  * rename *.install to momos
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Sat, 19 Sep 2009 15:41:35 +1000

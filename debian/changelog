@@ -1,5 +1,21 @@
 sidux-art-legacy (2009.01.1) unstable; urgency=low
 
+  [ Bernard Gray ]
+  * initial acceptable (looking) kde4 compat kdm theme for ouranos
+    - xml could do with serious cleanup/simplification
+    - needs more thorough testing, xdmcp currently failing for me
+  * redo kdm theme - thanks to destructchaos aka rgb
+  * fix ouranos/dm-kdm/Makefile, remove missing targets
+  * make pontos/dm-kdm/background.svg 1920x1200 by default
+  * migrate pontos/dm-kdm to kdm4
+  * remove unneeded rect.svg from ouranos/dm-kdm/
+  * remove temporary -destructchaos naming in KdmGreeters
+  * change nyx/ to mirror source dir structure of newer art packages
+  * change eros/ to mirror source dir structure of newer art packages
+  * remove kde4 incompatible nyx/theme-kde/ files
+  * change gaia/ to mirror source dir structure of newer art packages
+  * update kdm theme xml files, thanks rgb
+
   [ Stefan Lippers-Hollmann ]
   * Initial release.
   * add bootstrap.sh, to generate debian/control.
@@ -23,22 +39,7 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
     empty packages.
   * drop copyrights for chaos, this package never shipped its artwork.
   * add Αιθήρ
+  * add Μώμος
   * add Ύπνος
 
-  [ Bernard Gray ]
-  * initial acceptable (looking) kde4 compat kdm theme for ouranos
-    - xml could do with serious cleanup/simplification
-    - needs more thorough testing, xdmcp currently failing for me
-  * redo kdm theme - thanks to destructchaos aka rgb
-  * fix ouranos/dm-kdm/Makefile, remove missing targets
-  * make pontos/dm-kdm/background.svg 1920x1200 by default
-  * migrate pontos/dm-kdm to kdm4
-  * remove unneeded rect.svg from ouranos/dm-kdm/
-  * remove temporary -destructchaos naming in KdmGreeters
-  * change nyx/ to mirror source dir structure of newer art packages
-  * change eros/ to mirror source dir structure of newer art packages
-  * remove kde4 incompatible nyx/theme-kde/ files
-  * change gaia/ to mirror source dir structure of newer art packages
-  * update kdm theme xml files, thanks rgb
-
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Aug 2010 02:45:09 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Aug 2010 02:56:38 +0200

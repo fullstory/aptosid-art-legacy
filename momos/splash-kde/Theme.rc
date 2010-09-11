@@ -1,0 +1,8 @@
+[KSplash Theme: sidux-momos]
+Name = sidux 2009-03 (Momos) Splash Screen
+Description = sidux Momos Splash Screen
+Version = 1.0
+Author = David Creedy <klaymen@sidux.com>
+Homepage = http://www.sidux.com
+# Theme behaviour settings.
+Engine = KSplashX

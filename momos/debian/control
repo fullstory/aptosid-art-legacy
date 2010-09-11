@@ -1,0 +1,88 @@
+Source: sidux-art-momos
+Section: graphics
+Priority: extra
+Maintainer: Bernard Gray <bernard.gray@gmail.com>
+Uploaders: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Build-Depends: debhelper (>= 7),
+ inkscape,
+ perl,
+ libxml-parser-perl,
+ ttf-dustin
+Standards-Version: 3.9.1
+Vcs-Svn: svn://svn.berlios.de/fullstory/sidux-art-momos/trunk
+Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/sidux-art-momos/trunk/
+
+Package: sidux-art-gdm-momos
+Architecture: all
+Depends: ${misc:Depends},
+ gdm
+Description: GDM theme for sidux 2009-03 release
+ the default GDM theme for the 2009-03 (Μώμος)
+ sidux release.
+
+Package: sidux-art-kde-momos
+Architecture: all
+Provides: sidux-art-kde-theme
+Depends: ${misc:Depends},
+ sidux-art-ksplash-momos,
+ sidux-art-kdm-momos
+Recommends: sidux-art-wallpaper-momos,
+ dmz-cursor-theme
+Description: KDE theme for sidux 2009-03 release
+ metapackage providing ksplash, kdm and KDE themes
+ for sidux 2009-03 (Μώμος) release
+
+Package: sidux-art-kdm-momos
+Architecture: all
+Depends: ${misc:Depends},
+ kdm
+Description: KDM theme for sidux 2009-03 release
+ the default KDM theme for the 2009-03 (Μώμος)
+ sidux release.
+
+Package: sidux-art-ksplash-momos
+Architecture: all
+Depends: ${misc:Depends},
+ kdebase-workspace-bin
+Description: KDE ksplash theme for sidux 2009-03 release
+ the default KDE ksplash theme for the 2009-03
+ (Μώμος) sidux release, using the default ksplash engine
+
+Package: sidux-art-xsplash-momos
+Architecture: all
+Depends: ${misc:Depends},
+ xfce4-session
+Description: Xfce splash theme for sidux 2009-03 release
+ the default Xfce splash theme for the 2009-03
+ (Μώμος) sidux release, based on balou theme engine.
+
+Package: sidux-art-wallpaper-momos
+Architecture: all
+Provides: sidux-art-wallpaper-theme
+Conflicts: sidux-art-wallpaper-momos-edu
+Depends: ${misc:Depends}
+Description: sidux wallpaper for 2009-03 release
+ The official wallpaper for the 2009-03 (Μώμος)
+ sidux release.
+
+Package: sidux-art-wallpaper-momos-edu
+Architecture: all
+Provides: sidux-art-wallpaper-theme,
+ sidux-art-wallpaper-momos
+Conflicts: sidux-art-wallpaper-momos
+Depends: ${misc:Depends}
+Description: sidux-seminarix wallpaper for 2009-03 release
+ The official wallpaper for the 2009-03 (Μώμος)
+ sidux-seminarix release.
+
+Package: sidux-art-xfce-momos
+Architecture: all
+Provides: sidux-art-xfce-theme
+Depends: ${misc:Depends},
+ sidux-art-xsplash-momos,
+ sidux-art-gdm-momos
+Recommends: sidux-art-wallpaper-momos,
+ dmz-cursor-theme
+Description: Xfce theme for sidux 2009-03 release
+ metapackage providing Xfce-splash and gdm themes
+ for sidux 2009-03 (Μώμος) release
