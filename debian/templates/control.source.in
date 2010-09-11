@@ -4,7 +4,11 @@ Priority: extra
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Uploaders: Bernard Gray <bernard.gray@gmail.com>
 Build-Depends: debhelper (>= 7.9.3),
- inkscape
+ inkscape,
+ perl,
+ perlmagick,
+ libxml-parser-perl,
+ ttf-dustin
 Standards-Version: 3.9.1
 Vcs-Svn: svn://svn.berlios.de/fullstory/sidux-art-legacy/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/sidux-art-legacy/trunk/

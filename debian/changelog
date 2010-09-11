@@ -46,5 +46,6 @@ sidux-art-legacy (2010.01.1) UNRELEASED; urgency=low
   * switch to compat level 8.
   * add basic top level Makefile.
   * add dh7 based debian/rules.
+  * add forgotten build-depends for new style artworks.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 03:35:14 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 04:04:57 +0200
