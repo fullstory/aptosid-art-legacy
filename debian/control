@@ -58,8 +58,8 @@ Depends: ${misc:Depends},
 Recommends: sidux-art-wallpaper-gaia,
  dmz-cursor-theme
 Description: KDE theme for sidux 2007-03 release
- Virtual package providing ksplash, kdm and KDE themes
- for sidux 2007-03 (Γάια) release
+ metapackage providing ksplash, kdm and KDE themes for the
+ sidux 2007-03 (Γάια) release
 
 Package: sidux-art-xfce-gaia
 Architecture: all
@@ -70,8 +70,8 @@ Depends: ${misc:Depends},
 Recommends: sidux-art-wallpaper-gaia,
  dmz-cursor-theme
 Description: Xfce theme for sidux 2007-03 release
- Virtual package providing Xfce-splash and gdm themes
- for sidux 2007-03 (Γάια) release
+ metapackage providing Xfce-splash and gdm themes for
+ sidux 2007-03 (Γάια) release
 
 Package: sidux-art-gdm-eros
 Architecture: all
@@ -122,8 +122,8 @@ Depends: ${misc:Depends},
 Recommends: sidux-art-wallpaper-eros,
  dmz-cursor-theme
 Description: KDE theme for sidux 2007-04 release
- Virtual package providing ksplash, kdm and KDE themes
- for sidux 2007-04 (Έρως) release
+ metapackage providing ksplash, kdm and KDE themes for the
+ sidux 2007-04 (Έρως) release
 
 Package: sidux-art-xfce-eros
 Architecture: all
@@ -134,8 +134,8 @@ Depends: ${misc:Depends},
 Recommends: sidux-art-wallpaper-eros,
  dmz-cursor-theme
 Description: Xfce theme for sidux 2007-04 release
- Virtual package providing Xfce-splash and gdm themes
- for sidux 2007-04 (Έρως) release
+ metapackage providing Xfce-splash and gdm themes for
+ sidux 2007-04 (Έρως) release
 
 Package: sidux-art-wallpaper-eros-edu
 Provides: sidux-art-wallpaper-theme
@@ -196,8 +196,8 @@ Depends: ${misc:Depends},
 Recommends: sidux-art-wallpaper-nyx,
  dmz-cursor-theme
 Description: KDE theme for sidux 2008-01 release
- Virtual package providing ksplash, kdm and KDE themes
- for sidux 2008-01 (Νυξ) release
+ metapackage providing ksplash, kdm and KDE themes for the
+ sidux 2008-01 (Νυξ) release
 
 Package: sidux-art-xfce-nyx
 Architecture: all
@@ -208,8 +208,8 @@ Depends: ${misc:Depends},
 Recommends: sidux-art-wallpaper-nyx,
  dmz-cursor-theme
 Description: Xfce theme for sidux 2008-01 release
- Virtual package providing Xfce-splash and gdm themes
- for sidux 2008-01 (Νυξ) release
+ metapackage providing Xfce-splash and gdm themes for
+ sidux 2008-01 (Νυξ) release
 
 Package: sidux-art-wallpaper-nyx-edu
 Provides: sidux-art-wallpaper-theme
@@ -270,8 +270,8 @@ Depends: ${misc:Depends},
 Recommends: sidux-art-wallpaper-erebos,
  dmz-cursor-theme
 Description: KDE theme for sidux 2008-02 release
- Virtual package providing ksplash, kdm and KDE themes
- for sidux 2008-02 (Έρεβος) release
+ metapackage providing ksplash, kdm and KDE themes for the
+ sidux 2008-02 (Έρεβος) release
 
 Package: sidux-art-xfce-erebos
 Architecture: all
@@ -282,8 +282,8 @@ Depends: ${misc:Depends},
 Recommends: sidux-art-wallpaper-erebos,
  dmz-cursor-theme
 Description: Xfce theme for sidux 2008-02 release
- Virtual package providing Xfce-splash and gdm themes
- for sidux 2008-02 (Έρεβος) release
+ metapackage providing Xfce-splash and gdm themes for
+ sidux 2008-02 (Έρεβος) release
 
 Package: sidux-art-wallpaper-erebos-edu
 Provides: sidux-art-wallpaper-theme
@@ -344,8 +344,8 @@ Depends: ${misc:Depends},
 Recommends: sidux-art-wallpaper-ourea,
  dmz-cursor-theme
 Description: KDE theme for sidux 2008-03 release
- Virtual package providing ksplash, kdm and KDE themes
- for sidux 2008-03 (Ουρέα) release
+ metapackage providing ksplash, kdm and KDE themes for the
+ sidux 2008-03 (Ουρέα) release
 
 Package: sidux-art-xfce-ourea
 Architecture: all
@@ -356,8 +356,8 @@ Depends: ${misc:Depends},
 Recommends: sidux-art-wallpaper-ourea,
  dmz-cursor-theme
 Description: Xfce theme for sidux 2008-03 release
- Virtual package providing Xfce-splash and gdm themes
- for sidux 2008-03 (Ουρέα) release
+ metapackage providing Xfce-splash and gdm themes for
+ sidux 2008-03 (Ουρέα) release
 
 Package: sidux-art-wallpaper-ourea-edu
 Provides: sidux-art-wallpaper-theme
@@ -418,8 +418,8 @@ Depends: ${misc:Depends},
 Recommends: sidux-art-wallpaper-pontos,
  dmz-cursor-theme
 Description: KDE theme for sidux 2008-04 release
- Virtual package providing ksplash, kdm and KDE themes
- for sidux 2008-04 (Πόντος) release
+ metapackage providing ksplash, kdm and KDE themes for the
+ sidux 2008-04 (Πόντος) release
 
 Package: sidux-art-xfce-pontos
 Architecture: all
@@ -430,8 +430,8 @@ Depends: ${misc:Depends},
 Recommends: sidux-art-wallpaper-pontos,
  dmz-cursor-theme
 Description: Xfce theme for sidux 2008-04 release
- Virtual package providing Xfce-splash and gdm themes
- for sidux 2008-04 (Πόντος) release
+ metapackage providing Xfce-splash and gdm themes for
+ sidux 2008-04 (Πόντος) release
 
 Package: sidux-art-gdm-ouranos
 Architecture: all
@@ -482,8 +482,8 @@ Depends: ${misc:Depends},
 Recommends: sidux-art-wallpaper-ouranos,
  dmz-cursor-theme
 Description: KDE theme for sidux 2009-01 release
- Virtual package providing ksplash, kdm and KDE themes
- for sidux 2009-01 (Οὐρανος) release
+ metapackage providing ksplash, kdm and KDE themes for the
+ sidux 2009-01 (Οὐρανος) release
 
 Package: sidux-art-xfce-ouranos
 Architecture: all
@@ -494,6 +494,6 @@ Depends: ${misc:Depends},
 Recommends: sidux-art-wallpaper-ouranos,
  dmz-cursor-theme
 Description: Xfce theme for sidux 2009-01 release
- Virtual package providing Xfce-splash and gdm themes
- for sidux 2009-01 (Οὐρανος) release
+ metapackage providing Xfce-splash and gdm themes for
+ sidux 2009-01 (Οὐρανος) release
 

@@ -19,12 +19,14 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * bump standards version to 3.9.1, no changes necessary.
   * switch to dpkg-source 3.0 (native) format.
   * update machine-readable debian/copyright to DEP: 5, rev=135
+  * s/Virtual package/metapackage, which makes lintian a bit happier about
+    empty packages.
 
   [ Bernard Gray ]
   * initial acceptable (looking) kde4 compat kdm theme for ouranos
     - xml could do with serious cleanup/simplification
     - needs more thorough testing, xdmcp currently failing for me
-  * redo kdm theme - thanks to destructchaos aka rgb 
+  * redo kdm theme - thanks to destructchaos aka rgb
   * fix ouranos/dm-kdm/Makefile, remove missing targets
   * make pontos/dm-kdm/background.svg 1920x1200 by default
   * migrate pontos/dm-kdm to kdm4
@@ -36,4 +38,4 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * change gaia/ to mirror source dir structure of newer art packages
   * update kdm theme xml files, thanks rgb
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Aug 2010 01:03:26 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Aug 2010 01:22:34 +0200
