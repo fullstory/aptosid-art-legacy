@@ -44,5 +44,6 @@ sidux-art-legacy (2010.01.1) UNRELEASED; urgency=low
   * disable no yet buildable release artwork themes.
   * sync phrasing with Κῆρες artwork.
   * switch to compat level 8.
+  * add basic top level Makefile.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 08 Aug 2010 05:15:18 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 03:34:12 +0200
