@@ -19,17 +19,7 @@
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
-     id="defs4140">
-    <filter
-       inkscape:collect="always"
-       id="filter3712"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="2.3139136"
-         id="feGaussianBlur3714" />
-    </filter>
-  </defs>
+     id="defs4140" />
   <sodipodi:namedview
      id="base"
      pagecolor="#0000ff"
@@ -43,7 +33,7 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1390"
+     inkscape:window-width="1272"
      inkscape:window-height="974"
      inkscape:window-x="223"
      inkscape:window-y="102"
@@ -64,20 +54,5 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(153.83634,-570.12867)">
-    <text
-       xml:space="preserve"
-       style="font-size:122.00331879px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;display:inline;filter:url(#filter3712);enable-background:new;font-family:Dustismo;-inkscape-font-specification:Dustismo"
-       x="-126.72807"
-       y="753.58899"
-       id="shadow"
-       transform="scale(1.1802958,0.84724525)"
-       inkscape:transform-center-y="-28.872078"><tspan
-         sodipodi:role="line"
-         id="tspan2926"
-         x="-126.72807"
-         y="753.58899"
-         style="font-size:84.72452545px;fill:#000000;fill-opacity:1;stroke:none"
-         dx="0">i</tspan></text>
-  </g>
+     transform="translate(153.83634,-570.12867)" />
 </svg>

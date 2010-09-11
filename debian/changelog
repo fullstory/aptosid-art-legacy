@@ -1,8 +1,8 @@
-sidux-art-legacy (2010.01.4) UNRELEASED; urgency=low
+sidux-art-legacy (2010.01.4) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * drop sidux logos from SVG.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 23:20:30 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 25 Aug 2010 23:36:49 +0200
 
 sidux-art-legacy (2010.01.3) unstable; urgency=low
 

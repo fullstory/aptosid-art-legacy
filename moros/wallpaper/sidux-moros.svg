@@ -31,16 +31,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1680"
-     inkscape:window-height="1005"
+     inkscape:window-width="1912"
+     inkscape:window-height="1153"
      id="namedview6348"
      showgrid="false"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="1042.2101"
-     inkscape:cy="445.43447"
-     inkscape:window-x="-4"
-     inkscape:window-y="-3"
-     inkscape:current-layer="layer4"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="795.26259"
+     inkscape:cy="558.12012"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:current-layer="layer3"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true" />
@@ -157,19 +157,6 @@
          x="-227.80479"
          y="-167.51079" />
     </mask>
-    <filter
-       inkscape:collect="always"
-       id="filter3758"
-       x="-0.027545488"
-       width="1.055091"
-       y="-0.14637741"
-       height="1.2927548"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="6.3596269"
-         id="feGaussianBlur3760" />
-    </filter>
     <mask
        maskUnits="userSpaceOnUse"
        id="mask2889">
@@ -187,8 +174,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="BG"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
        style="fill:url(#radialGradient3620);fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="rect2817"
@@ -201,8 +187,7 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="Swirl"
-     style="opacity:0.1842105;display:inline"
-     sodipodi:insensitive="true">
+     style="opacity:0.1842105;display:inline">
     <path
        transform="matrix(2.2387306,-0.71684848,-0.73528519,-2.1825962,-581.27341,2238.8454)"
        d="m 777.81744,521.17749 c 12.12501,9.67872 -7.06467,21.1194 -16.08667,20.15255 -24.44905,-2.6201 -31.712,-32.74488 -24.21843,-52.32589 13.40424,-35.02582 57.42216,-43.89152 88.56511,-28.28431 45.70354,22.9042 56.38566,82.41743 32.3502,124.80433 -32.03548,56.49506 -107.52341,69.01104 -161.04355,36.41608 -67.34964,-41.01744 -81.70378,-132.6816 -40.48197,-197.28277 49.92514,-78.24068 157.8691,-94.43539 233.522,-44.54785 89.15432,58.79074 107.1914,183.07484 48.61373,269.76121 C 871.40762,749.95368 730.74508,769.83453 633.03742,702.55045 522.01578,626.09801 500.29006,469.03118 576.29193,360.3108 661.55454,238.34296 835.04395,214.77149 954.7708,299.49942 c 132.9195,94.06407 158.3375,283.98948 64.8773,414.7181 C 916.78904,858.09286 710.4175,885.35788 568.69075,783.16066 413.85632,671.51168 384.74375,448.68614 495.68172,295.96412 616.11676,130.16804 855.40249,99.207509 1019.1175,218.88922 c 176.7598,129.21797 209.5686,384.9689 81.1408,559.67497"
@@ -222,8 +207,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Lines"
-     style="opacity:0.55592107;display:inline"
-     sodipodi:insensitive="true">
+     style="opacity:0.55592107;display:inline">
     <path
        id="path4887"
        style="opacity:0.13486843;fill:none;stroke:#ffffff;stroke-width:2.60543108px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -239,8 +223,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Dark Edge"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
        style="opacity:0.44078944;fill:url(#radialGradient4174);fill-opacity:1;stroke:none;display:inline"
        id="rect4166"
@@ -248,43 +231,5 @@
        height="1200"
        x="0"
        y="0" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer5"
-     inkscape:label="Text"
-     style="display:inline"
-     sodipodi:insensitive="true">
-    <g
-       id="g3762"
-       transform="translate(-100,128)">
-      <text
-         transform="matrix(0.94954907,0,0,1.0531315,8,104)"
-         sodipodi:linespacing="125%"
-         id="text3366"
-         y="793.20929"
-         x="1071.2358"
-         style="font-size:101.33043671px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.05599999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter3758);font-family:Dustismo;-inkscape-font-specification:Dustismo"
-         xml:space="preserve"><tspan
-           dx="0 -3.277281 1.2834408 -4.3697081 -4.3697081"
-           y="793.20929"
-           x="1071.2358"
-           id="tspan3368"
-           sodipodi:role="line"
-           style="letter-spacing:-0.72113061;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.05599999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">sidux:Μόρος</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:92.92816162px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.87661302;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;font-family:Dustismo;-inkscape-font-specification:Dustismo"
-         x="1037.2429"
-         y="934.28784"
-         id="text2898"
-         sodipodi:linespacing="125%"><tspan
-           style="letter-spacing:-0.66133475;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.87661302;stroke-opacity:1"
-           sodipodi:role="line"
-           id="tspan2900"
-           x="1037.2429"
-           y="934.28784"
-           dx="0 -3.0055304 1.1770185 -4.0073738 -4.0073738">sidux:Μόρος</tspan></text>
-    </g>
   </g>
 </svg>

@@ -37,8 +37,9 @@
      showgrid="false"
      inkscape:window-width="1680"
      inkscape:window-height="990"
-     inkscape:window-x="-2"
-     inkscape:window-y="-3" />
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata2548">
     <rdf:RDF>
@@ -61,16 +62,15 @@
        id="path2558" />
     <text
        xml:space="preserve"
-       style="font-size:92.92816161999998315px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.87661301999999985;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Dustismo;-inkscape-font-specification:Dustismo"
-       x="296.80026"
-       y="484.30191"
+       style="font-size:92.92816162px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.87661302;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;font-family:Dustismo;-inkscape-font-specification:Dustismo"
+       x="302.51456"
+       y="471.08762"
        id="text3366"
        sodipodi:linespacing="125%"><tspan
-         style="letter-spacing:-0.66133474999999997;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.87661301999999985;stroke-opacity:1"
+         style="font-size:60px;letter-spacing:-0.66133475;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.87661302;stroke-opacity:1"
          sodipodi:role="line"
          id="tspan3368"
-         x="296.80026"
-         y="484.30191"
-         dx="0 -3.0055304 1.1770185 -4.0073738 -4.0073738">sidux</tspan></text>
+         x="302.51456"
+         y="471.08762">aptosid</tspan></text>
   </g>
 </svg>

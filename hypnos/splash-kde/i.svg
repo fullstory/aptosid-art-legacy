@@ -115,15 +115,14 @@
        clip-path="url(#clipPath2928)" />
     <text
        id="sidux-outline"
-       y="638.17157"
-       x="-149.57661"
+       y="622.17157"
+       x="-149.87291"
        style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:none;stroke:#999999;stroke-width:2;stroke-miterlimit:4;stroke-opacity:0.6;stroke-dasharray:none;display:inline;enable-background:new;font-family:Dustismo;-inkscape-font-specification:Dustismo"
        xml:space="preserve"><tspan
-         dx="0"
          style="font-size:100px;fill:none;stroke:#999999;stroke-width:2;stroke-miterlimit:4;stroke-opacity:0.6;stroke-dasharray:none"
-         y="638.17157"
-         x="-149.57661"
+         y="622.17157"
+         x="-149.87291"
          id="tspan7305"
-         sodipodi:role="line">i</tspan></text>
+         sodipodi:role="line">p</tspan></text>
   </g>
 </svg>

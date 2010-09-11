@@ -182,7 +182,8 @@
      inkscape:window-width="1447"
      inkscape:window-height="877"
      inkscape:window-x="11"
-     inkscape:window-y="75" />
+     inkscape:window-y="75"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata2545">
     <rdf:RDF>
@@ -211,7 +212,7 @@
          style="opacity:1;fill:url(#radialGradient2596);fill-opacity:1;stroke:none;stroke-width:15.85999966;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <path
          transform="translate(-201.64624,-87.428571)"
-         d="M 1048,548 A 156,40 0 1 1 736,548 A 156,40 0 1 1 1048,548 z"
+         d="m 1048,548 c 0,22.09139 -69.84358,40 -156,40 -86.15642,0 -156,-17.90861 -156,-40 0,-22.09139 69.84358,-40 156,-40 86.15642,0 156,17.90861 156,40 z"
          sodipodi:ry="40"
          sodipodi:rx="156"
          sodipodi:cy="548"
@@ -274,27 +275,5 @@
        height="480"
        x="0"
        y="2.8641586e-14" />
-    <g
-       transform="translate(-59.5634,-221.96512)"
-       id="g2618"
-       inkscape:label="Layer 1">
-      <path
-         id="path2558"
-         d="M 299.43024,491.26408 L 488.43024,491.26408"
-         style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text3366"
-         y="484.30191"
-         x="296.80026"
-         style="font-size:92.92816162px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.87661302;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Dustismo;-inkscape-font-specification:Dustismo"
-         xml:space="preserve"><tspan
-           dx="0 -3.0055304 1.1770185 -4.0073738 -4.0073738"
-           y="484.30191"
-           x="296.80026"
-           id="tspan3368"
-           sodipodi:role="line"
-           style="letter-spacing:-0.66133475;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.87661302;stroke-opacity:1">sidux</tspan></text>
-    </g>
   </g>
 </svg>

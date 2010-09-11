@@ -31,15 +31,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1680"
-     inkscape:window-height="1005"
+     inkscape:window-width="1912"
+     inkscape:window-height="1153"
      id="namedview6348"
      showgrid="false"
      inkscape:zoom="0.35355339"
      inkscape:cx="1426.8762"
      inkscape:cy="445.43447"
-     inkscape:window-x="-4"
-     inkscape:window-y="-3"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:current-layer="layer5"
      inkscape:window-maximized="1"
      showguides="true"
@@ -169,18 +169,6 @@
          x="-227.80479"
          y="-167.51079" />
     </mask>
-    <filter
-       inkscape:collect="always"
-       id="filter3758"
-       x="-0.027545488"
-       width="1.055091"
-       y="-0.14637742"
-       height="1.2927548">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="6.3596269"
-         id="feGaussianBlur3760" />
-    </filter>
   </defs>
   <g
      inkscape:groupmode="layer"
@@ -252,37 +240,5 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Text"
-     style="display:inline">
-    <g
-       id="g3762"
-       transform="translate(240,128)">
-      <text
-         transform="matrix(0.94954907,0,0,1.0531315,8,104)"
-         sodipodi:linespacing="125%"
-         id="text3366"
-         y="793.20929"
-         x="1071.2358"
-         style="font-size:101.33043671px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.05599999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter3758);font-family:Dustismo;-inkscape-font-specification:Dustismo"
-         xml:space="preserve"><tspan
-           dx="0 -3.277281 1.2834408 -4.3697081 -4.3697081"
-           y="793.20929"
-           x="1071.2358"
-           id="tspan3368"
-           sodipodi:role="line"
-           style="letter-spacing:-0.72113061;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.05599999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">sidux:Μόρος</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:92.92816162px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.87661302;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;font-family:Dustismo;-inkscape-font-specification:Dustismo"
-         x="1037.2429"
-         y="934.28784"
-         id="text2898"
-         sodipodi:linespacing="125%"><tspan
-           style="letter-spacing:-0.66133475;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.87661302;stroke-opacity:1"
-           sodipodi:role="line"
-           id="tspan2900"
-           x="1037.2429"
-           y="934.28784"
-           dx="0 -3.0055304 1.1770185 -4.0073738 -4.0073738">sidux:Μόρος</tspan></text>
-    </g>
-  </g>
+     style="display:inline" />
 </svg>

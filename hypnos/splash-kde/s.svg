@@ -70,7 +70,7 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1390"
+     inkscape:window-width="1272"
      inkscape:window-height="974"
      inkscape:window-x="222"
      inkscape:window-y="100"
@@ -113,17 +113,5 @@
        sodipodi:nodetypes="cczzzccc"
        mask="url(#mask7297)"
        clip-path="url(#clipPath2928)" />
-    <text
-       id="sidux-outline"
-       y="638.17157"
-       x="-149.57661"
-       style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:none;stroke:#999999;stroke-width:2;stroke-miterlimit:4;stroke-opacity:0.6;stroke-dasharray:none;display:inline;enable-background:new;font-family:Dustismo;-inkscape-font-specification:Dustismo"
-       xml:space="preserve"><tspan
-         dx="0"
-         style="font-size:100px;fill:none;stroke:#999999;stroke-width:2;stroke-miterlimit:4;stroke-opacity:0.6;stroke-dasharray:none"
-         y="638.17157"
-         x="-149.57661"
-         id="tspan7305"
-         sodipodi:role="line">s</tspan></text>
   </g>
 </svg>

@@ -146,8 +146,9 @@
      inkscape:guide-bbox="true"
      inkscape:window-width="1440"
      inkscape:window-height="854"
-     inkscape:window-x="-4"
-     inkscape:window-y="-3">
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0">
     <sodipodi:guide
        orientation="1,0"
        position="842.87128,927.7241"
@@ -256,7 +257,7 @@
       </g>
       <path
          transform="translate(-222.843,242.34315)"
-         d="M 1048,548 A 156,40 0 1 1 736,548 A 156,40 0 1 1 1048,548 z"
+         d="m 1048,548 c 0,22.09139 -69.84358,40 -156,40 -86.15642,0 -156,-17.90861 -156,-40 0,-22.09139 69.84358,-40 156,-40 86.15642,0 156,17.90861 156,40 z"
          sodipodi:ry="40"
          sodipodi:rx="156"
          sodipodi:cy="548"
@@ -264,19 +265,6 @@
          id="path3782"
          style="opacity:0.37828944;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:3.29999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter3864)"
          sodipodi:type="arc" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text3366"
-         y="803.20758"
-         x="595.66583"
-         style="font-size:93.10431671px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.87827474;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Dustismo;-inkscape-font-specification:Dustismo"
-         xml:space="preserve"><tspan
-           dx="0 -3.0112276 1.1792498 -4.0149698 -4.0149698"
-           y="803.20758"
-           x="595.66583"
-           id="tspan3368"
-           sodipodi:role="line"
-           style="letter-spacing:-0.66258842;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.87827474;stroke-opacity:1">sidux</tspan></text>
     </g>
   </g>
 </svg>
