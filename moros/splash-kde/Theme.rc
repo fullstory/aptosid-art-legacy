@@ -1,0 +1,8 @@
+[KSplash Theme: sidux-moros]
+Name = sidux 2009-04 (Moros) Splash Screen
+Description = sidux Moros Splash Screen
+Version = 1.0
+Author = David Creedy <klaymen@sidux.com>
+Homepage = http://www.sidux.com
+# Theme behaviour settings.
+Engine = KSplashX

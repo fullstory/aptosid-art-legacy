@@ -1,0 +1,58 @@
+sidux-art-moros (1.3) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+  * bump standards version to 3.9.1, no changes necessary.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Aug 2010 01:29:05 +0200
+
+sidux-art-moros (1.2) unstable; urgency=low
+
+  * switch to dpkg-source 3.0 (native) format.
+  * update standards version to 3.8.4, no changes necessary.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 26 Apr 2010 01:09:05 +0200
+
+sidux-art-moros (1.1) unstable; urgency=low
+
+  * 1920x1080 res broke dm* on last update, resize dm-* bg to allow for this
+  * update Makefile for dm* to export at new resolution
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Mon, 11 Jan 2010 17:59:36 +1100
+
+sidux-art-moros (1.0) unstable; urgency=low
+
+  * dm-kdm dm-gdm - update screenshot preview.
+
+ -- David Creedy <klaymen@sidux.com>  Sun, 10 Jan 2010 22:21:47 +0100
+
+sidux-art-moros (0.0.3) unstable; urgency=low
+
+  * add symlink to wide wallpaper version for xfce users
+  * modify kdm bg handling to scale correctly for different aspect ratios
+  * modify ksplash bg handling to scale correctly for different aspect ratios
+  * modify gdm bg handling to scale correctly for different aspect ratios
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Wed, 06 Jan 2010 22:33:46 +1100
+
+sidux-art-moros (0.0.2) unstable; urgency=low
+
+  [ Bernard Gray ]
+  * adjust Makefile to handle normal and wide aspect images
+
+  [ David Creedy ]
+  * added normal and wide aspect ratio source svgs
+  * update metadata
+  * update splash-xfce background to suit moros themes 
+  * update splash-kde background, makefile and preview images
+  * update gdm and kdm themes to use same background as wallpaper
+
+  [ Stefan Lippers-Hollmann ]
+  * small visual adaptions to the wallpaper.
+
+ -- David Creedy <klaymen@sidux.com>  Sun, 20 Dec 2009 22:01:07 +1100
+
+sidux-art-moros (0.0.1) unstable; urgency=low
+
+  * branch off Μόρος development from Μώμος with dummy artwork.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 20 Nov 2009 22:04:52 +0100

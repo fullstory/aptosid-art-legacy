@@ -118,6 +118,24 @@ Files: momos/splash-kde/splash-kde/svg-anim.pl
 Copyright: 2009, Naill Walsh <niallwalsh@users.berlios.de>
 License: GPL-2+
 
+Files: moros/*
+Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
+           2009, David Creedy <djcreedy@iinet.net.au>
+License: GPL-2+
+
+Files: moros/dm-gdm/language.png, moros/dm-gdm/session.png, moros/dm-gdm/system.png, moros/dm-kdm/oxygen.svg, moros/dm-kdm/session.png, moros/dm-kdm/system.png
+Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+           2007, David Vignoni <david@icon-king.com>
+           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
+           2007, Kenneth Wimer <kwwii@bootsplash.org>
+           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
+           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
+           2007, David Miller <miller@oxygen-icons.org>
+License: CC-BY-SA | LGPL-2+
+
+Files: moros/splash-kde/splash-kde/svg-anim.pl
+Copyright: 2009, Naill Walsh <niallwalsh@users.berlios.de>
+License: GPL-2+
 
 Files nyx/dm-gdm/
 Copyright: 2008, Daniel Prien <d-s-p@d-s-p.de>
