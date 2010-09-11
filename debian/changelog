@@ -56,5 +56,6 @@ sidux-art-legacy (2010.01.1) UNRELEASED; urgency=low
   * drop no longer require postinst.
   * add missing *.links and hook it up to bootstrap.sh
   * drop Αιθήρ, it still uses an incompatible buildsystem.
+  * build wallpaper-edu.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 18:53:56 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 19:39:38 +0200

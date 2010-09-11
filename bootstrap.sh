@@ -68,11 +68,16 @@ for i in $RELEASES; do
 		fi
 	done
 
-	# link KDE4 style wallpapers to /usrt/share/wallpapers/
+	# link KDE4 style wallpapers to /usr/share/wallpapers/
 	sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
 			./debian/templates/sidux-art-wallpaper-CODENAME_SAFE.links.in \
 				> ./debian/sidux-art-wallpaper-$(echo ${i} | cut -d\: -f1).links
+
 	if [ "x$(echo ${i} | cut -d\: -f4)" = "xedu" ]; then
+		sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
+				./debian/templates/sidux-art-wallpaper-CODENAME_SAFE-edu.install.in \
+					> ./debian/sidux-art-wallpaper-$(echo ${i} | cut -d\: -f1)-edu.install
+
 		sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
 				./debian/templates/sidux-art-wallpaper-CODENAME_SAFE-edu.links.in \
 					> ./debian/sidux-art-wallpaper-$(echo ${i} | cut -d\: -f1)-edu.links
