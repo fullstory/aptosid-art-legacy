@@ -22,6 +22,8 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * s/Virtual package/metapackage, which makes lintian a bit happier about
     empty packages.
   * drop copyrights for chaos, this package never shipped its artwork.
+  * add Αιθήρ
+  * add Ύπνος
 
   [ Bernard Gray ]
   * initial acceptable (looking) kde4 compat kdm theme for ouranos
@@ -39,4 +41,4 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * change gaia/ to mirror source dir structure of newer art packages
   * update kdm theme xml files, thanks rgb
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Aug 2010 02:22:16 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Aug 2010 02:45:09 +0200

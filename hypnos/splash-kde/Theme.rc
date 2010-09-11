@@ -1,0 +1,9 @@
+[KSplash Theme: sidux-stands-up]
+Name = sidux stands up
+Description = sidux Stands Up Splash Screen
+Version = 0.2
+Author = Rick Battle <rick.battle@celtrenicdesigns.com> (irc: detaos, forums: destructchaos)
+Homepage = http://www.celtrenicdesigns.com
+# Theme behaviour settings.
+Engine = KSplashX
+

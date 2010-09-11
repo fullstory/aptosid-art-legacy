@@ -11,6 +11,7 @@ RELEASES="
 	pontos:Πόντος:2008-04::
 	ouranos:Οὐρανος:2009-01::
 	aether:Αιθήρ:2009-02::
+	hypnos:Ύπνος:2010-01::
 "
 
 [ -d ./debian ] || exit 1

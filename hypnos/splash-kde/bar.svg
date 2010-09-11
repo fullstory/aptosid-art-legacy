@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="6.6719999"
+   height="153.672"
+   id="svg2975"
+   version="1.1"
+   inkscape:version="0.47+devel r"
+   sodipodi:docname="bar.svg"
+   inkscape:export-filename="/home/rick/sidux-art/ksplash themes/sidux-hypnos/sidux-hypnos/1920x1200/bar.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs2977">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3934"
+       id="linearGradient3952"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3,0,0,1,47.780866,543.30531)"
+       spreadMethod="reflect"
+       x1="65.88633"
+       y1="109.66196"
+       x2="65.83564"
+       y2="-39.226933" />
+    <linearGradient
+       id="linearGradient3934">
+      <stop
+         id="stop3936"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:0;" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0.5"
+         id="stop3938" />
+      <stop
+         id="stop3940"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:0;" />
+    </linearGradient>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter3958"
+       x="-0.61199999"
+       width="2.224"
+       y="-0.01224"
+       height="1.02448">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.765"
+         id="feGaussianBlur3960" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3890"
+       id="linearGradient3944"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(297.02382,490.76372)"
+       spreadMethod="reflect"
+       x1="65.88633"
+       y1="109.66196"
+       x2="65.83564"
+       y2="-39.226933" />
+    <linearGradient
+       id="linearGradient3890">
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="0"
+         id="stop3892" />
+      <stop
+         id="stop3898"
+         offset="0.5"
+         style="stop-color:#cccccc;stop-opacity:1;" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop3894" />
+    </linearGradient>
+    <linearGradient
+       y2="-39.226933"
+       x2="65.83564"
+       y1="109.66196"
+       x1="65.88633"
+       spreadMethod="reflect"
+       gradientTransform="matrix(3,0,0,1,165.35715,490.76372)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2973"
+       xlink:href="#linearGradient3934"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.390625"
+     inkscape:cx="6.7874642"
+     inkscape:cy="73.053149"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1308"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata2980">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-359.52118,-449.81192)">
+    <rect
+       style="fill:url(#linearGradient2973);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3958);opacity:0.25"
+       id="rect3120"
+       width="3"
+       height="150"
+       x="361.35718"
+       y="451.64792"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="451.64792"
+       x="362.35718"
+       height="150"
+       width="1"
+       id="rect3930"
+       style="fill:url(#linearGradient3944);fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.5" />
+  </g>
+</svg>
