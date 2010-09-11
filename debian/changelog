@@ -1,3 +1,9 @@
+sidux-art-legacy (2010.01.4) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 23:20:30 +0200
+
 sidux-art-legacy (2010.01.3) unstable; urgency=low
 
   * convert DOS lines endings to UNIX style.
