@@ -45,5 +45,6 @@ sidux-art-legacy (2010.01.1) UNRELEASED; urgency=low
   * sync phrasing with Κῆρες artwork.
   * switch to compat level 8.
   * add basic top level Makefile.
+  * add dh7 based debian/rules.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 03:34:12 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 03:35:14 +0200
