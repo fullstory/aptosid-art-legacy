@@ -29,9 +29,6 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * merge copyrights, thanks to RoEn.
   * add CC-by-SA 3.0 license text.
   * update debian/copyright, thanks to RoEn.
-  * bump standards version to 3.8.2, no changes necessary.
-  * bump standards version to 3.8.3, no changes necessary.
-  * bump standards version to 3.8.4, no changes necessary.
   * bump standards version to 3.9.1, no changes necessary.
   * switch to dpkg-source 3.0 (native) format.
   * update machine-readable debian/copyright to DEP: 5, rev=135
