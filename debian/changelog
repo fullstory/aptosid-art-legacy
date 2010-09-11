@@ -1,6 +1,4 @@
-sidux-art-legacy (2010.01.1) UNRELEASED; urgency=low
-
-  * NOT RELEASED YET
+sidux-art-legacy (2010.01.1) unstable; urgency=low
 
   [ Bernard Gray ]
   * initial acceptable (looking) kde4 compat kdm theme for ouranos
@@ -59,4 +57,4 @@ sidux-art-legacy (2010.01.1) UNRELEASED; urgency=low
   * build wallpaper-edu.
   * Μόρος had no edu release.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 20:18:58 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 21:01:17 +0200
