@@ -56,5 +56,6 @@ sidux-art-legacy (2010.01.1) UNRELEASED; urgency=low
   * drop merged debian/ subdirectories for finished release themes.
   * drop no longer require postinst.
   * add missing *.links and hook it up to bootstrap.sh
+  * drop Αιθήρ, it still uses an incompatible buildsystem.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 16:45:40 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 16:53:34 +0200

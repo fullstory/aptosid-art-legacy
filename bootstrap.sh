@@ -16,8 +16,10 @@ set -e
 #	pontos:Πόντος:2008-04::
 #	ouranos:Οὐρανος:2009-01::
 
+# old style, currently not yet supported, packaging
+#	aether:Αιθήρ:2009-02::
+
 RELEASES="
-	aether:Αιθήρ:2009-02::
 	momos:Μώμος:2009-03:edu:
 	moros:Μόρος:2009-04:edu:
 	hypnos:Ύπνος:2010-01::
