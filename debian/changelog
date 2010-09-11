@@ -1,3 +1,10 @@
+sidux-art-legacy (2010.01.3) unstable; urgency=low
+
+  * convert DOS lines endings to UNIX style.
+  * drop trailing whitespace.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 23:18:32 +0200
+
 sidux-art-legacy (2010.01.2) unstable; urgency=low
 
   * ourea had no seminarix release, drop empty artwork.
