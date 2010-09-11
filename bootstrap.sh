@@ -18,13 +18,18 @@ set -e
 
 RELEASES="
 	aether:Αιθήρ:2009-02::
-	momos:Μώμος:2009-03:edu:
-	moros:Μόρος:2009-04:edu:
-	hypnos:Ύπνος:2010-01::
 "
+#	momos:Μώμος:2009-03:edu:
+#	moros:Μόρος:2009-04:edu:
+#	hypnos:Ύπνος:2010-01::
 
 # not yet released
 #	keres:Κῆρες:2010-02::
+
+# clean up obsolete stuff
+rm -f	./debian/*.install \
+	./debian/*.postinst \
+	./debian/*.postrm
 
 #write toplevel Makefile
 for i in $RELEASES; do
