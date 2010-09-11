@@ -5,6 +5,5 @@ all:
 clean:
 	for i in dm-gdm dm-kdm splash-kde splash-xfce wallpaper wallpaper-edu; \
 		do $(MAKE) -C $$i $@; done
-	mkdir -p theme-kde theme-xfce
 
 distclean: clean

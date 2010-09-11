@@ -59,9 +59,13 @@ for i in $RELEASES; do
 
 	# write debian/*.install from templates
 	for j in gdm kde kdm ksplash wallpaper xfce xsplash; do
-		sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
-				./debian/templates/sidux-art-${j}-CODENAME_SAFE.install.in \
-					> ./debian/sidux-art-${j}-$(echo ${i} | cut -d\: -f1).install
+		if [ -r  ./debian/templates/sidux-art-${j}-CODENAME_SAFE.install.in ]; then
+			sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
+					./debian/templates/sidux-art-${j}-CODENAME_SAFE.install.in \
+						> ./debian/sidux-art-${j}-$(echo ${i} | cut -d\: -f1).install
+		else
+			continue
+		fi
 	done
 
 	# link KDE4 style wallpapers to /usrt/share/wallpapers/
