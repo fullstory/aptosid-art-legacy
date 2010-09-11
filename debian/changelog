@@ -1,4 +1,6 @@
-sidux-art-legacy (2009.01.1) unstable; urgency=low
+sidux-art-legacy (2010.01.1) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
 
   [ Bernard Gray ]
   * initial acceptable (looking) kde4 compat kdm theme for ouranos
@@ -41,5 +43,6 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * add Ύπνος
   * disable no yet buildable release artwork themes.
   * sync phrasing with Κῆρες artwork.
+  * switch to compat level 8.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Aug 2010 17:28:23 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 08 Aug 2010 05:15:18 +0200
