@@ -1,8 +1,9 @@
 sidux-art-legacy (2010.01.2) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
+  * ourea had no seminarix release, drop empty artwork.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 21:02:21 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 22:35:32 +0200
 
 sidux-art-legacy (2010.01.1) unstable; urgency=low
 
