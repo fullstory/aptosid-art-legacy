@@ -1,0 +1,32 @@
+TODO
+====
+
+list sorted by urgency.
+
+  * fix incompatible buildsystems to cope with the current packaging:
+    - aether:Αιθήρ:2009-02::
+
+  * improve build time [urgent]:
+    - hypnos:Ύπνος:2010-01::
+
+  * update legacy sidux logo to fred && ttf-dustin, ttf-sidux must not be used
+    in this packaging:
+    - gaia:Γάια:2007-03::
+    - eros:Έρως:2007-04::
+    - nyx:Νυξ:2008-01:edu:
+    - erebos:Έρεβος:2008-02:edu:
+    - ourea:Ουρέα:2008-03::
+    - pontos:Πόντος:2008-04::
+    - ouranos:Οὐρανος:2009-01::
+
+  * port KDE based themes to current buildsystem and KDE4 compatible ksplash
+    and wallpaper:
+    - gaia:Γάια:2007-03::
+    - eros:Έρως:2007-04::
+    - nyx:Νυξ:2008-01:edu:
+    - erebos:Έρεβος:2008-02:edu:
+    - ourea:Ουρέα:2008-03::
+    - pontos:Πόντος:2008-04::
+    - ouranos:Οὐρανος:2009-01::
+
+  * add self sustainable install target to buildsystem (all releases).
