@@ -3,8 +3,9 @@ sidux-art-legacy (2010.01.2) UNRELEASED; urgency=low
   * NOT RELEASED YET
   * ourea had no seminarix release, drop empty artwork.
   * eros had no seminarix release, drop wallpapers.
+  * drop obsolete compat/ rules from subdirectories.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 22:42:57 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 22:49:41 +0200
 
 sidux-art-legacy (2010.01.1) unstable; urgency=low
 
