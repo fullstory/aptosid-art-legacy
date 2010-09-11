@@ -211,20 +211,6 @@ Description: Xfce splash theme for the sidux 2009-04 release
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-wallpaper-moros-edu
-Provides: sidux-art-wallpaper-theme
-Depends: ${misc:Depends}
-Conflicts: sidux-art-wallpaper-moros
-Architecture: all
-Description: seminarix wallpaper for 2009-04 release
- release specific wallpapers, compatible with the K Desktop Environment, Xfce,
- LXDE and GNOME.
- .
- Wallpapers for: sidux seminarix 2009-04 (Μόρος)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
-
 Package: sidux-art-gdm-hypnos
 Architecture: all
 Depends: ${misc:Depends},

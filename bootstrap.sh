@@ -21,7 +21,7 @@ set -e
 
 RELEASES="
 	momos:Μώμος:2009-03:edu:
-	moros:Μόρος:2009-04:edu:
+	moros:Μόρος:2009-04::
 	hypnos:Ύπνος:2010-01::
 "
 

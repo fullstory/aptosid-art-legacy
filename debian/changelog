@@ -57,5 +57,6 @@ sidux-art-legacy (2010.01.1) UNRELEASED; urgency=low
   * add missing *.links and hook it up to bootstrap.sh
   * drop Αιθήρ, it still uses an incompatible buildsystem.
   * build wallpaper-edu.
+  * Μόρος had no edu release.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 19:39:38 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 20:18:58 +0200
