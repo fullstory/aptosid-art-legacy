@@ -16,7 +16,9 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * bump standards version to 3.8.2, no changes necessary.
   * bump standards version to 3.8.3, no changes necessary.
   * bump standards version to 3.8.4, no changes necessary.
-  * Switch to dpkg-source 3.0 (native) format.
+  * bump standards version to 3.9.1, no changes necessary.
+  * switch to dpkg-source 3.0 (native) format.
+  * update machine-readable debian/copyright to DEP: 5, rev=135
 
   [ Bernard Gray ]
   * initial acceptable (looking) kde4 compat kdm theme for ouranos
@@ -34,4 +36,4 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * change gaia/ to mirror source dir structure of newer art packages
   * update kdm theme xml files, thanks rgb
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 27 Feb 2010 23:11:51 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Aug 2010 01:03:26 +0200

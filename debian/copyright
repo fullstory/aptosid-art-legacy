@@ -1,136 +1,136 @@
-Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=428
-Upstream-Name: sidux-art-legacy
-Upstream-Maintainer: Bernard Gray <bernard.gray@gmail.com>
-Upstream-Source: svn://svn.berlios.de/fullstory/sidux-art-legacy/
+Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
+Name: sidux-art-legacy
+Maintainer: Bernard Gray <bernard.gray@gmail.com>
+Source: svn://svn.berlios.de/fullstory/sidux-art-legacy/trunk/
 
 Files: chaos/*
-Copyright: © 2007 sidux Art Team
+Copyright: 2007, sidux Art Team
 License: GPL-2+
 
 Files: erebos/*
-Copyright: © 2008, Daniel Prien <d-s-p@d-s-p.de>
-Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+Copyright: 2008, Daniel Prien <d-s-p@d-s-p.de>
+           2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
 Files: erebos/wallpaper-edu/*
-Copyright: © 2008, Daniel Prien <d-s-p@d-s-p.de>
-Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-Copyright: © 2008, Dinko Sabo <cobra@sidux.com>
+Copyright: 2008, Daniel Prien <d-s-p@d-s-p.de>
+           2007-2009, Bernard Gray <bernard.gray@gmail.com>
+           2008, Dinko Sabo <cobra@sidux.com>
 License: GPL-2+
 
 Files: erebos/dm-kdm/erebos.xml
-Copyright: © 2006, Marcin Biernat (Boski Cinek) <boski_cinek@o2.pl>
-Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+Copyright: 2006, Marcin Biernat (Boski Cinek) <boski_cinek@o2.pl>
+           2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2
 
 Files: erebos/theme-kde/*
-Copyright: © 2008, knithx <knithx@gmail.com>
-Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+Copyright: 2008, knithx <knithx@gmail.com>
+           2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
 Files: eros/*
-Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
 Files: eros/dm-gdm/sidux-eros.xml
-Copyright: © 2006, Andre Luiz Rodrigues Ferreira <andrelrf@ossystems.com.br>
-Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+Copyright: 2006, Andre Luiz Rodrigues Ferreira <andrelrf@ossystems.com.br>
+           2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2
 
 Files: eros/theme-kde/*
-Copyright: © 2007, knithx <knithx@gmail.com>
-Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+Copyright: 2007, knithx <knithx@gmail.com>
+           2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
 Files: eros/wallpaper/edu*
-Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-Copyright: © 2007, Horst Tritremmel <hjt@sidux.com>
+Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+           2007, Horst Tritremmel <hjt@sidux.com>
 License: GPL-2+
 
 Files: gaia/*
-Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
 Files: gaia/dm-gdm/*
-Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-Copyright: © 2006, Andre Luiz Rodrigues Ferreira <andrelrf@ossystems.com.br>
+Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+           2006, Andre Luiz Rodrigues Ferreira <andrelrf@ossystems.com.br>
 License: GPL-2+
 
 Files: gaia/splash-kde/*
-Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-Copyright: © 2007, knithx <knithx@gmail.com>
+Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+           2007, knithx <knithx@gmail.com>
 License: GPL-2+
 
 Files nyx/dm-gdm/
-Copyright: © 2008, Daniel Prien <d-s-p@d-s-p.de>
-Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+Copyright: 2008, Daniel Prien <d-s-p@d-s-p.de>
+           2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
 Files: nyx/*
-Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-Copyright: © 2008, Daniel Prien <d-s-p@d-s-p.de>
+Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+           2008, Daniel Prien <d-s-p@d-s-p.de>
 License: GPL-2+
 
 Files: nyx/theme-kde/sidux-nyx-il_silver.kcsrc
-Copyright: © 2008, <knithx knithx@gmail.com>
-Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+Copyright: 2008, <knithx knithx@gmail.com>
+           2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
 Files: nyx/dm-kdm/session.png, nyx/dm-kdm/system.png
-Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-Copyright: © 2007, David Vignoni <david@icon-king.com>
-Copyright: © 2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
-Copyright: © 2007, Kenneth Wimer <kwwii@bootsplash.org>
-Copyright: © 2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
-Copyright: © 2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
-Copyright: © 2007, David Miller <miller@oxygen-icons.org>
-License: CC-ASA-3.0 | LGPL-2+
+Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+           2007, David Vignoni <david@icon-king.com>
+           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
+           2007, Kenneth Wimer <kwwii@bootsplash.org>
+           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
+           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
+           2007, David Miller <miller@oxygen-icons.org>
+License: CC-BY-SA | LGPL-2+
 
 Files: nyx/wallpaper-edu/*
-Copyright: © 2008, Dinko Sabo <cobra@sidux.com>
-Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-Copyright: © 2008, Daniel Prien <d-s-p@d-s-p.de>
+Copyright: 2008, Dinko Sabo <cobra@sidux.com>
+           2007-2009, Bernard Gray <bernard.gray@gmail.com>
+           2008, Daniel Prien <d-s-p@d-s-p.de>
 License: GPL-2+
 
 Files: ouranos/*
-Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
 Files: ouranos/theme-kde/sidux-ouranos-il_silver.kcsrc
-Copyright: © 2008, knithx <knithx@gmail.com>
+Copyright: 2008, knithx <knithx@gmail.com>
 License: GPL-2+
 
 Files: ouranos/splash-kde/splash.svg
-Copyright: (C) 2007, David Vignoni <david@icon-king.com>
-Copyright: (C) 2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
-Copyright: (C) 2007, Kenneth Wimer <kwwii@bootsplash.org>
-Copyright: (C) 2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
-Copyright: (C) 2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
-Copyright: (C) 2007, David Miller <miller@oxygen-icons.org>
-License: CC-ASA-3.0 | LGPL-2+
+Copyright: 2007, David Vignoni <david@icon-king.com>
+           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
+           2007, Kenneth Wimer <kwwii@bootsplash.org>
+           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
+           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
+           2007, David Miller <miller@oxygen-icons.org>
+License: CC-BY-SA | LGPL-2+
 
 Files: ourea/*
-Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
 Files: ourea/wallpaper/*
-Copyright: © 2008, Niall Walsh niallwalsh@users.berlios.de
-Copyright: © 2008, Daniel Prien <d-s-p@d-s-p.de>
-Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+Copyright: 2008, Niall Walsh niallwalsh@users.berlios.de
+           2008, Daniel Prien <d-s-p@d-s-p.de>
+           2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
 Files: ourea/dm-kdm/sidux-logo.svg
-Copyright: © 2008, Daniel Prien <d-s-p@d-s-p.de>
-Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+Copyright: 2008, Daniel Prien <d-s-p@d-s-p.de>
+           2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2
 
 Files: pontos/*
-Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
 Files: debian/*
-Copyright: © 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-Copyright: © 2007-2009, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+           2007-2009, Stefan Lippers-Hollmann <s.l-h@gmx.de>
 License: GPL-2
 
 License: GPL-2
@@ -150,7 +150,7 @@ License: GPL-2
  On Debian systems, the complete text of the GNU General
  Public License can be found in '/usr/share/common-licenses/GPL-2'.
 
-License:
+License: CC-BY-SA
  Creative Common Attribution-ShareAlike 3.0
  .
  THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE

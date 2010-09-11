@@ -1,11 +1,11 @@
 Source: sidux-art-legacy
 Section: graphics
 Priority: extra
-Maintainer: Bernard Gray <bernard.gray@gmail.com>
-Uploaders: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Uploaders: Bernard Gray <bernard.gray@gmail.com>
 Build-Depends: debhelper (>= 7),
  inkscape
-Standards-Version: 3.8.4
+Standards-Version: 3.9.1
 Vcs-Svn: svn://svn.berlios.de/fullstory/sidux-art-legacy/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/sidux-art-legacy/trunk/
 
