@@ -3,10 +3,6 @@ Name: sidux-art-legacy
 Maintainer: Bernard Gray <bernard.gray@gmail.com>
 Source: svn://svn.berlios.de/fullstory/sidux-art-legacy/trunk/
 
-Files: chaos/*
-Copyright: 2007, sidux Art Team
-License: GPL-2+
-
 Files: erebos/*
 Copyright: 2008, Daniel Prien <d-s-p@d-s-p.de>
            2007-2009, Bernard Gray <bernard.gray@gmail.com>
