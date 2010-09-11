@@ -9,7 +9,7 @@ set -e
 # releases not currently buildable, as they've not yet been ported from kde3 
 # to kde4
 #	gaia:Γάια:2007-03::
-#	eros:Έρως:2007-04:edu:
+#	eros:Έρως:2007-04::
 #	nyx:Νυξ:2008-01:edu:
 #	erebos:Έρεβος:2008-02:edu:
 #	ourea:Ουρέα:2008-03::
