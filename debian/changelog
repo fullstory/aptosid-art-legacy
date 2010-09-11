@@ -42,5 +42,6 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * add Μώμος
   * add Μόρος
   * add Ύπνος
+  * disable no yet buildable release artwork themes.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Aug 2010 03:01:23 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Aug 2010 03:05:55 +0200

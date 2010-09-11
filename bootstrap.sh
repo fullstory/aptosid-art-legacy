@@ -2,14 +2,21 @@
 
 set -e
 
+# releases not using svg, no contents available
+#	chaos:Χάος:2007-01::
+#	tartaros:Τάρταρς:2007-02::
+
+# releases not currently buildable, as they've not yet been ported from kde3 
+# to kde4
+#	gaia:Γάια:2007-03::
+#	eros:Έρως:2007-04:edu:
+#	nyx:Νυξ:2008-01:edu:
+#	erebos:Έρεβος:2008-02:edu:
+#	ourea:Ουρέα:2008-03:edu:
+#	pontos:Πόντος:2008-04::
+#	ouranos:Οὐρανος:2009-01::
+
 RELEASES="
-	gaia:Γάια:2007-03::
-	eros:Έρως:2007-04:edu:
-	nyx:Νυξ:2008-01:edu:
-	erebos:Έρεβος:2008-02:edu:
-	ourea:Ουρέα:2008-03:edu:
-	pontos:Πόντος:2008-04::
-	ouranos:Οὐρανος:2009-01::
 	aether:Αιθήρ:2009-02::
 	momos:Μώμος:2009-03:edu:
 	moros:Μόρος:2009-04:edu:
