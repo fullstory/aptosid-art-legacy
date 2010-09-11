@@ -100,6 +100,7 @@ Description: Xfce splash theme for the sidux 2009-02 release
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
+
 Package: sidux-art-gdm-momos
 Architecture: all
 Depends: ${misc:Depends},
@@ -191,6 +192,7 @@ Description: Xfce splash theme for the sidux 2009-03 release
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
+
 Package: sidux-art-wallpaper-momos-edu
 Provides: sidux-art-wallpaper-theme
 Depends: ${misc:Depends}
@@ -295,6 +297,7 @@ Description: Xfce splash theme for the sidux 2009-04 release
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
+
 Package: sidux-art-wallpaper-moros-edu
 Provides: sidux-art-wallpaper-theme
 Depends: ${misc:Depends}
@@ -399,3 +402,4 @@ Description: Xfce splash theme for the sidux 2010-01 release
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
+
