@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -14,7 +15,7 @@
    height="395"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.46+devel"
+   inkscape:version="0.47 r22583"
    version="1.0"
    sodipodi:docname="splash.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
@@ -36,13 +37,6 @@
          x="0"
          style="fill:white;stroke:none" />
     </pattern>
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 197.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="400 : 197.5 : 1"
-       inkscape:persp3d-origin="200 : 131.66667 : 1"
-       id="perspective4863" />
     <linearGradient
        id="linearGradient61582">
       <stop

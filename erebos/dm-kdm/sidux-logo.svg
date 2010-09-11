@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -13,26 +14,12 @@
    height="141.93048"
    id="svg17031"
    sodipodi:version="0.32"
-   inkscape:version="0.46+devel"
+   inkscape:version="0.47 r22583"
    version="1.0"
    sodipodi:docname="sidux-logo.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs17033">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 526.18109 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="744.09448 : 526.18109 : 1"
-       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
-       id="perspective17039" />
-    <inkscape:perspective
-       id="perspective16987"
-       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
-       inkscape:vp_z="1 : 0.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 0.5 : 1"
-       sodipodi:type="inkscape:persp3d" />
     <filter
        id="filter3478"
        inkscape:label="glow">
@@ -42,36 +29,6 @@
          result="result1" />
       <feComposite
          id="feComposite3482"
-         in="result1"
-         operator="xor"
-         in2="SourceGraphic"
-         k1="0.67873303167420751"
-         k2="1.8552036199095028" />
-    </filter>
-    <filter
-       id="filter16994"
-       inkscape:label="glow">
-      <feGaussianBlur
-         id="feGaussianBlur16996"
-         stdDeviation="2.2928767123287668"
-         result="result1" />
-      <feComposite
-         id="feComposite16998"
-         in="result1"
-         operator="xor"
-         in2="SourceGraphic"
-         k1="0.67873303167420751"
-         k2="1.8552036199095028" />
-    </filter>
-    <filter
-       id="filter17000"
-       inkscape:label="glow">
-      <feGaussianBlur
-         id="feGaussianBlur17002"
-         stdDeviation="2.2928767123287668"
-         result="result1" />
-      <feComposite
-         id="feComposite17004"
          in="result1"
          operator="xor"
          in2="SourceGraphic"
@@ -102,31 +59,6 @@
          style="stop-color:#ffffff;stop-opacity:0;"
          offset="1"
          id="stop19898" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient19894"
-       id="linearGradient16883"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(0,-20)"
-       x1="782.40515"
-       y1="731.62067"
-       x2="1195.9862"
-       y2="731.62067" />
-    <linearGradient
-       id="linearGradient17012">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0;"
-         offset="0"
-         id="stop17014" />
-      <stop
-         id="stop17016"
-         offset="0.5"
-         style="stop-color:#ffffff;stop-opacity:1;" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0;"
-         offset="1"
-         id="stop17018" />
     </linearGradient>
     <filter
        inkscape:collect="always"

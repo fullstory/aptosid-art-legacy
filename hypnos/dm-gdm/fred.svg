@@ -13,7 +13,7 @@
    height="265.14774"
    id="svg4132"
    version="1.1"
-   inkscape:version="0.47+devel r"
+   inkscape:version="0.47 r22583"
    sodipodi:docname="fred.svg"
    inkscape:export-filename="/home/rick/sidux-art/kdm themes/hypnos/fred.png"
    inkscape:export-xdpi="33.94334"
@@ -106,7 +106,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

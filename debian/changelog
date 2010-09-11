@@ -49,5 +49,6 @@ sidux-art-legacy (2010.01.1) UNRELEASED; urgency=low
   * add forgotten build-depends for new style artworks.
   * add *.install file creation to bootstrap.sh
   * generate toplevel Makefuile by bootstrap.sh.
+  * vacuum SVG files.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 13:55:23 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 14:13:04 +0200

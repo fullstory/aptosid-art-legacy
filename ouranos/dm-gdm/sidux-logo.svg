@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:export-ydpi="60"
@@ -15,7 +15,7 @@
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    sodipodi:docname="sidux-logo.svg"
    version="1.0"
-   inkscape:version="0.46+devel"
+   inkscape:version="0.47 r22583"
    sodipodi:version="0.32"
    id="svg4866"
    height="634.42926"
@@ -48,103 +48,6 @@
   </sodipodi:namedview>
   <defs
      id="defs4868">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 600 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="1920 : 600 : 1"
-       inkscape:persp3d-origin="960 : 400 : 1"
-       id="perspective2962" />
-    <linearGradient
-       id="linearGradient3707">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1"
-         offset="0"
-         id="stop3709" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0;"
-         offset="1"
-         id="stop3711" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient6961">
-      <stop
-         id="stop6963"
-         offset="0"
-         style="stop-color:#2c2e2a;stop-opacity:1" />
-      <stop
-         id="stop6965"
-         offset="1"
-         style="stop-color:#7d1117;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient6951">
-      <stop
-         id="stop6953"
-         offset="0"
-         style="stop-color:#3d080b;stop-opacity:1;" />
-      <stop
-         id="stop6955"
-         offset="1"
-         style="stop-color:#ad1318;stop-opacity:1" />
-    </linearGradient>
-    <radialGradient
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,-0.64805885,1.9323382,2.6036907e-5,-1331.3729,2963.4948)"
-       r="1373.0468"
-       fy="1691.9596"
-       fx="3337.8401"
-       cy="1697.4512"
-       cx="2278.6704"
-       id="radialGradient6959"
-       xlink:href="#linearGradient6951"
-       inkscape:collect="always" />
-    <linearGradient
-       gradientTransform="translate(-40,0)"
-       gradientUnits="userSpaceOnUse"
-       y2="631.65625"
-       x2="2145.8865"
-       y1="-646.45251"
-       x1="2145.8865"
-       id="linearGradient6967"
-       xlink:href="#linearGradient6961"
-       inkscape:collect="always" />
-    <filter
-       inkscape:collect="always"
-       id="filter3830"
-       x="-0.13441409"
-       width="1.2688282"
-       y="-0.21160644"
-       height="1.4232129">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="113.06121"
-         id="feGaussianBlur3832" />
-    </filter>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath3697">
-      <path
-         id="path3699"
-         d="m -17.03125,-23.8125 -2.03125,2.5 0,1240.375 1966.6875,0 0,-1242.875 -1964.65625,0 z"
-         style="fill:#800000;fill-opacity:1;stroke:none" />
-    </clipPath>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3707"
-       id="linearGradient3713"
-       x1="880"
-       y1="820"
-       x2="680"
-       y2="320"
-       gradientUnits="userSpaceOnUse" />
-    <inkscape:perspective
-       id="perspective2972"
-       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
-       inkscape:vp_z="1 : 0.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 0.5 : 1"
-       sodipodi:type="inkscape:persp3d" />
     <filter
        height="1.3890475"
        y="-0.19452375"
@@ -166,7 +69,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

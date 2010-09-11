@@ -14,24 +14,13 @@
    height="153.672"
    id="svg2975"
    version="1.1"
-   inkscape:version="0.47+devel r"
+   inkscape:version="0.47 r22583"
    sodipodi:docname="bar.svg"
    inkscape:export-filename="/home/rick/sidux-art/ksplash themes/sidux-hypnos/sidux-hypnos/1920x1200/bar.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
      id="defs2977">
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3934"
-       id="linearGradient3952"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(3,0,0,1,47.780866,543.30531)"
-       spreadMethod="reflect"
-       x1="65.88633"
-       y1="109.66196"
-       x2="65.83564"
-       y2="-39.226933" />
     <linearGradient
        id="linearGradient3934">
       <stop
@@ -124,7 +113,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

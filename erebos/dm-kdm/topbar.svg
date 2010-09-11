@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -13,36 +14,12 @@
    height="100"
    id="svg16947"
    sodipodi:version="0.32"
-   inkscape:version="0.46+devel"
+   inkscape:version="0.47 r22583"
    version="1.0"
    sodipodi:docname="topbar.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs16949">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 526.18109 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="744.09448 : 526.18109 : 1"
-       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
-       id="perspective16955" />
-    <inkscape:perspective
-       id="perspective16935"
-       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
-       inkscape:vp_z="1 : 0.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 0.5 : 1"
-       sodipodi:type="inkscape:persp3d" />
-    <linearGradient
-       y2="100.17152"
-       x2="1225.3983"
-       y1="100.17152"
-       x1="5.4888506"
-       gradientTransform="matrix(1.2738569,0,0,0.998404,4.6678528,-78.846675)"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient31594"
-       xlink:href="#linearGradient61459"
-       inkscape:collect="always" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient61459">
