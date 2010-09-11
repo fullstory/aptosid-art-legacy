@@ -40,5 +40,6 @@ sidux-art-legacy (2009.01.1) unstable; urgency=low
   * add Μόρος
   * add Ύπνος
   * disable no yet buildable release artwork themes.
+  * sync phrasing with Κῆρες artwork.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Aug 2010 03:05:55 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Aug 2010 17:28:23 +0200

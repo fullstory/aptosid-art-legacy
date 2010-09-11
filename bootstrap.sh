@@ -23,6 +23,9 @@ RELEASES="
 	hypnos:Ύπνος:2010-01::
 "
 
+# not yet released
+#	keres:Κῆρες:2010-02::
+
 [ -d ./debian ] || exit 1
 
 cat ./debian/templates/control.source.in > debian/control
