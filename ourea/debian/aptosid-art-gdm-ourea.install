@@ -1,0 +1,4 @@
+dm-gdm/*.png		usr/share/gdm/themes/aptosid-ourea
+dm-gdm/screenshot.jpg	usr/share/gdm/themes/aptosid-ourea
+dm-gdm/*.desktop	usr/share/gdm/themes/aptosid-ourea
+dm-gdm/ourea.xml	usr/share/gdm/themes/aptosid-ourea

@@ -1,7 +1,7 @@
 Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
-Name: sidux-art-legacy
+Name: aptosid-art-legacy
 Maintainer: Bernard Gray <bernard.gray@gmail.com>
-Source: svn://svn.berlios.de/fullstory/sidux-art-legacy/trunk/
+Source: svn://svn.berlios.de/fullstory/aptosid-art-legacy/trunk/
 
 Files: aether/*
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
@@ -18,7 +18,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA | LGPL-2+
 
-Files: aether/dm-gdm/sidux-aether.xml
+Files: aether/dm-gdm/aptosid-aether.xml
 Copyright: 2008, Urs Wolfer <uwolfer@kde.org>
            2008, Oswald Buddenhagen <ossi@kde.org>
            2007-2009, Bernard Gray <bernard.gray@gmail.com>
@@ -32,7 +32,7 @@ License: GPL-2+
 Files: erebos/wallpaper-edu/*
 Copyright: 2008, Daniel Prien <d-s-p@d-s-p.de>
            2007-2009, Bernard Gray <bernard.gray@gmail.com>
-           2008, Dinko Sabo <cobra@sidux.com>
+           2008, Dinko Sabo <cobra@aptosid.com>
 License: GPL-2+
 
 Files: erebos/dm-kdm/erebos.xml
@@ -49,7 +49,7 @@ Files: eros/*
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
-Files: eros/dm-gdm/sidux-eros.xml
+Files: eros/dm-gdm/aptosid-eros.xml
 Copyright: 2006, Andre Luiz Rodrigues Ferreira <andrelrf@ossystems.com.br>
            2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2
@@ -142,7 +142,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2008, Daniel Prien <d-s-p@d-s-p.de>
 License: GPL-2+
 
-Files: nyx/theme-kde/sidux-nyx-il_silver.kcsrc
+Files: nyx/theme-kde/aptosid-nyx-il_silver.kcsrc
 Copyright: 2008, <knithx knithx@gmail.com>
            2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
@@ -158,7 +158,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: CC-BY-SA | LGPL-2+
 
 Files: nyx/wallpaper-edu/*
-Copyright: 2008, Dinko Sabo <cobra@sidux.com>
+Copyright: 2008, Dinko Sabo <cobra@aptosid.com>
            2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2008, Daniel Prien <d-s-p@d-s-p.de>
 License: GPL-2+
@@ -167,7 +167,7 @@ Files: ouranos/*
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
-Files: ouranos/theme-kde/sidux-ouranos-il_silver.kcsrc
+Files: ouranos/theme-kde/aptosid-ouranos-il_silver.kcsrc
 Copyright: 2008, knithx <knithx@gmail.com>
 License: GPL-2+
 
@@ -190,7 +190,7 @@ Copyright: 2008, Niall Walsh niallwalsh@users.berlios.de
            2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
-Files: ourea/dm-kdm/sidux-logo.svg
+Files: ourea/dm-kdm/aptosid-logo.svg
 Copyright: 2008, Daniel Prien <d-s-p@d-s-p.de>
            2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2

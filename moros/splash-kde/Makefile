@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 ICONS= icon1
-THEME= sidux-moros
+THEME= aptosid-moros
 CONTROLDIR= 1920x1200
 BITMAPS= background text
 ANIMCREATOR= ./svg-anim.pl

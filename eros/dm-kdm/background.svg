@@ -18,7 +18,7 @@
    sodipodi:docname="background.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
-   inkscape:export-filename="/home/bernie/svn/svn.berlios.de-fullstory/sidux-art-kde-eros/trunk/kdm/background.png"
+   inkscape:export-filename="/home/bernie/svn/svn.berlios.de-fullstory/aptosid-art-kde-eros/trunk/kdm/background.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
    style="display:inline;enable-background:new">
@@ -594,7 +594,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>sidux wing</dc:title>
+        <dc:title>aptosid wing</dc:title>
         <dc:date>28th September 2007</dc:date>
         <dc:creator>
           <cc:Agent>
@@ -608,10 +608,10 @@
         </dc:rights>
         <dc:subject>
           <rdf:Bag>
-            <rdf:li>sidux 2007-04 eros</rdf:li>
+            <rdf:li>aptosid 2007-04 eros</rdf:li>
           </rdf:Bag>
         </dc:subject>
-        <dc:description>1600x1200 wallpaper for sidux 2007=04 release (eros)</dc:description>
+        <dc:description>1600x1200 wallpaper for aptosid 2007=04 release (eros)</dc:description>
         <dc:contributor>
           <cc:Agent>
             <dc:title>Bernard Gray &lt;bernard.gray@gmail.com&gt;</dc:title>

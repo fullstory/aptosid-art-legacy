@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-THEME= sidux-hypnos
+THEME= aptosid-hypnos
 CONTROLDIR= 1920x1200
 PARTS= fred bar
 

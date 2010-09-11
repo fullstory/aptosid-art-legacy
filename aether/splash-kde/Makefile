@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 ICONS= icon
-THEME= sidux-aether
+THEME= aptosid-aether
 CONTROLDIR= 1024x768
 ANIMCREATOR= ./svg-anim.pl
 

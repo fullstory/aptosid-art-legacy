@@ -9,7 +9,7 @@ list sorted by urgency.
   * improve build time [urgent]:
     - hypnos:Ύπνος:2010-01::
 
-  * update legacy sidux logo to fred && ttf-dustin, ttf-sidux must not be used
+  * brand legacy artworks with current logo
     in this packaging:
     - gaia:Γάια:2007-03::
     - eros:Έρως:2007-04::
@@ -18,6 +18,10 @@ list sorted by urgency.
     - ourea:Ουρέα:2008-03::
     - pontos:Πόντος:2008-04::
     - ouranos:Οὐρανος:2009-01::
+    - aether:Αιθήρ:2009-02::
+    - momos:Μώμος:2009-03:edu:
+    - moros:Μόρος:2009-04::
+    - hypnos:Ύπνος:2010-01::
 
   * port KDE based themes to current buildsystem and KDE4 compatible ksplash
     and wallpaper:

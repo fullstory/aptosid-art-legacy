@@ -1,7 +1,7 @@
 [GdmGreeterTheme]
 Author=Bernard Gray
 Copyright=GPL
-Description="sidux 2007-03" theme based loosely on "true-nature" by Stephen Spies
+Description="aptosid 2007-03" theme based loosely on "true-nature" by Stephen Spies
 Greeter=config.xml
-Name=sidux-gaia
+Name=aptosid-gaia
 Screenshot=screenshot.png

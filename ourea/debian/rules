@@ -11,41 +11,41 @@ build:
 		false ; \
 	fi
 
-	### pkg: sidux-art-wallpaper-ourea ###
+	### pkg: aptosid-art-wallpaper-ourea ###
 	mkdir -p ${CURDIR}/wallpaper/
 
 	# create 1600x1200 wallpaper bitmaps from SVG
 	inkscape --export-width=1600 \
 		--export-height=1200 \
-		--export-png="${CURDIR}/wallpaper/sidux-ourea-1600x1200.png" \
-			"wallpaper/sidux-ourea.svg" ;
-	test -r ${CURDIR}/wallpaper/sidux-ourea-1600x1200.png
+		--export-png="${CURDIR}/wallpaper/aptosid-ourea-1600x1200.png" \
+			"wallpaper/aptosid-ourea.svg" ;
+	test -r ${CURDIR}/wallpaper/aptosid-ourea-1600x1200.png
 	
 	# create 1920x1200 wallpaper bitmaps from SVG
 	inkscape --export-width=1920 \
 		--export-height=1200 \
-		--export-png="${CURDIR}/wallpaper/sidux-ourea-1920x1200.png" \
-			"wallpaper/sidux-ourea-wide.svg" ;
-	test -r ${CURDIR}/wallpaper/sidux-ourea-1920x1200.png
+		--export-png="${CURDIR}/wallpaper/aptosid-ourea-1920x1200.png" \
+			"wallpaper/aptosid-ourea-wide.svg" ;
+	test -r ${CURDIR}/wallpaper/aptosid-ourea-1920x1200.png
 
-	### pkg: sidux-art-wallpaper-ourea-edu ###
+	### pkg: aptosid-art-wallpaper-ourea-edu ###
 	mkdir -p ${CURDIR}/wallpaper-edu/
 
 	# create 1600x1200 wallpaper bitmaps from SVG
 	inkscape --export-width=1600 \
 		--export-height=1200 \
-		--export-png="${CURDIR}/wallpaper-edu/sidux-ourea-1600x1200.png" \
-			"wallpaper-edu/sidux-edu-ourea.svg" ;
-	test -r ${CURDIR}/wallpaper-edu/sidux-ourea-1600x1200.png
+		--export-png="${CURDIR}/wallpaper-edu/aptosid-ourea-1600x1200.png" \
+			"wallpaper-edu/aptosid-edu-ourea.svg" ;
+	test -r ${CURDIR}/wallpaper-edu/aptosid-ourea-1600x1200.png
 	
 	# create 1920x1200 wallpaper bitmaps from SVG
 	inkscape --export-width=1920 \
 		--export-height=1200 \
-		--export-png="${CURDIR}/wallpaper-edu/sidux-ourea-1920x1200.png" \
-			"wallpaper-edu/sidux-edu-ourea-wide.svg" ;
-	test -r ${CURDIR}/wallpaper-edu/sidux-ourea-1920x1200.png
+		--export-png="${CURDIR}/wallpaper-edu/aptosid-ourea-1920x1200.png" \
+			"wallpaper-edu/aptosid-edu-ourea-wide.svg" ;
+	test -r ${CURDIR}/wallpaper-edu/aptosid-ourea-1920x1200.png
 	
-	### pkg: sidux-art-gdm-ourea ###
+	### pkg: aptosid-art-gdm-ourea ###
 	mkdir -p ${CURDIR}/dm-gdm/
 	
 	# create gdm background bitmap from SVG
@@ -55,12 +55,12 @@ build:
 			"dm-kdm/background.svg" ;
 	test -r ${CURDIR}/dm-gdm/background.png
 	
-	# create gdm sidux-logo bitmap from svg
+	# create gdm aptosid-logo bitmap from svg
 	inkscape --export-width=914 \
 		--export-height=142 \
-		--export-png="${CURDIR}/dm-gdm/sidux-logo.png" \
-			"dm-kdm/sidux-logo.svg" ;
-	test -r ${CURDIR}/dm-gdm/sidux-logo.png
+		--export-png="${CURDIR}/dm-gdm/aptosid-logo.png" \
+			"dm-kdm/aptosid-logo.svg" ;
+	test -r ${CURDIR}/dm-gdm/aptosid-logo.png
 	
 	# create gdm topbar bitmap from svg
 	inkscape --export-width=1600 \
@@ -82,7 +82,7 @@ build:
 			"dm-kdm/gobutton.svg" ;
 	test -r ${CURDIR}/dm-gdm/gobutton.png
 
-	### pkg: sidux-art-kdm-ourea ###
+	### pkg: aptosid-art-kdm-ourea ###
 	mkdir -p ${CURDIR}/dm-kdm/
 	
 	# create dm background bitmap from SVG
@@ -92,12 +92,12 @@ build:
 			"dm-kdm/background.svg" ;
 	test -r ${CURDIR}/dm-kdm/background.png
 
-	# create kdm sidux-logo bitmap from svg
+	# create kdm aptosid-logo bitmap from svg
 	inkscape --export-width=914 \
 		--export-height=142 \
-		--export-png="${CURDIR}/dm-kdm/sidux-logo.png" \
-			"dm-kdm/sidux-logo.svg" ;
-	test -r ${CURDIR}/dm-kdm/sidux-logo.png
+		--export-png="${CURDIR}/dm-kdm/aptosid-logo.png" \
+			"dm-kdm/aptosid-logo.svg" ;
+	test -r ${CURDIR}/dm-kdm/aptosid-logo.png
 
 	# create kdm topbar bitmap from svg
 	inkscape --export-width=1600 \
@@ -119,7 +119,7 @@ build:
 			"dm-kdm/gobutton.svg" ;
 	test -r ${CURDIR}/dm-kdm/gobutton.png
 
-	### pkg: sidux-art-ksplash-ourea ###
+	### pkg: aptosid-art-ksplash-ourea ###
 	mkdir -p ${CURDIR}/splash-kde/
 
 	# create splash_bottom bitmap from SVG
@@ -150,7 +150,7 @@ build:
 			"splash-kde/splash.svg" ;
 	test -r ${CURDIR}/splash-kde/splash_top.png
 
-	### pkg: sidux-art-xsplash-ourea ###
+	### pkg: aptosid-art-xsplash-ourea ###
 	mkdir -p ${CURDIR}/splash-xfce/
 
 	# create xfce splash bitmaps from SVG
@@ -166,8 +166,8 @@ build:
 
 clean:
 	dh clean --before clean
-	### sidux-art-wallpaper-ourea ###
-	rm -f   "$(CURDIR)/wallpaper/sidux-ourea-[0-9]*x[0-9]*.png"
+	### aptosid-art-wallpaper-ourea ###
+	rm -f   "$(CURDIR)/wallpaper/aptosid-ourea-[0-9]*x[0-9]*.png"
 	rm -f   "$(CURDIR)/dm-gdm/*.png"
 	rm -f   "$(CURDIR)/dm-kdm/*.png"
 	rm -f   "$(CURDIR)/splash-kde/*.png"

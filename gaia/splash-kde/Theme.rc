@@ -1,9 +1,9 @@
-[KSplash Theme: sidux-gaia]
-Name = sidux-gaia
-Description = Fading splash screen for sidux 2007-03 based loosely on MoodinKDE by Christian Leh <moodwrod@web.de>
+[KSplash Theme: aptosid-gaia]
+Name = aptosid-gaia
+Description = Fading splash screen for aptosid 2007-03 based loosely on MoodinKDE by Christian Leh <moodwrod@web.de>
 Version = 1.0
 Author = Bernard Gray
-Homepage = http://sidux.com
+Homepage = http://aptosid.com
 Engine = Moodin
 
 BeginOpacity = 0.1

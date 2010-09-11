@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-BITMAPS= background sidux-logo
+BITMAPS= background aptosid-logo
 
 all: $(BITMAPS)
 

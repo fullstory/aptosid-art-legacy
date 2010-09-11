@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE greeter SYSTEM "greeter.dtd">
 <!--
-Copyright 2009 David Creedy <klaymen@sidux.com>
+Copyright 2009 David Creedy <klaymen@aptosid.com>
 Copyright 2009 Niall Walsh <niallwalsh@users.berlios.de>
 files: session.png, system.png and language.png -
     Copyright 2008 Urs Wolfer <uwolfer @ kde.org>
@@ -26,9 +26,9 @@ files: session.png, system.png and language.png -
 		<normal file="background.png"/>
 		<pos x="50%" y="50%" anchor="c" width="scale" height="100%"/>
 	</item>
-	<!-- sidux text -->
+	<!-- aptosid text -->
 	<item type="pixmap">
-		<normal file="sidux-text.png"/>
+		<normal file="aptosid-text.png"/>
 		<pos x="20" y="20" anchor="nw"/>
 	</item>
 	<!-- welcome -->

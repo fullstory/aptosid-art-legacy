@@ -1,8 +1,8 @@
 #
-# Default sidux 2010-01 hypnos theme 
+# Default aptosid 2010-01 hypnos theme 
 # for xfce4 based on the balou engine
 #
-# Copyright (c) 2010 David Creedy <klaymen@sidux.com>
+# Copyright (c) 2010 David Creedy <klaymen@aptosid.com>
 # Copyright (c) 2010 Bernard Gray <bernard.gray@gmail.com>
 #
 # This program is free software; you can redistribute it and/or modify
@@ -29,8 +29,8 @@
 # Info section
 #
 [Info]
-Name=sidux 2010-01 (hypnos)
-Description=default xfce theme for sidux 2010-01 release
+Name=aptosid 2010-01 (hypnos)
+Description=default xfce theme for aptosid 2010-01 release
 
 #
 # splash screen settings

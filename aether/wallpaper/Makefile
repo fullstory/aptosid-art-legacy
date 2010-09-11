@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-NAME= sidux-aether
+NAME= aptosid-aether
 SIZES= 400x250 1024x768 1280x800 1280x1024 1440x900 1600x1200 1920x1200 
 SVG= $(NAME).svg
 

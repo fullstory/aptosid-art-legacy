@@ -1,10 +1,10 @@
 # Default KSplash/ML Theme
 
-[KSplash Theme: sidux-ourea]
-Name = sidux-ourea
-Description = KDE splash theme for sidux 2008-03 (Ourea)
+[KSplash Theme: aptosid-ourea]
+Name = aptosid-ourea
+Description = KDE splash theme for aptosid 2008-03 (Ourea)
 Version = 1.0
-Author = sidux art team
+Author = aptosid art team
 
 # Theme behaviour settings.
 Engine = Default

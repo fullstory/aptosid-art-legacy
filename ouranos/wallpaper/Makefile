@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 RELEASE= ouranos
-NAME= sidux-$(RELEASE)
+NAME= aptosid-$(RELEASE)
 BITMAPS= $(NAME)-1600x1200.png $(NAME)-1920x1200.png
 SVG= $(NAME).svg
 

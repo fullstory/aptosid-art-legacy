@@ -14,16 +14,16 @@ build:
 	# create 1600x1200 wallpaper bitmaps from SVG
 	inkscape --export-width=1600 \
 		--export-height=1200 \
-		--export-png="$(CURDIR)/sidux-nyx-1600x1200.png" \
-			"$(CURDIR)/sidux-nyx.svg" ;
-	test -r	"$(CURDIR)/sidux-nyx-1600x1200.png"
+		--export-png="$(CURDIR)/aptosid-nyx-1600x1200.png" \
+			"$(CURDIR)/aptosid-nyx.svg" ;
+	test -r	"$(CURDIR)/aptosid-nyx-1600x1200.png"
 	
 	# create 1920x1200 wallpaper bitmaps from SVG
 	inkscape --export-width=1920 \
 		--export-height=1200 \
-		--export-png="$(CURDIR)/sidux-nyx-1920x1200.png" \
-			"$(CURDIR)/sidux-nyx-wide.svg" ;
-	test -r "$(CURDIR)/sidux-nyx-1920x1200.png"
+		--export-png="$(CURDIR)/aptosid-nyx-1920x1200.png" \
+			"$(CURDIR)/aptosid-nyx-wide.svg" ;
+	test -r "$(CURDIR)/aptosid-nyx-1920x1200.png"
 	
 	# create 1280x1024 wallpaper bitmaps from SVG
 	# XXX: todo, this may require a separate svg or some coord/res trickery
@@ -32,5 +32,5 @@ build:
 
 clean:
 	dh clean --before clean
-	rm -f	"$(CURDIR)/sidux-nyx-[0-9]*x[0-9]*.png"
+	rm -f	"$(CURDIR)/aptosid-nyx-[0-9]*x[0-9]*.png"
 	dh clean --remaining

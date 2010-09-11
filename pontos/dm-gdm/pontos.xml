@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE greeter SYSTEM "greeter.dtd">
-<!--sidux pontos 2008-04 GDM Theme -->
+<!--aptosid pontos 2008-04 GDM Theme -->
 <greeter>
 	<!-- background -->
 	<item type="pixmap">
@@ -9,7 +9,7 @@
 	</item>
 	
 	<item type="pixmap">
-		<normal file="sidux-logo.png"/>
+		<normal file="aptosid-logo.png"/>
 		<pos anchor="n" x="74%" y="60%"/>
 	</item>
 

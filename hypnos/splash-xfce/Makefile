@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-THEME= sidux-hypnos
+THEME= aptosid-hypnos
 BITMAPS= logo.png
 SVG= logo.svg
 

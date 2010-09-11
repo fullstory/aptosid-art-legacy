@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-BITMAPS= arrow.png background.png gobutton.png sidux-logo.png
+BITMAPS= arrow.png background.png gobutton.png aptosid-logo.png
 
 all: $(BITMAPS)
 
@@ -16,9 +16,9 @@ gobutton.png:
 	inkscape --without-gui --export-width=32 --export-height=32 \
 		--export-png="$@" gobutton.svg
 
-sidux-logo.png:
+aptosid-logo.png:
 	inkscape --without-gui --export-width=1000 \
-		--export-png="$@" sidux-logo.svg
+		--export-png="$@" aptosid-logo.svg
 	
 
 clean:

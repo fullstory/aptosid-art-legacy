@@ -1,6 +1,6 @@
 #!/bin/bash
 
-theme=sidux-hypnos
+theme=aptosid-hypnos
 res=1920x1200
 letters=( s i d u x )
 s=s

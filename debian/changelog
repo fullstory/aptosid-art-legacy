@@ -1,8 +1,8 @@
-sidux-art-legacy (2010.01.5) UNRELEASED; urgency=low
+aptosid-art-legacy (2010.01.5) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * mass rename to aptosid.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 25 Aug 2010 23:37:38 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 29 Aug 2010 03:59:13 +0200
 
 sidux-art-legacy (2010.01.4) unstable; urgency=low
 

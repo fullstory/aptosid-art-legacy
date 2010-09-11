@@ -59,10 +59,10 @@ for i in $RELEASES; do
 
 	# write debian/*.install from templates
 	for j in gdm kde kdm ksplash wallpaper xfce xsplash; do
-		if [ -r  ./debian/templates/sidux-art-${j}-CODENAME_SAFE.install.in ]; then
+		if [ -r  ./debian/templates/aptosid-art-${j}-CODENAME_SAFE.install.in ]; then
 			sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
-					./debian/templates/sidux-art-${j}-CODENAME_SAFE.install.in \
-						> ./debian/sidux-art-${j}-$(echo ${i} | cut -d\: -f1).install
+					./debian/templates/aptosid-art-${j}-CODENAME_SAFE.install.in \
+						> ./debian/aptosid-art-${j}-$(echo ${i} | cut -d\: -f1).install
 		else
 			continue
 		fi
@@ -70,16 +70,16 @@ for i in $RELEASES; do
 
 	# link KDE4 style wallpapers to /usr/share/wallpapers/
 	sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
-			./debian/templates/sidux-art-wallpaper-CODENAME_SAFE.links.in \
-				> ./debian/sidux-art-wallpaper-$(echo ${i} | cut -d\: -f1).links
+			./debian/templates/aptosid-art-wallpaper-CODENAME_SAFE.links.in \
+				> ./debian/aptosid-art-wallpaper-$(echo ${i} | cut -d\: -f1).links
 
 	if [ "x$(echo ${i} | cut -d\: -f4)" = "xedu" ]; then
 		sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
-				./debian/templates/sidux-art-wallpaper-CODENAME_SAFE-edu.install.in \
-					> ./debian/sidux-art-wallpaper-$(echo ${i} | cut -d\: -f1)-edu.install
+				./debian/templates/aptosid-art-wallpaper-CODENAME_SAFE-edu.install.in \
+					> ./debian/aptosid-art-wallpaper-$(echo ${i} | cut -d\: -f1)-edu.install
 
 		sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
-				./debian/templates/sidux-art-wallpaper-CODENAME_SAFE-edu.links.in \
-					> ./debian/sidux-art-wallpaper-$(echo ${i} | cut -d\: -f1)-edu.links
+				./debian/templates/aptosid-art-wallpaper-CODENAME_SAFE-edu.links.in \
+					> ./debian/aptosid-art-wallpaper-$(echo ${i} | cut -d\: -f1)-edu.links
 	fi
 done

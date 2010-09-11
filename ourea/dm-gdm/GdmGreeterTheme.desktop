@@ -1,7 +1,7 @@
 [GdmGreeterTheme]
-Author=sidux art team
+Author=aptosid art team
 Copyright=GPL
-Description="sidux 2008-03 ourea" 
+Description="aptosid 2008-03 ourea" 
 Greeter=ourea.xml
-Name=sidux-ourea
+Name=aptosid-ourea
 Screenshot=screenshot.jpg

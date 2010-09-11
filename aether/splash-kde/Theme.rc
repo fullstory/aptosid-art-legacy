@@ -1,9 +1,9 @@
-[KSplash Theme: sidux-aether]
-Name = sidux 2009-02 (Aether) Splash Screen
-Description = sidux Aether Splash Screen
+[KSplash Theme: aptosid-aether]
+Name = aptosid 2009-02 (Aether) Splash Screen
+Description = aptosid Aether Splash Screen
 Version = 1.0
 Author = Bernard Gray <bernard.gray@gmail.com>
-Homepage = http://www.sidux.com
+Homepage = http://www.aptosid.com
 
 # Theme behaviour settings.
 Engine = KSplashX

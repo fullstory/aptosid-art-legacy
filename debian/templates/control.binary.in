@@ -1,91 +1,91 @@
-Package: sidux-art-gdm-@CODENAME_SAFE@
+Package: aptosid-art-gdm-@CODENAME_SAFE@
 Architecture: all
 Depends: ${misc:Depends},
  gdm
-Description: GDM theme for sidux @VERSION@ release
+Description: GDM theme for aptosid @VERSION@ release
  release specific artwork theme for the GDM display manager to be used in
  combination GTK2 based desktop environments like Xfce or LXDE.
  .
- GDM artwork for: sidux @VERSION@ (@CODENAME@)
+ GDM artwork for: aptosid @VERSION@ (@CODENAME@)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-kde-@CODENAME_SAFE@
+Package: aptosid-art-kde-@CODENAME_SAFE@
 Architecture: all
-Provides: sidux-art-kde-theme
+Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
- sidux-art-ksplash-@CODENAME_SAFE@,
- sidux-art-kdm-@CODENAME_SAFE@
-Recommends: sidux-art-wallpaper-@CODENAME_SAFE@,
+ aptosid-art-ksplash-@CODENAME_SAFE@,
+ aptosid-art-kdm-@CODENAME_SAFE@
+Recommends: aptosid-art-wallpaper-@CODENAME_SAFE@,
  dmz-cursor-theme
-Description: KDE theme for the sidux @VERSION@ release
+Description: KDE theme for the aptosid @VERSION@ release
  release specific metapackage depending on ksplash, kdm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
- KDE artwork metapackage for: sidux @VERSION@ (@CODENAME@)
+ KDE artwork metapackage for: aptosid @VERSION@ (@CODENAME@)
 
-Package: sidux-art-kdm-@CODENAME_SAFE@
+Package: aptosid-art-kdm-@CODENAME_SAFE@
 Architecture: all
 Depends: ${misc:Depends},
  kdm
-Description: KDM theme for the sidux @VERSION@ release
+Description: KDM theme for the aptosid @VERSION@ release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
  .
- KDM artwork for: sidux @VERSION@ (@CODENAME@)
+ KDM artwork for: aptosid @VERSION@ (@CODENAME@)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-ksplash-@CODENAME_SAFE@
+Package: aptosid-art-ksplash-@CODENAME_SAFE@
 Architecture: all
 Depends: ${misc:Depends},
  kdebase-workspace-bin
-Description: KDE ksplash theme for the sidux @VERSION@ release
+Description: KDE ksplash theme for the aptosid @VERSION@ release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
- KDE ksplash artwork for: sidux @VERSION@ (@CODENAME@)
+ KDE ksplash artwork for: aptosid @VERSION@ (@CODENAME@)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-wallpaper-@CODENAME_SAFE@
+Package: aptosid-art-wallpaper-@CODENAME_SAFE@
 Architecture: all
-Provides: sidux-art-wallpaper-theme
+Provides: aptosid-art-wallpaper-theme
 Depends: ${misc:Depends}
-Description: sidux wallpaper for the @VERSION@ release
+Description: aptosid wallpaper for the @VERSION@ release
  release specific wallpapers, compatible with the K Desktop Environment, Xfce,
  LXDE and GNOME.
  .
- Wallpapers for: sidux @VERSION@ (@CODENAME@)
+ Wallpapers for: aptosid @VERSION@ (@CODENAME@)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-xfce-@CODENAME_SAFE@
+Package: aptosid-art-xfce-@CODENAME_SAFE@
 Architecture: all
-Provides: sidux-art-xfce-theme
+Provides: aptosid-art-xfce-theme
 Depends: ${misc:Depends},
- sidux-art-xsplash-@CODENAME_SAFE@,
- sidux-art-gdm-@CODENAME_SAFE@
-Recommends: sidux-art-wallpaper-@CODENAME_SAFE@,
+ aptosid-art-xsplash-@CODENAME_SAFE@,
+ aptosid-art-gdm-@CODENAME_SAFE@
+Recommends: aptosid-art-wallpaper-@CODENAME_SAFE@,
  dmz-cursor-theme
-Description: Xfce theme for the sidux @VERSION@ release
+Description: Xfce theme for the aptosid @VERSION@ release
  release specific metapackage depending on xfce4-session, gdm and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
- Xfce artwork metapackage for: sidux @VERSION@ (@CODENAME@)
+ Xfce artwork metapackage for: aptosid @VERSION@ (@CODENAME@)
 
-Package: sidux-art-xsplash-@CODENAME_SAFE@
+Package: aptosid-art-xsplash-@CODENAME_SAFE@
 Architecture: all
 Depends: ${misc:Depends},
  xfce4-session
-Description: Xfce splash theme for the sidux @VERSION@ release
+Description: Xfce splash theme for the aptosid @VERSION@ release
  release specific Xfce splash theme, based on the balou theme engine.
  .
- Xfce xsplash artwork for: sidux @VERSION@ (@CODENAME@)
+ Xfce xsplash artwork for: aptosid @VERSION@ (@CODENAME@)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.

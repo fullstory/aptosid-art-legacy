@@ -11,48 +11,48 @@ build:
 		false ; \
 	fi
 
-	### pkg: sidux-art-wallpaper-erebos ###
+	### pkg: aptosid-art-wallpaper-erebos ###
 	mkdir -p ${CURDIR}/wallpaper/
 
 	# create 1600x1200 wallpaper bitmaps from SVG
 	inkscape --export-width=1600 \
 		--export-height=1200 \
-		--export-png="${CURDIR}/wallpaper/sidux-erebos-1600x1200.png" \
-			"wallpaper/sidux-erebos.svg" ;
-	test -r ${CURDIR}/wallpaper/sidux-erebos-1600x1200.png
+		--export-png="${CURDIR}/wallpaper/aptosid-erebos-1600x1200.png" \
+			"wallpaper/aptosid-erebos.svg" ;
+	test -r ${CURDIR}/wallpaper/aptosid-erebos-1600x1200.png
 	
 	# create 1920x1200 wallpaper bitmaps from SVG
 	inkscape --export-width=1920 \
 		--export-height=1200 \
-		--export-png="${CURDIR}/wallpaper/sidux-erebos-1920x1200.png" \
-			"wallpaper/sidux-erebos-wide.svg" ;
-	test -r ${CURDIR}/wallpaper/sidux-erebos-1920x1200.png
+		--export-png="${CURDIR}/wallpaper/aptosid-erebos-1920x1200.png" \
+			"wallpaper/aptosid-erebos-wide.svg" ;
+	test -r ${CURDIR}/wallpaper/aptosid-erebos-1920x1200.png
 
-	### pkg: sidux-art-wallpaper-erebos-edu ###
+	### pkg: aptosid-art-wallpaper-erebos-edu ###
 	mkdir -p ${CURDIR}/wallpaper-edu/
 
 	# create 1600x1200 wallpaper bitmaps from SVG
 	inkscape --export-width=1600 \
 		--export-height=1200 \
-		--export-png="${CURDIR}/wallpaper-edu/sidux-erebos-1600x1200.png" \
-			"wallpaper-edu/sidux-erebos-1600x1200.svg" ;
-	test -r ${CURDIR}/wallpaper-edu/sidux-erebos-1600x1200.png
+		--export-png="${CURDIR}/wallpaper-edu/aptosid-erebos-1600x1200.png" \
+			"wallpaper-edu/aptosid-erebos-1600x1200.svg" ;
+	test -r ${CURDIR}/wallpaper-edu/aptosid-erebos-1600x1200.png
 	
 	# create 1920x1200 wallpaper bitmaps from SVG
 	inkscape --export-width=1920 \
 		--export-height=1200 \
-		--export-png="${CURDIR}/wallpaper-edu/sidux-erebos-1920x1200.png" \
-			"wallpaper-edu/sidux-erebos-1920x1200.svg" ;
-	test -r ${CURDIR}/wallpaper-edu/sidux-erebos-1920x1200.png
+		--export-png="${CURDIR}/wallpaper-edu/aptosid-erebos-1920x1200.png" \
+			"wallpaper-edu/aptosid-erebos-1920x1200.svg" ;
+	test -r ${CURDIR}/wallpaper-edu/aptosid-erebos-1920x1200.png
 	
 	# create 1280x1024 wallpaper bitmaps from SVG
 	inkscape --export-width=1280 \
 		--export-height=1024 \
-		--export-png="${CURDIR}/wallpaper-edu/sidux-erebos-1280x1024.png" \
-			"wallpaper-edu/sidux-erebos-1280x1024.svg" ;
-	test -r ${CURDIR}/wallpaper-edu/sidux-erebos-1280x1024.png
+		--export-png="${CURDIR}/wallpaper-edu/aptosid-erebos-1280x1024.png" \
+			"wallpaper-edu/aptosid-erebos-1280x1024.svg" ;
+	test -r ${CURDIR}/wallpaper-edu/aptosid-erebos-1280x1024.png
 	
-	### pkg: sidux-art-gdm-erebos ###
+	### pkg: aptosid-art-gdm-erebos ###
 	mkdir -p ${CURDIR}/dm-gdm/
 	
 	# create gdm background bitmap from SVG
@@ -62,12 +62,12 @@ build:
 			"dm-kdm/background.svg" ;
 	test -r ${CURDIR}/dm-gdm/background.png
 	
-	# create gdm sidux-logo bitmap from svg
+	# create gdm aptosid-logo bitmap from svg
 	inkscape --export-width=914 \
 		--export-height=142 \
-		--export-png="${CURDIR}/dm-gdm/sidux-logo.png" \
-			"dm-kdm/sidux-logo.svg" ;
-	test -r ${CURDIR}/dm-gdm/sidux-logo.png
+		--export-png="${CURDIR}/dm-gdm/aptosid-logo.png" \
+			"dm-kdm/aptosid-logo.svg" ;
+	test -r ${CURDIR}/dm-gdm/aptosid-logo.png
 	
 	# create gdm topbar bitmap from svg
 	inkscape --export-width=1600 \
@@ -89,7 +89,7 @@ build:
 			"dm-kdm/gobutton.svg" ;
 	test -r ${CURDIR}/dm-gdm/gobutton.png
 
-	### pkg: sidux-art-kdm-erebos ###
+	### pkg: aptosid-art-kdm-erebos ###
 	mkdir -p ${CURDIR}/dm-kdm/
 	
 	# create dm background bitmap from SVG
@@ -99,12 +99,12 @@ build:
 			"dm-kdm/background.svg" ;
 	test -r ${CURDIR}/dm-kdm/background.png
 
-	# create kdm sidux-logo bitmap from svg
+	# create kdm aptosid-logo bitmap from svg
 	inkscape --export-width=914 \
 		--export-height=142 \
-		--export-png="${CURDIR}/dm-kdm/sidux-logo.png" \
-			"dm-kdm/sidux-logo.svg" ;
-	test -r ${CURDIR}/dm-kdm/sidux-logo.png
+		--export-png="${CURDIR}/dm-kdm/aptosid-logo.png" \
+			"dm-kdm/aptosid-logo.svg" ;
+	test -r ${CURDIR}/dm-kdm/aptosid-logo.png
 
 	# create kdm topbar bitmap from svg
 	inkscape --export-width=1600 \
@@ -126,7 +126,7 @@ build:
 			"dm-kdm/gobutton.svg" ;
 	test -r ${CURDIR}/dm-kdm/gobutton.png
 
-	### pkg: sidux-art-ksplash-erebos ###
+	### pkg: aptosid-art-ksplash-erebos ###
 	mkdir -p ${CURDIR}/splash-kde/
 
 	# create splash_bottom bitmap from SVG
@@ -157,7 +157,7 @@ build:
 			"splash-kde/splash.svg" ;
 	test -r ${CURDIR}/splash-kde/splash_top.png
 
-	### pkg: sidux-art-xsplash-erebos ###
+	### pkg: aptosid-art-xsplash-erebos ###
 	mkdir -p ${CURDIR}/splash-xfce/
 
 	# create xfce splash bitmaps from SVG
@@ -173,8 +173,8 @@ build:
 
 clean:
 	dh clean --before clean
-	### sidux-art-wallpaper-erebos ###
-	rm -f   "$(CURDIR)/wallpaper/sidux-erebos-[0-9]*x[0-9]*.png"
+	### aptosid-art-wallpaper-erebos ###
+	rm -f   "$(CURDIR)/wallpaper/aptosid-erebos-[0-9]*x[0-9]*.png"
 	rm -f   "$(CURDIR)/dm-gdm/*.png"
 	rm -f   "$(CURDIR)/dm-kdm/*.png"
 	rm -f   "$(CURDIR)/splash-kde/*.png"

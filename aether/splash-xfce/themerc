@@ -1,6 +1,6 @@
 # $Id: themerc 12849 2008-05-20 17:57:33Z cleary $
 #
-# Default sidux 2009-02 aether theme 
+# Default aptosid 2009-02 aether theme 
 # for xfce4 based on the balou engine
 #
 # Copyright (c) 2009 Bernard Gray <bernard.gray@gmail.com>
@@ -29,8 +29,8 @@
 # Info section
 #
 [Info]
-Name=sidux 2009-02 (aether)
-Description=default xfce theme for sidux 2009-02 release
+Name=aptosid 2009-02 (aether)
+Description=default xfce theme for aptosid 2009-02 release
 
 #
 # splash screen settings

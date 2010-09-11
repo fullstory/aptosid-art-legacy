@@ -1,4 +1,4 @@
-Source: sidux-art-legacy
+Source: aptosid-art-legacy
 Section: graphics
 Priority: extra
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
@@ -10,6 +10,6 @@ Build-Depends: debhelper (>= 7.9.3),
  libxml-parser-perl,
  ttf-dustin
 Standards-Version: 3.9.1
-Vcs-Svn: svn://svn.berlios.de/fullstory/sidux-art-legacy/trunk
-Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/sidux-art-legacy/trunk/
+Vcs-Svn: svn://svn.berlios.de/fullstory/aptosid-art-legacy/trunk
+Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/aptosid-art-legacy/trunk/
 

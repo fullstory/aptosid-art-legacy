@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.47 r22583"
    sodipodi:docname="s.svg"
-   inkscape:export-filename="/home/rick/sidux-art/kdm themes/hypnos/sidux.png"
+   inkscape:export-filename="/home/rick/aptosid-art/kdm themes/hypnos/aptosid.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -34,7 +34,7 @@
            y="1046.2858"
            x="1146.0001"
            id="tspan7301"
-           sodipodi:role="line">sidux : Ύπνος</tspan></text>
+           sodipodi:role="line">aptosid : Ύπνος</tspan></text>
     </mask>
     <filter
        inkscape:collect="always"
@@ -97,7 +97,7 @@
        style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;opacity:0.25;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Dustismo;-inkscape-font-specification:Dustismo"
        x="-149.57661"
        y="638.17157"
-       id="sidux"><tspan
+       id="aptosid"><tspan
          sodipodi:role="line"
          id="tspan2858"
          x="-149.57661"
@@ -108,7 +108,7 @@
        transform="translate(-1295.5767,-408.11415)"
        style="opacity:0.5;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline;filter:url(#filter7347);enable-background:new"
        d="m 1102.8148,823.7037 -2.963,167.70371 c 0,0 72.7646,45.19999 172.4445,43.25929 99.6798,-1.9407 141.7931,-28.5934 242.3704,-26.6667 100.5773,1.9267 114.0464,23.859 205.037,26.6667 90.9906,2.8077 148.7408,-36.74077 148.7408,-36.74077 l -1.1852,-170.07407 z"
-       id="sidux-top-mask"
+       id="aptosid-top-mask"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cczzzccc"
        mask="url(#mask7297)"

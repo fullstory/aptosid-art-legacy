@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE greeter SYSTEM "greeter.dtd">
-<!--sidux ouranos 2009-01 GDM Theme -->
+<!--aptosid ouranos 2009-01 GDM Theme -->
 <greeter>
 	<!-- background -->
 	<item type="pixmap">
@@ -9,7 +9,7 @@
 	</item>
 	
 	<item type="pixmap">
-		<normal file="sidux-logo.png"/>
+		<normal file="aptosid-logo.png"/>
 		<pos anchor="c" x="59%" y="50%"/>
 	</item>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE greeter SYSTEM "greeter.dtd">
-<!-- sidux 2009-01 ouranos KDM theme -->
+<!-- aptosid 2009-01 ouranos KDM theme -->
 <greeter id="theme">
 	<style font="Sans 9" window-text-color="#ffffff"
 	       alpha="0" base-color="#ffffff" alternate-base-color="#ffffff"
@@ -12,9 +12,9 @@
 		<pos anchor="c" x="50%" y="50%" width="scale" height="100%" />
 	</item>
 	
-	<!-- sidux logo -->
-	<item type="svg" id="sidux-logo" >
-		<normal file="sidux-logo.svg" />
+	<!-- aptosid logo -->
+	<item type="svg" id="aptosid-logo" >
+		<normal file="aptosid-logo.svg" />
 		<pos anchor="w" x="55%" y="55%" width="40%" height="scale" />
 	</item>
 

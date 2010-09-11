@@ -1,4 +1,4 @@
-Source: sidux-art-legacy
+Source: aptosid-art-legacy
 Section: graphics
 Priority: extra
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
@@ -10,295 +10,295 @@ Build-Depends: debhelper (>= 7.9.3),
  libxml-parser-perl,
  ttf-dustin
 Standards-Version: 3.9.1
-Vcs-Svn: svn://svn.berlios.de/fullstory/sidux-art-legacy/trunk
-Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/sidux-art-legacy/trunk/
+Vcs-Svn: svn://svn.berlios.de/fullstory/aptosid-art-legacy/trunk
+Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/aptosid-art-legacy/trunk/
 
-Package: sidux-art-gdm-momos
+Package: aptosid-art-gdm-momos
 Architecture: all
 Depends: ${misc:Depends},
  gdm
-Description: GDM theme for sidux 2009-03 release
+Description: GDM theme for aptosid 2009-03 release
  release specific artwork theme for the GDM display manager to be used in
  combination GTK2 based desktop environments like Xfce or LXDE.
  .
- GDM artwork for: sidux 2009-03 (Μώμος)
+ GDM artwork for: aptosid 2009-03 (Μώμος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-kde-momos
+Package: aptosid-art-kde-momos
 Architecture: all
-Provides: sidux-art-kde-theme
+Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
- sidux-art-ksplash-momos,
- sidux-art-kdm-momos
-Recommends: sidux-art-wallpaper-momos,
+ aptosid-art-ksplash-momos,
+ aptosid-art-kdm-momos
+Recommends: aptosid-art-wallpaper-momos,
  dmz-cursor-theme
-Description: KDE theme for the sidux 2009-03 release
+Description: KDE theme for the aptosid 2009-03 release
  release specific metapackage depending on ksplash, kdm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
- KDE artwork metapackage for: sidux 2009-03 (Μώμος)
+ KDE artwork metapackage for: aptosid 2009-03 (Μώμος)
 
-Package: sidux-art-kdm-momos
+Package: aptosid-art-kdm-momos
 Architecture: all
 Depends: ${misc:Depends},
  kdm
-Description: KDM theme for the sidux 2009-03 release
+Description: KDM theme for the aptosid 2009-03 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
  .
- KDM artwork for: sidux 2009-03 (Μώμος)
+ KDM artwork for: aptosid 2009-03 (Μώμος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-ksplash-momos
+Package: aptosid-art-ksplash-momos
 Architecture: all
 Depends: ${misc:Depends},
  kdebase-workspace-bin
-Description: KDE ksplash theme for the sidux 2009-03 release
+Description: KDE ksplash theme for the aptosid 2009-03 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
- KDE ksplash artwork for: sidux 2009-03 (Μώμος)
+ KDE ksplash artwork for: aptosid 2009-03 (Μώμος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-wallpaper-momos
+Package: aptosid-art-wallpaper-momos
 Architecture: all
-Provides: sidux-art-wallpaper-theme
+Provides: aptosid-art-wallpaper-theme
 Depends: ${misc:Depends}
-Description: sidux wallpaper for the 2009-03 release
+Description: aptosid wallpaper for the 2009-03 release
  release specific wallpapers, compatible with the K Desktop Environment, Xfce,
  LXDE and GNOME.
  .
- Wallpapers for: sidux 2009-03 (Μώμος)
+ Wallpapers for: aptosid 2009-03 (Μώμος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-xfce-momos
+Package: aptosid-art-xfce-momos
 Architecture: all
-Provides: sidux-art-xfce-theme
+Provides: aptosid-art-xfce-theme
 Depends: ${misc:Depends},
- sidux-art-xsplash-momos,
- sidux-art-gdm-momos
-Recommends: sidux-art-wallpaper-momos,
+ aptosid-art-xsplash-momos,
+ aptosid-art-gdm-momos
+Recommends: aptosid-art-wallpaper-momos,
  dmz-cursor-theme
-Description: Xfce theme for the sidux 2009-03 release
+Description: Xfce theme for the aptosid 2009-03 release
  release specific metapackage depending on xfce4-session, gdm and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
- Xfce artwork metapackage for: sidux 2009-03 (Μώμος)
+ Xfce artwork metapackage for: aptosid 2009-03 (Μώμος)
 
-Package: sidux-art-xsplash-momos
+Package: aptosid-art-xsplash-momos
 Architecture: all
 Depends: ${misc:Depends},
  xfce4-session
-Description: Xfce splash theme for the sidux 2009-03 release
+Description: Xfce splash theme for the aptosid 2009-03 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
- Xfce xsplash artwork for: sidux 2009-03 (Μώμος)
+ Xfce xsplash artwork for: aptosid 2009-03 (Μώμος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-wallpaper-momos-edu
-Provides: sidux-art-wallpaper-theme
+Package: aptosid-art-wallpaper-momos-edu
+Provides: aptosid-art-wallpaper-theme
 Depends: ${misc:Depends}
-Conflicts: sidux-art-wallpaper-momos
+Conflicts: aptosid-art-wallpaper-momos
 Architecture: all
 Description: seminarix wallpaper for 2009-03 release
  release specific wallpapers, compatible with the K Desktop Environment, Xfce,
  LXDE and GNOME.
  .
- Wallpapers for: sidux seminarix 2009-03 (Μώμος)
+ Wallpapers for: aptosid seminarix 2009-03 (Μώμος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-gdm-moros
+Package: aptosid-art-gdm-moros
 Architecture: all
 Depends: ${misc:Depends},
  gdm
-Description: GDM theme for sidux 2009-04 release
+Description: GDM theme for aptosid 2009-04 release
  release specific artwork theme for the GDM display manager to be used in
  combination GTK2 based desktop environments like Xfce or LXDE.
  .
- GDM artwork for: sidux 2009-04 (Μόρος)
+ GDM artwork for: aptosid 2009-04 (Μόρος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-kde-moros
+Package: aptosid-art-kde-moros
 Architecture: all
-Provides: sidux-art-kde-theme
+Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
- sidux-art-ksplash-moros,
- sidux-art-kdm-moros
-Recommends: sidux-art-wallpaper-moros,
+ aptosid-art-ksplash-moros,
+ aptosid-art-kdm-moros
+Recommends: aptosid-art-wallpaper-moros,
  dmz-cursor-theme
-Description: KDE theme for the sidux 2009-04 release
+Description: KDE theme for the aptosid 2009-04 release
  release specific metapackage depending on ksplash, kdm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
- KDE artwork metapackage for: sidux 2009-04 (Μόρος)
+ KDE artwork metapackage for: aptosid 2009-04 (Μόρος)
 
-Package: sidux-art-kdm-moros
+Package: aptosid-art-kdm-moros
 Architecture: all
 Depends: ${misc:Depends},
  kdm
-Description: KDM theme for the sidux 2009-04 release
+Description: KDM theme for the aptosid 2009-04 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
  .
- KDM artwork for: sidux 2009-04 (Μόρος)
+ KDM artwork for: aptosid 2009-04 (Μόρος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-ksplash-moros
+Package: aptosid-art-ksplash-moros
 Architecture: all
 Depends: ${misc:Depends},
  kdebase-workspace-bin
-Description: KDE ksplash theme for the sidux 2009-04 release
+Description: KDE ksplash theme for the aptosid 2009-04 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
- KDE ksplash artwork for: sidux 2009-04 (Μόρος)
+ KDE ksplash artwork for: aptosid 2009-04 (Μόρος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-wallpaper-moros
+Package: aptosid-art-wallpaper-moros
 Architecture: all
-Provides: sidux-art-wallpaper-theme
+Provides: aptosid-art-wallpaper-theme
 Depends: ${misc:Depends}
-Description: sidux wallpaper for the 2009-04 release
+Description: aptosid wallpaper for the 2009-04 release
  release specific wallpapers, compatible with the K Desktop Environment, Xfce,
  LXDE and GNOME.
  .
- Wallpapers for: sidux 2009-04 (Μόρος)
+ Wallpapers for: aptosid 2009-04 (Μόρος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-xfce-moros
+Package: aptosid-art-xfce-moros
 Architecture: all
-Provides: sidux-art-xfce-theme
+Provides: aptosid-art-xfce-theme
 Depends: ${misc:Depends},
- sidux-art-xsplash-moros,
- sidux-art-gdm-moros
-Recommends: sidux-art-wallpaper-moros,
+ aptosid-art-xsplash-moros,
+ aptosid-art-gdm-moros
+Recommends: aptosid-art-wallpaper-moros,
  dmz-cursor-theme
-Description: Xfce theme for the sidux 2009-04 release
+Description: Xfce theme for the aptosid 2009-04 release
  release specific metapackage depending on xfce4-session, gdm and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
- Xfce artwork metapackage for: sidux 2009-04 (Μόρος)
+ Xfce artwork metapackage for: aptosid 2009-04 (Μόρος)
 
-Package: sidux-art-xsplash-moros
+Package: aptosid-art-xsplash-moros
 Architecture: all
 Depends: ${misc:Depends},
  xfce4-session
-Description: Xfce splash theme for the sidux 2009-04 release
+Description: Xfce splash theme for the aptosid 2009-04 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
- Xfce xsplash artwork for: sidux 2009-04 (Μόρος)
+ Xfce xsplash artwork for: aptosid 2009-04 (Μόρος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-gdm-hypnos
+Package: aptosid-art-gdm-hypnos
 Architecture: all
 Depends: ${misc:Depends},
  gdm
-Description: GDM theme for sidux 2010-01 release
+Description: GDM theme for aptosid 2010-01 release
  release specific artwork theme for the GDM display manager to be used in
  combination GTK2 based desktop environments like Xfce or LXDE.
  .
- GDM artwork for: sidux 2010-01 (Ύπνος)
+ GDM artwork for: aptosid 2010-01 (Ύπνος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-kde-hypnos
+Package: aptosid-art-kde-hypnos
 Architecture: all
-Provides: sidux-art-kde-theme
+Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
- sidux-art-ksplash-hypnos,
- sidux-art-kdm-hypnos
-Recommends: sidux-art-wallpaper-hypnos,
+ aptosid-art-ksplash-hypnos,
+ aptosid-art-kdm-hypnos
+Recommends: aptosid-art-wallpaper-hypnos,
  dmz-cursor-theme
-Description: KDE theme for the sidux 2010-01 release
+Description: KDE theme for the aptosid 2010-01 release
  release specific metapackage depending on ksplash, kdm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
- KDE artwork metapackage for: sidux 2010-01 (Ύπνος)
+ KDE artwork metapackage for: aptosid 2010-01 (Ύπνος)
 
-Package: sidux-art-kdm-hypnos
+Package: aptosid-art-kdm-hypnos
 Architecture: all
 Depends: ${misc:Depends},
  kdm
-Description: KDM theme for the sidux 2010-01 release
+Description: KDM theme for the aptosid 2010-01 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
  .
- KDM artwork for: sidux 2010-01 (Ύπνος)
+ KDM artwork for: aptosid 2010-01 (Ύπνος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-ksplash-hypnos
+Package: aptosid-art-ksplash-hypnos
 Architecture: all
 Depends: ${misc:Depends},
  kdebase-workspace-bin
-Description: KDE ksplash theme for the sidux 2010-01 release
+Description: KDE ksplash theme for the aptosid 2010-01 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
- KDE ksplash artwork for: sidux 2010-01 (Ύπνος)
+ KDE ksplash artwork for: aptosid 2010-01 (Ύπνος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-wallpaper-hypnos
+Package: aptosid-art-wallpaper-hypnos
 Architecture: all
-Provides: sidux-art-wallpaper-theme
+Provides: aptosid-art-wallpaper-theme
 Depends: ${misc:Depends}
-Description: sidux wallpaper for the 2010-01 release
+Description: aptosid wallpaper for the 2010-01 release
  release specific wallpapers, compatible with the K Desktop Environment, Xfce,
  LXDE and GNOME.
  .
- Wallpapers for: sidux 2010-01 (Ύπνος)
+ Wallpapers for: aptosid 2010-01 (Ύπνος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-xfce-hypnos
+Package: aptosid-art-xfce-hypnos
 Architecture: all
-Provides: sidux-art-xfce-theme
+Provides: aptosid-art-xfce-theme
 Depends: ${misc:Depends},
- sidux-art-xsplash-hypnos,
- sidux-art-gdm-hypnos
-Recommends: sidux-art-wallpaper-hypnos,
+ aptosid-art-xsplash-hypnos,
+ aptosid-art-gdm-hypnos
+Recommends: aptosid-art-wallpaper-hypnos,
  dmz-cursor-theme
-Description: Xfce theme for the sidux 2010-01 release
+Description: Xfce theme for the aptosid 2010-01 release
  release specific metapackage depending on xfce4-session, gdm and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
- Xfce artwork metapackage for: sidux 2010-01 (Ύπνος)
+ Xfce artwork metapackage for: aptosid 2010-01 (Ύπνος)
 
-Package: sidux-art-xsplash-hypnos
+Package: aptosid-art-xsplash-hypnos
 Architecture: all
 Depends: ${misc:Depends},
  xfce4-session
-Description: Xfce splash theme for the sidux 2010-01 release
+Description: Xfce splash theme for the aptosid 2010-01 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
- Xfce xsplash artwork for: sidux 2010-01 (Ύπνος)
+ Xfce xsplash artwork for: aptosid 2010-01 (Ύπνος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.

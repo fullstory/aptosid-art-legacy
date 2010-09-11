@@ -5,7 +5,7 @@
 
 # Takes in Debian package files
 # Writes out a 1920:1200 and 1600:1200 wallpaper
-# Writes an svg file with a background (optional), swirls and sidux logo
+# Writes an svg file with a background (optional), swirls and aptosid logo
 
 # Assume we are dealing with lists from apt and not a status file
 my $aptlists=1;
@@ -94,7 +94,7 @@ $svg='
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
    style="overflow:visible"
-   inkscape:export-filename="/home/niall/foss/fullstory/sidux-art/sidux.png"
+   inkscape:export-filename="/home/niall/foss/fullstory/aptosid-art/aptosid.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"><defs
    id="defs27210"><linearGradient
@@ -515,18 +515,18 @@ $svg='
    transform="matrix(2,0,0,2,-2776.5917,-1337.836)"
    id="logo">
 		<path
-   id="sidux"
+   id="aptosid"
    inkscape:export-ydpi="90"
    inkscape:export-xdpi="90"
-   inkscape:export-filename="/home/bgray/software/sidux-art/svg-core/sidux-logo.png"
+   inkscape:export-filename="/home/bgray/software/aptosid-art/svg-core/aptosid-logo.png"
    sodipodi:nodetypes="ccccccssccccsccccccccsccccscccccccccccccccccccccccccccccscsccccccccscccccccccscccccccccccccccccccccccccccccccc"
    d="m 782.6722,685.02653 0,16.15567 c 0,1.02576 0.51289,1.53863 1.53864,1.53863 l 51.54427,0 c 3.5901,0 6.5135,-0.87188 8.77022,-2.61567 2.25661,-1.84637 4.0004,-4.00044 5.23136,-6.46227 2.25659,-4.30817 3.38493,-8.87278 3.38501,-13.69385 -8e-5,-5.53906 -0.46168,-10.10367 -1.38478,-13.69385 -0.92325,-3.59012 -2.30802,-6.41094 -4.15431,-8.4625 -1.84643,-2.15404 -4.25696,-3.69267 -7.23159,-4.61591 -2.87218,-0.92313 -6.35974,-1.38472 -10.46272,-1.38476 l -20.77157,0 c -4.61593,4e-5 -6.92388,-2.05147 -6.92386,-6.15455 -2e-5,-3.89781 2.30793,-5.84675 6.92386,-5.84681 l 39.08133,0 c 1.0257,6e-5 1.53857,-0.51282 1.53863,-1.53864 l 0,-16.0018 c -6e-5,-1.12825 -0.51293,-1.69241 -1.53863,-1.6925 l -34.00383,0 c -5.43654,9e-5 -10.05244,0.3591 -13.84772,1.07704 -7.69318,1.23099 -12.66811,4.92372 -14.92476,11.07818 -1.23091,3.28248 -1.84636,7.53937 -1.84636,12.77067 0,7.59065 1.53863,13.43745 4.6159,17.54044 1.53862,2.15413 3.59014,3.84663 6.15454,5.0775 2.66696,1.23093 5.89809,1.84639 9.6934,1.84636 l 23.54112,0 c 4.30813,3e-5 6.46222,2.05154 6.46227,6.15454 -5e-5,4.92365 -2.15414,7.38547 -6.46227,7.38544 l -43.38951,0 c -1.02575,3e-5 -1.53864,0.51289 -1.53864,1.53864 m 80.38141,14.92476 c 0,1.84636 0.51287,2.76954 1.53864,2.76954 l 16.15565,0 c 1.02575,0 1.53862,-0.92318 1.53865,-2.76954 l 0,-76.93176 c -3e-5,-1.64112 -0.5129,-2.46172 -1.53865,-2.46181 l -16.15565,0 c -1.02577,9e-5 -1.53864,0.82069 -1.53864,2.46181 l 0,76.93176 m 86.50363,-80.93221 0,-27.07997 c -10e-5,-1.43595 0.5641,-2.15398 1.6925,-2.15409 l 16.00178,0 c 1.0257,1.1e-4 1.5385,0.71814 1.5386,2.15409 l 0,108.01218 c -10e-5,1.84636 -0.5129,2.76954 -1.5386,2.76954 l -45.38978,0 c -11.69361,0 -20.46381,-4.97491 -26.31062,-14.92475 -4.30817,-7.38543 -6.25711,-15.8992 -5.84681,-25.54135 0.61546,-11.69357 2.5131,-20.20734 5.69296,-25.54134 6.2571,-10.66779 14.77086,-16.00172 25.54137,-16.00181 l 27.0799,-0.15386 c 1.0257,9e-5 1.5386,-0.51279 1.5387,-1.53864 m 0,22.46407 c -10e-5,-1.12826 -0.513,-1.69243 -1.5387,-1.69249 l -17.0788,0 c -8.3087,6e-5 -13.48873,1.02582 -15.54022,3.07727 -2.05154,2.05157 -3.64146,4.71854 -4.76977,8.0009 -1.12836,2.97475 -1.69252,6.77005 -1.6925,11.3859 -2e-5,5.74427 1.28217,10.51403 3.84659,14.30931 3.07725,4.61593 9.1292,6.92388 18.1559,6.92385 l 17.0788,0 c 1.0257,3e-5 1.5386,-0.51285 1.5387,-1.53863 l 0,-40.46611 m 77.15016,-16.30952 0,52.15972 c 0,1.8464 -1.5386,3.43631 -4.6159,4.76978 -2.8721,1.23091 -6.3597,1.84637 -10.4627,1.84635 -4.3082,2e-5 -7.847,-0.61544 -10.6166,-1.84635 -3.17978,-1.43605 -4.76978,-3.02596 -4.76968,-4.76978 l 0,-52.15972 c -10e-5,-2.25658 -0.5129,-3.38492 -1.5387,-3.38501 l -15.6941,0 c -1.0257,9e-5 -1.5386,1.12843 -1.5386,3.38501 l 0,58.77585 c 0,3.28244 1.0258,6.10327 3.0773,8.4625 3.8979,4.61591 10.1037,7.69318 18.6175,9.23181 4.00038,0.71803 8.15468,1.07704 12.46288,1.07704 4.103,0 8.1547,-0.35901 12.1552,-1.07704 8.6163,-1.53863 14.8735,-4.6159 18.7714,-9.23181 1.9488,-2.35923 2.9233,-5.18006 2.9234,-8.4625 l 0,-58.77585 c -1e-4,-2.25658 -0.513,-3.38492 -1.5386,-3.38501 l -15.6941,0 c -1.0258,9e-5 -1.5387,1.12843 -1.5387,3.38501 m 102.6917,75.54698 -23.5412,-36.77338 c -1.5386,-2.25662 -1.4874,-4.61587 0.1539,-7.07773 l 22.1564,-34.92701 c 0.6153,-1.02567 0.4615,-1.53856 -0.4616,-1.53863 l -21.3871,0 c -1.3335,7e-5 -2.308,0.51296 -2.9234,1.53863 l -8.7702,14.7709 c -1.7438,2.97476 -3.5389,2.97476 -5.3852,0 l -8.9241,-14.7709 c -0.6155,-1.02567 -1.5387,-1.53856 -2.7695,-1.53863 l -21.5409,0 c -0.9232,7e-5 -1.0771,0.51296 -0.4616,1.53863 l 22.3102,34.92701 c 1.6412,2.46186 1.6925,4.82111 0.1538,7.07773 l -23.8488,37.23497 c -0.6155,0.92319 -0.5642,1.38477 0.1539,1.38477 l 20.1561,0 c 1.2309,0 2.1028,-0.4103 2.6157,-1.23091 l 12.309,-19.07907 c 1.6412,-2.56437 3.2824,-2.56437 4.9237,0 l 12.4629,19.07907 c 0.5128,0.82061 1.3335,1.23091 2.4618,1.23091 l 20.0023,0 c 0.9231,0 0.9744,-0.61546 0.1539,-1.84636"
-   style="font-size:156px;font-style:normal;font-weight:bold;opacity:0.65495211;fill:#1b1f21;fill-opacity:1;stroke:#ffffff;stroke-width:1.52840424;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter3478);font-family:Sidux" />
+   style="font-size:156px;font-style:normal;font-weight:bold;opacity:0.65495211;fill:#1b1f21;fill-opacity:1;stroke:#ffffff;stroke-width:1.52840424;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter3478);font-family:aptosid" />
 		<path
    id="orbit"
    inkscape:export-ydpi="90"
    inkscape:export-xdpi="90"
-   inkscape:export-filename="/home/bernie/software/sidux-art/gaia/ksplash-logo.png"
+   inkscape:export-filename="/home/bernie/software/aptosid-art/gaia/ksplash-logo.png"
    sodipodi:type="arc"
    style="opacity:0.65495211;fill:#1b1f21;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.06036639;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-start:none;marker-mid:none;marker-end:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter3478);enable-background:accumulate"
    sodipodi:cx="893.33331"

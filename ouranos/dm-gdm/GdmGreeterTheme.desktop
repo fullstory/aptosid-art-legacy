@@ -1,7 +1,7 @@
 [GdmGreeterTheme]
-Author=sidux art team
+Author=aptosid art team
 Copyright=GPL
-Description="sidux 2009-01 ouranos" 
+Description="aptosid 2009-01 ouranos" 
 Greeter=ouranos.xml
-Name=sidux-ouranos
+Name=aptosid-ouranos
 Screenshot=screenshot.jpg

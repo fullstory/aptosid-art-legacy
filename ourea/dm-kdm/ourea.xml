@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE greeter SYSTEM "greeter.dtd">
-<!-- sidux 2008-03 ourea KDM theme -->
+<!-- aptosid 2008-03 ourea KDM theme -->
 <greeter>
 
  	<item type="pixmap">
@@ -32,7 +32,7 @@
 		<pos anchor="se" x="-50" y="90%" width="box" height="box"/>
 		<box orientation="vertical"  >
 			<item type="pixmap">
-				<normal file="sidux-logo.png" />
+				<normal file="aptosid-logo.png" />
 			</item>
 		</box>
 	</item>

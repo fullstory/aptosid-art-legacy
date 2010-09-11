@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE greeter SYSTEM "greeter.dtd">
-<!-- sidux 2008-02 erebos KDM theme -->
+<!-- aptosid 2008-02 erebos KDM theme -->
 <greeter>
 	<style font="Sans 9" window-text-color="#ffffff"
 	       alpha="0" base-color="#ffffff" alternate-base-color="#ffffff"
@@ -31,9 +31,9 @@
 		</box>
 	</item>
 
-	<!-- sidux logo -->
-	<item type="pixmap" id="sidux-logo">
-		<normal file="sidux-logo.png" />
+	<!-- aptosid logo -->
+	<item type="pixmap" id="aptosid-logo">
+		<normal file="aptosid-logo.png" />
 		<pos anchor="se" x="-50" y="90%" />
 	</item>
 

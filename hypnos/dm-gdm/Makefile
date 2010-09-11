@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
-THEME= sidux-hypnos
-BITMAPS= files background fred sidux
+THEME= aptosid-hypnos
+BITMAPS= files background fred aptosid
 
 all: $(BITMAPS)
 
@@ -23,7 +23,7 @@ fred:
 	inkscape --without-gui --export-width=94 --export-height=100 \
 		--export-png="./$(THEME)/$@.png" $@.svg
 
-sidux:
+aptosid:
 	inkscape --without-gui --export-width=259 --export-height=111 \
 		--export-png="./$(THEME)/$@.png" $@.svg
 

@@ -1,9 +1,9 @@
-[KSplash Theme: sidux-nyx]
-Name = sidux-nyx
-Description = sidux 2008-01 Nyx ksplash theme
+[KSplash Theme: aptosid-nyx]
+Name = aptosid-nyx
+Description = aptosid 2008-01 Nyx ksplash theme
 Version = 1.0
 Author = Bernard Gray <bernard.gray@gmail.com>
-Homepage = http://sidux.com
+Homepage = http://aptosid.com
 Engine = Moodin
 
 BeginOpacity = 0.1
