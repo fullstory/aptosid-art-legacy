@@ -47,5 +47,7 @@ sidux-art-legacy (2010.01.1) UNRELEASED; urgency=low
   * add basic top level Makefile.
   * add dh7 based debian/rules.
   * add forgotten build-depends for new style artworks.
+  * add *.install file creation to bootstrap.sh
+  * generate toplevel Makefuile by bootstrap.sh.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 04:04:57 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 13:55:23 +0200
