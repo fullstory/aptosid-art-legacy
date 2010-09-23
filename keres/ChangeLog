@@ -1,0 +1,174 @@
+aptosid-art-keres (0.2.15) unstable; urgency=low
+
+  * add language.png to dm-gdm again.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 12 Sep 2010 18:45:42 +0200
+
+aptosid-art-keres (0.2.14) unstable; urgency=low
+
+  * import new artwork optimizations from detaos.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 08 Sep 2010 02:00:49 +0200
+
+aptosid-art-keres (0.2.13) unstable; urgency=low
+
+  * keres/dm-gdm/keres.xml fixes from detaos.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 05 Sep 2010 02:08:32 +0200
+
+aptosid-art-keres (0.2.12) unstable; urgency=low
+
+  * import xsplash fixes from detaos.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 04 Sep 2010 13:41:47 +0200
+
+aptosid-art-keres (0.2.11) unstable; urgency=low
+
+  * use edgeMode="none".
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 03 Sep 2010 20:18:06 +0200
+
+aptosid-art-keres (0.2.10) unstable; urgency=low
+
+  * import another batch of gdm bugfixes from detaos.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 03 Sep 2010 20:07:33 +0200
+
+aptosid-art-keres (0.2.9) unstable; urgency=low
+
+  * import artwork fixes (gdm) from detaos.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 03 Sep 2010 19:23:52 +0200
+
+aptosid-art-keres (0.2.8) unstable; urgency=low
+
+  * update artwork from detaos.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 02 Sep 2010 03:53:54 +0200
+
+aptosid-art-keres (0.2.7) unstable; urgency=low
+
+  * fix graphics.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 01 Sep 2010 01:22:57 +0200
+
+aptosid-art-keres (0.2.6) unstable; urgency=low
+
+  * rename dm-gdm/keres.xml to dm-gdm/aptosid-keres.xml, thanks to x-un-i.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 30 Aug 2010 20:43:56 +0200
+
+aptosid-art-keres (0.2.5) unstable; urgency=low
+
+  * make scripts executable again.
+  * dm-gdm doesn't have KdmGreeterTheme.desktop, so don't try to install it.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 30 Aug 2010 13:28:46 +0200
+
+aptosid-art-keres (0.2.4) unstable; urgency=low
+
+  * import new artwork changes from detaos.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 30 Aug 2010 03:57:51 +0200
+
+aptosid-art-keres (0.2.3) unstable; urgency=low
+
+  * rename to aptosid.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 29 Aug 2010 03:36:15 +0200
+
+aptosid-art-keres (0.2.2) unstable; urgency=low
+
+  * drop aptosid logo from SVG.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 26 Aug 2010 00:15:52 +0200
+
+aptosid-art-keres (0.2.1) unstable; urgency=low
+
+  * update dm-gdm/ dm-kdm, thanks to detaos.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 24 Aug 2010 14:30:03 +0200
+
+aptosid-art-keres (0.2.0) unstable; urgency=low
+
+  * update artwork.
+  * drop intermediate comic-frames.svg.
+  * drop Κῆρες from logo.
+  * add quick'n'dirty 4:3 variant.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 21 Aug 2010 22:16:11 +0200
+
+aptosid-art-keres (0.1.7) unstable; urgency=low
+
+  * align wallpaper elements for temporary artwork.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 20 Aug 2010 00:35:19 +0200
+
+aptosid-art-keres (0.1.6) unstable; urgency=low
+
+  * nuke DOS line endings.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 23:23:09 +0200
+
+aptosid-art-keres (0.1.5) unstable; urgency=low
+
+  * drop gtkrc from xfce-theme, it doesn't apply universally.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 18:56:16 +0200
+
+aptosid-art-keres (0.1.4) unstable; urgency=low
+
+  [ Rick Battle ]
+  * update ksplash
+
+  [ Stefan Lippers-Hollmann ]
+  * move artwork to subfolder, in order to ease future merging with
+    aptosid-art-legacy.
+  * remove no longer existing Makefile target for ksplash.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 03:26:56 +0200
+
+aptosid-art-keres (0.1.3) unstable; urgency=low
+
+  * add first draft background to wallpaper
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Sun, 08 Aug 2010 13:52:33 +1000
+
+aptosid-art-keres (0.1.2) unstable; urgency=low
+
+  * switch to compat level 8.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 08 Aug 2010 05:10:43 +0200
+
+aptosid-art-keres (0.1.1) unstable; urgency=low
+
+  * revise phrasing in debian/control.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 08 Aug 2010 05:09:20 +0200
+
+aptosid-art-keres (0.1.0) unstable; urgency=low
+
+  [ Bernard Gray ]
+  * Initial Release.
+  * add current draft wallpaper Works In Progress (sorry about size, this will
+    change)
+  * add middle frame lipstick chick from klaymen
+  * remove frame2-lips altogether, something in it is broken
+
+  [ Niall Walsh ]
+  * svg-anim.pl: rename, fix matrix, make other values take ~ for multi-values
+
+  [ Rick Battle ]
+  * removed fred from the ksplash theme ... don't worry - he'll probably
+    reappear before the theme is done.
+  * initial commit of new keres ksplash theme
+
+  [ Stefan Lippers-Hollmann ]
+  * bump standards version to 3.9.1, no changes necessary.
+  * initial attempt at fixing debian/copyright strucurally.
+  * add detaos to uploaders.
+  * drop stale debian.hypnos/.
+  * switch to DEP5 machine-readable debian/copyright syntax (rev=135).
+  * elaborate long description a bit further, to make lintian happy.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Aug 2010 04:09:30 +0200
