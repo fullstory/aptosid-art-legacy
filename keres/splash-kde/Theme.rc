@@ -1,0 +1,8 @@
+[KSplash Theme: aptosid-keres]
+Name = aptosid 2010-02 (Keres) Splash Screen
+Description = aptosid Keres Splash Screen
+Version = 1.0
+Author = Rick Battle <detaos@aptosid.com>
+Homepage = http://www.aptosid.com
+# Theme behaviour settings.
+Engine = KSplashX

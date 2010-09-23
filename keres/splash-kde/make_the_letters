@@ -1,0 +1,19 @@
+#!/bin/bash
+
+theme=aptosid-keres
+res1=1920x1200
+res2=1600x1200
+letters=( a p t o sid )
+s=b
+anim=_anim
+
+for letter in ${letters[@]}
+do
+./svg-anim.pl $letter.svg 30 $letter$anim.svg translate,0~-950:1,0~0:15 opacity,0.2:1,0.2:14 opacity,0.2:15,1:30
+./svg-anim.pl $letter$s.svg 30 $letter$s$anim.svg translate,0~-950:1,0~950:30
+inkscape --without-gui --export-png="$letter$anim.png" $letter$anim.svg
+inkscape --without-gui --export-png="$letter$s$anim.png" $letter$s$anim.svg
+./composite_pngs.pl -o $theme/$res1/$letter.png $letter$s$anim.png $letter$anim.png
+ln -s ../$res1/$letter.png $theme/$res2/$letter.png
+rm $letter$s$anim.png $letter$anim.png $letter$anim.svg $letter$s$anim.svg
+done
