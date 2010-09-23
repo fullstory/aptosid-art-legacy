@@ -13,292 +13,94 @@ Standards-Version: 3.9.1
 Vcs-Svn: svn://svn.berlios.de/fullstory/aptosid-art-legacy/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/aptosid-art-legacy/trunk/
 
-Package: aptosid-art-gdm-momos
+Package: aptosid-art-gdm-keres
 Architecture: all
 Depends: ${misc:Depends},
  gdm
-Description: GDM theme for aptosid 2009-03 release
+Description: GDM theme for aptosid 2010-02 release
  release specific artwork theme for the GDM display manager to be used in
  combination GTK2 based desktop environments like Xfce or LXDE.
  .
- GDM artwork for: aptosid 2009-03 (Μώμος)
+ GDM artwork for: aptosid 2010-02 (Κῆρες)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: aptosid-art-kde-momos
+Package: aptosid-art-kde-keres
 Architecture: all
 Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
- aptosid-art-ksplash-momos,
- aptosid-art-kdm-momos
-Recommends: aptosid-art-wallpaper-momos,
+ aptosid-art-ksplash-keres,
+ aptosid-art-kdm-keres
+Recommends: aptosid-art-wallpaper-keres,
  dmz-cursor-theme
-Description: KDE theme for the aptosid 2009-03 release
+Description: KDE theme for the aptosid 2010-02 release
  release specific metapackage depending on ksplash, kdm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
- KDE artwork metapackage for: aptosid 2009-03 (Μώμος)
+ KDE artwork metapackage for: aptosid 2010-02 (Κῆρες)
 
-Package: aptosid-art-kdm-momos
+Package: aptosid-art-kdm-keres
 Architecture: all
 Depends: ${misc:Depends},
  kdm
-Description: KDM theme for the aptosid 2009-03 release
+Description: KDM theme for the aptosid 2010-02 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
  .
- KDM artwork for: aptosid 2009-03 (Μώμος)
+ KDM artwork for: aptosid 2010-02 (Κῆρες)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: aptosid-art-ksplash-momos
+Package: aptosid-art-ksplash-keres
 Architecture: all
 Depends: ${misc:Depends},
  kdebase-workspace-bin
-Description: KDE ksplash theme for the aptosid 2009-03 release
+Description: KDE ksplash theme for the aptosid 2010-02 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
- KDE ksplash artwork for: aptosid 2009-03 (Μώμος)
+ KDE ksplash artwork for: aptosid 2010-02 (Κῆρες)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: aptosid-art-wallpaper-momos
+Package: aptosid-art-wallpaper-keres
 Architecture: all
 Provides: aptosid-art-wallpaper-theme
 Depends: ${misc:Depends}
-Description: aptosid wallpaper for the 2009-03 release
+Description: aptosid wallpaper for the 2010-02 release
  release specific wallpapers, compatible with the K Desktop Environment, Xfce,
  LXDE and GNOME.
  .
- Wallpapers for: aptosid 2009-03 (Μώμος)
+ Wallpapers for: aptosid 2010-02 (Κῆρες)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: aptosid-art-xfce-momos
+Package: aptosid-art-xfce-keres
 Architecture: all
 Provides: aptosid-art-xfce-theme
 Depends: ${misc:Depends},
- aptosid-art-xsplash-momos,
- aptosid-art-gdm-momos
-Recommends: aptosid-art-wallpaper-momos,
+ aptosid-art-xsplash-keres,
+ aptosid-art-gdm-keres
+Recommends: aptosid-art-wallpaper-keres,
  dmz-cursor-theme
-Description: Xfce theme for the aptosid 2009-03 release
+Description: Xfce theme for the aptosid 2010-02 release
  release specific metapackage depending on xfce4-session, gdm and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
- Xfce artwork metapackage for: aptosid 2009-03 (Μώμος)
+ Xfce artwork metapackage for: aptosid 2010-02 (Κῆρες)
 
-Package: aptosid-art-xsplash-momos
+Package: aptosid-art-xsplash-keres
 Architecture: all
 Depends: ${misc:Depends},
  xfce4-session
-Description: Xfce splash theme for the aptosid 2009-03 release
+Description: Xfce splash theme for the aptosid 2010-02 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
- Xfce xsplash artwork for: aptosid 2009-03 (Μώμος)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
-
-Package: aptosid-art-wallpaper-momos-edu
-Provides: aptosid-art-wallpaper-theme
-Depends: ${misc:Depends}
-Conflicts: aptosid-art-wallpaper-momos
-Architecture: all
-Description: seminarix wallpaper for 2009-03 release
- release specific wallpapers, compatible with the K Desktop Environment, Xfce,
- LXDE and GNOME.
- .
- Wallpapers for: aptosid seminarix 2009-03 (Μώμος)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
-
-Package: aptosid-art-gdm-moros
-Architecture: all
-Depends: ${misc:Depends},
- gdm
-Description: GDM theme for aptosid 2009-04 release
- release specific artwork theme for the GDM display manager to be used in
- combination GTK2 based desktop environments like Xfce or LXDE.
- .
- GDM artwork for: aptosid 2009-04 (Μόρος)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
-
-Package: aptosid-art-kde-moros
-Architecture: all
-Provides: aptosid-art-kde-theme
-Depends: ${misc:Depends},
- aptosid-art-ksplash-moros,
- aptosid-art-kdm-moros
-Recommends: aptosid-art-wallpaper-moros,
- dmz-cursor-theme
-Description: KDE theme for the aptosid 2009-04 release
- release specific metapackage depending on ksplash, kdm and KDE themes to be
- used in combination with the K Desktop Environment. This package also
- provides a release specific color scheme for KDE.
- .
- KDE artwork metapackage for: aptosid 2009-04 (Μόρος)
-
-Package: aptosid-art-kdm-moros
-Architecture: all
-Depends: ${misc:Depends},
- kdm
-Description: KDM theme for the aptosid 2009-04 release
- release specific artwork theme for the KDM display manager to be used in
- combination with the K Desktop Environment.
- .
- KDM artwork for: aptosid 2009-04 (Μόρος)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
-
-Package: aptosid-art-ksplash-moros
-Architecture: all
-Depends: ${misc:Depends},
- kdebase-workspace-bin
-Description: KDE ksplash theme for the aptosid 2009-04 release
- release specific KDE ksplash theme, using the default ksplash engine.
- .
- KDE ksplash artwork for: aptosid 2009-04 (Μόρος)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
-
-Package: aptosid-art-wallpaper-moros
-Architecture: all
-Provides: aptosid-art-wallpaper-theme
-Depends: ${misc:Depends}
-Description: aptosid wallpaper for the 2009-04 release
- release specific wallpapers, compatible with the K Desktop Environment, Xfce,
- LXDE and GNOME.
- .
- Wallpapers for: aptosid 2009-04 (Μόρος)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
-
-Package: aptosid-art-xfce-moros
-Architecture: all
-Provides: aptosid-art-xfce-theme
-Depends: ${misc:Depends},
- aptosid-art-xsplash-moros,
- aptosid-art-gdm-moros
-Recommends: aptosid-art-wallpaper-moros,
- dmz-cursor-theme
-Description: Xfce theme for the aptosid 2009-04 release
- release specific metapackage depending on xfce4-session, gdm and Xfce themes
- to be used in combination with the Xfce desktop environment.
- .
- Xfce artwork metapackage for: aptosid 2009-04 (Μόρος)
-
-Package: aptosid-art-xsplash-moros
-Architecture: all
-Depends: ${misc:Depends},
- xfce4-session
-Description: Xfce splash theme for the aptosid 2009-04 release
- release specific Xfce splash theme, based on the balou theme engine.
- .
- Xfce xsplash artwork for: aptosid 2009-04 (Μόρος)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
-
-Package: aptosid-art-gdm-hypnos
-Architecture: all
-Depends: ${misc:Depends},
- gdm
-Description: GDM theme for aptosid 2010-01 release
- release specific artwork theme for the GDM display manager to be used in
- combination GTK2 based desktop environments like Xfce or LXDE.
- .
- GDM artwork for: aptosid 2010-01 (Ύπνος)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
-
-Package: aptosid-art-kde-hypnos
-Architecture: all
-Provides: aptosid-art-kde-theme
-Depends: ${misc:Depends},
- aptosid-art-ksplash-hypnos,
- aptosid-art-kdm-hypnos
-Recommends: aptosid-art-wallpaper-hypnos,
- dmz-cursor-theme
-Description: KDE theme for the aptosid 2010-01 release
- release specific metapackage depending on ksplash, kdm and KDE themes to be
- used in combination with the K Desktop Environment. This package also
- provides a release specific color scheme for KDE.
- .
- KDE artwork metapackage for: aptosid 2010-01 (Ύπνος)
-
-Package: aptosid-art-kdm-hypnos
-Architecture: all
-Depends: ${misc:Depends},
- kdm
-Description: KDM theme for the aptosid 2010-01 release
- release specific artwork theme for the KDM display manager to be used in
- combination with the K Desktop Environment.
- .
- KDM artwork for: aptosid 2010-01 (Ύπνος)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
-
-Package: aptosid-art-ksplash-hypnos
-Architecture: all
-Depends: ${misc:Depends},
- kdebase-workspace-bin
-Description: KDE ksplash theme for the aptosid 2010-01 release
- release specific KDE ksplash theme, using the default ksplash engine.
- .
- KDE ksplash artwork for: aptosid 2010-01 (Ύπνος)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
-
-Package: aptosid-art-wallpaper-hypnos
-Architecture: all
-Provides: aptosid-art-wallpaper-theme
-Depends: ${misc:Depends}
-Description: aptosid wallpaper for the 2010-01 release
- release specific wallpapers, compatible with the K Desktop Environment, Xfce,
- LXDE and GNOME.
- .
- Wallpapers for: aptosid 2010-01 (Ύπνος)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
-
-Package: aptosid-art-xfce-hypnos
-Architecture: all
-Provides: aptosid-art-xfce-theme
-Depends: ${misc:Depends},
- aptosid-art-xsplash-hypnos,
- aptosid-art-gdm-hypnos
-Recommends: aptosid-art-wallpaper-hypnos,
- dmz-cursor-theme
-Description: Xfce theme for the aptosid 2010-01 release
- release specific metapackage depending on xfce4-session, gdm and Xfce themes
- to be used in combination with the Xfce desktop environment.
- .
- Xfce artwork metapackage for: aptosid 2010-01 (Ύπνος)
-
-Package: aptosid-art-xsplash-hypnos
-Architecture: all
-Depends: ${misc:Depends},
- xfce4-session
-Description: Xfce splash theme for the aptosid 2010-01 release
- release specific Xfce splash theme, based on the balou theme engine.
- .
- Xfce xsplash artwork for: aptosid 2010-01 (Ύπνος)
+ Xfce xsplash artwork for: aptosid 2010-02 (Κῆρες)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.

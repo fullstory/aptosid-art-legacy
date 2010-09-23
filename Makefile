@@ -1,9 +1,9 @@
 all:
-	for i in  momos moros hypnos; \
+	for i in  keres; \
 		do $(MAKE) -C $$i $@; done
 
 clean:
-	for i in  momos moros hypnos; \
+	for i in  keres; \
 		do $(MAKE) -C $$i $@; done
 
 distclean: clean
