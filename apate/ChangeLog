@@ -1,0 +1,39 @@
+aptosid-art-apate (0.0.5) unstable; urgency=low
+
+  * splash-xfce: continuing the use of the hypnos overlay, with the new apate
+    background.
+  * gdm-theme: ported from the kdm theme
+
+ -- Rick Battle <rick.battle@celtrenicdesigns.com>  Sun, 14 Nov 2010 12:43:27 +0000
+
+aptosid-art-apate (0.0.4) unstable; urgency=low
+
+  * Upload Rick's kdm theme with an updated screenshot.
+
+ -- Niall Walsh <niallwalsh@users.berlios.de>  Fri, 29 Oct 2010 16:34:36 +0100
+
+aptosid-art-apate (0.0.3) unstable; urgency=low
+
+  * splash-kde: "fred attack!"
+
+ -- Rick Battle <rick.battle@celtrenicdesigns.com>  Thu, 28 Oct 2010 09:44:01 +0100
+
+aptosid-art-apate (0.0.2) unstable; urgency=low
+
+  * added city + spiral radio waves to wallpaper themed, 'the claws that guide
+    us'.
+
+ -- Rick Battle <rick.battle@celtrenicdesigns.com>  Wed, 27 Oct 2010 13:34:10 +0100
+
+aptosid-art-apate (0.0.1) unstable; urgency=low
+
+  * initial commit of wide apate wallpaper
+
+ -- Rick Battle <rick.battle@celtrenicdesigns.com>  Mon, 27 Sep 2010 23:57:30 +0200
+
+aptosid-art-apate (0.0.0) unstable; urgency=low
+
+  * initual Ἀπάτη cleanup.
+  * add dummy artwork.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 24 Sep 2010 00:26:10 +0200
