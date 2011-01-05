@@ -105,3 +105,95 @@ Description: Xfce splash theme for the aptosid 2010-02 release
  This package does not override existing theme configurations and needs to be
  selected manually.
 
+Package: aptosid-art-gdm-apate
+Architecture: all
+Depends: ${misc:Depends},
+ gdm
+Description: GDM theme for aptosid 2010-03 release
+ release specific artwork theme for the GDM display manager to be used in
+ combination GTK2 based desktop environments like Xfce or LXDE.
+ .
+ GDM artwork for: aptosid 2010-03 (Ἀπάτη)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
+Package: aptosid-art-kde-apate
+Architecture: all
+Provides: aptosid-art-kde-theme
+Depends: ${misc:Depends},
+ aptosid-art-ksplash-apate,
+ aptosid-art-kdm-apate
+Recommends: aptosid-art-wallpaper-apate,
+ dmz-cursor-theme
+Description: KDE theme for the aptosid 2010-03 release
+ release specific metapackage depending on ksplash, kdm and KDE themes to be
+ used in combination with the K Desktop Environment. This package also
+ provides a release specific color scheme for KDE.
+ .
+ KDE artwork metapackage for: aptosid 2010-03 (Ἀπάτη)
+
+Package: aptosid-art-kdm-apate
+Architecture: all
+Depends: ${misc:Depends},
+ kdm
+Description: KDM theme for the aptosid 2010-03 release
+ release specific artwork theme for the KDM display manager to be used in
+ combination with the K Desktop Environment.
+ .
+ KDM artwork for: aptosid 2010-03 (Ἀπάτη)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
+Package: aptosid-art-ksplash-apate
+Architecture: all
+Depends: ${misc:Depends},
+ kdebase-workspace-bin
+Description: KDE ksplash theme for the aptosid 2010-03 release
+ release specific KDE ksplash theme, using the default ksplash engine.
+ .
+ KDE ksplash artwork for: aptosid 2010-03 (Ἀπάτη)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
+Package: aptosid-art-wallpaper-apate
+Architecture: all
+Provides: aptosid-art-wallpaper-theme
+Depends: ${misc:Depends}
+Description: aptosid wallpaper for the 2010-03 release
+ release specific wallpapers, compatible with the K Desktop Environment, Xfce,
+ LXDE and GNOME.
+ .
+ Wallpapers for: aptosid 2010-03 (Ἀπάτη)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
+Package: aptosid-art-xfce-apate
+Architecture: all
+Provides: aptosid-art-xfce-theme
+Depends: ${misc:Depends},
+ aptosid-art-xsplash-apate,
+ aptosid-art-gdm-apate
+Recommends: aptosid-art-wallpaper-apate,
+ dmz-cursor-theme
+Description: Xfce theme for the aptosid 2010-03 release
+ release specific metapackage depending on xfce4-session, gdm and Xfce themes
+ to be used in combination with the Xfce desktop environment.
+ .
+ Xfce artwork metapackage for: aptosid 2010-03 (Ἀπάτη)
+
+Package: aptosid-art-xsplash-apate
+Architecture: all
+Depends: ${misc:Depends},
+ xfce4-session
+Description: Xfce splash theme for the aptosid 2010-03 release
+ release specific Xfce splash theme, based on the balou theme engine.
+ .
+ Xfce xsplash artwork for: aptosid 2010-03 (Ἀπάτη)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+

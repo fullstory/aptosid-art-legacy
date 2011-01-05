@@ -26,10 +26,11 @@ set -e
 
 RELEASES="
 	keres:Κῆρες:2010-02::
+	apate:Ἀπάτη:2010-03::
 "
 
 # not yet released
-#	apate:Ἀπάτη:2010-03::
+#	geras:Γῆρας:2011-01::
 
 # clean up obsolete stuff
 rm -f	./debian/*.install \

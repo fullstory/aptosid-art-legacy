@@ -24,6 +24,26 @@ Copyright: 2008, Urs Wolfer <uwolfer@kde.org>
            2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2
 
+Files: apate/*
+Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
+           2009, David Creedy <djcreedy@iinet.net.au>
+           2010, Rick Battle <rick.battle@celtrenicdesigns.com>
+License: GPL-2+
+
+Files: apate/dm-gdm/language.png, apate/dm-gdm/session.png, apate/dm-gdm/system.png, apate/dm-kdm/oxygen.svg, apate/dm-kdm/session.png, apate/dm-kdm/system.png
+Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+           2007, David Vignoni <david@icon-king.com>
+           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
+           2007, Kenneth Wimer <kwwii@bootsplash.org>
+           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
+           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
+           2007, David Miller <miller@oxygen-icons.org>
+License: CC-BY-SA | LGPL-2+
+
+Files: apate/splash-kde/svg-anim.pl, apate/splash-kde/composite_pngs.pl
+Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
+License: GPL-2+
+
 Files: erebos/*
 Copyright: 2008, Daniel Prien <d-s-p@d-s-p.de>
            2007-2009, Bernard Gray <bernard.gray@gmail.com>
@@ -221,7 +241,7 @@ License: GPL-2+
 
 Files: debian/*
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-           2007-2009, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+           2007-2011, Stefan Lippers-Hollmann <s.l-h@gmx.de>
 License: GPL-2
 
 License: GPL-2
