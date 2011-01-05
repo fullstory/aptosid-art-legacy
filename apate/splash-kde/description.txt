@@ -1,0 +1,18 @@
+SCALE ON
+BACKGROUND_IMAGE 0 0 background.png
+
+SCALE OFF
+IMAGE_REL CC 0 0 CT aptosid.png
+
+ANIM_REL 1 CC -274  45 CC 30 little-fred.png 60 1
+WAIT_STATE kded
+ANIM_REL 2 CC -209 114 CC 30 little-fred.png 60 1
+WAIT_STATE kcminit
+ANIM_REL 3 CC  -88  29 CC 30 little-fred.png 60 1
+WAIT_STATE ksmserver
+ANIM_REL 4 CC   17  85 CC 30 little-fred.png 60 1
+WAIT_STATE wm
+ANIM_REL 5 CC  226 -54 CC 30 big-fred.png    60 1
+WAIT_STATE desktop
+
+WAIT_STATE ready

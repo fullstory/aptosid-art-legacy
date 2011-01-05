@@ -1,0 +1,13 @@
+#!/bin/bash
+
+theme=aptosid-apate
+res=1920x1200
+freds=( little big )
+anim=_anim
+
+for fred in ${freds[@]}
+do
+./svg-anim.pl $fred-fred.svg 30 $fred-fred$anim.svg opacity,0:1,1:30
+inkscape --without-gui --export-png="$theme/$res/$fred-fred.png" $fred-fred$anim.svg
+rm $fred-fred$anim.svg
+done
