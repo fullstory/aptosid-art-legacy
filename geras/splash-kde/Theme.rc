@@ -1,0 +1,8 @@
+[KSplash Theme: aptosid-geras]
+Name = aptosid 2011-01 (Geras) Splash Screen
+Description = aptosid Geras Splash Screen
+Version = 1.0
+Author = Rick Battle <rick.battle@solmera.com>
+Homepage = http://www.aptosid.com
+# Theme behaviour settings.
+Engine = KSplashX
