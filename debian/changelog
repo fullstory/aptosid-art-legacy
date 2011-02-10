@@ -1,8 +1,9 @@
-aptosid-art-legacy (2010.03.1) UNRELEASED; urgency=low
+aptosid-art-legacy (2011.01.0) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * merge geras:Γῆρας:2011-01::
+  * update debian/copyright to DEP-5, r166.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 05 Jan 2011 14:31:55 +0000
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 10 Feb 2011 16:32:43 +0100
 
 aptosid-art-legacy (2010.03.0) unstable; urgency=low
 
