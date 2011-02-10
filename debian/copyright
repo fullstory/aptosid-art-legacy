@@ -1,6 +1,6 @@
-Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
-Name: aptosid-art-legacy
-Maintainer: Bernard Gray <bernard.gray@gmail.com>
+Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=166
+Upstream-Name: aptosid-art-legacy
+Upstream-Contact: Bernard Gray <bernard.gray@gmail.com>
 Source: svn://svn.berlios.de/fullstory/aptosid-art-legacy/trunk/
 
 Files: aether/*
@@ -92,6 +92,23 @@ Files: gaia/splash-kde/*
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, knithx <knithx@gmail.com>
 License: GPL-2+
+
+Files: geras/*
+Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
+           2007-2011, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+           2009, David Creedy <djcreedy@iinet.net.au>
+           2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
+License: GPL-2+
+
+Files: geras/dm-gdm/language.png, geras/dm-gdm/session.png, geras/dm-gdm/system.png, geras/dm-kdm/oxygen.svg, geras/dm-kdm/session.png, geras/dm-kdm/system.png
+Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+           2007, David Vignoni <david@icon-king.com>
+           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
+           2007, Kenneth Wimer <kwwii@bootsplash.org>
+           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
+           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
+           2007, David Miller <miller@oxygen-icons.org>
+License: CC-BY-SA | LGPL-2+
 
 Files: hypnos/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
