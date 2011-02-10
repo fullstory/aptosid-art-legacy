@@ -1,0 +1,31 @@
+aptosid-art-geras (0.2.1) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 28 Jan 2011 15:33:30 +0100
+
+aptosid-art-geras (0.2.0) unstable; urgency=low
+
+  * import new artwork, thanks detaos.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 28 Jan 2011 15:32:42 +0100
+
+aptosid-art-geras (0.1.0) unstable; urgency=low
+
+  * avoid copyrighted Debian swirl.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 20 Jan 2011 04:23:41 +0100
+
+aptosid-art-geras (0.0.2) unstable; urgency=low
+
+  * fixed 16x9 resolution in make file
+  * made the clouds appear more natural and toned down the text effects
+
+ -- Rick Battle <rick.battle@celtrenicdesigns.com>  Tue, 18 Jan 2011 22:36:52 -0500
+
+aptosid-art-geras (0.0.0) unstable; urgency=low
+
+  * initual Γῆρας cleanup.
+  * add initial dummy artwork.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 05 Jan 2011 16:06:24 +0100
