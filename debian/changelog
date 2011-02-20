@@ -1,3 +1,9 @@
+aptosid-art-legacy (2011.01.2) unstable; urgency=low
+
+  * fix syntax error.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 20 Feb 2011 03:03:41 +0100
+
 aptosid-art-legacy (2011.01.1) unstable; urgency=low
 
   * drop support for gdm (#613491), needs further rework.

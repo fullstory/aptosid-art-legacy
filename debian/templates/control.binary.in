@@ -68,7 +68,7 @@ Package: aptosid-art-xfce-@CODENAME_SAFE@
 Architecture: all
 Provides: aptosid-art-xfce-theme
 Depends: ${misc:Depends},
- aptosid-art-xsplash-@CODENAME_SAFE@,
+ aptosid-art-xsplash-@CODENAME_SAFE@
 Recommends: aptosid-art-wallpaper-@CODENAME_SAFE@,
  dmz-cursor-theme
 Description: Xfce theme for the aptosid @VERSION@ release
