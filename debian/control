@@ -84,7 +84,7 @@ Package: aptosid-art-xfce-keres
 Architecture: all
 Provides: aptosid-art-xfce-theme
 Depends: ${misc:Depends},
- aptosid-art-xsplash-keres,
+ aptosid-art-xsplash-keres
 Recommends: aptosid-art-wallpaper-keres,
  dmz-cursor-theme
 Description: Xfce theme for the aptosid 2010-02 release
@@ -175,7 +175,7 @@ Package: aptosid-art-xfce-apate
 Architecture: all
 Provides: aptosid-art-xfce-theme
 Depends: ${misc:Depends},
- aptosid-art-xsplash-apate,
+ aptosid-art-xsplash-apate
 Recommends: aptosid-art-wallpaper-apate,
  dmz-cursor-theme
 Description: Xfce theme for the aptosid 2010-03 release
@@ -266,7 +266,7 @@ Package: aptosid-art-xfce-geras
 Architecture: all
 Provides: aptosid-art-xfce-theme
 Depends: ${misc:Depends},
- aptosid-art-xsplash-geras,
+ aptosid-art-xsplash-geras
 Recommends: aptosid-art-wallpaper-geras,
  dmz-cursor-theme
 Description: Xfce theme for the aptosid 2011-01 release
