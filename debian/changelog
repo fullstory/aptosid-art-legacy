@@ -1,3 +1,9 @@
+aptosid-art-legacy (2011.01.3) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 20 Feb 2011 03:04:50 +0100
+
 aptosid-art-legacy (2011.01.2) unstable; urgency=low
 
   * fix syntax error.
