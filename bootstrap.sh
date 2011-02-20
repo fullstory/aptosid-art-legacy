@@ -63,7 +63,7 @@ for i in $RELEASES; do
 			${TEMPLATES_BIN} >> ./debian/control
 
 	# write debian/*.install from templates
-	for j in gdm kde kdm ksplash wallpaper xfce xsplash; do
+	for j in gdm3 kde kdm ksplash wallpaper xfce xsplash; do
 		if [ -r  ./debian/templates/aptosid-art-${j}-CODENAME_SAFE.install.in ]; then
 			sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
 					./debian/templates/aptosid-art-${j}-CODENAME_SAFE.install.in \
