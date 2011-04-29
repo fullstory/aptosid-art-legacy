@@ -25,7 +25,7 @@ sidux-art-moros (1.0) unstable; urgency=low
 
   * dm-kdm dm-gdm - update screenshot preview.
 
- -- David Creedy <klaymen@sidux.com>  Sun, 10 Jan 2010 22:21:47 +0100
+ -- David Creedy <djcreedy@iinet.net.au>  Sun, 10 Jan 2010 22:21:47 +0100
 
 sidux-art-moros (0.0.3) unstable; urgency=low
 
@@ -51,7 +51,7 @@ sidux-art-moros (0.0.2) unstable; urgency=low
   [ Stefan Lippers-Hollmann ]
   * small visual adaptions to the wallpaper.
 
- -- David Creedy <klaymen@sidux.com>  Sun, 20 Dec 2009 22:01:07 +1100
+ -- David Creedy <djcreedy@iinet.net.au>  Sun, 20 Dec 2009 22:01:07 +1100
 
 sidux-art-moros (0.0.1) unstable; urgency=low
 
