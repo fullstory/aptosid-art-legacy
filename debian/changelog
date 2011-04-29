@@ -1,8 +1,10 @@
-aptosid-art-legacy (2011.01.3) UNRELEASED; urgency=low
+aptosid-art-legacy (2011.01.3) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * bump standards version to 3.9.2, no changes necessary.
+  * update eMail addresses.
+  * dos2unix.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 20 Feb 2011 03:04:50 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 29 Apr 2011 03:29:57 +0200
 
 aptosid-art-legacy (2011.01.2) unstable; urgency=low
 
