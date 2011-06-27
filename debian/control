@@ -10,7 +10,7 @@ Build-Depends: debhelper (>= 8),
  perlmagick,
  libxml-parser-perl,
  ttf-dustin
-Standards-Version: 3.9.2
+Standards-Version: 3.9.1
 Vcs-Svn: svn://svn.berlios.de/fullstory/aptosid-art-legacy/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/aptosid-art-legacy/trunk/
 

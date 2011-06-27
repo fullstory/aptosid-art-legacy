@@ -8,30 +8,30 @@ set -e
 
 # releases not currently buildable, as they've not yet been ported from kde3 
 # to kde4
-#	gaia:Γάια:2007-03::
-#	eros:Έρως:2007-04::
-#	nyx:Νυξ:2008-01:edu:
-#	erebos:Έρεβος:2008-02:edu:
-#	ourea:Ουρέα:2008-03::
-#	pontos:Πόντος:2008-04::
-#	ouranos:Οὐρανος:2009-01::
+#	gaia:Γάια:2007-03:
+#	eros:Έρως:2007-04:
+#	nyx:Νυξ:2008-01:
+#	erebos:Έρεβος:2008-02:
+#	ourea:Ουρέα:2008-03:
+#	pontos:Πόντος:2008-04:
+#	ouranos:Οὐρανος:2009-01:
 
 # old style, currently not yet supported, the packaging needs to be fixed
-#	aether:Αιθήρ:2009-02::
+#	aether:Αιθήρ:2009-02:
 
 # no aptosid, check graphics
-#	momos:Μώμος:2009-03:edu:
-#	moros:Μόρος:2009-04::
-#	hypnos:Ύπνος:2010-01::
+#	momos:Μώμος:2009-03:
+#	moros:Μόρος:2009-04:
+#	hypnos:Ύπνος:2010-01:
 
 RELEASES="
-	keres:Κῆρες:2010-02::
-	apate:Ἀπάτη:2010-03::
-	geras:Γῆρας:2011-01::
+	keres:Κῆρες:2010-02:
+	apate:Ἀπάτη:2010-03:
+	geras:Γῆρας:2011-01:
 "
 
 # not yet released
-#	imera:Ἡμέρα:2011-02::
+#	imera:Ἡμέρα:2011-02:
 
 # clean up obsolete stuff
 rm -f	./debian/*.install \
@@ -53,9 +53,6 @@ for i in $RELEASES; do
 
 	# write debian/control from templates
 	TEMPLATES_BIN="./debian/templates/control.binary.in"
-	if [ "x$(echo ${i} | cut -d\: -f4)" = "xedu" ]; then
-		TEMPLATES_BIN="${TEMPLATES_BIN} ./debian/templates/control.edu.in"
-	fi
 
 	sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
 		-e s/\@CODENAME\@/$(echo ${i} | cut -d\: -f2)/g \
@@ -77,14 +74,4 @@ for i in $RELEASES; do
 	sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
 			./debian/templates/aptosid-art-wallpaper-CODENAME_SAFE.links.in \
 				> ./debian/aptosid-art-wallpaper-$(echo ${i} | cut -d\: -f1).links
-
-	if [ "x$(echo ${i} | cut -d\: -f4)" = "xedu" ]; then
-		sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
-				./debian/templates/aptosid-art-wallpaper-CODENAME_SAFE-edu.install.in \
-					> ./debian/aptosid-art-wallpaper-$(echo ${i} | cut -d\: -f1)-edu.install
-
-		sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
-				./debian/templates/aptosid-art-wallpaper-CODENAME_SAFE-edu.links.in \
-					> ./debian/aptosid-art-wallpaper-$(echo ${i} | cut -d\: -f1)-edu.links
-	fi
 done
