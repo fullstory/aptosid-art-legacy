@@ -287,3 +287,94 @@ Description: Xfce splash theme for the aptosid 2011-01 release
  This package does not override existing theme configurations and needs to be
  selected manually.
 
+#Package: aptosid-art-gdm3-imera
+#Architecture: all
+#Depends: ${misc:Depends},
+# gdm3
+#Description: GDM3 theme for aptosid 2011-02 release
+# release specific artwork theme for the GDM3 display manager to be used in
+# combination GTK2 based desktop environments like Xfce or LXDE.
+# .
+# GDM3 artwork for: aptosid 2011-02 (Ἡμέρα)
+# .
+# This package does not override existing theme configurations and needs to be
+# selected manually.
+
+Package: aptosid-art-kde-imera
+Architecture: all
+Provides: aptosid-art-kde-theme
+Depends: ${misc:Depends},
+ aptosid-art-ksplash-imera,
+ aptosid-art-kdm-imera
+Recommends: aptosid-art-wallpaper-imera,
+ dmz-cursor-theme
+Description: KDE theme for the aptosid 2011-02 release
+ release specific metapackage depending on ksplash, kdm and KDE themes to be
+ used in combination with the K Desktop Environment. This package also
+ provides a release specific color scheme for KDE.
+ .
+ KDE artwork metapackage for: aptosid 2011-02 (Ἡμέρα)
+
+Package: aptosid-art-kdm-imera
+Architecture: all
+Depends: ${misc:Depends},
+ kdm
+Description: KDM theme for the aptosid 2011-02 release
+ release specific artwork theme for the KDM display manager to be used in
+ combination with the K Desktop Environment.
+ .
+ KDM artwork for: aptosid 2011-02 (Ἡμέρα)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
+Package: aptosid-art-ksplash-imera
+Architecture: all
+Depends: ${misc:Depends},
+ kdebase-workspace-bin
+Description: KDE ksplash theme for the aptosid 2011-02 release
+ release specific KDE ksplash theme, using the default ksplash engine.
+ .
+ KDE ksplash artwork for: aptosid 2011-02 (Ἡμέρα)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
+Package: aptosid-art-wallpaper-imera
+Architecture: all
+Provides: aptosid-art-wallpaper-theme
+Depends: ${misc:Depends}
+Description: aptosid wallpaper for the 2011-02 release
+ release specific wallpapers, compatible with the K Desktop Environment, Xfce,
+ LXDE and GNOME.
+ .
+ Wallpapers for: aptosid 2011-02 (Ἡμέρα)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
+Package: aptosid-art-xfce-imera
+Architecture: all
+Provides: aptosid-art-xfce-theme
+Depends: ${misc:Depends},
+ aptosid-art-xsplash-imera
+Recommends: aptosid-art-wallpaper-imera,
+ dmz-cursor-theme
+Description: Xfce theme for the aptosid 2011-02 release
+ release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
+ to be used in combination with the Xfce desktop environment.
+ .
+ Xfce artwork metapackage for: aptosid 2011-02 (Ἡμέρα)
+
+Package: aptosid-art-xsplash-imera
+Architecture: all
+Depends: ${misc:Depends},
+ xfce4-session
+Description: Xfce splash theme for the aptosid 2011-02 release
+ release specific Xfce splash theme, based on the balou theme engine.
+ .
+ Xfce xsplash artwork for: aptosid 2011-02 (Ἡμέρα)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+

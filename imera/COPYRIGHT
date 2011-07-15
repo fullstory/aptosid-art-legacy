@@ -1,15 +1,16 @@
 Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
-Name: aptosid-art-legacy
+Name: aptosid-art-imera
 Maintainer: Bernard Gray <bernard.gray@gmail.com>
 Source: svn://svn.berlios.de/fullstory/aptosid-art-imera/trunk/
 
 Files: *
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
+           2007-2011, Stefan Lippers-Hollmann <s.l-h@gmx.de>
            2009, David Creedy <djcreedy@iinet.net.au>
            2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2+
 
-Files: dm-gdm/language.png, dm-gdm/session.png, dm-gdm/system.png, dm-kdm/oxygen.svg, dm-kdm/session.png, dm-kdm/system.png
+Files: imera/dm-gdm/language.png, imera/dm-gdm/session.png, imera/dm-gdm/system.png, imera/dm-kdm/oxygen.svg, imera/dm-kdm/session.png, imera/dm-kdm/system.png
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Vignoni <david@icon-king.com>
            2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
@@ -19,13 +20,13 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA | LGPL-2+
 
-Files: splash-kde/svg-anim.pl, splash-kde/composite_pngs.pl
+Files: imera/splash-kde/svg-anim.pl, imera/splash-kde/composite_pngs.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
 License: GPL-2+
 
 Files: debian/*
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-           2007-2010, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+           2007-2011, Stefan Lippers-Hollmann <s.l-h@gmx.de>
 License: GPL-2
 
 License: GPL-2
