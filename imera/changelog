@@ -1,0 +1,60 @@
+aptosid-art-imera (0.0.7) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 28 May 2011 21:36:17 +0200
+
+aptosid-art-imera (0.0.6) unstable; urgency=low
+
+  * ksplash: set scale off for anims and position/size for 800x480 up.
+
+ -- Niall Walsh <niallwalsh@users.berlios.de>  Sat, 28 May 2011 20:31:01 +0100
+
+aptosid-art-imera (0.0.5) unstable; urgency=low
+
+  * import new splash-kde artwork from detaos.
+  * fix imera.xml installation.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 May 2011 02:34:52 +0200
+
+aptosid-art-imera (0.0.4) unstable; urgency=low
+
+  * updated xfce-splash to imera background.
+
+ -- Rick Battle <rick.battle@solmera.com>  Sat, 07 May 2011 21:11:19 +0200
+
+aptosid-art-imera (0.0.3) unstable; urgency=low
+
+  [ Rick Battle ]
+  * updated gdm theme to imera background
+
+  [ Stefan Lippers-Hollmann ]
+  * bump standards version to 3.9.2, no changes necessary.
+  * update eMail addresses.
+  * dos2unix.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 29 Apr 2011 03:02:59 +0200
+
+aptosid-art-imera (0.0.2) unstable; urgency=low
+
+  * dropped the out of place oxygenrc, added alternate dark colour theme,
+    updated install file to install both colour themes
+  * initial commit of concept for wallpaper (incomplete, very)
+  * added streaks, fred, text
+  * minor fred and text tweaks
+  * brightened and blued bits
+  * made the square & really-wide variants for the wallpaper
+
+ -- Rick Battle <rick.battle@solmera.com>  Thu, 31 Mar 2011 17:18:23 -0400
+
+aptosid-art-imera (0.0.1) unstable; urgency=low
+
+  * drop support for gdm (#613491), needs further rework.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 20 Feb 2011 03:02:18 +0100
+
+aptosid-art-imera (0.0.0) unstable; urgency=low
+
+  * add initial dummy artwork.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 10 Feb 2011 17:46:49 +0100
