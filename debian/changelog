@@ -1,3 +1,9 @@
+aptosid-art-legacy (2011.02.1) unstable; urgency=low
+
+  * add accidentally omitted copyright stanza for Ἡμέρα.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 15 Jul 2011 22:23:38 +0200
+
 aptosid-art-legacy (2011.02.0) unstable; urgency=low
 
   * drop -edu wallpapers and infrastructure.
