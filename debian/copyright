@@ -124,6 +124,27 @@ Files: hypnos/splash-kde/svg-anim-r2skew2-fix.pl, hypnos/splash-kde/composite_pn
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
 License: GPL-2+
 
+Files: imera/*
+Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
+           2007-2011, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+           2009, David Creedy <djcreedy@iinet.net.au>
+           2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
+License: GPL-2+
+
+Files: imera/dm-gdm/language.png, imera/dm-gdm/session.png, imera/dm-gdm/system.png, imera/dm-kdm/oxygen.svg, imera/dm-kdm/session.png, imera/dm-kdm/system.png
+Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+           2007, David Vignoni <david@icon-king.com>
+           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
+           2007, Kenneth Wimer <kwwii@bootsplash.org>
+           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
+           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
+           2007, David Miller <miller@oxygen-icons.org>
+License: CC-BY-SA | LGPL-2+
+
+Files: imera/splash-kde/svg-anim.pl, imera/splash-kde/composite_pngs.pl
+Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
+License: GPL-2+
+
 Files: keres/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2009, David Creedy <djcreedy@iinet.net.au>

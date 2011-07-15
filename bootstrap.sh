@@ -28,10 +28,11 @@ RELEASES="
 	keres:Κῆρες:2010-02:
 	apate:Ἀπάτη:2010-03:
 	geras:Γῆρας:2011-01:
+	imera:Ἡμέρα:2011-02:
 "
 
 # not yet released
-#	imera:Ἡμέρα:2011-02:
+#	ponos:Πόνος:2011-03:
 
 # clean up obsolete stuff
 rm -f	./debian/*.install \
