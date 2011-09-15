@@ -1,6 +1,6 @@
-Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=166
+Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?revision=174&view=co
 Upstream-Name: aptosid-art-legacy
-Upstream-Contact: Bernard Gray <bernard.gray@gmail.com>
+Upstream-Contact: Rick Battle <rick.battle@celtrenicdesigns.com>
 Source: svn://svn.berlios.de/fullstory/aptosid-art-legacy/trunk/
 
 Files: aether/*
@@ -16,7 +16,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
            2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
            2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA | LGPL-2+
+License: CC-BY-SA or LGPL-2+
 
 Files: aether/dm-gdm/aptosid-aether.xml
 Copyright: 2008, Urs Wolfer <uwolfer@kde.org>
@@ -38,7 +38,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
            2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
            2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA | LGPL-2+
+License: CC-BY-SA or LGPL-2+
 
 Files: apate/splash-kde/svg-anim.pl, apate/splash-kde/composite_pngs.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
@@ -102,7 +102,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
            2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
            2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA | LGPL-2+
+License: CC-BY-SA or LGPL-2+
 
 Files: hypnos/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
@@ -118,7 +118,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
            2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
            2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA | LGPL-2+
+License: CC-BY-SA or LGPL-2+
 
 Files: hypnos/splash-kde/svg-anim-r2skew2-fix.pl, hypnos/splash-kde/composite_pngs.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
@@ -139,7 +139,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
            2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
            2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA | LGPL-2+
+License: CC-BY-SA or LGPL-2+
 
 Files: imera/splash-kde/svg-anim.pl, imera/splash-kde/composite_pngs.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
@@ -159,7 +159,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
            2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
            2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA | LGPL-2+
+License: CC-BY-SA or LGPL-2+
 
 Files: keres/splash-kde/svg-anim.pl, keres/splash-kde/composite_pngs.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
@@ -179,7 +179,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
            2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
            2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA | LGPL-2+
+License: CC-BY-SA or LGPL-2+
 
 Files: momos/splash-kde/splash-kde/svg-anim.pl
 Copyright: 2009, Naill Walsh <niallwalsh@users.berlios.de>
@@ -198,7 +198,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
            2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
            2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA | LGPL-2+
+License: CC-BY-SA or LGPL-2+
 
 Files: moros/splash-kde/splash-kde/svg-anim.pl
 Copyright: 2009, Naill Walsh <niallwalsh@users.berlios.de>
@@ -227,7 +227,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
            2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
            2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA | LGPL-2+
+License: CC-BY-SA or LGPL-2+
 
 Files: ouranos/*
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
@@ -244,7 +244,7 @@ Copyright: 2007, David Vignoni <david@icon-king.com>
            2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
            2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
            2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA | LGPL-2+
+License: CC-BY-SA or LGPL-2+
 
 Files: ourea/*
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
