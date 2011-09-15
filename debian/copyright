@@ -8,7 +8,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2009, David Creedy <djcreedy@iinet.net.au>
 License: GPL-2+
 
-Files: aether/dm-kdm/session.png, aether/dm-kdm/system.png
+Files: aether/dm-kdm/session.png aether/dm-kdm/system.png
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Vignoni <david@icon-king.com>
            2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
@@ -30,7 +30,7 @@ Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2010, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2+
 
-Files: apate/dm-gdm/language.png, apate/dm-gdm/session.png, apate/dm-gdm/system.png, apate/dm-kdm/oxygen.svg, apate/dm-kdm/session.png, apate/dm-kdm/system.png
+Files: apate/dm-gdm/language.png apate/dm-gdm/session.png apate/dm-gdm/system.png apate/dm-kdm/oxygen.svg apate/dm-kdm/session.png apate/dm-kdm/system.png
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Vignoni <david@icon-king.com>
            2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
@@ -40,7 +40,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2+
 
-Files: apate/splash-kde/svg-anim.pl, apate/splash-kde/composite_pngs.pl
+Files: apate/splash-kde/svg-anim.pl apate/splash-kde/composite_pngs.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
 License: GPL-2+
 
@@ -94,7 +94,7 @@ Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2+
 
-Files: geras/dm-gdm/language.png, geras/dm-gdm/session.png, geras/dm-gdm/system.png, geras/dm-kdm/oxygen.svg, geras/dm-kdm/session.png, geras/dm-kdm/system.png
+Files: geras/dm-gdm/language.png geras/dm-gdm/session.png geras/dm-gdm/system.png geras/dm-kdm/oxygen.svg geras/dm-kdm/session.png geras/dm-kdm/system.png
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Vignoni <david@icon-king.com>
            2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
@@ -110,7 +110,7 @@ Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2010, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2+
 
-Files: hypnos/dm-gdm/language.png, hypnos/dm-gdm/session.png, hypnos/dm-gdm/system.png, hypnos/dm-kdm/oxygen.svg, hypnos/dm-kdm/session.png, hypnos/dm-kdm/system.png
+Files: hypnos/dm-gdm/language.png hypnos/dm-gdm/session.png hypnos/dm-gdm/system.png hypnos/dm-kdm/oxygen.svg hypnos/dm-kdm/session.png hypnos/dm-kdm/system.png
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Vignoni <david@icon-king.com>
            2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
@@ -120,7 +120,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2+
 
-Files: hypnos/splash-kde/svg-anim-r2skew2-fix.pl, hypnos/splash-kde/composite_pngs.pl
+Files: hypnos/splash-kde/svg-anim-r2skew2-fix.pl hypnos/splash-kde/composite_pngs.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
 License: GPL-2+
 
@@ -131,7 +131,7 @@ Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2+
 
-Files: imera/dm-gdm/language.png, imera/dm-gdm/session.png, imera/dm-gdm/system.png, imera/dm-kdm/oxygen.svg, imera/dm-kdm/session.png, imera/dm-kdm/system.png
+Files: imera/dm-gdm/language.png imera/dm-gdm/session.png imera/dm-gdm/system.png imera/dm-kdm/oxygen.svg imera/dm-kdm/session.png imera/dm-kdm/system.png
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Vignoni <david@icon-king.com>
            2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
@@ -141,7 +141,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2+
 
-Files: imera/splash-kde/svg-anim.pl, imera/splash-kde/composite_pngs.pl
+Files: imera/splash-kde/svg-anim.pl imera/splash-kde/composite_pngs.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
 License: GPL-2+
 
@@ -151,7 +151,7 @@ Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2010, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2+
 
-Files: keres/dm-gdm/language.png, keres/dm-gdm/session.png, keres/dm-gdm/system.png, keres/dm-kdm/oxygen.svg, keres/dm-kdm/session.png, keres/dm-kdm/system.png
+Files: keres/dm-gdm/language.png keres/dm-gdm/session.png keres/dm-gdm/system.png keres/dm-kdm/oxygen.svg keres/dm-kdm/session.png keres/dm-kdm/system.png
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Vignoni <david@icon-king.com>
            2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
@@ -161,7 +161,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2+
 
-Files: keres/splash-kde/svg-anim.pl, keres/splash-kde/composite_pngs.pl
+Files: keres/splash-kde/svg-anim.pl keres/splash-kde/composite_pngs.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
 License: GPL-2+
 
@@ -171,7 +171,7 @@ Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2010, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2+
 
-Files: momos/dm-gdm/language.png, momos/dm-gdm/session.png, momos/dm-gdm/system.png, momos/dm-kdm/oxygen.svg, momos/dm-kdm/session.png, momos/dm-kdm/system.png
+Files: momos/dm-gdm/language.png momos/dm-gdm/session.png momos/dm-gdm/system.png momos/dm-kdm/oxygen.svg momos/dm-kdm/session.png momos/dm-kdm/system.png
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Vignoni <david@icon-king.com>
            2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
@@ -190,7 +190,7 @@ Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2009, David Creedy <djcreedy@iinet.net.au>
 License: GPL-2+
 
-Files: moros/dm-gdm/language.png, moros/dm-gdm/session.png, moros/dm-gdm/system.png, moros/dm-kdm/oxygen.svg, moros/dm-kdm/session.png, moros/dm-kdm/system.png
+Files: moros/dm-gdm/language.png moros/dm-gdm/session.png moros/dm-gdm/system.png moros/dm-kdm/oxygen.svg moros/dm-kdm/session.png moros/dm-kdm/system.png
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Vignoni <david@icon-king.com>
            2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
@@ -219,7 +219,7 @@ Copyright: 2008, <knithx knithx@gmail.com>
            2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
-Files: nyx/dm-kdm/session.png, nyx/dm-kdm/system.png
+Files: nyx/dm-kdm/session.png nyx/dm-kdm/system.png
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Vignoni <david@icon-king.com>
            2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
@@ -286,6 +286,23 @@ License: GPL-2
  .
  On Debian systems, the complete text of the GNU General
  Public License can be found in '/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2.0+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
 License: CC-BY-SA
  Creative Common Attribution-ShareAlike 3.0

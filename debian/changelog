@@ -1,8 +1,8 @@
-aptosid-art-legacy (2011.02.3) UNRELEASED; urgency=low
+aptosid-art-legacy (2011.02.3) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * fix dep5 syntax, add another gpl2+ stanza.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 15 Sep 2011 23:38:03 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 16 Sep 2011 00:32:02 +0200
 
 aptosid-art-legacy (2011.02.2) unstable; urgency=low
 
