@@ -204,7 +204,7 @@ Files: moros/splash-kde/splash-kde/svg-anim.pl
 Copyright: 2009, Naill Walsh <niallwalsh@users.berlios.de>
 License: GPL-2+
 
-Files nyx/dm-gdm/
+Files nyx/dm-gdm/*
 Copyright: 2008, Daniel Prien <d-s-p@d-s-p.de>
            2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
