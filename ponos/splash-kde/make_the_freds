@@ -1,0 +1,16 @@
+#!/bin/bash
+
+theme=aptosid-ponos
+res=1920x1200
+freds=( 0 1 2 3 4 )
+anim=_anim
+
+for fred in ${freds[@]}
+do
+./svg-anim.pl fred$fred.svg 30 fred$fred$anim.svg scaley,0:1,1:30,sin:base opacity,0.5:1,1:30,sin
+inkscape --without-gui --export-png="$theme/$res/fred$fred.png" fred$fred$anim.svg
+ln -s  ../$res/fred$fred.png $theme/1920x1080/fred$fred.png
+ln -s  ../$res/fred$fred.png $theme/1600x1200/fred$fred.png
+ln -s  ../$res/fred$fred.png $theme/1280x1024/fred$fred.png
+rm fred$fred$anim.svg
+done

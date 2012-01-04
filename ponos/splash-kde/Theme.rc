@@ -1,0 +1,8 @@
+[KSplash Theme: aptosid-ponos]
+Name = aptosid 2011-03 (ponos) Splash Screen
+Description = aptosid ponos Splash Screen
+Version = 1.0
+Author = Rick Battle <rick.battle@solmera.com>
+Homepage = http://www.aptosid.com
+# Theme behaviour settings.
+Engine = KSplashX
