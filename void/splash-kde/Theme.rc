@@ -1,0 +1,8 @@
+[KSplash Theme: aptosid-void]
+Name = aptosid 2012-01 (void) Splash Screen
+Description = aptosid void Splash Screen
+Version = 1.0
+Author = Rick Battle <rick.battle@solmera.com>
+Homepage = http://www.aptosid.com
+# Theme behaviour settings.
+Engine = KSplashX
