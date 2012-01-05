@@ -204,11 +204,6 @@ Files: moros/splash-kde/splash-kde/svg-anim.pl
 Copyright: 2009, Naill Walsh <niallwalsh@users.berlios.de>
 License: GPL-2+
 
-Files nyx/dm-gdm/*
-Copyright: 2008, Daniel Prien <d-s-p@d-s-p.de>
-           2007-2009, Bernard Gray <bernard.gray@gmail.com>
-License: GPL-2+
-
 Files: nyx/*
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2008, Daniel Prien <d-s-p@d-s-p.de>
@@ -216,6 +211,11 @@ License: GPL-2+
 
 Files: nyx/theme-kde/aptosid-nyx-il_silver.kcsrc
 Copyright: 2008, <knithx knithx@gmail.com>
+           2007-2009, Bernard Gray <bernard.gray@gmail.com>
+License: GPL-2+
+
+Files: nyx/dm-gdm/*
+Copyright: 2008, Daniel Prien <d-s-p@d-s-p.de>
            2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
@@ -293,7 +293,7 @@ Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2+
 
-Files: void/dm-gdm/language.png, void/dm-gdm/session.png, void/dm-gdm/system.png, void/dm-kdm/oxygen.svg, void/dm-kdm/session.png, void/dm-kdm/system.png
+Files: void/dm-gdm/language.png void/dm-gdm/session.png void/dm-gdm/system.png void/dm-kdm/oxygen.svg void/dm-kdm/session.png void/dm-kdm/system.png
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Vignoni <david@icon-king.com>
            2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
@@ -301,9 +301,9 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
            2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
            2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA | LGPL-2+
+License: CC-BY-SA or LGPL-2+
 
-Files: void/splash-kde/svg-anim.pl, void/splash-kde/composite_pngs.pl
+Files: void/splash-kde/svg-anim.pl void/splash-kde/composite_pngs.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
 License: GPL-2+
 
