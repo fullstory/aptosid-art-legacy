@@ -22,7 +22,7 @@ Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/aptosid-art-legacy/trunk/
 # release specific artwork theme for the GDM3 display manager to be used in
 # combination GTK2 based desktop environments like Xfce or LXDE.
 # .
-# GDM3 artwork for: aptosid 0-0 (ασάφεια)
+# GDM3 artwork for: aptosid 0-0 (άκυρος)
 # .
 # This package does not override existing theme configurations and needs to be
 # selected manually.
@@ -40,7 +40,7 @@ Description: KDE theme for the aptosid 0-0 release
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
- KDE artwork metapackage for: aptosid 0-0 (ασάφεια)
+ KDE artwork metapackage for: aptosid 0-0 (άκυρος)
 
 Package: aptosid-art-kdm-void
 Architecture: all
@@ -50,7 +50,7 @@ Description: KDM theme for the aptosid 0-0 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
  .
- KDM artwork for: aptosid 0-0 (ασάφεια)
+ KDM artwork for: aptosid 0-0 (άκυρος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -62,7 +62,7 @@ Depends: ${misc:Depends},
 Description: KDE ksplash theme for the aptosid 0-0 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
- KDE ksplash artwork for: aptosid 0-0 (ασάφεια)
+ KDE ksplash artwork for: aptosid 0-0 (άκυρος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -75,7 +75,7 @@ Description: aptosid wallpaper for the 0-0 release
  release specific wallpapers, compatible with the K Desktop Environment, Xfce,
  LXDE and GNOME.
  .
- Wallpapers for: aptosid 0-0 (ασάφεια)
+ Wallpapers for: aptosid 0-0 (άκυρος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -91,7 +91,7 @@ Description: Xfce theme for the aptosid 0-0 release
  release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
- Xfce artwork metapackage for: aptosid 0-0 (ασάφεια)
+ Xfce artwork metapackage for: aptosid 0-0 (άκυρος)
 
 Package: aptosid-art-xsplash-void
 Architecture: all
@@ -100,7 +100,7 @@ Depends: ${misc:Depends},
 Description: Xfce splash theme for the aptosid 0-0 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
- Xfce xsplash artwork for: aptosid 0-0 (ασάφεια)
+ Xfce xsplash artwork for: aptosid 0-0 (άκυρος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
