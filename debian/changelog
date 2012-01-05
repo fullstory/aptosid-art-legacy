@@ -1,8 +1,9 @@
 aptosid-art-legacy (2011.03.1) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
+  * use xz to compress source and binaries.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Jan 2012 02:21:48 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Jan 2012 03:42:47 +0100
 
 aptosid-art-legacy (2011.03.0) unstable; urgency=low
 
