@@ -18,10 +18,10 @@ prepare:
 background: $(SIZES)
 
 1600x1200:
-	inkscape --without-gui --export-png="$(THEME)/1600x1200/$@.png" $@.svg
+	inkscape --without-gui --export-png="$(THEME)/1600x1200/background.png" background.svg
 
 1920x1200:
-	inkscape --without-gui --export-png="$(THEME)/$(CONTROLDIR)/$@.png" $@-wide.svg
+	inkscape --without-gui --export-png="$(THEME)/$(CONTROLDIR)/background.png" background-wide.svg
 
 letters:
 	./make_the_letters
