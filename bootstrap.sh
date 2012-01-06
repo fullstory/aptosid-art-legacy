@@ -25,7 +25,7 @@ set -e
 #	hypnos:Ύπνος:2010-01:
 
 RELEASES="
-	void:άκυρος:0-0:
+	void:άκυρος:void:
 	keres:Κῆρες:2010-02:
 	apate:Ἀπάτη:2010-03:
 	geras:Γῆρας:2011-01:
@@ -42,13 +42,22 @@ rm -f	./debian/*.install \
 	./debian/*.postinst \
 	./debian/*.postrm
 
-#write toplevel Makefile
+# write toplevel Makefile
 for i in $RELEASES; do
 	ALL_CODENAME_SAFE="${ALL_CODENAME_SAFE} $(echo ${i} | cut -d\: -f1)"
 done
 sed	-e "s/\@ALL_CODENAME_SAFE\@/${ALL_CODENAME_SAFE}/g" \
 		./debian/templates/Makefile.in \
 			> ./Makefile
+
+# write sublevel release Makefiles
+#ALL_THEMES="dm-gdm dm-kdm splash-kde splash-xfce wallpaper"
+ALL_THEMES="dm-kdm splash-kde splash-xfce wallpaper"
+for i in $RELEASES; do
+	sed	-e "s/\@ALL_CODENAME_SAFE\@/${ALL_THEMES}/g" \
+			./debian/templates/Makefile.in \
+				> "$(echo ${i} | cut -d\: -f1)/Makefile"
+done
 
 [ -d ./debian ] || exit 1
 cat ./debian/templates/control.source.in > debian/control
