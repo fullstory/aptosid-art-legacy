@@ -14,8 +14,8 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.1 r9760"
-   sodipodi:docname="aptosid-void-really-wide.svg"
-   inkscape:export-filename="aptosid-void-really-wide.png"
+   sodipodi:docname="aptosid-void-wide.svg"
+   inkscape:export-filename="aptosid-void.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
    style="display:inline;enable-background:new">
@@ -38,16 +38,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="771.30343"
-     inkscape:cy="699.18109"
+     inkscape:zoom="1"
+     inkscape:cx="855.04864"
+     inkscape:cy="631.71875"
      inkscape:document-units="px"
      inkscape:current-layer="layer6"
      showgrid="false"
-     inkscape:window-width="1912"
-     inkscape:window-height="1153"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="2560"
+     inkscape:window-height="1550"
+     inkscape:window-x="1196"
+     inkscape:window-y="-3"
      inkscape:window-maximized="1"
      borderlayer="true" />
   <metadata
@@ -58,7 +58,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -69,7 +69,7 @@
      style="display:inline"
      transform="translate(0,-120)">
     <g
-       transform="matrix(-1,0,0,1,2123.4286,474.09626)"
+       transform="translate(1423.6965,436.09628)"
        id="layer1-7"
        inkscape:label="Layer 1">
       <g
@@ -89,5 +89,16 @@
            inkscape:connector-curvature="0" />
       </g>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="1577.7393"
+       y="1112.5917"
+       id="text2988"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2990"
+         x="1577.7393"
+         y="1112.5917">άκυρος</tspan></text>
   </g>
 </svg>

@@ -1,10 +1,14 @@
 aptosid-art-legacy (2011.03.1) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
   * use xz to compress source and binaries.
   * fix translation for άκυρος.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Jan 2012 16:43:52 +0100
+  [ Rick Battle ]
+  * fred bump + added void text 
+
+ -- Rick Battle <rick.battle@solmera.com>  Fri, 06 Jan 2012 00:08:53 -0800
 
 aptosid-art-legacy (2011.03.0) unstable; urgency=low
 
