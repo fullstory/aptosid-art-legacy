@@ -2,6 +2,7 @@
 
 THEME= aptosid-keres
 CONTROLDIR= 1920x1200
+SIZES = 1600x1200 1920x1200
 
 all: prepare background letters
 
@@ -14,9 +15,13 @@ prepare:
 	cp description.txt $(THEME)/$(CONTROLDIR)
 	ln -s ../$(CONTROLDIR)/description.txt $(THEME)/1600x1200/description.txt
 
-background:
-	inkscape --without-gui --export-png="$(THEME)/1600x1200/$@.png" $@.svg
-	inkscape --without-gui --export-png="$(THEME)/$(CONTROLDIR)/$@.png" $@-wide.svg
+background: $(SIZES)
+
+1600x1200:
+	inkscape --without-gui --export-png="$(THEME)/1600x1200/background.png" background.svg
+
+1920x1200:
+	inkscape --without-gui --export-png="$(THEME)/$(CONTROLDIR)/background.png" background-wide.svg
 
 letters:
 	./make_the_letters
