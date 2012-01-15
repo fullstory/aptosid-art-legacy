@@ -1,8 +1,8 @@
-aptosid-art-legacy (2011.03.4) UNRELEASED; urgency=low
+aptosid-art-legacy (2011.03.4) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * switch to compat level 9.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 07 Jan 2012 01:03:31 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 15 Jan 2012 23:51:09 +0100
 
 aptosid-art-legacy (2011.03.3) unstable; urgency=low
 
