@@ -4,7 +4,7 @@ THEME= aptosid-keres
 CONTROLDIR= 1920x1200
 SIZES = 1600x1200 1920x1200
 
-all: prepare background letters
+all: letters prepare background
 
 prepare:
 	$(RM) -r $(THEME)
@@ -23,8 +23,22 @@ background: $(SIZES)
 1920x1200:
 	inkscape --without-gui --export-png="$(THEME)/$(CONTROLDIR)/background.png" background-wide.svg
 
-letters:
-	./make_the_letters
+letters: letsid leta letp lett leto
+
+letsid:
+	./make_the_letters sid
+
+leta:
+	./make_the_letters a
+
+letp:
+	./make_the_letters p
+
+lett:
+	./make_the_letters t
+
+leto:
+	./make_the_letters o
 
 clean:
 	$(RM) -r $(THEME)
