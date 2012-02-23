@@ -1,12 +1,12 @@
-aptosid-art-legacy (2011.03.5) UNRELEASED; urgency=low
-
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
+aptosid-art-legacy (2011.03.5) unstable; urgency=low
 
   [ Niall Walsh ]
   * rework keres make_the_letters to be more parallel and unblock build-time
 
- -- Niall Walsh <niallwalsh@users.berlios.de>  Sun, 05 Feb 2012 18:28:22 +0000
+  [ Stefan Lippers-Hollmann ]
+  * bump standards version to 3.9.3, no changes necessary.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 23 Feb 2012 15:10:43 +0100
 
 aptosid-art-legacy (2011.03.4) unstable; urgency=low
 
