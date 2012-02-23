@@ -2,8 +2,8 @@ Source: aptosid-art-legacy
 Section: graphics
 Priority: extra
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Uploaders: Bernard Gray <bernard.gray@gmail.com>,
- Rick Battle <rick.battle@celtrenicdesigns.com>
+Uploaders: Rick Battle <rick.battle@celtrenicdesigns.com>,
+ Niall Walsh <niallwalsh@users.berlios.de>
 Build-Depends: debhelper (>= 9.20120115),
  inkscape,
  perl,
