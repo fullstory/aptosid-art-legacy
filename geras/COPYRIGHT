@@ -1,15 +1,16 @@
-Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
-Name: aptosid-art-legacy
-Maintainer: Bernard Gray <bernard.gray@gmail.com>
-Source: svn://svn.berlios.de/fullstory/aptosid-art-geras/trunk/
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: aptosid-art-legacy
+Upstream-Contact: Rick Battle <rick.battle@celtrenicdesigns.com>
+Source: svn://svn.berlios.de/fullstory/aptosid-art-legacy/trunk/
 
 Files: *
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
+           2007-2011, Stefan Lippers-Hollmann <s.l-h@gmx.de>
            2009, David Creedy <djcreedy@iinet.net.au>
            2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2+
 
-Files: dm-gdm/language.png, dm-gdm/session.png, dm-gdm/system.png, dm-kdm/oxygen.svg, dm-kdm/session.png, dm-kdm/system.png
+Files: dm-gdm/language.png dm-gdm/session.png dm-gdm/system.png dm-kdm/oxygen.svg dm-kdm/session.png dm-kdm/system.png
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Vignoni <david@icon-king.com>
            2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
@@ -17,33 +18,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
            2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
            2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA | LGPL-2+
-
-Files: splash-kde/svg-anim.pl, splash-kde/composite_pngs.pl
-Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
-License: GPL-2+
-
-Files: debian/*
-Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-           2007-2010, Stefan Lippers-Hollmann <s.l-h@gmx.de>
-License: GPL-2
-
-License: GPL-2
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License version 2 as
- published by the Free Software Foundation.
- .
- This package is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this package; if not, write to the Free Software
- Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
- .
- On Debian systems, the complete text of the GNU General
- Public License can be found in '/usr/share/common-licenses/GPL-2'.
+License: CC-BY-SA or LGPL-2+
 
 License: CC-BY-SA
  Creative Common Attribution-ShareAlike 3.0
@@ -168,19 +143,19 @@ License: CC-BY-SA
     e. For the avoidance of doubt:
        i.   Non-waivable Compulsory License Schemes. In those jurisdictions in
             which the right to collect royalties through any statutory or
-	    compulsory licensing scheme cannot be waived, the Licensor reserves
-	    the exclusive right to collect such royalties for any exercise by
-	    You of the rights granted under this License;
+            compulsory licensing scheme cannot be waived, the Licensor reserves
+            the exclusive right to collect such royalties for any exercise by
+            You of the rights granted under this License;
        ii.  Waivable Compulsory License Schemes. In those jurisdictions in
             which the right to collect royalties through any statutory or
-	    compulsory licensing scheme can be waived, the Licensor waives the
-	    exclusive right to collect such royalties for any exercise by You
-	    of the rights granted under this License; and,
+            compulsory licensing scheme can be waived, the Licensor waives the
+            exclusive right to collect such royalties for any exercise by You
+            of the rights granted under this License; and,
        iii. Voluntary License Schemes. The Licensor waives the right to collect
             royalties, whether individually or, in the event that the Licensor
-	    is a member of a collecting society that administers voluntary
-	    licensing schemes, via that society, from any exercise by You of
-	    the rights granted under this License.
+            is a member of a collecting society that administers voluntary
+            licensing schemes, via that society, from any exercise by You of
+            the rights granted under this License.
  .
  The above rights may be exercised in all media and formats whether now known
  or hereafter devised. The above rights include the right to make such
@@ -376,6 +351,40 @@ License: CC-BY-SA
  .
  Creative Commons may be contacted at http://creativecommons.org/.
 
+License: GPL-2
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 2 as
+ published by the Free Software Foundation.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this package; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in '/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
 License: LGPL-2+
  GNU Library General Public License (with following clarification).
  .
@@ -415,3 +424,4 @@ License: LGPL-2+
  .
  On Debian systems, the complete text of the GNU Lesser General
  Public License can be found in '/usr/share/common-licenses/LGPL-2'.
+

@@ -4,24 +4,18 @@ Upstream-Contact: Rick Battle <rick.battle@celtrenicdesigns.com>
 Source: svn://svn.berlios.de/fullstory/aptosid-art-legacy/trunk/
 
 Files: *
-Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
-           2007-2012, Stefan Lippers-Hollmann <s.l-h@gmx.de>
-           2009, David Creedy <djcreedy@iinet.net.au>
-           2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
+Copyright: 2008, Daniel Prien <d-s-p@d-s-p.de>
+           2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
-Files: dm-gdm/language.png dm-gdm/session.png dm-gdm/system.png dm-kdm/oxygen.svg dm-kdm/session.png dm-kdm/system.png
-Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-           2007, David Vignoni <david@icon-king.com>
-           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
-           2007, Kenneth Wimer <kwwii@bootsplash.org>
-           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
-           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
-           2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA or LGPL-2+
+Files: dm-kdm/erebos.xml
+Copyright: 2006, Marcin Biernat (Boski Cinek) <boski_cinek@o2.pl>
+           2007-2009, Bernard Gray <bernard.gray@gmail.com>
+License: GPL-2
 
-Files: splash-kde/svg-anim.pl splash-kde/composite_pngs.pl
-Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
+Files: theme-kde/*
+Copyright: 2008, knithx <knithx@gmail.com>
+           2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
 License: CC-BY-SA

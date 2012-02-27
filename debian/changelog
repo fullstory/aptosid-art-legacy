@@ -1,8 +1,10 @@
-aptosid-art-legacy (2011.03.6) UNRELEASED; urgency=low
+aptosid-art-legacy (2011.03.6) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * update dep-5 version to final 1.0, multiple changes necessary.
+  * update second level copyrights.
+  * drop obsolete second level debian/ directories.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 23 Feb 2012 15:11:36 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 27 Feb 2012 22:52:47 +0100
 
 aptosid-art-legacy (2011.03.5) unstable; urgency=low
 

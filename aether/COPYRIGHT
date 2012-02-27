@@ -4,13 +4,11 @@ Upstream-Contact: Rick Battle <rick.battle@celtrenicdesigns.com>
 Source: svn://svn.berlios.de/fullstory/aptosid-art-legacy/trunk/
 
 Files: *
-Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
-           2007-2012, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2009, David Creedy <djcreedy@iinet.net.au>
-           2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2+
 
-Files: dm-gdm/language.png dm-gdm/session.png dm-gdm/system.png dm-kdm/oxygen.svg dm-kdm/session.png dm-kdm/system.png
+Files: dm-kdm/session.png dm-kdm/system.png
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Vignoni <david@icon-king.com>
            2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
@@ -20,9 +18,11 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2+
 
-Files: splash-kde/svg-anim.pl splash-kde/composite_pngs.pl
-Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
-License: GPL-2+
+Files: dm-gdm/aptosid-aether.xml
+Copyright: 2008, Urs Wolfer <uwolfer@kde.org>
+           2008, Oswald Buddenhagen <ossi@kde.org>
+           2007-2009, Bernard Gray <bernard.gray@gmail.com>
+License: GPL-2
 
 License: CC-BY-SA
  Creative Common Attribution-ShareAlike 3.0
