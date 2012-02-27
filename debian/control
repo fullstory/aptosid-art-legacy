@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Uploaders: Bernard Gray <bernard.gray@gmail.com>,
  Rick Battle <rick.battle@celtrenicdesigns.com>
-Build-Depends: debhelper (>= 8),
+Build-Depends: debhelper (>= 9.20120115),
  inkscape,
  perl,
  perlmagick,
