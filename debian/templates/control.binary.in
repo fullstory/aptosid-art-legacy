@@ -42,7 +42,7 @@ Description: KDM theme for the aptosid @VERSION@ release
 Package: aptosid-art-ksplash-@CODENAME_SAFE@
 Architecture: all
 Depends: ${misc:Depends},
- kdebase-workspace-bin
+ kde-workspace-bin
 Description: KDE ksplash theme for the aptosid @VERSION@ release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
