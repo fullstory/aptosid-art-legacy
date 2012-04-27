@@ -1,3 +1,9 @@
+aptosid-art-legacy (2011.03.8) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 27 Apr 2012 02:05:46 +0200
+
 aptosid-art-legacy (2011.03.7) unstable; urgency=low
 
   * fix dependencies for ksplash in KDE >= 4.7.
