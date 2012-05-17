@@ -1,6 +1,10 @@
 aptosid-art-legacy (2011.03.8) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
+
+  [ Rick Battle ]
+  * s/ttf-dustin/fonts-dustin/ 
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 27 Apr 2012 02:05:46 +0200
 
