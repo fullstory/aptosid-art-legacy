@@ -1,12 +1,12 @@
-aptosid-art-legacy (2011.03.8) UNRELEASED; urgency=low
-
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
+aptosid-art-legacy (2011.03.8) unstable; urgency=low
 
   [ Rick Battle ]
   * s/ttf-dustin/fonts-dustin/ 
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 27 Apr 2012 02:05:46 +0200
+  [ Stefan Lippers-Hollmann ]
+  * parallelize build system for void to the maximum.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 31 Jul 2012 01:22:06 +0200
 
 aptosid-art-legacy (2011.03.7) unstable; urgency=low
 
