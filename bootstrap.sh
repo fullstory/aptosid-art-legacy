@@ -7,7 +7,7 @@ set -e
 #	tartaros:Τάρταρς:2007-02::
 
 # releases not currently buildable, as they've not yet been ported from kde3 
-# to kde4
+# to kde4 (check graphics)
 #	gaia:Γάια:2007-03:
 #	eros:Έρως:2007-04:
 #	nyx:Νυξ:2008-01:
