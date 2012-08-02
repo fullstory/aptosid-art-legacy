@@ -1,12 +1,12 @@
 #!/usr/bin/make -f
 
-THEME= aptosid-imera
-BITMAPS= files background fred
+THEME   = aptosid-imera
+BITMAPS = files background fred
 
 all: $(BITMAPS)
 
 files:
-	mkdir ./$(THEME)
+	mkdir -p $(THEME)
 	cp language.png $(THEME)/
 	cp GdmGreeterTheme.desktop $(THEME)/
 	cp session.png $(THEME)/
@@ -15,12 +15,20 @@ files:
 	cp screenshot.png $(THEME)/
 
 background:
-	inkscape --without-gui --export-width=1920 --export-height=1200 \
-		--export-png="./$(THEME)/$@.png" $@.svg
+	mkdir -p $(THEME)
+	inkscape --without-gui \
+		 --export-width=1920 \
+		 --export-height=1200 \
+		 --export-png="$(THEME)/$@.png" \
+			$@.svg
 
 fred:
-	inkscape --without-gui --export-width=94 --export-height=100 \
-		--export-png="./$(THEME)/$@.png" $@.svg
+	mkdir -p $(THEME)
+	inkscape --without-gui \
+		 --export-width=94 \
+		 --export-height=100 \
+		 --export-png="$(THEME)/$@.png" \
+			$@.svg
 
 clean:
-	$(RM) -r ./$(THEME)
+	$(RM) -r $(THEME)

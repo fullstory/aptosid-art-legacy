@@ -4,7 +4,6 @@ THEME   = aptosid-void
 BITMAPS = logo.png
 SVG     = logo.svg
 
-
 all: $(BITMAPS)
 
 logo.png:
