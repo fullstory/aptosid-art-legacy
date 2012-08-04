@@ -13,7 +13,7 @@ prepare:
 	cp Theme.rc $(THEME)/
 	cp description.txt $(THEME)/$(CONTROLDIR)/
 
-1280x1024 1600x1200:
+1280x1024 1600x1200: prepare
 	mkdir -p $(THEME)/$@
 	[ -f $(THEME)/$@/description.txt ] || ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/$@/description.txt 
 	inkscape --without-gui \
@@ -22,7 +22,7 @@ prepare:
 		 --export-png="$(THEME)/$@/background.png" \
 			background.svg
 
-1920x1080 1920x1200:
+1920x1080 1920x1200: prepare
 	mkdir -p $(THEME)/$@
 	[ -f $(THEME)/$@/description.txt ] || ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/$@/description.txt
 	inkscape --without-gui \

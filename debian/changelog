@@ -1,8 +1,8 @@
-aptosid-art-legacy (2011.03.11) UNRELEASED; urgency=low
+aptosid-art-legacy (2011.03.11) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * fix dependency bug.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 04 Aug 2012 02:42:29 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 04 Aug 2012 03:04:47 +0200
 
 aptosid-art-legacy (2011.03.10) unstable; urgency=low
 
