@@ -1,8 +1,12 @@
-aptosid-art-legacy (2011.03.12) UNRELEASED; urgency=low
+aptosid-art-legacy (2011.03.12) unstable; urgency=low
 
-  * NOT RELEASED YET
+  [ Roland Engert ]
+  * parallelize build system for geras to the maximum.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 04 Aug 2012 03:06:10 +0200
+  [ Stefan Lippers-Hollmann ]
+  * introduce -really-wide variants.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 05 Aug 2012 01:20:11 +0200
 
 aptosid-art-legacy (2011.03.11) unstable; urgency=low
 
