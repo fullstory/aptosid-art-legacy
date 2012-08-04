@@ -6,7 +6,7 @@ BITMAPS = files background fred
 all: $(BITMAPS)
 
 files:
-	mkdir -p ./$(THEME)
+	mkdir -p $(THEME)
 	cp language.png $(THEME)/
 	cp GdmGreeterTheme.desktop $(THEME)/
 	cp session.png $(THEME)/
@@ -15,7 +15,7 @@ files:
 	cp screenshot.png $(THEME)/
 
 background:
-	mkdir -p ./$(THEME)
+	mkdir -p $(THEME)
 	inkscape --without-gui \
 		 --export-width=1920 \
 		 --export-height=1200 \
@@ -23,7 +23,7 @@ background:
 			$@.svg
 
 fred:
-	mkdir -p ./$(THEME)
+	mkdir -p $(THEME)
 	inkscape --without-gui \
 		 --export-width=94 \
 		 --export-height=100 \
@@ -31,4 +31,4 @@ fred:
 			$@.svg
 
 clean:
-	$(RM) -r ./$(THEME)
+	$(RM) -r $(THEME)
