@@ -1,6 +1,8 @@
 aptosid-art-legacy (2011.03.14) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
+  * fix whitespace.
+  * substitute theme name.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 05 Aug 2012 02:46:53 +0200
 

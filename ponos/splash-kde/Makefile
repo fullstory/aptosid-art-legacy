@@ -15,7 +15,7 @@ prepare:
 
 1280x1024 1600x1200: prepare
 	mkdir -p $(THEME)/$@
-	[ -f $(THEME)/$@/description.txt ] || ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/$@/description.txt 
+	[ -f $(THEME)/$@/description.txt ] || ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/$@/description.txt
 	inkscape --without-gui \
 		 --export-width=$(firstword $(subst x, ,$@ )) \
 		 --export-height=$(lastword $(subst x, ,$@ )) \

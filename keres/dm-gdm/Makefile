@@ -11,7 +11,7 @@ files:
 	cp GdmGreeterTheme.desktop $(THEME)/
 	cp session.png $(THEME)/
 	cp system.png $(THEME)/
-	cp keres.xml $(THEME)/
+	cp $(lastword $(subst -, ,$(THEME))).xml $(THEME)/
 	cp screenshot.png $(THEME)/
 
 background:
@@ -28,7 +28,7 @@ comic-fred:
 		 --export-width=108 \
 		 --export-height=116 \
 		 --export-png="$(THEME)/$@.png" \
-			$@.svg	
+			$@.svg
 
 aptosid:
 	mkdir -p $(THEME)
@@ -36,7 +36,7 @@ aptosid:
 		 --export-width=330 \
 		 --export-height=190 \
 		 --export-png="$(THEME)/$@.png" \
-			$@.svg	
+			$@.svg
 
 clean:
 	$(RM) -r $(THEME)

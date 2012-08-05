@@ -19,7 +19,7 @@ gobutton.png:
 aptosid-logo.png:
 	inkscape --without-gui --export-width=1000 \
 		--export-png="$@" aptosid-logo.svg
-	
+
 
 clean:
 	$(RM) *.png

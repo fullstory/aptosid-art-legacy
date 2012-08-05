@@ -9,7 +9,7 @@ files:
 	cp session.png ./aptosid-momos
 	cp system.png ./aptosid-momos
 	cp KdmGreeterTheme.desktop ./aptosid-momos
-	cp momos.xml ./aptosid-momos
+	cp $(lastword $(subst -, ,$(THEME))).xml $(THEME)/
 	cp oxygen.svg ./aptosid-momos
 	cp screenshot.png ./aptosid-momos
 

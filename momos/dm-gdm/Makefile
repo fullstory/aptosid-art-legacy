@@ -11,7 +11,7 @@ files:
 	cp GdmGreeterTheme.desktop aptosid-momos/
 	cp session.png aptosid-momos/
 	cp system.png aptosid-momos/
-	cp momos.xml aptosid-momos/
+	cp $(lastword $(subst -, ,$(THEME))).xml $(THEME)/
 	cp screenshot.png aptosid-momos/
 
 background:

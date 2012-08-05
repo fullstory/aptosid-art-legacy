@@ -11,7 +11,7 @@ files:
 	cp GdmGreeterTheme.desktop $(THEME)/
 	cp session.png $(THEME)/
 	cp system.png $(THEME)/
-	cp ponos.xml $(THEME)/
+	cp $(lastword $(subst -, ,$(THEME))).xml $(THEME)/
 	cp screenshot.png $(THEME)/
 
 background:
