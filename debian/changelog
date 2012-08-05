@@ -1,8 +1,23 @@
-aptosid-art-legacy (2011.03.12) UNRELEASED; urgency=low
+aptosid-art-legacy (2011.03.13) unstable; urgency=low
 
-  * NOT RELEASED YET
+  [ Roland Engert ]
+  * parallelize build system for keres to the maximum, ignore splash-kde for
+    now.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 04 Aug 2012 03:06:10 +0200
+  [ Stefan Lippers-Hollmann ]
+  * rework keres/splash-kde to parallelize the build system to the maximum.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 05 Aug 2012 02:46:14 +0200
+
+aptosid-art-legacy (2011.03.12) unstable; urgency=low
+
+  [ Roland Engert ]
+  * parallelize build system for apate to the maximum.
+
+  [ Stefan Lippers-Hollmann ]
+  * introduce -really-wide variants.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 05 Aug 2012 01:20:11 +0200
 
 aptosid-art-legacy (2011.03.11) unstable; urgency=low
 
