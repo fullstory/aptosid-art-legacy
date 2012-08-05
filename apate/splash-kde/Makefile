@@ -19,7 +19,7 @@ prepare:
 		 --export-width=$(firstword $(subst x, ,$@ )) \
 		 --export-height=$(lastword $(subst x, ,$@ )) \
 		 --export-png="$(THEME)/$@/background.png" \
-		 	background.svg
+			background.svg
 
 1920x1080 1920x1200: prepare
 	mkdir -p $(THEME)/$@
