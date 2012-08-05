@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE greeter SYSTEM "greeter.dtd">
 <!--
-Copyright 2010 Rick Battle <detaos@aptosid.com>
-Copyright 2009 David Creedy <klaymen@aptosid.com>
+Copyright 2010 Rick Battle <rick.battle@celtrenicdesigns.com>
+Copyright 2009 David Creedy <djcreedy@iinet.net.au>
 Copyright 2009 Niall Walsh <niallwalsh@users.berlios.de>
 files: session.png, system.png and oyxgen.svg -
     Copyright 2008 Urs Wolfer <uwolfer @ kde.org>
@@ -30,17 +30,6 @@ files: session.png, system.png and oyxgen.svg -
 		<normal file="background.png"/>
 		<pos anchor="nw" x="0%" y="0%" width="100%" height="100%"/>
 	</item>
-	<!--Aptosid text-->
-	<item type="pixmap" id="logo" >
-		<normal file="aptosid.png"/>
-		<pos anchor="nw" x="0" y="0" />
-	</item>
-	<!--Welcome label-->
-	<item type="label" id="welcome">
-		<pos anchor="nw" x="330" y="75"/>
-		<normal color="#8BAFBA" font="Sans 16"/>
-		<stock type="welcome-label"/>
-	</item>
 	<!--Main container for central items-->
 	<item type="rect" id="backsplash">
 		<pos y="50%" x="50%" anchor="c" width="100%" height="box"/>
@@ -48,7 +37,6 @@ files: session.png, system.png and oyxgen.svg -
 		<!--Grey box for content-->
 		<box orientation="horizontal" ypadding="20" >
 			<!--Left expander to push content into middle-->
-
 			<item type="rect" >
 				<pos y="0" x="0" anchor="nw" width="0" height="100%" expand="true"/>
 			</item>
@@ -57,7 +45,7 @@ files: session.png, system.png and oyxgen.svg -
 				<box orientation="horizontal" spacing="20" xpadding="20">
 					<!--Scorpion icon-->
 					<item type="pixmap" id="branding">
-						<normal file="comic-fred.png"/>
+						<normal file="fred.png"/>
 					</item>
 					<!--Userlist-->
 					<item type="list" id="userlist">
@@ -109,14 +97,18 @@ files: session.png, system.png and oyxgen.svg -
 				</box>
 			</item>
 			<!--Right expander to push content into middle-->
-
 			<item type="rect">
 				<pos y="0" x="100%^" anchor="ne" width="0" height="100%" expand="true"/>
 			</item>
 		</box>
 	</item>
+	<!--Welcome label-->
+	<item type="label" id="welcome">
+		<pos x="20" y="40%^" anchor="w" />
+		<normal color="#CCCCCC" font="Sans 16"/>
+		<stock type="welcome-label"/>
+	</item>
 	<!--Footer bar for extra items-->
-
 	<item type="rect" id="footer">
 		<pos x="-0" y="-75" min-width="50%" width="box" height="43" anchor="e"/>
 		<fixed>
@@ -176,7 +168,6 @@ files: session.png, system.png and oyxgen.svg -
 			</item>
 		</box>
 	</item>
-
 	<item type="rect" id="timed-label">
 		<pos anchor="c" x="50%" y="20%" width="box" height="box"/>
 		<box orientation="vertical" xpadding="50" ypadding="5" spacing="0">

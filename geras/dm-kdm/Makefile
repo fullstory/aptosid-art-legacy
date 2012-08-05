@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 
-THEME   = aptosid-geras
+include ../theme-control.make
+
 BITMAPS = files background fred
 
 all: $(BITMAPS)

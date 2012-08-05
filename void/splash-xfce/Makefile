@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 
-THEME   = aptosid-void
+include ../theme-control.make
+
 BITMAPS = logo.png
 SVG     = logo.svg
 

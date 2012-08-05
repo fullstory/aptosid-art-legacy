@@ -50,13 +50,28 @@ sed	-e "s/\@ALL_CODENAME_SAFE\@/${ALL_CODENAME_SAFE}/g" \
 		./debian/templates/Makefile.in \
 			> ./Makefile
 
-# write sublevel release Makefiles
-#ALL_THEMES="dm-gdm dm-kdm splash-kde splash-xfce wallpaper"
+# create basic structure
 ALL_THEMES="dm-kdm splash-kde splash-xfce wallpaper"
 for i in $RELEASES; do
+	for j in $ALL_THEMES; do
+		# create directory structure
+		mkdir -p "$(echo ${i} | cut -d\: -f1)/${j}"
+
+		# create internal Makefiles
+		[ -r "./debian/templates/theme/${j}/Makefile.in" ] || continue
+		cat "./debian/templates/theme/${j}/Makefile.in" \
+			> "$(echo ${i} | cut -d\: -f1)/${j}/Makefile"
+		chmod +x "$(echo ${i} | cut -d\: -f1)/${j}/Makefile"
+	done
+
+	# write sublevel release Makefiles
 	sed	-e "s/\@ALL_CODENAME_SAFE\@/${ALL_THEMES}/g" \
 			./debian/templates/Makefile.in \
 				> "$(echo ${i} | cut -d\: -f1)/Makefile"
+
+	# write theme-control.make
+	printf "THEME = %s\n" "aptosid-$(echo ${i} | cut -d\: -f1)" \
+		> "$(echo ${i} | cut -d\: -f1)/theme-control.make"
 done
 
 [ -d ./debian ] || exit 1
@@ -72,7 +87,7 @@ for i in $RELEASES; do
 			${TEMPLATES_BIN} >> ./debian/control
 
 	# write debian/*.install from templates
-	for j in gdm3 kde kdm ksplash wallpaper xfce xsplash; do
+	for j in kde kdm ksplash wallpaper xfce xsplash; do
 		if [ -r  ./debian/templates/aptosid-art-${j}-CODENAME_SAFE.install.in ]; then
 			sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
 					./debian/templates/aptosid-art-${j}-CODENAME_SAFE.install.in \

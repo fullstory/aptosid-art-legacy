@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 
-THEME   = aptosid-geras
+include ../theme-control.make
+
 BITMAPS = logo.png
 SVG     = logo.svg
 

@@ -7,11 +7,6 @@ Files: *
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
-Files: dm-gdm/*
-Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-           2006, Andre Luiz Rodrigues Ferreira <andrelrf@ossystems.com.br>
-License: GPL-2+
-
 Files: splash-kde/*
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, knithx <knithx@gmail.com>

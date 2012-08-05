@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 
-THEME   = aptosid-void
+include ../theme-control.make
+
 BITMAPS = files background fred
 
 all: $(BITMAPS)

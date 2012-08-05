@@ -13,11 +13,6 @@ Copyright: 2008, <knithx knithx@gmail.com>
            2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
-Files: dm-gdm/*
-Copyright: 2008, Daniel Prien <d-s-p@d-s-p.de>
-           2007-2009, Bernard Gray <bernard.gray@gmail.com>
-License: GPL-2+
-
 Files: dm-kdm/session.png dm-kdm/system.png
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Vignoni <david@icon-king.com>

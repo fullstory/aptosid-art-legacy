@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 
-THEME   = aptosid-ponos
+include ../theme-control.make
+
 BITMAPS = files background fred
 
 all: $(BITMAPS)

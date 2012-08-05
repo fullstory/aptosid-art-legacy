@@ -14,19 +14,6 @@ Standards-Version: 3.9.3
 Vcs-Svn: svn://svn.berlios.de/fullstory/aptosid-art-legacy/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/aptosid-art-legacy/trunk/
 
-#Package: aptosid-art-gdm3-void
-#Architecture: all
-#Depends: ${misc:Depends},
-# gdm3
-#Description: GDM3 theme for aptosid void release
-# release specific artwork theme for the GDM3 display manager to be used in
-# combination GTK2 based desktop environments like Xfce or LXDE.
-# .
-# GDM3 artwork for: aptosid void (άκυρος)
-# .
-# This package does not override existing theme configurations and needs to be
-# selected manually.
-
 Package: aptosid-art-kde-void
 Architecture: all
 Provides: aptosid-art-kde-theme
@@ -88,7 +75,7 @@ Depends: ${misc:Depends},
 Recommends: aptosid-art-wallpaper-void,
  dmz-cursor-theme
 Description: Xfce theme for the aptosid void release
- release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
+ release specific metapackage depending on xfce4-session and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
  Xfce artwork metapackage for: aptosid void (άκυρος)
@@ -104,19 +91,6 @@ Description: Xfce splash theme for the aptosid void release
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
-
-#Package: aptosid-art-gdm3-keres
-#Architecture: all
-#Depends: ${misc:Depends},
-# gdm3
-#Description: GDM3 theme for aptosid 2010-02 release
-# release specific artwork theme for the GDM3 display manager to be used in
-# combination GTK2 based desktop environments like Xfce or LXDE.
-# .
-# GDM3 artwork for: aptosid 2010-02 (Κῆρες)
-# .
-# This package does not override existing theme configurations and needs to be
-# selected manually.
 
 Package: aptosid-art-kde-keres
 Architecture: all
@@ -179,7 +153,7 @@ Depends: ${misc:Depends},
 Recommends: aptosid-art-wallpaper-keres,
  dmz-cursor-theme
 Description: Xfce theme for the aptosid 2010-02 release
- release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
+ release specific metapackage depending on xfce4-session and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
  Xfce artwork metapackage for: aptosid 2010-02 (Κῆρες)
@@ -195,19 +169,6 @@ Description: Xfce splash theme for the aptosid 2010-02 release
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
-
-#Package: aptosid-art-gdm3-apate
-#Architecture: all
-#Depends: ${misc:Depends},
-# gdm3
-#Description: GDM3 theme for aptosid 2010-03 release
-# release specific artwork theme for the GDM3 display manager to be used in
-# combination GTK2 based desktop environments like Xfce or LXDE.
-# .
-# GDM3 artwork for: aptosid 2010-03 (Ἀπάτη)
-# .
-# This package does not override existing theme configurations and needs to be
-# selected manually.
 
 Package: aptosid-art-kde-apate
 Architecture: all
@@ -270,7 +231,7 @@ Depends: ${misc:Depends},
 Recommends: aptosid-art-wallpaper-apate,
  dmz-cursor-theme
 Description: Xfce theme for the aptosid 2010-03 release
- release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
+ release specific metapackage depending on xfce4-session and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
  Xfce artwork metapackage for: aptosid 2010-03 (Ἀπάτη)
@@ -286,19 +247,6 @@ Description: Xfce splash theme for the aptosid 2010-03 release
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
-
-#Package: aptosid-art-gdm3-geras
-#Architecture: all
-#Depends: ${misc:Depends},
-# gdm3
-#Description: GDM3 theme for aptosid 2011-01 release
-# release specific artwork theme for the GDM3 display manager to be used in
-# combination GTK2 based desktop environments like Xfce or LXDE.
-# .
-# GDM3 artwork for: aptosid 2011-01 (Γῆρας)
-# .
-# This package does not override existing theme configurations and needs to be
-# selected manually.
 
 Package: aptosid-art-kde-geras
 Architecture: all
@@ -361,7 +309,7 @@ Depends: ${misc:Depends},
 Recommends: aptosid-art-wallpaper-geras,
  dmz-cursor-theme
 Description: Xfce theme for the aptosid 2011-01 release
- release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
+ release specific metapackage depending on xfce4-session and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
  Xfce artwork metapackage for: aptosid 2011-01 (Γῆρας)
@@ -377,19 +325,6 @@ Description: Xfce splash theme for the aptosid 2011-01 release
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
-
-#Package: aptosid-art-gdm3-imera
-#Architecture: all
-#Depends: ${misc:Depends},
-# gdm3
-#Description: GDM3 theme for aptosid 2011-02 release
-# release specific artwork theme for the GDM3 display manager to be used in
-# combination GTK2 based desktop environments like Xfce or LXDE.
-# .
-# GDM3 artwork for: aptosid 2011-02 (Ἡμέρα)
-# .
-# This package does not override existing theme configurations and needs to be
-# selected manually.
 
 Package: aptosid-art-kde-imera
 Architecture: all
@@ -452,7 +387,7 @@ Depends: ${misc:Depends},
 Recommends: aptosid-art-wallpaper-imera,
  dmz-cursor-theme
 Description: Xfce theme for the aptosid 2011-02 release
- release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
+ release specific metapackage depending on xfce4-session and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
  Xfce artwork metapackage for: aptosid 2011-02 (Ἡμέρα)
@@ -468,19 +403,6 @@ Description: Xfce splash theme for the aptosid 2011-02 release
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
-
-#Package: aptosid-art-gdm3-ponos
-#Architecture: all
-#Depends: ${misc:Depends},
-# gdm3
-#Description: GDM3 theme for aptosid 2011-03 release
-# release specific artwork theme for the GDM3 display manager to be used in
-# combination GTK2 based desktop environments like Xfce or LXDE.
-# .
-# GDM3 artwork for: aptosid 2011-03 (Πόνος)
-# .
-# This package does not override existing theme configurations and needs to be
-# selected manually.
 
 Package: aptosid-art-kde-ponos
 Architecture: all
@@ -543,7 +465,7 @@ Depends: ${misc:Depends},
 Recommends: aptosid-art-wallpaper-ponos,
  dmz-cursor-theme
 Description: Xfce theme for the aptosid 2011-03 release
- release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
+ release specific metapackage depending on xfce4-session and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
  Xfce artwork metapackage for: aptosid 2011-03 (Πόνος)

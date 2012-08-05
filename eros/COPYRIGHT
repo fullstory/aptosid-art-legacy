@@ -7,11 +7,6 @@ Files: *
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
-Files: dm-gdm/aptosid-eros.xml
-Copyright: 2006, Andre Luiz Rodrigues Ferreira <andrelrf@ossystems.com.br>
-           2007-2009, Bernard Gray <bernard.gray@gmail.com>
-License: GPL-2
-
 Files: theme-kde/*
 Copyright: 2007, knithx <knithx@gmail.com>
            2007-2009, Bernard Gray <bernard.gray@gmail.com>

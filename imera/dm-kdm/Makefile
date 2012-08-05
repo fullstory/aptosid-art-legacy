@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 
-THEME   = aptosid-imera
+include ../theme-control.make
+
 BITMAPS = files background fred
 
 all: $(BITMAPS)

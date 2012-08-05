@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 
-THEME      = aptosid-imera
+include ../theme-control.make
+
 CONTROLDIR = 1920x1200
 SIZES      = 1280x1024 1600x1200 1920x1080 1920x1200
 

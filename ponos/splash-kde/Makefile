@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 
-THEME      = aptosid-ponos
+include ../theme-control.make
+
 CONTROLDIR = 1920x1200
 SIZES      = 1280x1024 1600x1200 1920x1080 1920x1200
 FREDS      = fred0 fred1 fred2 fred3 fred4
