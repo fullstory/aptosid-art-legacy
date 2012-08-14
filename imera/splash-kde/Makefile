@@ -5,7 +5,7 @@ include ../theme-control.make
 CONTROLDIR = 1920x1200
 SIZES      = 1280x1024 1600x1200 1920x1080 1920x1200
 
-all: prepare $(SIZES) freds
+all: prepare $(SIZES) local-all
 
 prepare:
 	mkdir -p $(THEME)/$(CONTROLDIR)
@@ -20,7 +20,7 @@ prepare:
 		 --export-width=$(firstword $(subst x, ,$@ )) \
 		 --export-height=$(lastword $(subst x, ,$@ )) \
 		 --export-png="$(THEME)/$@/background.png" \
-		 	background.svg
+			background.svg
 
 1920x1080 1920x1200: prepare
 	mkdir -p $(THEME)/$@
@@ -31,20 +31,7 @@ prepare:
 		 --export-png="$(THEME)/$@/background.png" \
 			background-really-wide.svg
 
-streaked-fred unstreaked-fred:
-	./svg-anim.pl $@.svg 30 $@_anim.svg scaley,0.25:1,1:30,sin:middle opacity,0:1,1:30,sin
-	inkscape --without-gui \
-		 --export-png="$@_anim.png" \
-			$@_anim.svg
-	$(RM) $@_anim.svg
-
-freds: streaked-fred unstreaked-fred
-	./composite_pngs.pl -o $(THEME)/$(CONTROLDIR)/fred.png streaked-fred_anim.png unstreaked-fred_anim.png
-	$(RM)	streaked-fred_anim.png \
-		unstreaked-fred_anim.png
-	ln -fs ../$(CONTROLDIR)/fred.png $(THEME)/1920x1080/fred.png
-	ln -fs ../$(CONTROLDIR)/fred.png $(THEME)/1600x1200/fred.png
-	ln -fs ../$(CONTROLDIR)/fred.png $(THEME)/1280x1024/fred.png
+include local.make
 
 clean:
 	$(RM) -r $(THEME)
