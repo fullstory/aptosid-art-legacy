@@ -1,8 +1,14 @@
-aptosid-art-legacy (2011.03.15) UNRELEASED; urgency=low
+aptosid-art-legacy (2011.03.15) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * harmonize buildsystem for splash-kde:
+    - void
+    - keres
+    - imera
+    - geras
+    - ponos
+    - apate
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 05 Aug 2012 18:35:16 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 15 Aug 2012 01:55:51 +0200
 
 aptosid-art-legacy (2011.03.14) unstable; urgency=low
 
