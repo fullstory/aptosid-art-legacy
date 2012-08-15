@@ -22,6 +22,6 @@ ab_anim pb_anim tb_anim ob_anim sidb_anim:
 a p t o sid: _anim b_anim $(SIZES)
 	mkdir -p $(THEME)/1600x1200
 	mkdir -p $(THEME)/1920x1200
-	./composite_pngs.pl -o aptosid-keres/1920x1200/$@.png $@b_anim.png $@_anim.png
-	ln -s ../1920x1200/$@.png aptosid-keres/1600x1200/$@.png
+	./composite_pngs.pl -o $(THEME)/1920x1200/$@.png $@b_anim.png $@_anim.png
+	ln -s ../1920x1200/$@.png $(THEME)/1600x1200/$@.png
 	$(RM) $@b_anim.png $@_anim.png $@_anim.svg $@b_anim.svg
