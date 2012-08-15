@@ -1,14 +1,13 @@
-aptosid-art-legacy (2011.03.16) UNRELEASED; urgency=low
-
-  * NOT RELEASED YET
+aptosid-art-legacy (2011.03.16) unstable; urgency=low
 
   [ Roland Engert ]
   * parallelize build system for hypnos to the maximum.
 
   [ Stefan Lippers-Hollmann ]
   * rework hypnos/splash-kde/
+  * disentangle 16:9 and 16:10 for splash-kde.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 15 Aug 2012 01:58:03 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 15 Aug 2012 03:42:16 +0200
 
 aptosid-art-legacy (2011.03.15) unstable; urgency=low
 
