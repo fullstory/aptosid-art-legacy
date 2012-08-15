@@ -22,7 +22,16 @@ prepare:
 		 --export-png="$(THEME)/$@/background.png" \
 			background.svg
 
-1920x1080 1920x1200: prepare
+1920x1200: prepare
+	mkdir -p $(THEME)/$@
+	[ -f $(THEME)/$@/description.txt ] || ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/$@/description.txt
+	inkscape --without-gui \
+		 --export-width=$(firstword $(subst x, ,$@ )) \
+		 --export-height=$(lastword $(subst x, ,$@ )) \
+		 --export-png="$(THEME)/$@/background.png" \
+			background-wide.svg
+
+1920x1080: prepare
 	mkdir -p $(THEME)/$@
 	[ -f $(THEME)/$@/description.txt ] || ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/$@/description.txt
 	inkscape --without-gui \
