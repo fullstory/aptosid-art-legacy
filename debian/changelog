@@ -2,6 +2,12 @@ aptosid-art-legacy (2011.03.16) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
 
+  [ Roland Engert ]
+  * parallelize build system for hypnos to the maximum.
+
+  [ Stefan Lippers-Hollmann ]
+  * rework hypnos/splash-kde/
+
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 15 Aug 2012 01:58:03 +0200
 
 aptosid-art-legacy (2011.03.15) unstable; urgency=low
