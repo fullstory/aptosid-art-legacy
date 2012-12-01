@@ -1,0 +1,8 @@
+[KSplash Theme: aptosid-thanatos]
+Name = aptosid 2012-01 (thanatos) Splash Screen
+Description = aptosid thanatos Splash Screen
+Version = 1.0
+Author = Rick Battle <rick.battle@solmera.com>
+Homepage = http://www.aptosid.com
+# Theme behaviour settings.
+Engine = KSplashX

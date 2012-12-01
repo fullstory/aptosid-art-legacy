@@ -1,0 +1,8 @@
+Build Dependencies:
+      make
+      inkscape
+      ttf-dustin
+      perl
+      perlmagick
+      libxml-dom-perl
+      libxml-parser-perl
