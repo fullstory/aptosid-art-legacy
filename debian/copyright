@@ -265,6 +265,27 @@ Files: pontos/*
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2+
 
+Files: thanatos/*
+Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
+           2007-2012, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+           2009, David Creedy <djcreedy@iinet.net.au>
+           2010-2012, Rick Battle <rick.battle@celtrenicdesigns.com>
+License: GPL-2+
+
+Files: thanatos/dm-kdm/oxygen.svg thanatos/dm-kdm/session.png thanatos/dm-kdm/system.png
+Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
+           2007, David Vignoni <david@icon-king.com>
+           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
+           2007, Kenneth Wimer <kwwii@bootsplash.org>
+           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
+           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
+           2007, David Miller <miller@oxygen-icons.org>
+License: CC-BY-SA or LGPL-2+
+
+Files: thanatos/splash-kde/svg-anim.pl thanatos/splash-kde/composite_pngs.pl
+Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
+License: GPL-2+
+
 Files: void/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2007-2012, Stefan Lippers-Hollmann <s.l-h@gmx.de>

@@ -31,10 +31,11 @@ RELEASES="
 	geras:Γῆρας:2011-01:
 	imera:Ἡμέρα:2011-02:
 	ponos:Πόνος:2011-03:
+	thanatos:Θάνατος:2012-01:
 "
 
 # not yet released
-#	thanatos:Θάνατος:2012-01:
+#	hesperides:Ἑσπερίδες:2013-01:
 
 # clean up obsolete stuff
 rm -f	./debian/*.install \
