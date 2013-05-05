@@ -1,4 +1,4 @@
-DIRS =  void keres apate geras imera ponos thanatos
+DIRS =  void keres apate geras imera ponos thanatos hesperides
 BUILDDIRS = $(DIRS:%=build-%)
 #INSTALLDIRS = $(DIRS:%=install-%)
 CLEANDIRS = $(DIRS:%=clean-%)

@@ -560,3 +560,81 @@ Description: Xfce splash theme for the aptosid 2012-01 release
  This package does not override existing theme configurations and needs to be
  selected manually.
 
+Package: aptosid-art-kde-hesperides
+Architecture: all
+Provides: aptosid-art-kde-theme
+Depends: ${misc:Depends},
+ aptosid-art-ksplash-hesperides,
+ aptosid-art-kdm-hesperides
+Recommends: aptosid-art-wallpaper-hesperides,
+ dmz-cursor-theme
+Description: KDE theme for the aptosid 2013-01 release
+ release specific metapackage depending on ksplash, kdm and KDE themes to be
+ used in combination with the K Desktop Environment. This package also
+ provides a release specific color scheme for KDE.
+ .
+ KDE artwork metapackage for: aptosid 2013-01 (Ἑσπερίδες)
+
+Package: aptosid-art-kdm-hesperides
+Architecture: all
+Depends: ${misc:Depends},
+ kdm
+Description: KDM theme for the aptosid 2013-01 release
+ release specific artwork theme for the KDM display manager to be used in
+ combination with the K Desktop Environment.
+ .
+ KDM artwork for: aptosid 2013-01 (Ἑσπερίδες)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
+Package: aptosid-art-ksplash-hesperides
+Architecture: all
+Depends: ${misc:Depends},
+ kde-workspace-bin
+Description: KDE ksplash theme for the aptosid 2013-01 release
+ release specific KDE ksplash theme, using the default ksplash engine.
+ .
+ KDE ksplash artwork for: aptosid 2013-01 (Ἑσπερίδες)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
+Package: aptosid-art-wallpaper-hesperides
+Architecture: all
+Provides: aptosid-art-wallpaper-theme
+Depends: ${misc:Depends}
+Description: aptosid wallpaper for the 2013-01 release
+ release specific wallpapers, compatible with the K Desktop Environment, Xfce,
+ LXDE and GNOME.
+ .
+ Wallpapers for: aptosid 2013-01 (Ἑσπερίδες)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
+Package: aptosid-art-xfce-hesperides
+Architecture: all
+Provides: aptosid-art-xfce-theme
+Depends: ${misc:Depends},
+ aptosid-art-xsplash-hesperides
+Recommends: aptosid-art-wallpaper-hesperides,
+ dmz-cursor-theme
+Description: Xfce theme for the aptosid 2013-01 release
+ release specific metapackage depending on xfce4-session and Xfce themes
+ to be used in combination with the Xfce desktop environment.
+ .
+ Xfce artwork metapackage for: aptosid 2013-01 (Ἑσπερίδες)
+
+Package: aptosid-art-xsplash-hesperides
+Architecture: all
+Depends: ${misc:Depends},
+ xfce4-session
+Description: Xfce splash theme for the aptosid 2013-01 release
+ release specific Xfce splash theme, based on the balou theme engine.
+ .
+ Xfce xsplash artwork for: aptosid 2013-01 (Ἑσπερίδες)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
