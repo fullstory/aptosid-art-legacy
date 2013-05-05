@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="110"
+   height="90"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="ps.svg"
+   inkscape:export-filename="aptosid.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   style="display:inline">
+  <defs
+     id="defs4">
+    <filter
+       inkscape:collect="always"
+       id="filter3786"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.9815619"
+         id="feGaussianBlur3788" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="5.4873454"
+     inkscape:cy="138.477"
+     inkscape:document-units="px"
+     inkscape:current-layer="aptosid"
+     showgrid="false"
+     showborder="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1274"
+     inkscape:window-height="1550"
+     inkscape:window-x="2480"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     borderlayer="false" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="aptosid"
+     inkscape:groupmode="layer"
+     id="aptosid"
+     transform="translate(-84.85552,-1503.238)"
+     style="display:inline">
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="logo-current.png"
+       sodipodi:nodetypes="cccccccccsccccscccscscs"
+       inkscape:connector-curvature="0"
+       id="path3871"
+       d="m 207.94439,1485.6954 c -9.0469,10e-5 -16.51565,3.5156 -22.375,10.5 l 0,-9 -11.32858,0 0,83.875 -13.21875,0 0,11.5937 24.54733,0 0,-36.2812 c 5.85935,6.9844 13.3281,10.4687 22.375,10.4687 9.4687,0 17.54682,-3.5625 24.25,-10.6875 6.56243,-7.0313 9.84368,-15.2968 9.84375,-24.8125 -7e-5,-9.5155 -3.28132,-17.7968 -9.84375,-24.875 -6.70318,-7.1718 -14.7813,-10.7811 -24.25,-10.7812 z m 0,11.625 c 6.28121,0 11.62495,2.4531 16.03125,7.375 4.26557,4.7813 6.37494,10.3282 6.375,16.6562 -6e-5,6.2813 -2.15631,11.7969 -6.46875,16.5313 -4.45318,4.9219 -9.75004,7.375 -15.9375,7.375 -6.23441,0 -11.53128,-2.4531 -15.84375,-7.375 -4.12502,-4.6875 -6.18752,-10.2031 -6.1875,-16.5313 -2e-5,-6.3749 2.04685,-11.9218 6.125,-16.6562 4.31247,-4.9219 9.62497,-7.375 15.90625,-7.375 z"
+       style="opacity:0.8;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter3786)"
+       transform="matrix(0.62361797,0,0,0.38196218,-7.684836,976.0724)" />
+  </g>
+</svg>
