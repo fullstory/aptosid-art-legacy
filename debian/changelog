@@ -1,8 +1,8 @@
-aptosid-art-legacy (2012.01.3) UNRELEASED; urgency=low
+aptosid-art-legacy (2013.01.1) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * import Ἑσπερίδες.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 12 Jan 2013 00:06:04 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 05 May 2013 22:27:27 +0200
 
 aptosid-art-legacy (2012.01.2) unstable; urgency=low
 
