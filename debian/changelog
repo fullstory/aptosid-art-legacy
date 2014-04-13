@@ -1,12 +1,11 @@
-aptosid-art-legacy (2014.01.1) UNRELEASED; urgency=medium
+aptosid-art-legacy (2014.01.1) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * debian/control: switch Vcs tags to github.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 13 Apr 2014 03:58:26 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 13 Apr 2014 05:47:52 +0200
 
 aptosid-art-legacy (2014.01.0) unstable; urgency=low
 
-  * debian/control: switch Vcs tags to github.
   * import Νέμεσις.
   * bump standards version to 3.9.5, no changes necessary.
 

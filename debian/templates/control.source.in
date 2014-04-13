@@ -11,6 +11,6 @@ Build-Depends: debhelper (>= 9.20120115),
  libxml-parser-perl,
  fonts-dustin
 Standards-Version: 3.9.5
-Vcs-Svn: svn://svn.berlios.de/fullstory/aptosid-art-legacy/trunk
-Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/aptosid-art-legacy/trunk/
+Vcs-git: git://github.com/fullstory/aptosid-art-legacy.git
+Vcs-Browser: https://github.com/fullstory/aptosid-art-legacy
 
