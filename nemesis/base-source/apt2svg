@@ -1,0 +1,295 @@
+#!/usr/bin/perl
+
+# Copyright 2008-2013 Niall Walsh niallwalsh@users.berlios.de
+# GPL2 or later
+
+# Takes in Debian package files
+# Writes out a 1920:1200 and 1600:1200 wallpaper
+
+# Assume we are dealing with lists from apt and not a status file
+my $aptlists=1;
+# Base36 chars (all we care about from the package name)
+my $_digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+# does a base36 conversion to turn package name parts into an int
+sub point {
+	my ($t, $i) = 0;
+INPUT:	foreach (split //,reverse uc shift){
+		next INPUT unless index($_digits,$_) >0;
+		$_ = ord($_) - 55 unless /\d/;
+		$t += $_ * (36 ** $i++);
+	}
+	return(($t).".0");
+}
+
+sub usage {
+	my ($msg) = shift;
+	print "$0".' (--nobg) input* output-wide output
+Takes the list of input files and produces a pair of svg files as output.
+Error: '."$msg\n";
+}
+
+my ($output)=pop;
+my ($output2)=pop;
+my ($background)=1;
+my(@inputs);
+foreach (@ARGV)
+{
+	if (/\-\-nobg/)
+	{
+		$background=0;
+	}
+	else
+	{
+		usage("Input is not a readable file!") if (!((-f $_)&&(-r $_)));
+		push(@inputs,$_);
+	}
+}
+open(OUT,">$output")||usage("failed to open $output for writing : $!");
+open(OUT2,">$output2")||usage("failed to open $output2 for writing : $!");
+
+# Some of the svg has a lot of crud in the source that needs debugging ;-)
+my $svg='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   overflow="visible"
+   xml:space="preserve"
+   id="svg17258"
+';
+
+print OUT $svg;
+print OUT2 $svg;
+
+my $filename=$output;
+$filename=~s/^.*\///;
+print OUT '
+   width="1920"
+   height="1200">';
+$filename=$output2;
+$filename=~s/^.*\///;
+print OUT2 '
+   width="1600"
+   height="1200">';
+
+$svg='
+<circle id="star" cx="0" cy="0" r="100" />
+';
+
+# We want to adjust the 
+print OUT $svg.'
+<g>
+   <rect
+     style="fill:#BBBBFF;fill-opacity:1;stroke:#000000;stroke-width:0.95336521;stroke-opacity:1"
+     width="1416.9596"
+     height="2153.749"
+     x="-1304.1951"
+     y="-197.71741"
+     transform="matrix(0,-1,1,0,0,0)" />
+</g>
+<g transform="translate(960,540)">';
+
+print OUT2 $svg.'
+<g>
+  <rect
+     style="fill:#BBBBFF;fill-opacity:1;stroke:#000000;stroke-width:0.95336521;stroke-opacity:1"
+     width="1416.9596"
+     height="2153.749"
+     x="-1304.1951"
+     y="-197.71741"
+     transform="matrix(0,-1,1,0,0,0)" />
+</g>
+<g transform="translate(800,600)">
+     ';
+
+my ($name,$pos,$x,$y,$size,$version,$fill);
+my (@aaaa);
+my (@zzzz);
+while ($_=shift(@inputs))
+{
+	my ($gz)=0;
+	if (s/\.gz$//)
+	{
+		system("zcat $_.gz > $_");
+		$gz=1;
+	}
+	open(STATUS,"$_")||usage("failed to open $_ : $!");
+	while (<STATUS>)
+	{
+		chomp;
+		my(@p);
+		if (s/^Package\:\s+//)
+		{
+			if ($disable==0)
+			{
+				$out{$size}.='
+<g
+   transform="scale('.($x/10).','.($y/10).')"
+   id="g'.$name.'"
+   style="opacity:0.25">
+    <use
+      x="0"
+      y="0"
+      xlink:href="#star"
+      style="stroke:'.$fill.';stroke-width:'.$size.';fill:'.$fill.'"
+      id="use'.$name.'"
+      width="1900"
+      height="1080"
+    />
+</g>
+<g
+   transform="scale('.($y/10).','.($x/10).')"
+   id="g'.$name.'"
+   style="opacity:0.25">
+    <use
+      x="0"
+      y="0"
+      xlink:href="#star"
+      style="stroke:'.$fill.';stroke-width:'.$size.';fill:'.$fill.'"
+      id="use'.$name.'"
+      width="1900"
+      height="1080"
+    />
+</g>
+';
+			}
+			$name=$_;
+			$status=0;
+			foreach $re ('^lib','[-0\.]+$')
+			{
+				s/$re//;
+			}
+			my $p0=-1;
+			my $new='';
+			foreach $p (split(//))
+			{
+				push(@p,$p) if (index($_digits,uc($p)) >0);
+				if ($p=~/\-/)
+				{
+					if ($p0==-1)
+					{
+						$new=join('',@p);
+						$p0=length($new);
+					}
+				}
+			}
+			if (length($new)==$p0)
+			{
+				$_=$new;
+			}
+			else
+			{
+				$_=join('',@p);
+				$p0=0;
+			}
+			unless ($aaaa[length($_)])
+			{
+				my ($j,$k)='';
+				for ($i=0;$i<length($_);$i++)
+				{
+					$j.='A';
+					$k.='Z';
+				}
+				$aaaa[length($_)]=point($j);
+				$zzzz[length($_)]=point($k);				
+			}
+			$pos=point($_)-($aaaa[length($_)]);
+			$x=sprintf("%.4f",($pos*100.0/($zzzz[length($_)]-$aaaa[length($_)])));
+			$_=join('',@p);
+			unless ($aaaa[(length($_)-$p0)])
+			{
+				my ($j,$k)='';
+				for ($i=0;$i<(length($_)-$p0);$i++)
+				{
+					$j.='A';
+					$k.='Z';
+				}
+				$aaaa[(length($_)-$p0)]=point($j);
+				$zzzz[(length($_)-$p0)]=point($k);				
+			}
+			$pos=point(substr($_,$p0,(length($_)-$p0)));
+			$y=sprintf("%.4f",($pos*100.0/(($zzzz[(length($_)-$p0)]))));
+		}
+		elsif (/^Status\:/)
+		{
+			if (/^Status\:\ install\ ok\ installed\s*$/)
+			{
+				$status=1;
+			}
+			$aptlists=0;
+		}
+		elsif (s/^Installed-Size\:\s+//)
+		{
+			$rawsize=$_;
+			$size=($_**(1.0/3.0))/3.0;
+		}
+		elsif (s/^Version:\s+//)
+		{
+			$disable=0;
+			$version="$_";
+			s/cvs//;
+			s/svn//;
+			s/0.200/200/;
+			s/\-.*//;
+			s/0.(0.\d)/$1/;
+			s/(\d\.\d+).*/$1/;
+			s/\d*\://;
+			s/~.*//;
+			if (($status==1)||($aptlists==1))
+			{
+				my $tmp=($_*1.0);
+				if ($tmp<1.0)
+				{
+					$tmp=~s/^0.//;
+					while($tmp>100)
+					{
+						$tmp*=0.1;
+					}
+					my $colour=int( $tmp );
+					$fill="rgb(".(256).",".(256-4*$colour).",".(256-8*$colour).")";
+					$cr[0]=$colour if ($colour<$cr[0]);
+					$cr[1]=$colour if ($colour>$cr[1]);
+				}
+				elsif ($_>=1990.0)
+				{
+					$fill="rgb(0,0,0)";
+				}
+				else
+				{
+					my $colour= int( log($tmp) * 64.0);
+					if ($colour >=256)
+					{
+						$colour=255;
+					}
+					$fill="rgb(".(128).",".(64+$colour).",".(128+$colour).")";
+					$cr[2]=$colour if ($colour<$cr[2]);
+					$cr[3]=$colour if ($colour>$cr[3]);
+				}
+			}
+			else
+			{
+				$fill="rgb(60,60,60)";
+				$disable=1;
+			}
+		}
+	}
+	close(STATUS);
+	unlink($_) if ($gz);
+}
+
+# When we draw the swirls we do the biggest first
+foreach (sort {$b<=>$a} (keys(%out)))
+{
+	if ($_)
+	{
+		print OUT $out{$_};
+		print OUT2 $out{$_};
+	}
+}
+print OUT '
+</g></svg>'."\n";
+print OUT2 '
+</g></svg>'."\n";
+close(OUT);
+close(OUT2);

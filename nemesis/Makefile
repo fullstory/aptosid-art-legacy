@@ -1,4 +1,4 @@
-DIRS =  void keres apate geras imera ponos thanatos hesperides nemesis
+DIRS = dm-kdm splash-kde splash-xfce wallpaper
 BUILDDIRS = $(DIRS:%=build-%)
 #INSTALLDIRS = $(DIRS:%=install-%)
 CLEANDIRS = $(DIRS:%=clean-%)

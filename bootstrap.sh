@@ -33,6 +33,7 @@ RELEASES="
 	ponos:Πόνος:2011-03:
 	thanatos:Θάνατος:2012-01:
 	hesperides:Ἑσπερίδες:2013-01:
+	nemesis:Νέμεσις:2014-01:
 "
 
 # not yet released
