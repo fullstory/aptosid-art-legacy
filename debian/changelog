@@ -1,3 +1,9 @@
+aptosid-art-legacy (2014.01.3) UNRELEASED; urgency=medium
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 26 Nov 2014 03:51:50 +0100
+
 aptosid-art-legacy (2014.01.2) unstable; urgency=medium
 
   * add theme-grub to void.
