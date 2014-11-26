@@ -5,6 +5,7 @@ Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Uploaders: Bernard Gray <bernard.gray@gmail.com>,
  Rick Battle <rick.battle@celtrenicdesigns.com>
 Build-Depends: debhelper (>= 9.20120115),
+ grub-common,
  inkscape,
  perl,
  perlmagick,
@@ -13,6 +14,17 @@ Build-Depends: debhelper (>= 9.20120115),
 Standards-Version: 3.9.5
 Vcs-git: git://github.com/fullstory/aptosid-art-legacy.git
 Vcs-Browser: https://github.com/fullstory/aptosid-art-legacy
+
+Package: aptosid-art-grub-void
+Architecture: all
+Provides: aptosid-art-grub-theme
+Depends: ${misc:Depends}
+Description: GRUB theme for the aptosid void release
+ release specific grub theme.
+ .
+ GRUB artwork for: aptosid void (άκυρος)
+ .
+ This package needs to be enabled manually by setting GRUB_THEME.
 
 Package: aptosid-art-kde-void
 Architecture: all
@@ -92,6 +104,17 @@ Description: Xfce splash theme for the aptosid void release
  This package does not override existing theme configurations and needs to be
  selected manually.
 
+Package: aptosid-art-grub-keres
+Architecture: all
+Provides: aptosid-art-grub-theme
+Depends: ${misc:Depends}
+Description: GRUB theme for the aptosid 2010-02 release
+ release specific grub theme.
+ .
+ GRUB artwork for: aptosid 2010-02 (Κῆρες)
+ .
+ This package needs to be enabled manually by setting GRUB_THEME.
+
 Package: aptosid-art-kde-keres
 Architecture: all
 Provides: aptosid-art-kde-theme
@@ -169,6 +192,17 @@ Description: Xfce splash theme for the aptosid 2010-02 release
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
+
+Package: aptosid-art-grub-apate
+Architecture: all
+Provides: aptosid-art-grub-theme
+Depends: ${misc:Depends}
+Description: GRUB theme for the aptosid 2010-03 release
+ release specific grub theme.
+ .
+ GRUB artwork for: aptosid 2010-03 (Ἀπάτη)
+ .
+ This package needs to be enabled manually by setting GRUB_THEME.
 
 Package: aptosid-art-kde-apate
 Architecture: all
@@ -248,6 +282,17 @@ Description: Xfce splash theme for the aptosid 2010-03 release
  This package does not override existing theme configurations and needs to be
  selected manually.
 
+Package: aptosid-art-grub-geras
+Architecture: all
+Provides: aptosid-art-grub-theme
+Depends: ${misc:Depends}
+Description: GRUB theme for the aptosid 2011-01 release
+ release specific grub theme.
+ .
+ GRUB artwork for: aptosid 2011-01 (Γῆρας)
+ .
+ This package needs to be enabled manually by setting GRUB_THEME.
+
 Package: aptosid-art-kde-geras
 Architecture: all
 Provides: aptosid-art-kde-theme
@@ -325,6 +370,17 @@ Description: Xfce splash theme for the aptosid 2011-01 release
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
+
+Package: aptosid-art-grub-imera
+Architecture: all
+Provides: aptosid-art-grub-theme
+Depends: ${misc:Depends}
+Description: GRUB theme for the aptosid 2011-02 release
+ release specific grub theme.
+ .
+ GRUB artwork for: aptosid 2011-02 (Ἡμέρα)
+ .
+ This package needs to be enabled manually by setting GRUB_THEME.
 
 Package: aptosid-art-kde-imera
 Architecture: all
@@ -404,6 +460,17 @@ Description: Xfce splash theme for the aptosid 2011-02 release
  This package does not override existing theme configurations and needs to be
  selected manually.
 
+Package: aptosid-art-grub-ponos
+Architecture: all
+Provides: aptosid-art-grub-theme
+Depends: ${misc:Depends}
+Description: GRUB theme for the aptosid 2011-03 release
+ release specific grub theme.
+ .
+ GRUB artwork for: aptosid 2011-03 (Πόνος)
+ .
+ This package needs to be enabled manually by setting GRUB_THEME.
+
 Package: aptosid-art-kde-ponos
 Architecture: all
 Provides: aptosid-art-kde-theme
@@ -481,6 +548,17 @@ Description: Xfce splash theme for the aptosid 2011-03 release
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
+
+Package: aptosid-art-grub-thanatos
+Architecture: all
+Provides: aptosid-art-grub-theme
+Depends: ${misc:Depends}
+Description: GRUB theme for the aptosid 2012-01 release
+ release specific grub theme.
+ .
+ GRUB artwork for: aptosid 2012-01 (Θάνατος)
+ .
+ This package needs to be enabled manually by setting GRUB_THEME.
 
 Package: aptosid-art-kde-thanatos
 Architecture: all
@@ -560,6 +638,17 @@ Description: Xfce splash theme for the aptosid 2012-01 release
  This package does not override existing theme configurations and needs to be
  selected manually.
 
+Package: aptosid-art-grub-hesperides
+Architecture: all
+Provides: aptosid-art-grub-theme
+Depends: ${misc:Depends}
+Description: GRUB theme for the aptosid 2013-01 release
+ release specific grub theme.
+ .
+ GRUB artwork for: aptosid 2013-01 (Ἑσπερίδες)
+ .
+ This package needs to be enabled manually by setting GRUB_THEME.
+
 Package: aptosid-art-kde-hesperides
 Architecture: all
 Provides: aptosid-art-kde-theme
@@ -637,6 +726,17 @@ Description: Xfce splash theme for the aptosid 2013-01 release
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
+
+Package: aptosid-art-grub-nemesis
+Architecture: all
+Provides: aptosid-art-grub-theme
+Depends: ${misc:Depends}
+Description: GRUB theme for the aptosid 2014-01 release
+ release specific grub theme.
+ .
+ GRUB artwork for: aptosid 2014-01 (Νέμεσις)
+ .
+ This package needs to be enabled manually by setting GRUB_THEME.
 
 Package: aptosid-art-kde-nemesis
 Architecture: all

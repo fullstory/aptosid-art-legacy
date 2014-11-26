@@ -54,7 +54,7 @@ sed	-e "s/\@ALL_CODENAME_SAFE\@/${ALL_CODENAME_SAFE}/g" \
 			> ./Makefile
 
 # create basic structure
-ALL_THEMES="dm-kdm splash-kde splash-xfce wallpaper"
+ALL_THEMES="dm-kdm splash-kde splash-xfce wallpaper theme-grub"
 for i in $RELEASES; do
 	for j in $ALL_THEMES; do
 		# create directory structure
@@ -90,7 +90,7 @@ for i in $RELEASES; do
 			${TEMPLATES_BIN} >> ./debian/control
 
 	# write debian/*.install from templates
-	for j in kde kdm ksplash wallpaper xfce xsplash; do
+	for j in kde kdm ksplash wallpaper xfce xsplash grub; do
 		if [ -r  ./debian/templates/aptosid-art-${j}-CODENAME_SAFE.install.in ]; then
 			sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
 					./debian/templates/aptosid-art-${j}-CODENAME_SAFE.install.in \
