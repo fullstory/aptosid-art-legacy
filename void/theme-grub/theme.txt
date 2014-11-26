@@ -1,0 +1,85 @@
+message-font: "u_vga16 16"
+message-color: "#fff"
+message-bg-color: "#000"
+terminal-font: "u_vga16 16"
+desktop-color: "#000"
+title-text: ""
+
++ boot_menu {
+	left = 50%-323
+	top = 50%-195
+	width = 646
+	height = 390
+	item_font = "u_vga16 16"
+	item_color = "#888"
+	selected_item_font = "u_vga16 16"
+	selected_item_color= "#fff"
+	icon_height = 28
+	icon_width = 28
+	item_height = 30
+	item_padding = 0
+	item_icon_space = 8
+	item_spacing = 0
+	scrollbar = true
+	scrollbar_width = 20
+	scrollbar_thumb = "slider_*.png"
+	menu_pixmap_style = "menu_*.png"
+}
+
++image {
+	left = 0
+	top = 0
+	width = 50%-323
+	height = 50%-195
+	file = "frame_nw.png"
+}
++image {
+	left = 50%-323
+	top = 0
+	width = 646
+	height = 50%-195
+	file = "frame_n.png"
+}
++image {
+	left = 50%+323
+	top = 0
+	width = 50%-323
+	height = 50%-195
+	file = "frame_ne.png"
+}
++image {
+	left = 0
+	top = 50%-195
+	width = 50%-323
+	height = 390
+	file = "frame_w.png"
+}
++image {
+	left = 50%+323
+	top = 50%-195
+	width = 50%-323
+	height = 390
+	file = "frame_e.png"
+}
++image {
+	left = 0
+	top = 50%+195
+	width = 50%-323
+	height = 50%-195
+	file = "frame_sw.png"
+}
++image {
+	left = 50%-323
+	top = 50%+195
+	width = 646
+	height = 50%-195
+	file = "frame_s.png"
+}
++image {
+	left = 50%+323
+	top = 50%+195
+	width = 50%-323
+	height = 50%-195
+	file = "frame_se.png"
+}
+

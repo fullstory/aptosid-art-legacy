@@ -1,3 +1,14 @@
+Package: aptosid-art-grub-@CODENAME_SAFE@
+Architecture: all
+Provides: aptosid-art-grub-theme
+Depends: ${misc:Depends}
+Description: GRUB theme for the aptosid @VERSION@ release
+ release specific grub theme.
+ .
+ GRUB artwork for: aptosid @VERSION@ (@CODENAME@)
+ .
+ This package needs to be enabled manually by setting GRUB_THEME.
+
 Package: aptosid-art-kde-@CODENAME_SAFE@
 Architecture: all
 Provides: aptosid-art-kde-theme
