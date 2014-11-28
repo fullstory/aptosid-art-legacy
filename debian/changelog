@@ -1,8 +1,8 @@
-aptosid-art-legacy (2014.01.3) UNRELEASED; urgency=medium
+aptosid-art-legacy (2014.01.3) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * merge an initial Νέμεσις grub theme.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 26 Nov 2014 03:51:50 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 28 Nov 2014 02:32:50 +0100
 
 aptosid-art-legacy (2014.01.2) unstable; urgency=medium
 
