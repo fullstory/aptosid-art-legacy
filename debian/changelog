@@ -1,10 +1,6 @@
-aptosid-art-legacy (2014.01.4) UNRELEASED; urgency=medium
+aptosid-art-legacy (2014.01.4) unstable; urgency=medium
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Niall Walsh ]
-  * overhaul Νέμεσις grub theme
+  * overhaul Νέμεσις grub theme.
 
  -- Niall Walsh <niallwalsh@celtux.org>  Mon, 01 Dec 2014 01:19:27 +0000
 
