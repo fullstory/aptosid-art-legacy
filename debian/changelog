@@ -1,10 +1,10 @@
-aptosid-art-legacy (2014.01.5) UNRELEASED; urgency=medium
+aptosid-art-legacy (2014.01.5) unstable; urgency=medium
 
-  * NOT RELEASED YET
   * drop obsolete nemesis/theme-grub/frame.svg.
   * standardise grub themes on new Νέμεσις structure, rebuild them upon άκυρος.
+  * use white fonts for άκυρος wallpapers.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 01 Dec 2014 02:38:16 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 04 Dec 2014 03:32:01 +0100
 
 aptosid-art-legacy (2014.01.4) unstable; urgency=medium
 
