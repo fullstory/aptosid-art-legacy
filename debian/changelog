@@ -1,8 +1,8 @@
-aptosid-art-legacy (2014.01.6) UNRELEASED; urgency=medium
+aptosid-art-legacy (2014.01.6) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * drop logo layers, grub takes care of overlaying those.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 04 Dec 2014 03:33:19 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 04 Dec 2014 04:55:52 +0100
 
 aptosid-art-legacy (2014.01.5) unstable; urgency=medium
 
