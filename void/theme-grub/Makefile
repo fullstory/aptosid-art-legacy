@@ -20,7 +20,7 @@ background: dir
 
 logo: dir
 	inkscape --without-gui \
-		--export-area=1560:0:1920:320 \
+		--export-area=1560:76:1888:316 \
 		--export-png="$(THEME)/logo.png" \
 			logo.svg
 

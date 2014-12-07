@@ -1,8 +1,12 @@
 aptosid-art-legacy (2014.01.7) UNRELEASED; urgency=medium
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 04 Dec 2014 04:57:28 +0100
+  [ Niall Walsh ]
+  * change logo export-area, use at native size, position by %-px
+
+ -- Niall Walsh <niallwalsh@celtux.org>  Sun, 07 Dec 2014 18:01:08 +0000
 
 aptosid-art-legacy (2014.01.6) unstable; urgency=medium
 
