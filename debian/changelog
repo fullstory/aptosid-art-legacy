@@ -1,8 +1,8 @@
-aptosid-art-legacy (2014.01.8) UNRELEASED; urgency=medium
+aptosid-art-legacy (2014.01.8) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * fix grub theme syntax.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 07 Dec 2014 19:08:47 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 07 Dec 2014 21:16:54 +0100
 
 aptosid-art-legacy (2014.01.7) unstable; urgency=medium
 

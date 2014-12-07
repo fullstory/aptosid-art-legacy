@@ -28,7 +28,7 @@ title-text: ""
 }
 
 + image {
-	left = 99%-328px
-	top = 99%-240px
+	left = 99%-328
+	top = 99%-240
 	file = "logo.png"
 }
