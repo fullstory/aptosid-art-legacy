@@ -1,3 +1,9 @@
+aptosid-art-legacy (2014.01.8) UNRELEASED; urgency=medium
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 07 Dec 2014 19:08:47 +0100
+
 aptosid-art-legacy (2014.01.7) unstable; urgency=medium
 
   * change logo export-area, use at native size, position by %-px.
