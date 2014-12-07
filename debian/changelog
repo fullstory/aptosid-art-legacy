@@ -1,10 +1,6 @@
-aptosid-art-legacy (2014.01.7) UNRELEASED; urgency=medium
+aptosid-art-legacy (2014.01.7) unstable; urgency=medium
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Niall Walsh ]
-  * change logo export-area, use at native size, position by %-px
+  * change logo export-area, use at native size, position by %-px.
 
  -- Niall Walsh <niallwalsh@celtux.org>  Sun, 07 Dec 2014 18:01:08 +0000
 
