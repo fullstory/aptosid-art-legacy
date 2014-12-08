@@ -1,8 +1,8 @@
-aptosid-art-legacy (2014.01.9) UNRELEASED; urgency=medium
+aptosid-art-legacy (2014.01.9) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * grub themes: make logo.svg generic.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 07 Dec 2014 21:18:17 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 08 Dec 2014 06:02:51 +0100
 
 aptosid-art-legacy (2014.01.8) unstable; urgency=medium
 
