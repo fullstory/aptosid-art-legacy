@@ -1,8 +1,9 @@
-aptosid-art-legacy (2014.01.11) UNRELEASED; urgency=medium
+aptosid-art-legacy (2014.01.11) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * update uploaders properly.
+  * bump standards version to 3.9.6, no changes necessary.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 09 Dec 2014 06:15:14 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 09 Dec 2014 21:14:55 +0100
 
 aptosid-art-legacy (2014.01.10) unstable; urgency=medium
 
