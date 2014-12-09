@@ -13,7 +13,7 @@ iconsdir:
 
 background: dir
 	inkscape --without-gui \
-		 --export-width=1920 \
+		 --export-width=1600 \
 		 --export-height=1200 \
 		 --export-png="$(THEME)/$@.png" \
 			$@.svg

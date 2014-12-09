@@ -10,13 +10,13 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1920"
-   height="1080"
+   width="1600"
+   height="1200"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="background-really-wide.svg"
-   inkscape:export-filename="aptosid-thanatos-really-wide.png"
+   sodipodi:docname="background.svg"
+   inkscape:export-filename="aptosid-thanatos.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
    style="display:inline">
@@ -233,7 +233,7 @@
        xlink:href="#linearGradient9775"
        id="radialGradient8404"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.4625237,0,0,0.7031275,-444.02279,238.1235)"
+       gradientTransform="matrix(1.2187698,0,0,0.78125278,-370.01899,131.24833)"
        cx="960"
        cy="600"
        fx="960"
@@ -248,8 +248,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.5"
-     inkscape:cx="1079.1091"
-     inkscape:cy="593.70303"
+     inkscape:cx="813.29202"
+     inkscape:cy="671.38263"
      inkscape:document-units="px"
      inkscape:current-layer="layer9"
      showgrid="false"
@@ -295,29 +295,30 @@
      inkscape:label="background"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,27.63782)"
+     transform="translate(0,147.63782)"
      style="display:inline"
      sodipodi:insensitive="true">
     <rect
        style="fill:#0000ff;fill-opacity:1;stroke:none;filter:url(#filter9702)"
        id="rect2985"
-       width="1920"
-       height="1080"
+       width="1600"
+       height="1200"
        x="0"
-       y="-27.637848" />
+       y="-147.63785" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="background-top"
-     transform="translate(0,-120)">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="fill:url(#radialGradient8404);fill-opacity:1;stroke:none;filter:url(#filter9807)"
        id="rect9763"
-       width="1920"
-       height="1080"
+       width="1600"
+       height="1200"
        x="0"
-       y="120" />
+       y="1.0924595e-13" />
     <use
        x="0"
        y="0"

@@ -3,8 +3,7 @@ Section: graphics
 Priority: extra
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Uploaders: Bernard Gray <bernard.gray@gmail.com>,
- Rick Battle <rick.battle@celtrenicdesigns.com>,
- Niall Walsh <niallwalsh@celtux.org>
+ Rick Battle <rick.battle@celtrenicdesigns.com>
 Build-Depends: debhelper (>= 9.20120115),
  grub-common,
  inkscape,
