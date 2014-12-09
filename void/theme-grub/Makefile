@@ -20,8 +20,9 @@ background: dir
 
 logo: dir
 	inkscape --without-gui \
-		--export-area=1560:76:1888:316 \
-		--export-png="$(THEME)/logo.png" \
+		 --export-width=440 \
+		 --export-height=240 \
+		 --export-png="$(THEME)/logo.png" \
 			logo.svg
 
 font: dir
