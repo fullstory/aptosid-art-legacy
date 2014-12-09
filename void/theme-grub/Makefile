@@ -15,8 +15,8 @@ background: dir
 	inkscape --without-gui \
 		 --export-width=1920 \
 		 --export-height=1200 \
-		 --export-png="$(THEME)/background.png" \
-			plain.svg
+		 --export-png="$(THEME)/$@.png" \
+			$@.svg
 
 logo: dir
 	inkscape --without-gui \

@@ -2,6 +2,8 @@ aptosid-art-legacy (2014.01.10) UNRELEASED; urgency=medium
 
   * NOT RELEASED YET
   * grub themes: rework and simplify logo.svg.
+  * grub themes: rename plain.svg to background.svg and simplify the build
+    process accordingly.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 08 Dec 2014 06:03:56 +0100
 
