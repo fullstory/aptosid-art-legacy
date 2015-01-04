@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: aptosid-art-legacy
-Upstream-Contact: Rick Battle <rick.battle@celtrenicdesigns.com>
-Source: svn://svn.berlios.de/fullstory/aptosid-art-legacy/trunk/
+Upstream-Contact: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Source: git://github.com/fullstory/aptosid-art-legacy.git
 
 Files: aether/*
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
@@ -73,7 +73,7 @@ License: GPL-2+
 
 Files: geras/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
-           2007-2014, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+           2007-2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
            2009, David Creedy <djcreedy@iinet.net.au>
            2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2+
@@ -90,7 +90,7 @@ License: CC-BY-SA or LGPL-2+
 
 Files: hesperides/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
-           2007-2014, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+           2007-2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
            2009, David Creedy <djcreedy@iinet.net.au>
            2010-2013, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2+
@@ -131,7 +131,7 @@ License: GPL-2+
 
 Files: imera/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
-           2007-2014, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+           2007-2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
            2009, David Creedy <djcreedy@iinet.net.au>
            2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2+
@@ -211,7 +211,7 @@ License: GPL-2+
 
 Files: nemesis/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
-           2007-2014, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+           2007-2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
            2008-2013, Niall Walsh <niallwalsh@users.berlios.de>
            2009, David Creedy <djcreedy@iinet.net.au>
            2010-2013, Rick Battle <rick.battle@celtrenicdesigns.com>
@@ -285,7 +285,7 @@ License: GPL-2
 
 Files: ponos/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
-           2007-2014, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+           2007-2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
            2009, David Creedy <djcreedy@iinet.net.au>
            2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2+
@@ -310,7 +310,7 @@ License: GPL-2+
 
 Files: thanatos/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
-           2007-2014, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+           2007-2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
            2009, David Creedy <djcreedy@iinet.net.au>
            2010-2012, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2+
@@ -331,7 +331,7 @@ License: GPL-2+
 
 Files: void/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
-           2007-2014, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+           2007-2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
            2009, David Creedy <djcreedy@iinet.net.au>
            2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2+
@@ -352,7 +352,7 @@ License: GPL-2+
 
 Files: debian/*
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-           2007-2014, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+           2007-2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
 License: GPL-2
 
 License: CC-BY-SA
