@@ -3,9 +3,9 @@ aptosid-art-legacy (2015.01.0) unstable; urgency=medium
   * update uploaders properly.
   * bump standards version to 3.9.6, no changes necessary.
   * update version numbers.
-  * update debian/copyright.
+  * update and fix debian/copyright.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 04 Jan 2015 02:15:53 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 04 Jan 2015 02:37:49 +0100
 
 aptosid-art-legacy (2014.01.10) unstable; urgency=medium
 
