@@ -730,10 +730,10 @@ Package: aptosid-art-grub-nemesis
 Architecture: all
 Provides: aptosid-art-grub-theme
 Depends: ${misc:Depends}
-Description: GRUB theme for the aptosid 2014-01 release
+Description: GRUB theme for the aptosid 2015-01 release
  release specific grub theme.
  .
- GRUB artwork for: aptosid 2014-01 (Νέμεσις)
+ GRUB artwork for: aptosid 2015-01 (Νέμεσις)
  .
  This package needs to be enabled manually by setting GRUB_THEME.
 
@@ -745,22 +745,22 @@ Depends: ${misc:Depends},
  aptosid-art-kdm-nemesis
 Recommends: aptosid-art-wallpaper-nemesis,
  dmz-cursor-theme
-Description: KDE theme for the aptosid 2014-01 release
+Description: KDE theme for the aptosid 2015-01 release
  release specific metapackage depending on ksplash, kdm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
- KDE artwork metapackage for: aptosid 2014-01 (Νέμεσις)
+ KDE artwork metapackage for: aptosid 2015-01 (Νέμεσις)
 
 Package: aptosid-art-kdm-nemesis
 Architecture: all
 Depends: ${misc:Depends},
  kdm
-Description: KDM theme for the aptosid 2014-01 release
+Description: KDM theme for the aptosid 2015-01 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
  .
- KDM artwork for: aptosid 2014-01 (Νέμεσις)
+ KDM artwork for: aptosid 2015-01 (Νέμεσις)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -769,10 +769,10 @@ Package: aptosid-art-ksplash-nemesis
 Architecture: all
 Depends: ${misc:Depends},
  kde-workspace-bin
-Description: KDE ksplash theme for the aptosid 2014-01 release
+Description: KDE ksplash theme for the aptosid 2015-01 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
- KDE ksplash artwork for: aptosid 2014-01 (Νέμεσις)
+ KDE ksplash artwork for: aptosid 2015-01 (Νέμεσις)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -781,11 +781,11 @@ Package: aptosid-art-wallpaper-nemesis
 Architecture: all
 Provides: aptosid-art-wallpaper-theme
 Depends: ${misc:Depends}
-Description: aptosid wallpaper for the 2014-01 release
+Description: aptosid wallpaper for the 2015-01 release
  release specific wallpapers, compatible with the K Desktop Environment, Xfce,
  LXDE and GNOME.
  .
- Wallpapers for: aptosid 2014-01 (Νέμεσις)
+ Wallpapers for: aptosid 2015-01 (Νέμεσις)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -797,20 +797,20 @@ Depends: ${misc:Depends},
  aptosid-art-xsplash-nemesis
 Recommends: aptosid-art-wallpaper-nemesis,
  dmz-cursor-theme
-Description: Xfce theme for the aptosid 2014-01 release
+Description: Xfce theme for the aptosid 2015-01 release
  release specific metapackage depending on xfce4-session and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
- Xfce artwork metapackage for: aptosid 2014-01 (Νέμεσις)
+ Xfce artwork metapackage for: aptosid 2015-01 (Νέμεσις)
 
 Package: aptosid-art-xsplash-nemesis
 Architecture: all
 Depends: ${misc:Depends},
  xfce4-session
-Description: Xfce splash theme for the aptosid 2014-01 release
+Description: Xfce splash theme for the aptosid 2015-01 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
- Xfce xsplash artwork for: aptosid 2014-01 (Νέμεσις)
+ Xfce xsplash artwork for: aptosid 2015-01 (Νέμεσις)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.

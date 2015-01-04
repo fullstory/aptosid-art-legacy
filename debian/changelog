@@ -1,9 +1,10 @@
-aptosid-art-legacy (2014.01.11) unstable; urgency=medium
+aptosid-art-legacy (2015.01.0) unstable; urgency=medium
 
   * update uploaders properly.
   * bump standards version to 3.9.6, no changes necessary.
+  * update version numbers.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 09 Dec 2014 21:14:55 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 04 Jan 2015 02:12:51 +0100
 
 aptosid-art-legacy (2014.01.10) unstable; urgency=medium
 
