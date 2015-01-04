@@ -37,8 +37,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2.0+
 
-Files: apate/splash-kde/svg-anim.pl
-       apate/splash-kde/composite_pngs.pl
+Files: apate/splash-kde/composite_pngs.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
 License: GPL-2.0+
 
@@ -113,8 +112,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2.0+
 
-Files: hesperides/splash-kde/svg-anim.pl
-       hesperides/splash-kde/composite_pngs.pl
+Files: hesperides/splash-kde/composite_pngs.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
 License: GPL-2.0+
 
@@ -206,10 +204,6 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2.0+
 
-Files: momos/splash-kde/splash-kde/svg-anim.pl
-Copyright: 2009, Naill Walsh <niallwalsh@users.berlios.de>
-License: GPL-2.0+
-
 Files: moros/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2009, David Creedy <djcreedy@iinet.net.au>
@@ -226,10 +220,6 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2.0+
-
-Files: moros/splash-kde/splash-kde/svg-anim.pl
-Copyright: 2009, Naill Walsh <niallwalsh@users.berlios.de>
-License: GPL-2.0+
 
 Files: nemesis/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
@@ -329,7 +319,6 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: CC-BY-SA or LGPL-2.0+
 
 Files: ponos/splash-kde/svg-anim.pl
-       ponos/splash-kde/composite_pngs.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
 License: GPL-2.0+
 
@@ -356,8 +345,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2.0+
 
-Files: thanatos/splash-kde/svg-anim.pl
-       thanatos/splash-kde/composite_pngs.pl
+Files: thanatos/splash-kde/composite_pngs.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
 License: GPL-2.0+
 
