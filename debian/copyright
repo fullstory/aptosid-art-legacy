@@ -37,7 +37,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2.0+
 
-Files: apate/splash-kde/composite_pngs.pl
+Files: apate/splash-kde/svg-anim.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
 License: GPL-2.0+
 
@@ -345,7 +345,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2.0+
 
-Files: thanatos/splash-kde/composite_pngs.pl
+Files: thanatos/splash-kde/svg-anim.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
 License: GPL-2.0+
 
