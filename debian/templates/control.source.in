@@ -5,6 +5,7 @@ Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Uploaders: Niall Walsh <niallwalsh@celtux.org>
 Build-Depends: debhelper (>= 9.20120115),
  grub-common,
+ imagemagick,
  inkscape,
  perl,
  perlmagick,
