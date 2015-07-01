@@ -1,7 +1,4 @@
-local-all: aptosid letters
-
-aptosid: $(CONTROLDIR)
-	inkscape --without-gui --export-png="$(THEME)/$(CONTROLDIR)/$@.png" $@.svg
+local-all: letters
 
 letters: a p t o sid
 
