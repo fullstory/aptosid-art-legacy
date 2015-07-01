@@ -7,8 +7,9 @@ aptosid-art-legacy (2015.01.1) unstable; urgency=medium
   * add imagemagick to build-depends.
   * fix up local.make for keres/splash-kde, inkscape now actually reports
     errors for non-existing files, rather than skipping them silently.
+  * debian/copyright: drop copyright stanzas for symlinked files.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 02 Jul 2015 00:31:44 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 02 Jul 2015 01:01:53 +0200
 
 aptosid-art-legacy (2015.01.0) unstable; urgency=medium
 
