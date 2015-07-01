@@ -1,4 +1,4 @@
-DIRS = dm-kdm splash-kde splash-xfce wallpaper theme-grub
+DIRS = dm-kdm dm-sddm splash-kde splash-xfce wallpaper theme-grub
 BUILDDIRS = $(DIRS:%=build-%)
 #INSTALLDIRS = $(DIRS:%=install-%)
 CLEANDIRS = $(DIRS:%=clean-%)

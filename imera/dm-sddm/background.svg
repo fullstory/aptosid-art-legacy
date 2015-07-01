@@ -1,0 +1,1538 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1920"
+   height="1080"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="background.svg"
+   inkscape:export-filename="aptosid-imera-really-wide.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   style="display:inline;enable-background:new">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4156">
+      <stop
+         style="stop-color:#000033;stop-opacity:1;"
+         offset="0"
+         id="stop4158" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop4160" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="envelope"
+       id="path-effect1326"
+       is_visible="true"
+       yy="true"
+       xx="false"
+       bendpath1="M 1073,450 1706.5,133.5"
+       bendpath2="m 2266.5,382.5 0,442.5"
+       bendpath3="M 1073,1104 1729.5,139"
+       bendpath4="M 535,382.5 535,825"
+       bendpath1-nodetypes="cc"
+       bendpath3-nodetypes="cc" />
+    <linearGradient
+       id="linearGradient5681">
+      <stop
+         style="stop-color:#500000;stop-opacity:1;"
+         offset="0"
+         id="stop5683" />
+      <stop
+         style="stop-color:#3c0000;stop-opacity:1;"
+         offset="1"
+         id="stop5685" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5673">
+      <stop
+         style="stop-color:#500000;stop-opacity:1;"
+         offset="0"
+         id="stop5675" />
+      <stop
+         style="stop-color:#3c0000;stop-opacity:1;"
+         offset="1"
+         id="stop5677" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5621">
+      <stop
+         style="stop-color:#5a0000;stop-opacity:1;"
+         offset="0"
+         id="stop5623" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop5625" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4923">
+      <stop
+         style="stop-color:#7d0000;stop-opacity:1;"
+         offset="0"
+         id="stop4925" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop4927" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3951">
+      <stop
+         style="stop-color:#e10000;stop-opacity:1;"
+         offset="0"
+         id="stop3953" />
+      <stop
+         style="stop-color:#7d0000;stop-opacity:1;"
+         offset="1"
+         id="stop3955" />
+    </linearGradient>
+    <filter
+       id="filter3896"
+       inkscape:label="Rough and dilate"
+       inkscape:menu="Distort"
+       inkscape:menu-tooltip="Create a turbulent contour around"
+       color-interpolation-filters="sRGB"
+       height="1.4"
+       y="-0.2"
+       width="1.4"
+       x="-0.2">
+      <feTurbulence
+         id="feTurbulence3898"
+         numOctaves="1"
+         baseFrequency="0.002 0.107" />
+      <feColorMatrix
+         id="feColorMatrix3900"
+         values="2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0.5"
+         result="result91" />
+      <feDisplacementMap
+         in2="result91"
+         id="feDisplacementMap3902"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         scale="100"
+         in="SourceGraphic"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3926" />
+      <feTurbulence
+         id="feTurbulence3928"
+         baseFrequency="0.05"
+         numOctaves="5"
+         type="fractalNoise"
+         result="result91" />
+      <feDisplacementMap
+         id="feDisplacementMap3930"
+         in2="result91"
+         scale="5"
+         result="result5"
+         xChannelSelector="R"
+         in="fbSourceGraphic"
+         yChannelSelector="A" />
+      <feComposite
+         id="feComposite3932"
+         in2="result5"
+         in="fbSourceGraphic"
+         operator="atop"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3934" />
+      <feMorphology
+         id="feMorphology3936"
+         radius="14"
+         operator="dilate"
+         result="result8"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite3938"
+         in2="result8"
+         result="result10"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         k1="0.5"
+         k3="0.5"
+         k2="0"
+         k4="0" />
+      <feTurbulence
+         id="feTurbulence3940"
+         result="result11"
+         type="fractalNoise"
+         numOctaves="3"
+         baseFrequency="0.07"
+         seed="42" />
+      <feDisplacementMap
+         id="feDisplacementMap3942"
+         in2="result11"
+         result="result12"
+         in="result10"
+         xChannelSelector="R"
+         scale="13"
+         yChannelSelector="A" />
+      <feComposite
+         id="feComposite3944"
+         in2="result12"
+         operator="arithmetic"
+         result="result13"
+         in="fbSourceGraphic"
+         k1="0.25"
+         k2="0.25"
+         k3="0.75"
+         k4="0" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3951"
+       id="radialGradient3957"
+       cx="960"
+       cy="-146.03935"
+       fx="960"
+       fy="-146.03935"
+       r="960"
+       gradientTransform="matrix(-1,0,0,-1.5764819,1920,-96.502993)"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       id="filter4529"
+       height="1.5"
+       width="1.5"
+       y="-0.25"
+       x="-0.25"
+       inkscape:menu-tooltip="Small-scale roughening and blurring to edges and content"
+       inkscape:menu="Blurs"
+       inkscape:label="Noisy blur"
+       color-interpolation-filters="sRGB">
+      <feTurbulence
+         id="feTurbulence4531"
+         type="turbulence"
+         numOctaves="2"
+         baseFrequency="0.01 0.11"
+         seed="10" />
+      <feColorMatrix
+         id="feColorMatrix4533"
+         result="result5"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1.3 0 " />
+      <feComposite
+         id="feComposite4535"
+         in2="result5"
+         in="SourceGraphic"
+         operator="out" />
+      <feMorphology
+         id="feMorphology4537"
+         operator="dilate"
+         radius="1.3"
+         result="result3" />
+      <feTurbulence
+         id="feTurbulence4539"
+         numOctaves="3"
+         baseFrequency="0.08 0.05"
+         type="fractalNoise"
+         seed="7"
+         result="result6" />
+      <feGaussianBlur
+         id="feGaussianBlur4541"
+         stdDeviation="0.5"
+         result="result7" />
+      <feDisplacementMap
+         id="feDisplacementMap4543"
+         in2="result7"
+         in="result3"
+         xChannelSelector="R"
+         yChannelSelector="G"
+         scale="3"
+         result="result4" />
+      <feComposite
+         id="feComposite4545"
+         in2="result4"
+         in="result4"
+         k1="1"
+         result="result2"
+         operator="arithmetic"
+         k2="1"
+         k3="0"
+         k4="0" />
+      <feBlend
+         id="feBlend4547"
+         in2="result4"
+         mode="normal"
+         in="result2"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5751" />
+      <feGaussianBlur
+         id="feGaussianBlur5753"
+         stdDeviation="5"
+         result="result1"
+         in="fbSourceGraphic" />
+      <feTurbulence
+         id="feTurbulence5755"
+         numOctaves="1"
+         seed="0"
+         type="fractalNoise"
+         baseFrequency="0.1"
+         result="result2" />
+      <feDisplacementMap
+         id="feDisplacementMap5757"
+         in2="result2"
+         scale="5"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         result="result3"
+         in="result1" />
+      <feComposite
+         id="feComposite5759"
+         in2="result3"
+         operator="atop" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4707"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="13.406406"
+         id="feGaussianBlur4709" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4725"
+       x="-0.053067256"
+       width="1.1061345"
+       y="-0.20138912"
+       height="1.4027781"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="10.0275"
+         id="feGaussianBlur4727" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4735"
+       x="-0.040825471"
+       width="1.0816509"
+       y="-0.11313726"
+       height="1.2262745"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="12.750019"
+         id="feGaussianBlur4737" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4923"
+       id="linearGradient4929"
+       x1="1057.8318"
+       y1="473.09427"
+       x2="824.48639"
+       y2="1211.3137"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       id="filter5585"
+       x="-0.2"
+       width="1.4"
+       y="-0.2"
+       height="1.4"
+       inkscape:menu-tooltip="Blur as if the object flies horizontally; adjust Standard Deviation to vary force"
+       inkscape:menu="Blurs"
+       inkscape:label="Motion blur, horizontal"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur5587"
+         result="result9"
+         in="SourceGraphic"
+         stdDeviation="2" />
+      <feTurbulence
+         id="feTurbulence5589"
+         baseFrequency="0.06"
+         numOctaves="10"
+         type="fractalNoise"
+         result="result7"
+         seed="0" />
+      <feColorMatrix
+         id="feColorMatrix5591"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1.5 -0.3 "
+         result="result5" />
+      <feComposite
+         id="feComposite5593"
+         in2="result5"
+         in="result9"
+         operator="out"
+         result="result6" />
+      <feGaussianBlur
+         id="feGaussianBlur5595"
+         result="result10"
+         stdDeviation="0.01" />
+      <feDisplacementMap
+         id="feDisplacementMap5597"
+         in2="result10"
+         result="result4"
+         scale="120"
+         yChannelSelector="G"
+         xChannelSelector="A"
+         in="result5" />
+      <feComposite
+         id="feComposite5599"
+         in2="result4"
+         in="result9"
+         operator="in"
+         result="result2" />
+      <feComposite
+         id="feComposite5601"
+         in2="SourceGraphic"
+         operator="in"
+         in="result2"
+         result="fbSourceGraphic" />
+      <feBlend
+         id="feBlend5603"
+         in2="result2"
+         mode="multiply"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5605" />
+      <feGaussianBlur
+         id="feGaussianBlur5607"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5621"
+       id="linearGradient5627"
+       x1="477.29709"
+       y1="495.36807"
+       x2="296.98483"
+       y2="885.69104"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       id="filter5649"
+       x="-0.2"
+       width="1.4"
+       y="-0.2"
+       height="1.4"
+       inkscape:menu-tooltip="Blur as if the object flies horizontally; adjust Standard Deviation to vary force"
+       inkscape:menu="Blurs"
+       inkscape:label="Motion blur, horizontal"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur5651"
+         result="result9"
+         in="SourceGraphic"
+         stdDeviation="2" />
+      <feTurbulence
+         id="feTurbulence5653"
+         baseFrequency="0.06"
+         numOctaves="10"
+         type="fractalNoise"
+         result="result7"
+         seed="0" />
+      <feColorMatrix
+         id="feColorMatrix5655"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1.5 -0.3 "
+         result="result5" />
+      <feComposite
+         id="feComposite5657"
+         in2="result5"
+         in="result9"
+         operator="out"
+         result="result6" />
+      <feGaussianBlur
+         id="feGaussianBlur5659"
+         result="result10"
+         stdDeviation="0.5" />
+      <feDisplacementMap
+         id="feDisplacementMap5661"
+         in2="result10"
+         result="result4"
+         scale="120"
+         yChannelSelector="G"
+         xChannelSelector="A"
+         in="result5" />
+      <feComposite
+         id="feComposite5663"
+         in2="result4"
+         in="result9"
+         operator="in"
+         result="result2" />
+      <feComposite
+         id="feComposite5665"
+         in2="SourceGraphic"
+         operator="in"
+         in="result2"
+         result="fbSourceGraphic" />
+      <feBlend
+         id="feBlend5667"
+         in2="result2"
+         mode="multiply"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5669" />
+      <feGaussianBlur
+         id="feGaussianBlur5671"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5673"
+       id="linearGradient5679"
+       x1="407.29352"
+       y1="635.37524"
+       x2="222.73865"
+       y2="963.47278"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5681"
+       id="linearGradient5687"
+       x1="1726.7548"
+       y1="695.12579"
+       x2="1680.0857"
+       y2="833.71869"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       id="filter5691"
+       x="-0.2"
+       width="1.4"
+       y="-0.2"
+       height="1.4"
+       inkscape:menu-tooltip="Blur as if the object flies horizontally; adjust Standard Deviation to vary force"
+       inkscape:menu="Blurs"
+       inkscape:label="Motion blur, horizontal"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur5693"
+         result="result9"
+         in="SourceGraphic"
+         stdDeviation="2" />
+      <feTurbulence
+         id="feTurbulence5695"
+         baseFrequency="0.06"
+         numOctaves="10"
+         type="fractalNoise"
+         result="result7"
+         seed="0" />
+      <feColorMatrix
+         id="feColorMatrix5697"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1.5 -0.3 "
+         result="result5" />
+      <feComposite
+         id="feComposite5699"
+         in2="result5"
+         in="result9"
+         operator="out"
+         result="result6" />
+      <feGaussianBlur
+         id="feGaussianBlur5701"
+         result="result10"
+         stdDeviation="0.5" />
+      <feDisplacementMap
+         id="feDisplacementMap5703"
+         in2="result10"
+         result="result4"
+         scale="120"
+         yChannelSelector="G"
+         xChannelSelector="A"
+         in="result5" />
+      <feComposite
+         id="feComposite5705"
+         in2="result4"
+         in="result9"
+         operator="in"
+         result="result2" />
+      <feComposite
+         id="feComposite5707"
+         in2="SourceGraphic"
+         operator="in"
+         in="result2"
+         result="fbSourceGraphic" />
+      <feBlend
+         id="feBlend5709"
+         in2="result2"
+         mode="multiply"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5711" />
+      <feGaussianBlur
+         id="feGaussianBlur5713"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter5723"
+       x="-0.25"
+       width="1.5"
+       y="-0.25"
+       height="1.5"
+       inkscape:menu="Non realistic 3D shaders"
+       inkscape:menu-tooltip="Imitation of black and white cartoon shading"
+       inkscape:label="Comics"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.35"
+         id="feGaussianBlur5725"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5727" />
+      <feGaussianBlur
+         id="feGaussianBlur5729"
+         result="result8"
+         stdDeviation="7"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite5731"
+         in2="result8"
+         in="result8"
+         operator="xor"
+         result="result6" />
+      <feDisplacementMap
+         id="feDisplacementMap5733"
+         in2="result6"
+         result="result4"
+         scale="100"
+         yChannelSelector="A"
+         xChannelSelector="A"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite5735"
+         in2="result4"
+         k1="1"
+         in="fbSourceGraphic"
+         operator="arithmetic"
+         result="result2"
+         k2="0"
+         k3="0"
+         k4="0" />
+      <feComposite
+         id="feComposite5737"
+         in2="result2"
+         operator="in"
+         in="fbSourceGraphic"
+         result="fbSourceGraphic" />
+    </filter>
+    <filter
+       id="filter6258"
+       x="-0.2"
+       width="1.4"
+       y="-0.2"
+       height="1.4"
+       inkscape:menu-tooltip="Blur as if the object flies horizontally; adjust Standard Deviation to vary force"
+       inkscape:menu="Blurs"
+       inkscape:label="Motion blur, horizontal"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur6260"
+         result="result9"
+         in="SourceGraphic"
+         stdDeviation="2" />
+      <feTurbulence
+         id="feTurbulence6262"
+         baseFrequency="0.06"
+         numOctaves="10"
+         type="fractalNoise"
+         result="result7"
+         seed="0" />
+      <feColorMatrix
+         id="feColorMatrix6264"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1.5 -0.3 "
+         result="result5" />
+      <feComposite
+         id="feComposite6266"
+         in2="result5"
+         in="result9"
+         operator="out"
+         result="result6" />
+      <feGaussianBlur
+         id="feGaussianBlur6268"
+         result="result10"
+         stdDeviation="0.5" />
+      <feDisplacementMap
+         id="feDisplacementMap6270"
+         in2="result10"
+         result="result4"
+         scale="120"
+         yChannelSelector="G"
+         xChannelSelector="A"
+         in="result5" />
+      <feComposite
+         id="feComposite6272"
+         in2="result4"
+         in="result9"
+         operator="in"
+         result="result2" />
+      <feComposite
+         id="feComposite6274"
+         in2="SourceGraphic"
+         operator="in"
+         in="result2"
+         result="fbSourceGraphic" />
+      <feBlend
+         id="feBlend6276"
+         in2="result2"
+         mode="multiply"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix6278" />
+      <feGaussianBlur
+         id="feGaussianBlur6280"
+         in="fbSourceGraphic"
+         stdDeviation="7 2" />
+    </filter>
+    <filter
+       id="filter6308"
+       inkscape:label="Motion blur, horizontal"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur as if the object flies horizontally; adjust Standard Deviation to vary force"
+       color-interpolation-filters="sRGB"
+       x="-0.2"
+       width="1.4"
+       y="-1"
+       height="3">
+      <feTurbulence
+         id="feTurbulence6310"
+         numOctaves="3"
+         seed="0"
+         type="turbulence"
+         baseFrequency="0.04"
+         result="result91" />
+      <feDisplacementMap
+         id="feDisplacementMap6312"
+         in2="result91"
+         scale="6.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="SourceGraphic"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix6388" />
+      <feGaussianBlur
+         id="feGaussianBlur6390"
+         result="result9"
+         in="fbSourceGraphic"
+         stdDeviation="2" />
+      <feTurbulence
+         id="feTurbulence6392"
+         baseFrequency="0.06"
+         numOctaves="10"
+         type="fractalNoise"
+         result="result7"
+         seed="0" />
+      <feColorMatrix
+         id="feColorMatrix6394"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1.5 -0.3 "
+         result="result5" />
+      <feComposite
+         id="feComposite6396"
+         in2="result5"
+         in="result9"
+         operator="out"
+         result="result6" />
+      <feGaussianBlur
+         id="feGaussianBlur6398"
+         result="result10"
+         stdDeviation="0.5" />
+      <feDisplacementMap
+         id="feDisplacementMap6400"
+         in2="result10"
+         result="result4"
+         scale="120"
+         yChannelSelector="G"
+         xChannelSelector="A"
+         in="result5" />
+      <feComposite
+         id="feComposite6402"
+         in2="result4"
+         in="result9"
+         operator="in"
+         result="result2" />
+      <feComposite
+         id="feComposite6404"
+         in2="fbSourceGraphic"
+         operator="in"
+         in="result2"
+         result="fbSourceGraphic" />
+      <feBlend
+         id="feBlend6406"
+         in2="result2"
+         mode="multiply"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix6414" />
+      <feGaussianBlur
+         id="feGaussianBlur6416"
+         in="fbSourceGraphic"
+         stdDeviation="7 2" />
+    </filter>
+    <filter
+       id="filter6336"
+       inkscape:label="Roughen"
+       inkscape:menu="ABCs"
+       inkscape:menu-tooltip="Small-scale roughening to edges and content"
+       color-interpolation-filters="sRGB">
+      <feTurbulence
+         id="feTurbulence6338"
+         numOctaves="3"
+         seed="0"
+         type="turbulence"
+         baseFrequency="0.04"
+         result="result91" />
+      <feDisplacementMap
+         id="feDisplacementMap6340"
+         in2="result91"
+         scale="6.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter6342"
+       inkscape:label="Motion blur, horizontal"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur as if the object flies horizontally; adjust Standard Deviation to vary force"
+       color-interpolation-filters="sRGB"
+       x="-0.2"
+       width="1.4"
+       y="-0.2"
+       height="1.4">
+      <feTurbulence
+         id="feTurbulence6344"
+         numOctaves="3"
+         seed="0"
+         type="turbulence"
+         baseFrequency="0.04"
+         result="result91" />
+      <feDisplacementMap
+         id="feDisplacementMap6346"
+         in2="result91"
+         scale="6.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="SourceGraphic"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix6350" />
+      <feGaussianBlur
+         id="feGaussianBlur6352"
+         result="result9"
+         in="fbSourceGraphic"
+         stdDeviation="2" />
+      <feTurbulence
+         id="feTurbulence6354"
+         baseFrequency="0.06"
+         numOctaves="10"
+         type="fractalNoise"
+         result="result7"
+         seed="0" />
+      <feColorMatrix
+         id="feColorMatrix6356"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1.5 -0.3 "
+         result="result5" />
+      <feComposite
+         id="feComposite6358"
+         in2="result5"
+         in="result9"
+         operator="out"
+         result="result6" />
+      <feGaussianBlur
+         id="feGaussianBlur6360"
+         result="result10"
+         stdDeviation="0.5" />
+      <feDisplacementMap
+         id="feDisplacementMap6362"
+         in2="result10"
+         result="result4"
+         scale="120"
+         yChannelSelector="G"
+         xChannelSelector="A"
+         in="result5" />
+      <feComposite
+         id="feComposite6364"
+         in2="result4"
+         in="result9"
+         operator="in"
+         result="result2" />
+      <feComposite
+         id="feComposite6366"
+         in2="fbSourceGraphic"
+         operator="in"
+         in="result2"
+         result="fbSourceGraphic" />
+      <feBlend
+         id="feBlend6368"
+         in2="result2"
+         mode="multiply"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix6370" />
+      <feGaussianBlur
+         id="feGaussianBlur6372"
+         in="fbSourceGraphic"
+         stdDeviation="7 2" />
+    </filter>
+    <filter
+       id="filter6380"
+       inkscape:label="Roughen"
+       inkscape:menu="ABCs"
+       inkscape:menu-tooltip="Small-scale roughening to edges and content"
+       color-interpolation-filters="sRGB">
+      <feTurbulence
+         id="feTurbulence6382"
+         numOctaves="3"
+         seed="0"
+         type="turbulence"
+         baseFrequency="0.04"
+         result="result91" />
+      <feDisplacementMap
+         id="feDisplacementMap6384"
+         in2="result91"
+         scale="6.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter6408"
+       inkscape:label="Roughen"
+       inkscape:menu="ABCs"
+       inkscape:menu-tooltip="Small-scale roughening to edges and content"
+       color-interpolation-filters="sRGB">
+      <feTurbulence
+         id="feTurbulence6410"
+         numOctaves="3"
+         seed="0"
+         type="turbulence"
+         baseFrequency="0.04"
+         result="result91" />
+      <feDisplacementMap
+         id="feDisplacementMap6412"
+         in2="result91"
+         scale="6.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter1261"
+       height="1.4"
+       width="1.4"
+       y="-0.2"
+       x="-0.2"
+       inkscape:menu-tooltip="Blur as if the object flies vertically; adjust Standard Deviation to vary force"
+       inkscape:menu="Blurs"
+       inkscape:label="Motion blur (streaks)"
+       color-interpolation-filters="sRGB">
+      <feTurbulence
+         id="feTurbulence1263"
+         type="turbulence"
+         numOctaves="2"
+         baseFrequency="0.01 0.11"
+         seed="42" />
+      <feColorMatrix
+         id="feColorMatrix1265"
+         result="result5"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1.3 0 " />
+      <feComposite
+         id="feComposite1267"
+         in2="result5"
+         in="SourceGraphic"
+         operator="out" />
+      <feMorphology
+         id="feMorphology1269"
+         operator="dilate"
+         radius="1.1000000000000001"
+         result="result3" />
+      <feTurbulence
+         id="feTurbulence1271"
+         numOctaves="3"
+         baseFrequency="0.08 0.05"
+         type="fractalNoise"
+         seed="7"
+         result="result6" />
+      <feGaussianBlur
+         id="feGaussianBlur1273"
+         stdDeviation="0.5"
+         result="result7" />
+      <feDisplacementMap
+         id="feDisplacementMap1275"
+         in2="result7"
+         in="result3"
+         xChannelSelector="R"
+         yChannelSelector="G"
+         scale="100"
+         result="result4" />
+      <feComposite
+         id="feComposite1277"
+         in2="result4"
+         in="result4"
+         k1="0"
+         result="result2"
+         operator="arithmetic"
+         k2="0"
+         k3="0"
+         k4="0" />
+      <feBlend
+         id="feBlend1279"
+         in2="result4"
+         mode="normal"
+         in="result2"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix1281" />
+      <feGaussianBlur
+         id="feGaussianBlur1283"
+         stdDeviation="0.5"
+         in="fbSourceGraphic"
+         result="result1" />
+      <feTurbulence
+         id="feTurbulence1285"
+         type="fractalNoise"
+         baseFrequency="0.04"
+         numOctaves="10"
+         result="result0" />
+      <feGaussianBlur
+         id="feGaussianBlur1287"
+         result="result8"
+         stdDeviation="1" />
+      <feDisplacementMap
+         id="feDisplacementMap1289"
+         in2="result0"
+         in="result1"
+         xChannelSelector="R"
+         yChannelSelector="B"
+         scale="100"
+         result="result2" />
+      <feComposite
+         id="feComposite1291"
+         in2="result8"
+         result="result7"
+         operator="in"
+         in="result2" />
+      <feComposite
+         id="feComposite1293"
+         in2="result7"
+         result="fbSourceGraphic"
+         k2="0.15"
+         in="result2"
+         k1="2"
+         operator="arithmetic"
+         k3="0"
+         k4="0" />
+      <feColorMatrix
+         id="feColorMatrix1295"
+         values="1 0 0 -1 0 1 0 1 -1 0 1 0 0 -1 0 -0.8 -1 0 3.7 -2.6 "
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha"
+         type="matrix" />
+      <feGaussianBlur
+         id="feGaussianBlur1297"
+         stdDeviation="0.5"
+         result="result9" />
+      <feSpecularLighting
+         id="feSpecularLighting1299"
+         surfaceScale="2"
+         specularExponent="3"
+         result="result11"
+         specularConstant="0.69999999">
+        <fePointLight
+           id="fePointLight4457" />
+      </feSpecularLighting>
+      <feDiffuseLighting
+         id="feDiffuseLighting1303"
+         in="result9"
+         lighting-color="#ffffff"
+         result="result6"
+         diffuseConstant="0.40000001"
+         surfaceScale="50">
+        <feDistantLight
+           id="feDistantLight1305"
+           elevation="10"
+           azimuth="235" />
+      </feDiffuseLighting>
+      <feBlend
+         id="feBlend1307"
+         in2="result11"
+         result="result10"
+         mode="screen" />
+      <feComposite
+         id="feComposite1309"
+         in2="fbSourceGraphic"
+         in="result10"
+         result="result2"
+         operator="in" />
+      <feComposite
+         id="feComposite1311"
+         in2="fbSourceGraphic"
+         k3="0.9"
+         k2="1"
+         operator="arithmetic"
+         result="fbSourceGraphic"
+         k1="0"
+         k4="0" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix1313" />
+      <feTurbulence
+         id="feTurbulence1315"
+         baseFrequency="0.05"
+         numOctaves="2"
+         type="fractalNoise"
+         result="result91" />
+      <feDisplacementMap
+         id="feDisplacementMap1317"
+         in2="result91"
+         scale="100"
+         result="result5"
+         xChannelSelector="R"
+         in="fbSourceGraphic"
+         yChannelSelector="A" />
+      <feComposite
+         id="feComposite1319"
+         in2="result5"
+         in="fbSourceGraphic"
+         operator="atop"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix1321" />
+      <feGaussianBlur
+         id="feGaussianBlur1323"
+         in="fbSourceGraphic"
+         stdDeviation="20 0.01" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4467"
+       color-interpolation-filters="sRGB">
+      <feBlend
+         inkscape:collect="always"
+         mode="screen"
+         in2="BackgroundImage"
+         id="feBlend4469" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient4162"
+       cx="960"
+       cy="1001.0124"
+       fx="960"
+       fy="1001.0124"
+       r="1755.0312"
+       gradientTransform="matrix(0.33676393,0,0,0.33121024,636.70662,669.46685)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5681"
+       id="linearGradient332"
+       gradientUnits="userSpaceOnUse"
+       x1="1726.7548"
+       y1="695.12579"
+       x2="1680.0857"
+       y2="833.71869" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5"
+     inkscape:cx="824.03949"
+     inkscape:cy="699.18109"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1160"
+     inkscape:window-x="-3"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     borderlayer="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="background"
+     style="display:inline"
+     sodipodi:insensitive="true"
+     transform="translate(0,-120)">
+    <rect
+       style="fill:url(#radialGradient3957);fill-opacity:1;stroke:none;filter:url(#filter4529)"
+       id="rect3949"
+       width="1920"
+       height="1200"
+       x="0"
+       y="0" />
+  </g>
+  <g
+     inkscape:label="stripes"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,27.63782)"
+     style="opacity:0.4;display:inline"
+     sodipodi:insensitive="true">
+    <g
+       id="g4019"
+       style="fill:#000000;fill-opacity:1;filter:url(#filter5723)">
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="rect2988"
+         d="M -40,952.36216 -40,1052.3622 960,652.36218 1960,1052.3622 1960,952.36216 960,602.36218 z"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         d="m -40,752.36214 0,100.00004 1000,-250 1000,250 0,-100.00004 L 960,552.36218 z"
+         id="path3000"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path3002"
+         d="m -40,552.36214 0,100.00004 1000,-100 1000,100 0,-100.00004 -1000,-49.99996 z"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         d="m -40,352.36214 0,100.00004 1000,50 1000,-50 0,-100.00004 -1000,100.00004 z"
+         id="path3004"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path3006"
+         d="m -40,152.36214 0,100.00004 1000,200 1000,-200 0,-100.00004 -1000,250.00004 z"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         d="m -40,-47.63786 0,100.00004 1000,350 1000,-350 0,-100.00004 -1000,400.00004 z"
+         id="path3008"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path3010"
+         d="m -40,-247.63786 0,100.00004 1000,500 1000,-500 0,-100.00004 -1000,550.00004 z"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         d="m -40,1152.3621 0,100.0001 1000,-550.00002 1000,550.00002 0,-100.0001 L 960,652.36218 z"
+         id="path3012"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         d="m -40,-447.63786 0,100.00004 1000,650 1000,-650 0,-100.00004 -1000,700.00004 z"
+         id="path3014"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path3016"
+         d="m -40,-647.63786 0,100.00004 1000,800 1000,-800 0,-100.00004 -1000,850.00004 z"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         d="m -40,-847.63786 0,100.00004 1000,950 1000,-950 0,-100.00004 L 960,152.36218 z"
+         id="path3018"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path3020"
+         d="m -40,-1047.6379 0,100.00008 1000,1100 1000,-1100 0,-100.00008 L 960,102.36218 z"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         d="m -40,-1247.6379 0,100.0001 1000,1249.99998 1000,-1249.99998 0,-100.0001 L 960,52.36218 z"
+         id="path3022"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path3024"
+         d="m -40,-1447.6379 0,100.0001 L 960,52.36218 1960,-1347.6378 1960,-1447.6379 960,2.36218 z"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         d="m -40,-1647.6379 0,100.0001 L 960,2.36218 1960,-1547.6378 1960,-1647.6379 960,-47.63782 z"
+         id="path3026"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path3028"
+         d="m -40,-1847.6379 0,100.0001 1000,1699.99998 1000,-1699.99998 0,-100.0001 L 960,-97.63782 z"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         d="m -40,-2047.6379 0,100.0001 1000,1849.99998 1000,-1849.99998 0,-100.0001 -1000,1900.00008 z"
+         id="path3030"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path3032"
+         d="m -40,1352.3621 0,100.0001 1000,-700.00002 1000,700.00002 0,-100.0001 L 960,702.36218 z"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         d="m -40,1552.3621 0,100.0001 1000,-850.00002 1000,850.00002 0,-100.0001 L 960,752.36218 z"
+         id="path3034"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path3036"
+         d="m -40,1752.3621 0,100.0001 L 960,852.36218 1960,1852.3622 1960,1752.3621 960,802.36218 z"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         d="m -40,1952.3621 0,100.0001 L 960,902.36218 1960,2052.3622 1960,1952.3621 960,852.36218 z"
+         id="path3038"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path3040"
+         d="m -40,2152.3621 0,100.0001 L 960,952.36218 1960,2252.3622 1960,2152.3621 960,902.36218 z"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         d="m -40,2352.3621 0,100.0001 1000,-1450 1000,1450 0,-100.0001 L 960,952.36218 z"
+         id="path3042"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path3044"
+         d="m -40,2552.3621 0,100.0001 1000,-1600 1000,1600 0,-100.0001 L 960,1002.3622 z"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="back mountains"
+     style="display:inline"
+     sodipodi:insensitive="true"
+     transform="translate(0,-120)">
+    <path
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path4729"
+       d="m 37.830213,667.54859 10.960155,-2.82842 7.071068,0 1.414213,-4.94975 5.656855,-0.70711 22.627417,-13.43503 12.727922,-10.6066 7.071067,-3.53553 13.43503,-9.8995 14.14213,-10.6066 14.14214,-7.07107 11.31371,-10.6066 9.89949,-5.65685 4.94975,-7.07107 12.72792,-4.24264 6.36396,-5.65686 15.55635,-10.6066 12.02082,-8.48528 21.2132,-14.14213 2.82843,4.24264 7.07107,-0.70711 0,-5.65685 9.89949,-4.24265 4.94975,-5.65685 0,-7.77817 11.31371,-4.24264 12.02081,-2.12133 7.07107,-3.53553 10.6066,-1.41421 15.55635,-10.6066 12.72792,-5.65686 12.72793,-5.65685 7.77817,-0.70711 9.19239,8.48528 13.43503,12.72792 11.31371,4.94975 9.19238,2.12132 16.97057,-0.70711 2.82842,3.53554 22.62742,1.41421 7.07107,9.8995 36.76955,7.77817 21.92031,-5.65685 18.38478,-9.19239 28.99138,-1.41421 8.48528,-0.70711 6.36396,2.82843 21.92031,-3.53554 5.65685,6.36396 12.72793,-1.41421 6.36396,-2.12132 9.19238,4.24264 11.31371,-2.12132 7.77818,-0.70711 -0.70711,7.07107 16.97056,-3.53553 11.31371,6.36396 15.55635,12.02081 10.6066,5.65686 7.07107,8.48528 9.8995,3.53553 9.19238,8.48528 9.19239,4.94975 3.53554,4.24264 15.55635,7.07107 30.40559,18.38478 L 736,589 l -6.5,-9 -8,-4 -5,3.5 -7,-3.5 -1,-5.5 -12.5,-2.5 -11.5,-8.5 -7,-5 2.5,-4.5 -15,-7.5 -10,0.5 -10.5,-7 -4.5,-8 -9,9 -5,-4 -10,-1.5 10.5,9.5 7,4.5 3.5,12.5 10,9 0.5,6 12,8 11.5,6 -19.5,-3 -11,-9 -7,-1.5 -5.5,-10.5 1.5,-11 -7.5,-6.5 -11,-5.5 -4,-8.5 -9,-2.5 -10.5,2 -8,-3 -6,2.5 -5.5,0 -4,5.5 -9.5,0.5 -12.5,4 -13.5,-4 -7.5,7.5 -14.5,1 -16,-0.5 12.5,5.5 17,0 -10.5,5.5 17,11.5 -22,-6.5 -15.5,3.5 -13.5,-6.5 -17.5,6 8.5,4.5 14,-2 -14.5,5 -15.5,-2 -10,8 -13.5,1 -21.5,2.5 -19.5,-3.5 16.5,-6 6,-2.5 -16.5,0.5 -5.5,3.5 -9.5,-10 13.5,-4.5 18,-6 -28,6 5,-4.5 22.5,-5.5 -18,0 -18,4.5 -12,-6 18.5,-4.5 10.5,-5.5 15.5,0 19.5,-7.5 -17.5,-4 -9.5,5 -17.5,-7.5 -12,-3 -6,-10 -8,-6 -10,0 -3,8.5 -5.5,7.5 -8,1 -7.5,-2 -6,-5 -9.5,2.5 -2.5,0 -1,5 -5,5.5 -8.5,11 -8,1.5 10.5,6.5 -8.5,2 -1.5,-2.5 1,8.5 -7,6 -6.5,-2 -1,6 -5,2 -5,-4 -6,5.5 -9,1 -4,5.5 -4,5 -7,5.5 13.5,-4.5 10,-7.5 -7.5,10 -9.5,5 -8,6 -4.5,4.5 -8.5,4 -7.5,2 -6.71721,8.89426 4.94975,-1.41421 6.71751,-6.01041 -7.42462,10.25305 -7.42462,3.18198 -8.13173,2.47488 7.07107,-4.5962 -0.70711,-3.53553 -2.82842,1.06066 -9.19239,3.53553 8.83883,-8.48528 5.3033,-1.76777 2.12133,-6.36396 -13.08148,-1.41421 -4.94975,4.59619 2.12132,9.19239 -8.13173,1.06066 -6.0104,6.01041 -3.18198,8.13173 -4.5962,-3.18198 -3.88908,0.7071 -0.35356,5.65686 3.88909,0 6.71751,3.53553 -6.71751,1.41421 -3.18198,6.01041 -4.24264,0.70711 0.7071,7.42462 0.35356,4.59619 -4.94975,0 -3.53553,2.12133 -1.06066,4.24264 3.18198,0.7071 0,3.18198 -1.06066,6.71752 -3.88909,0.7071 -2.47487,5.30331 -4.24264,-1.06067 -1.76777,2.47488 1.76777,3.18198 -3.18199,2.47487 -3.53553,0 -5.65685,5.65686 -0.70711,3.18198 -3.53553,3.88908 3.18198,1.41422 6.71751,-1.76777 5.65685,-0.35355 1.41422,2.82843 3.53553,0 0.70711,8.48528 -3.88909,3.88908 4.24264,2.47488 -2.47487,3.18198 -4.24264,-2.12132 0.7071,6.01041 0,2.12132 -1.06066,3.53553 -3.88908,0 -3.53554,6.01041 -2.82842,3.18198 0.35355,5.3033 4.24264,-1.41421 8.83884,-4.94975 -5.65686,7.77817 -9.54594,5.3033 -6.01041,5.3033 -20.859648,-14.49568 11.313708,-7.07107 2.82843,-6.36396 3.88908,-1.76777 1.76777,-8.13173 -4.24264,1.41421 -3.53553,7.07107 -8.838838,2.12132 -24.04163,2.82843 -38.890873,-55.50788 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter4735)" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5619"
+       d="m 45.961941,730.4811 c 3.535534,-1.41422 82.024389,-87.68124 82.024389,-87.68124 l 55.86143,-55.15433 85.55992,-44.54773 35.35534,-32.52691 45.25484,-17.67767 44.54772,26.16295 45.96194,11.31371 27.57717,9.89949 41.01219,-4.24264 45.96194,-12.02081 59.39697,3.53553 26.87006,-1.41421 7.77818,7.77817 35.35533,10.6066 72.1249,50.20459 -85.55992,149.90663 -313.95542,154.85639 z"
+       style="fill:url(#linearGradient5627);fill-opacity:1;stroke:none" />
+    <path
+       style="fill:url(#linearGradient5679);fill-opacity:1;stroke:none;filter:url(#filter5649)"
+       d="m 45.961941,730.4811 c 3.535534,-1.41422 82.024389,-87.68124 82.024389,-87.68124 l 55.86143,-55.15433 85.55992,-44.54773 35.35534,-32.52691 45.25484,-17.67767 44.54772,26.16295 45.96194,11.31371 27.57717,9.89949 41.01219,-4.24264 45.96194,-12.02081 59.39697,3.53553 26.87006,-1.41421 7.77818,7.77817 35.35533,10.6066 72.1249,50.20459 -85.55992,149.90663 -313.95542,154.85639 z"
+       id="path4691"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#280000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6380)"
+       d="m 37.830213,667.54859 10.960155,-2.82842 7.071068,0 1.414213,-4.94975 5.656855,-0.70711 22.627417,-13.43503 12.727922,-10.6066 7.071067,-3.53553 13.43503,-9.8995 14.14213,-10.6066 14.14214,-7.07107 11.31371,-10.6066 9.89949,-5.65685 4.94975,-7.07107 12.72792,-4.24264 6.36396,-5.65686 15.55635,-10.6066 12.02082,-8.48528 21.2132,-14.14213 2.82843,4.24264 7.07107,-0.70711 0,-5.65685 9.89949,-4.24265 4.94975,-5.65685 0,-7.77817 11.31371,-4.24264 12.02081,-2.12133 7.07107,-3.53553 10.6066,-1.41421 15.55635,-10.6066 12.72792,-5.65686 12.72793,-5.65685 7.77817,-0.70711 9.19239,8.48528 13.43503,12.72792 11.31371,4.94975 9.19238,2.12132 16.97057,-0.70711 2.82842,3.53554 22.62742,1.41421 7.07107,9.8995 36.76955,7.77817 21.92031,-5.65685 18.38478,-9.19239 28.99138,-1.41421 8.48528,-0.70711 6.36396,2.82843 21.92031,-3.53554 5.65685,6.36396 12.72793,-1.41421 6.36396,-2.12132 9.19238,4.24264 11.31371,-2.12132 7.77818,-0.70711 -0.70711,7.07107 16.97056,-3.53553 11.31371,6.36396 15.55635,12.02081 10.6066,5.65686 7.07107,8.48528 9.8995,3.53553 9.19238,8.48528 9.19239,4.94975 3.53554,4.24264 15.55635,7.07107 30.40559,18.38478 L 736,589 l -6.5,-9 -8,-4 -5,3.5 -7,-3.5 -1,-5.5 -12.5,-2.5 -11.5,-8.5 -7,-5 2.5,-4.5 -15,-7.5 -10,0.5 -10.5,-7 -4.5,-8 -9,9 -5,-4 -10,-1.5 10.5,9.5 7,4.5 3.5,12.5 10,9 0.5,6 12,8 11.5,6 -19.5,-3 -11,-9 -7,-1.5 -5.5,-10.5 1.5,-11 -7.5,-6.5 -11,-5.5 -4,-8.5 -9,-2.5 -10.5,2 -8,-3 -6,2.5 -5.5,0 -4,5.5 -9.5,0.5 -12.5,4 -13.5,-4 -7.5,7.5 -14.5,1 -16,-0.5 12.5,5.5 17,0 -10.5,5.5 17,11.5 -22,-6.5 -15.5,3.5 -13.5,-6.5 -17.5,6 8.5,4.5 14,-2 -14.5,5 -15.5,-2 -10,8 -13.5,1 -21.5,2.5 -19.5,-3.5 16.5,-6 6,-2.5 -16.5,0.5 -5.5,3.5 -9.5,-10 13.5,-4.5 18,-6 -28,6 5,-4.5 22.5,-5.5 -18,0 -18,4.5 -12,-6 18.5,-4.5 10.5,-5.5 15.5,0 19.5,-7.5 -17.5,-4 -9.5,5 -17.5,-7.5 -12,-3 -6,-10 -8,-6 -10,0 -3,8.5 -5.5,7.5 -8,1 -7.5,-2 -6,-5 -9.5,2.5 -2.5,0 -1,5 -5,5.5 -8.5,11 -8,1.5 10.5,6.5 -8.5,2 -1.5,-2.5 1,8.5 -7,6 -6.5,-2 -1,6 -5,2 -5,-4 -6,5.5 -9,1 -4,5.5 -4,5 -7,5.5 13.5,-4.5 10,-7.5 -7.5,10 -9.5,5 -8,6 -4.5,4.5 -8.5,4 -7.5,2 -6.71721,8.89426 4.94975,-1.41421 6.71751,-6.01041 -7.42462,10.25305 -7.42462,3.18198 -8.13173,2.47488 7.07107,-4.5962 -0.70711,-3.53553 -2.82842,1.06066 -9.19239,3.53553 8.83883,-8.48528 5.3033,-1.76777 2.12133,-6.36396 -13.08148,-1.41421 -4.94975,4.59619 2.12132,9.19239 -8.13173,1.06066 -6.0104,6.01041 -3.18198,8.13173 -4.5962,-3.18198 -3.88908,0.7071 -0.35356,5.65686 3.88909,0 6.71751,3.53553 -6.71751,1.41421 -3.18198,6.01041 -4.24264,0.70711 0.7071,7.42462 0.35356,4.59619 -4.94975,0 -3.53553,2.12133 -1.06066,4.24264 3.18198,0.7071 0,3.18198 -1.06066,6.71752 -3.88909,0.7071 -2.47487,5.30331 -4.24264,-1.06067 -1.76777,2.47488 1.76777,3.18198 -3.18199,2.47487 -3.53553,0 -5.65685,5.65686 -0.70711,3.18198 -3.53553,3.88908 3.18198,1.41422 6.71751,-1.76777 5.65685,-0.35355 1.41422,2.82843 3.53553,0 0.70711,8.48528 -3.88909,3.88908 4.24264,2.47488 -2.47487,3.18198 -4.24264,-2.12132 0.7071,6.01041 0,2.12132 -1.06066,3.53553 -3.88908,0 -3.53554,6.01041 -2.82842,3.18198 0.35355,5.3033 4.24264,-1.41421 8.83884,-4.94975 -5.65686,7.77817 -9.54594,5.3033 -6.01041,5.3033 -20.859648,-14.49568 11.313708,-7.07107 2.82843,-6.36396 3.88908,-1.76777 1.76777,-8.13173 -4.24264,1.41421 -3.53553,7.07107 -8.838838,2.12132 -24.04163,2.82843 -38.890873,-55.50788 z"
+       id="path4689"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4711"
+       d="m 1966,629.5 -49.5,8 -20,11 -31,-3.5 -14,-3 -13,4.5 -12,-5.5 -26,5.5 -19,0 -5,-5 -16.5,12.5 -39.5,17.5 -7,-2.5 -25,14 -3.5,-4.5 0,-4.5 -7.5,4 -41.5,16 -20,13.5 -10.5,9 -36,11 -57,15.5 38,6 34.5,-14.5 29.5,3.5 16.5,-6.5 50.5,-23 21,0 42,-17.5 36.5,1 54,-18.5 42,-3 36,-13 21.5,-4 z"
+       style="fill:#280000;fill-opacity:1;stroke:#000000;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter4725)" />
+    <path
+       style="fill:url(#linearGradient332);fill-opacity:1;stroke:none"
+       d="m 1981.3132,631.48615 -82.0244,25.45584 -93.3381,9.8995 -165.463,43.84062 -118.7939,39.59798 185.262,132.93607 264.4579,2.82843 z"
+       id="path4687"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5689"
+       d="m 1981.3132,631.48615 -82.0244,25.45584 -93.3381,9.8995 -165.463,43.84062 -118.7939,39.59798 185.262,132.93607 264.4579,2.82843 z"
+       style="fill:url(#linearGradient5687);fill-opacity:1;stroke:none;filter:url(#filter5691)" />
+    <path
+       style="fill:#280000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6408)"
+       d="m 1966,629.5 -49.5,8 -20,11 -31,-3.5 -14,-3 -13,4.5 -12,-5.5 -26,5.5 -19,0 -5,-5 -16.5,12.5 -39.5,17.5 -7,-2.5 -25,14 -3.5,-4.5 0,-4.5 -7.5,4 -41.5,16 -20,13.5 -10.5,9 -36,11 -57,15.5 38,6 34.5,-14.5 29.5,3.5 16.5,-6.5 50.5,-23 21,0 42,-17.5 36.5,1 54,-18.5 42,-3 36,-13 21.5,-4 z"
+       id="path4680"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6386"
+       d="m 1966,629.5 -49.5,8 -20,11 -31,-3.5 -14,-3 -13,4.5 -12,-5.5 -26,5.5 -19,0 -5,-5 -16.5,12.5 -39.5,17.5 -7,-2.5 -25,14 -3.5,-4.5 0,-4.5 -7.5,4 -41.5,16 -20,13.5 -10.5,9 -36,11 -57,15.5 38,6 34.5,-14.5 29.5,3.5 16.5,-6.5 50.5,-23 21,0 42,-17.5 36.5,1 54,-18.5 42,-3 36,-13 21.5,-4 z"
+       style="fill:#3c0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6308)" />
+    <path
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path6348"
+       d="m 37.830213,667.54859 10.960155,-2.82842 7.071068,0 1.414213,-4.94975 5.656855,-0.70711 22.627417,-13.43503 12.727922,-10.6066 7.071067,-3.53553 13.43503,-9.8995 14.14213,-10.6066 14.14214,-7.07107 11.31371,-10.6066 9.89949,-5.65685 4.94975,-7.07107 12.72792,-4.24264 6.36396,-5.65686 15.55635,-10.6066 12.02082,-8.48528 21.2132,-14.14213 2.82843,4.24264 7.07107,-0.70711 0,-5.65685 9.89949,-4.24265 4.94975,-5.65685 0,-7.77817 11.31371,-4.24264 12.02081,-2.12133 7.07107,-3.53553 10.6066,-1.41421 15.55635,-10.6066 12.72792,-5.65686 12.72793,-5.65685 7.77817,-0.70711 9.19239,8.48528 13.43503,12.72792 11.31371,4.94975 9.19238,2.12132 16.97057,-0.70711 2.82842,3.53554 22.62742,1.41421 7.07107,9.8995 36.76955,7.77817 21.92031,-5.65685 18.38478,-9.19239 28.99138,-1.41421 8.48528,-0.70711 6.36396,2.82843 21.92031,-3.53554 5.65685,6.36396 12.72793,-1.41421 6.36396,-2.12132 9.19238,4.24264 11.31371,-2.12132 7.77818,-0.70711 -0.70711,7.07107 16.97056,-3.53553 11.31371,6.36396 15.55635,12.02081 10.6066,5.65686 7.07107,8.48528 9.8995,3.53553 9.19238,8.48528 9.19239,4.94975 3.53554,4.24264 15.55635,7.07107 30.40559,18.38478 L 736,589 l -6.5,-9 -8,-4 -5,3.5 -7,-3.5 -1,-5.5 -12.5,-2.5 -11.5,-8.5 -7,-5 2.5,-4.5 -15,-7.5 -10,0.5 -10.5,-7 -4.5,-8 -9,9 -5,-4 -10,-1.5 10.5,9.5 7,4.5 3.5,12.5 10,9 0.5,6 12,8 11.5,6 -19.5,-3 -11,-9 -7,-1.5 -5.5,-10.5 1.5,-11 -7.5,-6.5 -11,-5.5 -4,-8.5 -9,-2.5 -10.5,2 -8,-3 -6,2.5 -5.5,0 -4,5.5 -9.5,0.5 -12.5,4 -13.5,-4 -7.5,7.5 -14.5,1 -16,-0.5 12.5,5.5 17,0 -10.5,5.5 17,11.5 -22,-6.5 -15.5,3.5 -13.5,-6.5 -17.5,6 8.5,4.5 14,-2 -14.5,5 -15.5,-2 -10,8 -13.5,1 -21.5,2.5 -19.5,-3.5 16.5,-6 6,-2.5 -16.5,0.5 -5.5,3.5 -9.5,-10 13.5,-4.5 18,-6 -28,6 5,-4.5 22.5,-5.5 -18,0 -18,4.5 -12,-6 18.5,-4.5 10.5,-5.5 15.5,0 19.5,-7.5 -17.5,-4 -9.5,5 -17.5,-7.5 -12,-3 -6,-10 -8,-6 -10,0 -3,8.5 -5.5,7.5 -8,1 -7.5,-2 -6,-5 -9.5,2.5 -2.5,0 -1,5 -5,5.5 -8.5,11 -8,1.5 10.5,6.5 -8.5,2 -1.5,-2.5 1,8.5 -7,6 -6.5,-2 -1,6 -5,2 -5,-4 -6,5.5 -9,1 -4,5.5 -4,5 -7,5.5 13.5,-4.5 10,-7.5 -7.5,10 -9.5,5 -8,6 -4.5,4.5 -8.5,4 -7.5,2 -6.71721,8.89426 4.94975,-1.41421 6.71751,-6.01041 -7.42462,10.25305 -7.42462,3.18198 -8.13173,2.47488 7.07107,-4.5962 -0.70711,-3.53553 -2.82842,1.06066 -9.19239,3.53553 8.83883,-8.48528 5.3033,-1.76777 2.12133,-6.36396 -13.08148,-1.41421 -4.94975,4.59619 2.12132,9.19239 -8.13173,1.06066 -6.0104,6.01041 -3.18198,8.13173 -4.5962,-3.18198 -3.88908,0.7071 -0.35356,5.65686 3.88909,0 6.71751,3.53553 -6.71751,1.41421 -3.18198,6.01041 -4.24264,0.70711 0.7071,7.42462 0.35356,4.59619 -4.94975,0 -3.53553,2.12133 -1.06066,4.24264 3.18198,0.7071 0,3.18198 -1.06066,6.71752 -3.88909,0.7071 -2.47487,5.30331 -4.24264,-1.06067 -1.76777,2.47488 1.76777,3.18198 -3.18199,2.47487 -3.53553,0 -5.65685,5.65686 -0.70711,3.18198 -3.53553,3.88908 3.18198,1.41422 6.71751,-1.76777 5.65685,-0.35355 1.41422,2.82843 3.53553,0 0.70711,8.48528 -3.88909,3.88908 4.24264,2.47488 -2.47487,3.18198 -4.24264,-2.12132 0.7071,6.01041 0,2.12132 -1.06066,3.53553 -3.88908,0 -3.53554,6.01041 -2.82842,3.18198 0.35355,5.3033 4.24264,-1.41421 8.83884,-4.94975 -5.65686,7.77817 -9.54594,5.3033 -6.01041,5.3033 -20.859648,-14.49568 11.313708,-7.07107 2.82843,-6.36396 3.88908,-1.76777 1.76777,-8.13173 -4.24264,1.41421 -3.53553,7.07107 -8.838838,2.12132 -24.04163,2.82843 -38.890873,-55.50788 z"
+       style="fill:#3c0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6342)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="streaks"
+     style="display:inline;filter:url(#filter4467)"
+     transform="translate(0,-120)">
+    <path
+       transform="matrix(0,-1,1,0,830.85525,1989)"
+       style="fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter1261)"
+       d="m 1072.9497,449.40517 633.4801,-315.93944 c -48.4642,50.96699 -40.8968,52.9518 22.7023,5.95442 L 1072.652,1103.8596 c -55.9325,-169.16931 -55.8332,-387.32078 0.2977,-654.45443 z"
+       id="rect1139"
+       inkscape:path-effect="#path-effect1326"
+       inkscape:original-d="m 535,382.5 1731.5,0 0,442.5 -1731.5,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 535,382.5 1731.5,0 0,442.5 -1731.5,0 z"
+       inkscape:path-effect="#path-effect1326"
+       id="path4473"
+       d="m 1072.9497,449.40517 633.4801,-315.93944 c -48.4642,50.96699 -40.8968,52.9518 22.7023,5.95442 L 1072.652,1103.8596 c -55.9325,-169.16931 -55.8332,-387.32078 0.2977,-654.45443 z"
+       style="fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter1261)"
+       transform="matrix(0,-1,-1,0,1089.1448,1989)" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 535,382.5 1731.5,0 0,442.5 -1731.5,0 z"
+       inkscape:path-effect="#path-effect1326"
+       id="path4475"
+       d="m 1072.9497,449.40517 633.4801,-315.93944 c -48.4642,50.96699 -40.8968,52.9518 22.7023,5.95442 L 1072.652,1103.8596 c -55.9325,-169.16931 -55.8332,-387.32078 0.2977,-654.45443 z"
+       style="fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter1261)"
+       transform="matrix(0,1,1,0,830.85525,-1441.061)" />
+    <path
+       transform="matrix(0,1,-1,0,1089.1448,-1441.061)"
+       style="fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter1261)"
+       d="m 1072.9497,449.40517 633.4801,-315.93944 c -48.4642,50.96699 -40.8968,52.9518 22.7023,5.95442 L 1072.652,1103.8596 c -55.9325,-169.16931 -55.8332,-387.32078 0.2977,-654.45443 z"
+       id="path4477"
+       inkscape:path-effect="#path-effect1326"
+       inkscape:original-d="m 535,382.5 1731.5,0 0,442.5 -1731.5,0 z"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="forward mountain"
+     style="display:inline"
+     sodipodi:insensitive="true"
+     transform="translate(0,-120)">
+    <path
+       id="path4693"
+       d="m 1114.75,408.75 -4.5938,2.8125 -8.125,-2.46875 1.75,5.65625 -18.0312,10.25 1.0625,6.71875 -4.5937,4.25 -6,0.34375 -1.4063,4.25 -1.7813,0.34375 -0.3437,-2.8125 -8.125,-0.71875 -1.0625,2.125 -8.5,2.125 0,10.25 -4.25,8.84375 -3.5312,-1.0625 -1.4063,8.5 -16.625,3.15625 0,3.1875 -5.6563,3.90625 -9.1874,3.1875 0,3.15625 -5.3126,5.3125 -2.4687,-0.34375 -5.6563,5.65625 1.0626,4.25 -7.7813,5.65625 1.78125,6.71875 -3.90625,-2.5 -1.0625,-4.21875 -8.46875,2.09375 -1.0625,2.125 -10.96875,1.0625 -12.375,1.0625 -7.40625,-4.59375 -8.15625,-9.1875 -2.8125,-8.125 -5.3125,-4.96875 -4.9375,-7.40625 0.34375,-9.5625 0,-7.0625 -7.78125,0 0,4.25 -5.65625,4.59375 -11.65625,-1.40625 -3.1875,3.15625 2.125,3.5625 -10.96875,10.25 -10.59375,20.15625 -8.15625,15.1875 -10.59375,7.4375 0,7.0625 -5.3125,0 0.375,8.46875 -6.03125,-2.8125 0,2.46875 -4.21875,5.3125 -6.03125,0 -9.53125,6 -4.59375,-5.65625 -9.5625,-14.84375 -5.65625,-5.65625 -3.1875,0 0,6.375 -1.75,0 -1.40625,-1.78125 -4.25,0.34375 -3.90625,4.25 -2.8125,6.375 -5.3125,1.75 0.71875,3.53125 -4.25,1.78125 0.34375,5.3125 -5.28125,3.53125 -3.5625,4.9375 -7.40625,-2.46875 0,2.84375 -2.125,-0.375 -2.125,-3.53125 -2.125,3.1875 -1.0625,4.9375 -5.65625,-2.125 -2.46875,4.25 -1.40625,6.03125 -3.1875,-2.125 -1.40625,3.875 -6.03125,3.1875 -10.9375,14.125 -11.3125,8.5 -0.375,4.9375 -7.40625,4.59375 0,5.6875 -5.65625,7.40625 -9.90625,7.78125 -0.34375,7.0625 -6.71875,3.1875 0,4.25 -11.3125,1.75 -0.71875,16.96875 -7.0625,11.34375 -14.15625,16.96875 -12.71875,9.53125 -2.125,8.125 -4.9375,-0.34375 -1.78125,7.4375 -17.6875,17.3125 -6.34375,0.34375 -4.59375,3.1875 -7.4375,18.375 -16.25,7.78125 -30.0625,6.71875 -29.6875,14.5 -24.0625,7.78125 L 475,818.75 l -12.5,-1.5 -13.75,5 1,7 -7.5,3 -7.5,0.25 -22.5,12.25 -9.5,1.5 -21.5,11.75 -12.75,4 -33,-2.75 -35,-11.75 -15.5,-4.75 -3.75,-6.5 -12.75,-1 -13.75,-7.75 -13.75,-7.5 -5.5,0.25 -4,-6 -19.75,-8.5 -15,-5.25 -3.5,-4.5 -12.5,-5.5 -19.5,-12 -10.5,-5.25 -21.5,-12 -12.75,-9.75 -2.25,-7 -3,-2.5 -1.5,-6.5 -9.5,-1 L 99,724 l -12.75,0.25 -2.5,-5.25 -5,-3 -6.5,-14.75 -3,-6.5 -4,-1.25 -1.25,-3.25 -3.25,-1.5 -1.5,-6.75 -8.5,-6.5 -1.75,-5 -1,-2.75 -5.75,-2.5 -1.5,-5.25 -3,-0.75 -1.25,-6.5 -4.75,-9.75 0.25,-3.75 -3.25,-1.5 0.5,-4.5 -2.25,-5 -0.75,-6 6.5,0.25 -7,-7 -0.75,-3.25 -5.25,-5.25 0,-1.75 -4.75,-5.5 -1.75,-9.5 -4.5,-6 L 4.25,574 -9,576.75 l -5.875,215.28125 7.4375,0.3125 12.03125,12.375 5.3125,5.3125 1.40625,6 9.90625,7.4375 7.40625,4.9375 9.90625,13.09375 3.53125,-1.78125 10.625,12.75 4.9375,3.15625 4.25,6.375 5.65625,4.25 2.8125,6 4.96875,2.46875 6,7.78125 -10.96875,-6 3.5625,10.96875 8.8125,7.40625 1.0625,6.03125 8.5,9.53125 L 105,926 l 6.375,9.53125 -1.0625,-9.875 -14.5,-15.21875 -7.0625,-14.125 -11.3125,-12.375 3.875,2.09375 2.84375,0 4.21875,3.5625 8.15625,0 -5.65625,-4.25 -1.78125,-4.25 4.25,1.40625 6.34375,0.71875 0.71875,-4.59375 9.1875,1.0625 -6.71875,-5.3125 -6.34375,0.71875 -6.375,0.6875 -1.78125,-1.75 1.78125,-3.1875 4.59375,0.34375 15.90625,-2.125 -2.46875,3.1875 7.78125,6.71875 9.53125,3.1875 6.71875,-1.0625 10.96875,13.09375 -5.65625,-1.0625 -11.65625,-1.78125 2.46875,3.53125 5.65625,2.46875 5.65625,2.125 7.78125,8.5 4.59375,0.34375 0.34375,2.46875 6.71875,4.96875 -6,2.46875 6,5.3125 16.28125,0 17.65625,10.59375 -7.0625,-10.59375 -12.03125,-5.65625 10.625,-2.84375 -10.25,-5.65625 -10.625,-6.375 -8.46875,-11.65625 4.21875,-3.875 8.84375,6.71875 19.09375,9.1875 16.28125,10.59375 -8.5,5.65625 13.4375,-1.0625 4.9375,2.84375 -6.6875,5.3125 2.09375,3.53125 9.5625,-6.03125 7.78125,0 13.0625,7.4375 -8.46875,-8.125 -11.6875,-6.375 -5.28125,-9.53125 10.59375,4.59375 6.03125,-0.375 5.65625,5.65625 6.71875,1.78125 -1.0625,6 10.25,4.25 -1.0625,-7.0625 7.78125,-3.53125 11.3125,1.75 11.3125,-0.34375 3.53125,4.25 11.65625,0.34375 11.6875,-2.46875 -8.15625,-1.78125 -11.65625,-1.40625 -7.0625,-9.90625 7.0625,-2.125 5.65625,8.84375 6.375,-4.59375 -1.78125,-11.65625 9.1875,0.34375 -4.9375,-7.78125 9.1875,1.0625 9.1875,0.71875 2.125,2.125 1.0625,3.875 -4.9375,6 6.34375,-2.8125 -0.6875,6.71875 5.65625,-4.25 0.34375,8.84375 -4.9375,4.25 -7.09375,2.46875 -8.84375,4.59375 -3.15625,9.1875 9.875,1.0625 2.125,5.65625 -3.875,-0.34375 -4.59375,2.8125 0.34375,3.1875 -8.46875,4.59375 L 309,952.5 l 5.3125,0 5.3125,-3.15625 6.71875,0.6875 7.40625,-8.84375 4.25,-3.15625 3.53125,-4.25 9.90625,-6.03125 9.1875,-5.65625 L 361.34375,926 367,924.21875 l 2.125,6.03125 6,-8.5 8.46875,0.34375 4.59375,-6.71875 3.5625,1.4375 6.34375,-3.90625 0,-2.8125 6.71875,-3.1875 5.3125,1.0625 -4.25,2.8125 5.3125,4.96875 5.3125,-5.3125 5.28125,-5.3125 1.4375,-4.9375 4.9375,2.125 6.375,-8.125 2.09375,-4.96875 6.03125,0.375 6.71875,-4.625 1.75,-4.9375 6.71875,0 6.375,4.25 -1.0625,-4.96875 5.3125,-2.46875 8.84375,2.84375 3.53125,-7.78125 8.46875,0 9.90625,-6.375 14.84375,-7.78125 1.40625,-4.21875 21.21875,-6.375 9.90625,-10.59375 9.1875,-0.71875 11.3125,-4.96875 4.96875,-7.75 13.4375,-3.5625 7.0625,-7.75 8.46875,-1.4375 9.1875,-8.46875 11.3125,-4.25 -9.875,7.78125 -7.78125,6.375 -4.25,9.875 -4.25,5.65625 -2.125,7.09375 -9.875,6.34375 -1.4375,3.53125 0.71875,3.5625 -9.90625,6.34375 -0.6875,4.96875 -6.375,1.40625 -7.78125,8.46875 -4.9375,-0.6875 -4.96875,2.8125 -7.0625,3.53125 -4.25,-1.40625 -7.0625,5.65625 -9.1875,5.65625 -11.3125,7.0625 -6.375,-0.6875 -8.46875,2.125 -5.65625,2.8125 -5.65625,4.25 -14.875,4.9375 -4.9375,0 -9.1875,4.25 -7.78125,8.5 7.78125,-5.65625 9.1875,-2.125 7.0625,0 14.84375,-6.375 7.78125,-7.0625 12.03125,1.40625 16.96875,-1.40625 9.90625,-4.96875 8.46875,-2.09375 12.75,-0.71875 -4.25,7.0625 -6.375,4.96875 -5.65625,8.46875 14.15625,-7.0625 9.1875,-7.78125 L 568.5,882.5 l 11.3125,-6.34375 9.21875,-4.96875 7.78125,-2.125 14.125,-6.34375 6.375,-6.375 4.9375,-4.25 9.1875,-5.65625 4.25,-4.21875 10.59375,-0.71875 4.25,0.71875 14.15625,-7.78125 13.4375,-3.5625 9.875,-3.53125 3.5625,-5.65625 9.1875,-3.53125 5.65625,-7.0625 7.0625,-1.40625 10.59375,-0.71875 -7.0625,5.65625 -3.53125,7.78125 -3.53125,3.53125 -5.65625,-0.71875 -5.65625,2.84375 -4.25,8.5 -6.375,1.40625 -10.59375,4.9375 -6.375,5.65625 -1.40625,5.65625 -13.4375,4.25 -2.8125,7.78125 -8.5,1.40625 -6.34375,7.0625 -7.78125,8.5 -8.5,1.40625 2.125,-8.46875 -9.1875,1.40625 -16.28125,9.1875 -16.25,4.25 L 558,907 l -5.5,5 -15,4.5 -15.5,6.5 -6.5,1.5 -11.5,6.5 -3.5,4.5 13,-6.5 6.5,0.5 8.5,-5 7.5,-3 11,-1 3,1.5 -3.5,5.5 -5,2 -5.5,6.5 -10,1.5 -7,1.5 -1.5,2.5 -13.5,4 -4.5,3 -10,2.5 -0.5,4 -13,6 -10,-0.5 -8,5.5 -11.5,3.5 -2.5,3 -4.5,1 -11,1 -9.5,3.5 -4,2 -6,-1.5 -6.5,4 -7,1 -6,1.5 -11,3.5 -10,0.5 -10,2.5 -7,6 -9.5,-0.5 -11.5,9 12,-5 7.5,-0.5 10,-6.5 8,-1.5 6,2.5 9.5,-5 8,0.5 1.5,4 -7,1 5.5,3 9,0.5 5.5,-2 3.5,3.5 6,-1 4,2 -3,4.5 -5,-2 -6.5,-2 -16,4 9.5,-1 10.5,4.5 8.5,3 -8,0 -11,-1 -15.5,0.5 -6,-5 -10,3 -9,0 -13.5,2 -9,-1 -5,3.5 -7.5,2.5 3.5,2.5 10,-5.5 8.5,2 12,-3 7,3.5 10.5,1 3.5,2.5 -9,3 -10,-2 -9.5,-1 -11.5,4.5 -11,0 -6,6.5 -10,1.5 -13,3.5 -12,-2.5 -22.5,3.5 11.5,3 11,0 11.5,-0.5 15.5,0 20.5,1.5 -11,5 -14,-4.5 -16.5,1 -13,0 -14,-1 5.5,6 18,2 16.5,-3 15.5,2 19,-3 14.5,-3 15.5,-5 15.5,-4 8.5,-2 17.5,1.5 12,-1.5 16,-10 18.5,-6.5 23,-7 17,1 12.5,-3 21,-8 6,-4.5 15,-4 6.5,-0.5 17,-6.5 7.5,-7 6.5,-1 11,0.5 7,-3 12.5,4 13.5,-0.5 9,0 17,-7.5 8,-6.5 13,-11.5 16.71875,-15.15625 19.09375,2.125 11.3125,-8.5 L 731.15625,920 750.9375,907.25 764.375,900.90625 770.75,891 l 14.125,-5.65625 7.78125,-17.6875 3.53125,-15.5625 16.28125,-4.21875 7.78125,-16.28125 12,-2.8125 7.78125,-14.875 2.125,-5.65625 11.3125,-7.75 7.09375,4.9375 4.9375,-7.78125 4.9375,-12.71875 2.84375,-10.625 11.3125,-5.65625 2.8125,-7.0625 2.84375,-9.90625 17.6875,-4.25 12.71875,4.25 10.59375,-16.25 10.625,-2.125 1.40625,-9.1875 4.25,-8.5 0.6875,-10.59375 3.5625,-12.03125 3.53125,8.5 2.125,11.3125 9.1875,2.125 0,9.1875 -4.96875,8.46875 0.71875,14.84375 8.46875,1.4375 3.5625,12 -7.78125,12.75 12,-4.96875 10.625,9.90625 -0.75,16.4375 -0.5,6 1.5,6.5 -0.5,6 -2,3 0,3 2.5,4 3.5,3.5 -0.5,7 -2,7 2,5.5 -0.5,7.5 6,5.5 4,7.5 -5.5,3.5 -2.5,6.5 -3,6.5 3,7.5 -5.5,-0.5 -4,4.5 -4.5,5 2,6 0.5,4.5 -3.5,2 1,7 0,3.5 -5,0.5 -1.5,4 0.5,4 -7,5 -1,13.5 -3,0.5 -4,11 -5,10 -0.5,5 7.5,7 7.5,6.5 0.5,9.5 12,4.5 13.5,11.5 14,0 4.5,8.5 13.5,2.75 3.75,1.5 4.25,5.25 6.5,1 6.25,6.5 7.75,2 8.25,6.5 6.25,7 2.25,5 8.5,1.75 2,2.75 7.75,0.25 1.75,4.5 -3.75,1 -0.75,2.75 -3,-1.25 -1.5,4 -3,-2.25 -3.75,0.5 0.25,3 -6.25,-0.75 0.75,3 -5,2 -4.5,9.25 6,-6.25 10.75,-2.25 15.5,-1.75 14.5,-0.25 9.25,2.25 2.75,4 6.75,3.25 4.25,3.5 6.5,2.5 4.25,1 5,5.5 6.5,2 4.5,4 5.75,6.5 6.5,-1.25 7.5,3.75 7.75,0.75 11.75,5 3.5,0.25 5.25,4.75 6,0.5 12.5,3.75 8,-0.75 -7.5,-1.5 -16.5,-5.5 -7.75,-8.25 -7.25,-3 -5,-3 0.25,-2.25 -6.25,-9.25 -6.25,0.75 -7.75,-9.75 11,6.75 -5,-7.5 8,1 7.25,-0.75 1.25,4 9,4.75 10.5,1.75 5.75,4.25 8,5.75 8.75,-1.75 7.25,4.25 3,5.5 6.75,1.25 4,2.75 9,4.25 11.5,0.5 8.25,1.5 10.25,3.25 10.25,3.75 11.75,-2.25 -11.25,0 -5.5,-2.75 -11,-2.75 -12,-4.75 -6.25,-6 -10.25,-3.25 -11,-5.5 9.5,-0.25 4.75,-2.75 6.25,3.25 2.25,5.25 2.25,4.5 5.25,-3.5 1.75,4.5 8.5,1 -5,3 9,0.5 10,0.5 -1.5,4 6,0.5 6,-4 5,3.5 4,4.5 10.5,1.5 7,-0.5 20,2 -17.5,-5.5 -9.5,0.5 -8,-3.5 5,-5.5 -14,-1 -18,-0.5 -0.5,-5 12.5,2.5 18,-2 6.5,4.5 10.5,5 22.5,2.5 28.5,-3 -20.5,-4.5 -9,0.5 -0.5,-4 19,1.5 -9,-4 -13.5,0.5 -15.5,-3 7.5,-4 18.5,-5 -21,2 -18,-0.5 -5.5,-6.5 -7.5,2 -8,-1 -3,-5.5 -6.5,-15 -20,-3 -20.5,-3.5 14.5,-2 -2,-4.5 14,-1.5 -19.5,-0.5 -9,-7.5 -9,1 -8,-5.5 -15,-1 -4,-4.5 -8,-0.5 -10.5,-4.5 -8.5,-2.5 -8.5,-10.5 -8,2 -10.5,-7 -8.5,0 -12.5,-7 -6,-5.5 -7.5,-4.5 -11.5,0 -11,-3.5 -6,-6.5 -11.5,-3 -7.5,-8.5 -6.5,-5 -5.5,-5 -3.5,-7.5 0,-12.5 -10,-9 1.5,-14.5 0,-5.5 -2,-11.5 -3.5,-10 -6,-3 0.5,-11 -2.25,-12.21875 -7.7812,-15.5625 4.25,-4.25 -0.6876,-11.3125 -4.9687,-2.84375 -2.125,-8.46875 4.25,-5.65625 3.5313,-2.125 -1.4063,-9.1875 -3.5313,-9.90625 -2.8437,-7.0625 -3.5313,-5.65625 3.5313,-9.1875 0.7187,-4.96875 -4.25,-6.34375 -2.125,-5.65625 2.125,-10.625 2.125,-2.8125 -4.9374,-16.28125 0,-10.59375 3.5312,-5.65625 -1.4062,-9.1875 -7.7813,-6.375 0,-16.25 -9.9063,-5.6875 -6.375,-11.3125 4.9688,-2.09375 4.2188,2.8125 13.4374,-5.65625 8.5,-4.25 -0.7187,-13.4375 10.625,-5.65625 7.0625,-12 2.125,-4.96875 7.7812,-0.6875 7.7813,-12.03125 1.4063,14.15625 7.0624,16.25 2.8438,6.375 0,12.71875 5.6562,8.46875 -5.6562,7.78125 -6.375,7.09375 0,5.65625 -7.0625,7.0625 4.2187,5.65625 -10.5937,0 -4.25,7.78125 17.6875,4.9375 16.25,-6.34375 18.4062,-1.4375 12,11.3125 7.0938,8.84375 2.4688,18.03125 19.0937,4.59375 7.4063,7.4375 -8.8126,17.3125 10.9376,-0.6875 L 1198,801.5 l 12,9.5 -2,12 10.5,10.5 7,8.5 11.5,-4.5 11.5,8 -18.5,-1 -20,7 -10,-2 13.5,10.5 11,0 9.5,3.5 -2.5,-5 19,4 17,-6 12,10.5 3.5,-2 8.5,8 0.5,7 9,2 4.5,7 10.5,11.5 32.0938,5.6875 8.5,8.5 1.75,8.125 2.125,6.375 7.4374,4.21875 12,3.1875 12.0313,3.1875 3.9063,7.4375 9.5312,-0.71875 13.7812,5.65625 4.5938,7.0625 14.5,3.5625 11.3125,-2.125 13.7813,8.125 12.75,-6.375 12.7187,-1.40625 6.375,6.71875 19.7813,3.1875 13.4374,-3.1875 9.1876,0.34375 -4.2188,5.65625 16.25,0.71875 4.5938,-0.71875 8.8437,0.375 -5.3125,-3.1875 -8.8438,-3.90625 17.6876,0.71875 27.5937,5.3125 22.25,8.125 6.7187,8.46875 12.375,-6 9.9063,4.59375 -9.1875,-8.125 -10.625,3.53125 -0.6875,-4.9375 -3.1875,-4.25 14.8438,1.40625 13.0937,0.34375 14.125,1.4375 10.9687,-5.3125 -14.8437,1.0625 -11.3125,-4.59375 27.9375,1.75 15.1875,-3.15625 -24.4062,-1.78125 -24.75,-1.78125 -6.6876,-5.65625 -23,-5.28125 -29.3437,-7.09375 -17.3125,-9.53125 -12.75,-11.65625 -10.5938,-9.5625 -16.625,-5.65625 -8.125,-9.1875 -10.5937,-0.71875 -13.8125,-6.34375 -9.1875,-1.78125 -1.75,-4.9375 -10.9687,-0.375 -2.8438,-7.40625 -8.8125,-7.4375 11.3125,3.53125 4.5938,-4.59375 11.6562,-1.75 13.4375,-1.78125 -9.9063,-3.1875 2.125,-4.59375 -7.4062,0 -12.0312,-5.65625 -8.5,1.0625 -9.5313,-5.65625 -12.7187,-4.25 8.125,-3.875 14.5,-1.40625 15.1874,0.34375 7.0626,3.875 14.5,-2.8125 L 1492,837.25 l -10.9688,-5.3125 -14.5,-0.6875 -10.5937,-4.59375 -13.4375,2.8125 -17.6875,-1.75 L 1409.625,821 l 15.5625,-1.4375 18.375,2.84375 -9.5625,-7.0625 -17.6562,0 -8.8438,-2.84375 -15.5625,-2.125 16.2813,-2.125 19.7812,1.78125 -5.6562,-4.59375 -16.25,-2.84375 10.9374,-2.09375 -9.1874,-3.5625 -4.25,-4.59375 -13.4063,-2.46875 -10.2813,-1.0625 0.375,-4.25 10.25,1.4375 7.7813,-0.375 4.9375,-2.8125 -14.8438,-2.125 -10.25,-1.40625 2.8126,-2.5 -8.125,-1.40625 -12.375,2.46875 -6.7188,-5.28125 -7.0625,1.0625 -13.0937,-1.0625 14.5,-6.03125 -12,0.375 1.0312,-3.53125 -8.125,0.34375 -12.7188,2.46875 -12.7187,2.84375 -2.5,-2.5 -7.0625,-3.15625 -0.6875,-5.3125 -7.4375,-0.34375 -0.7188,-6.71875 0.7188,-6.375 8.8438,-1.78125 2.8124,-3.15625 -7.4062,-3.90625 -6.7188,-0.71875 -2.8437,-9.1875 4.9687,0 6.3438,2.125 -0.3438,-4.59375 4.9376,-0.34375 -2.4688,-4.59375 -7.4062,-0.375 -7.7813,-1.0625 -4.5937,-6.6875 8.125,2.09375 12,-1.0625 6.7187,3.90625 2.125,-4.9375 18.75,-0.375 7.7813,-0.34375 4.5937,6.71875 7.4375,5.65625 8.4688,6.375 15.5624,-1.0625 3.5313,3.875 3.5313,1.0625 5.6562,5.65625 5.3125,2.8125 3.5313,6.71875 3.5312,2.84375 3.1875,5.65625 5.3125,0 0,3.875 6.7188,2.125 3.5312,4.96875 7.0625,3.53125 1.0625,2.125 -8.8438,0 8.125,3.53125 4.5938,0.6875 1.4375,3.5625 -5.3125,-1.0625 0.3438,4.59375 4.5937,5.28125 8.5,-0.34375 6.375,4.25 3.5313,3.875 -4.9688,-1.0625 -4.5938,1.4375 -6.3437,-0.375 10.25,7.78125 4.5937,-3.53125 8.4688,0.34375 8.8438,1.0625 5.6562,5.3125 -4.9375,-1.0625 -4.25,-0.6875 1.7813,3.15625 8.8124,2.125 4.9688,0.71875 5.6562,-1.0625 3.5313,1.0625 8.125,3.875 -8.125,0 -9.0313,0.1875 -5.125,-2.3125 -3.875,1.59375 -5.6562,1.78125 2.125,0.875 7.0625,-0.34375 4.5937,2.8125 5.3126,1.0625 5.6562,2.84375 8.125,-1.0625 4.9375,2.125 17.3437,-0.71875 6.3438,2.46875 12.75,0 -7.7812,-6.71875 -9.1876,-4.21875 9.5313,-0.71875 6.0313,4.59375 14.4687,8.125 -9.875,3.1875 9.1875,3.1875 9.1875,1.0625 -0.7187,2.8125 3.9062,3.1875 6.7188,4.59375 -5.6563,2.46875 -4.25,-2.46875 -6,2.84375 -4.5937,-1.0625 -6.7188,1.0625 5.6562,2.8125 4.5938,-1.40625 5.6562,-0.71875 5.6563,3.5625 12.375,-0.71875 0,2.8125 -4.9687,3.90625 -7.4063,0.71875 -5.3125,-2.125 3.1875,2.46875 5.3125,1.75 9.5312,1.0625 -6.375,4.25 -7.7812,0.71875 8.5,3.1875 13.4375,-3.90625 -6.375,7.78125 8.125,-3.875 2.125,6 -8.125,6.71875 -10.9687,2.8125 10.9687,0.71875 12.375,-5.3125 7.0625,7.09375 9.2188,-0.71875 6,2.46875 6,-2.8125 3.5312,7.0625 5.3125,-1.40625 -0.3437,3.53125 6.7187,6.71875 13.4375,0.6875 9.5312,0.71875 3.9063,4.25 1.75,-4.59375 3.1875,-1.4375 4.5938,1.78125 5.3124,-1.0625 3.5313,3.1875 4.25,-0.71875 1.75,2.125 11.6875,1.40625 -9.5625,0 -7.7813,1.4375 -2.8124,-3.1875 -5.6563,0.34375 -2.125,1.78125 -7.0937,2.46875 -6.6876,-1.40625 -6.7187,1.40625 -3.1875,3.875 3.1875,3.53125 9.1875,0.71875 4.2188,4.25 4.25,0 1.7812,-2.84375 3.5312,2.125 4.9376,1.4375 -0.3438,-2.84375 8.5,0 5.2812,3.1875 2.4688,-3.1875 5.3125,2.84375 6.375,1.40625 -2.4687,-5.65625 7.7812,0.6875 4.5938,5.3125 5.2812,1.78125 5.3125,3.875 13.0937,-0.71875 3.5313,3.90625 6.7187,-1.40625 3.1876,2.125 15.1874,-2.5 -9.1874,-5.65625 9.9062,3.1875 10.5938,-1.0625 11.3124,8.125 8.5,-1.0625 7.7813,2.125 28.9687,1.4375 -11.3124,-8.5 -14.8438,-3.53125 -9.5312,-7.78125 -8.5,1.40625 -9.5313,-4.9375 -12.0313,-5.65625 -13.4374,-6 -9.9063,-4.25 -2.125,-6.375 -8.125,0 -8.8437,-2.46875 -4.9376,-8.125 -4.5937,0.34375 -1.7813,2.125 -6.7187,-3.1875 -9.9063,-11.65625 -20.5,-8.5 -12.7187,-8.125 -6.375,-1.0625 -1.75,-5.65625 L 1646,848.5 l -23.5,-17 20.5,8 11.5,2.5 14,-2.5 6,8.5 7,0 2,5 10,0 6,2.5 7,10 18,3.5 17,13 17.5,7.5 7.5,12 26.5,-0.5 23.5,8 44.5,-5.5 3.5,8.5 20.5,8.5 53.6562,14.90625 -4,-93.90625 -42.0937,11.3125 -41.3437,-10.59375 -24.4063,2.09375 -42.7813,-4.59375 -44.1874,-0.6875 -31.4688,-5.3125 -10.25,-10.96875 -19.4688,-10.9375 -18.375,-8.15625 -15.9062,-6 -21.9062,-4.9375 -27.5938,-10.96875 -4.5938,-19.09375 -16.25,-11.65625 -6.7187,-6.375 -5.3125,-0.71875 -7.4375,-9.875 -26.1563,-6.375 -33.5937,-21.5625 -3.5313,0.34375 -15.5624,-26.5 2.5,-9.90625 -4.25,-4.96875 -4.5938,2.5 -3.1875,-3.90625 -6.7187,-3.875 -4.25,0 -10.25,-8.15625 0,-6.71875 4.5937,-1.40625 -1.0625,-10.59375 -10.9375,-6.71875 -4.9687,1.75 -5.6563,-4.9375 -13.4375,-2.8125 -1.75,9.875 -3.9062,0.71875 -3.1876,6.71875 -6.7187,1.0625 -0.3437,3.53125 -8.8438,1.78125 -6.7188,-3.90625 -5.6562,1.78125 -16.9688,-0.375 -3.5312,-3.875 0.3438,-11.3125 4.5937,-3.53125 -0.3437,-9.1875 -5.3126,-6.03125 -7.0624,-2.125 2.125,-3.875 2.125,-8.125 -8.125,-3.53125 -8.5,-2.125 -15.5626,-13.4375 -13.7812,-7.4375 -2.4688,-6 1.0626,-8.5 -4.9376,-12.71875 -11.6874,-6.71875 -16.625,-6 -9.5313,-2.125 -8.8437,-7.4375 -6.7188,-5.65625 3.9062,-5.28125 -4.25,-8.15625 -15.9062,-2.8125 -3.5312,-3.90625 -4.25,1.78125 -4.5938,-6 -14.8438,-3.1875 -21.5937,-16.28125 -3.1563,-0.34375 -2.8437,-5.65625 -9.1875,-7.0625 -4.25,-1.4375 -12.7188,-13.78125 -9.9062,-12.71875 -9.5312,0.34375 -1.0626,-4.59375 3.1563,-4.25 -2.0937,-5.65625 -3.1876,0.375 -2.4687,-3.53125 -4.9687,2.8125 -4.5938,-3.53125 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4707)"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:url(#linearGradient4929);fill-opacity:1;stroke:none;display:inline"
+       d="M -73.539105,664.01306 222.03153,846.44661 371.93817,888.87302 616.59711,782.807 1105.915,536.73384 l 463.8621,264.45794 111.7228,26.87005 106.066,57.98276 188.0904,14.14213 -16.9705,400.22248 -1991.212712,-41.0122 z"
+       id="path4685"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4901"
+       d="M -73.539105,664.01306 222.03153,846.44661 371.93817,888.87302 616.59711,782.807 1105.915,536.73384 l 463.8621,264.45794 111.7228,26.87005 106.066,57.98276 188.0904,14.14213 -16.9705,400.22248 -1991.212712,-41.0122 z"
+       style="fill:#af0000;fill-opacity:1;stroke:none;display:inline;filter:url(#filter5585)" />
+    <path
+       style="fill:#320000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter6336)"
+       d="m 1114.75,408.75 -4.5938,2.8125 -8.125,-2.46875 1.75,5.65625 -18.0312,10.25 1.0625,6.71875 -4.5937,4.25 -6,0.34375 -1.4063,4.25 -1.7813,0.34375 -0.3437,-2.8125 -8.125,-0.71875 -1.0625,2.125 -8.5,2.125 0,10.25 -4.25,8.84375 -3.5312,-1.0625 -1.4063,8.5 -16.625,3.15625 0,3.1875 -5.6563,3.90625 -9.1874,3.1875 0,3.15625 -5.3126,5.3125 -2.4687,-0.34375 -5.6563,5.65625 1.0626,4.25 -7.7813,5.65625 1.78125,6.71875 -3.90625,-2.5 -1.0625,-4.21875 -8.46875,2.09375 -1.0625,2.125 -10.96875,1.0625 -12.375,1.0625 -7.40625,-4.59375 -8.15625,-9.1875 -2.8125,-8.125 -5.3125,-4.96875 -4.9375,-7.40625 0.34375,-9.5625 0,-7.0625 -7.78125,0 0,4.25 -5.65625,4.59375 -11.65625,-1.40625 -3.1875,3.15625 2.125,3.5625 -10.96875,10.25 -10.59375,20.15625 -8.15625,15.1875 -10.59375,7.4375 0,7.0625 -5.3125,0 0.375,8.46875 -6.03125,-2.8125 0,2.46875 -4.21875,5.3125 -6.03125,0 -9.53125,6 -4.59375,-5.65625 -9.5625,-14.84375 -5.65625,-5.65625 -3.1875,0 0,6.375 -1.75,0 -1.40625,-1.78125 -4.25,0.34375 -3.90625,4.25 -2.8125,6.375 -5.3125,1.75 0.71875,3.53125 -4.25,1.78125 0.34375,5.3125 -5.28125,3.53125 -3.5625,4.9375 -7.40625,-2.46875 0,2.84375 -2.125,-0.375 -2.125,-3.53125 -2.125,3.1875 -1.0625,4.9375 -5.65625,-2.125 -2.46875,4.25 -1.40625,6.03125 -3.1875,-2.125 -1.40625,3.875 -6.03125,3.1875 -10.9375,14.125 -11.3125,8.5 -0.375,4.9375 -7.40625,4.59375 0,5.6875 -5.65625,7.40625 -9.90625,7.78125 -0.34375,7.0625 -6.71875,3.1875 0,4.25 -11.3125,1.75 -0.71875,16.96875 -7.0625,11.34375 -14.15625,16.96875 -12.71875,9.53125 -2.125,8.125 -4.9375,-0.34375 -1.78125,7.4375 -17.6875,17.3125 -6.34375,0.34375 -4.59375,3.1875 -7.4375,18.375 -16.25,7.78125 -30.0625,6.71875 -29.6875,14.5 -24.0625,7.78125 L 475,818.75 l -12.5,-1.5 -13.75,5 1,7 -7.5,3 -7.5,0.25 -22.5,12.25 -9.5,1.5 -21.5,11.75 -12.75,4 -33,-2.75 -35,-11.75 -15.5,-4.75 -3.75,-6.5 -12.75,-1 -13.75,-7.75 -13.75,-7.5 -5.5,0.25 -4,-6 -19.75,-8.5 -15,-5.25 -3.5,-4.5 -12.5,-5.5 -19.5,-12 -10.5,-5.25 -21.5,-12 -12.75,-9.75 -2.25,-7 -3,-2.5 -1.5,-6.5 -9.5,-1 L 99,724 l -12.75,0.25 -2.5,-5.25 -5,-3 -6.5,-14.75 -3,-6.5 -4,-1.25 -1.25,-3.25 -3.25,-1.5 -1.5,-6.75 -8.5,-6.5 -1.75,-5 -1,-2.75 -5.75,-2.5 -1.5,-5.25 -3,-0.75 -1.25,-6.5 -4.75,-9.75 0.25,-3.75 -3.25,-1.5 0.5,-4.5 -2.25,-5 -0.75,-6 6.5,0.25 -7,-7 -0.75,-3.25 -5.25,-5.25 0,-1.75 -4.75,-5.5 -1.75,-9.5 -4.5,-6 L 4.25,574 -9,576.75 l -5.875,215.28125 7.4375,0.3125 12.03125,12.375 5.3125,5.3125 1.40625,6 9.90625,7.4375 7.40625,4.9375 9.90625,13.09375 3.53125,-1.78125 10.625,12.75 4.9375,3.15625 4.25,6.375 5.65625,4.25 2.8125,6 4.96875,2.46875 6,7.78125 -10.96875,-6 3.5625,10.96875 8.8125,7.40625 1.0625,6.03125 8.5,9.53125 L 105,926 l 6.375,9.53125 -1.0625,-9.875 -14.5,-15.21875 -7.0625,-14.125 -11.3125,-12.375 3.875,2.09375 2.84375,0 4.21875,3.5625 8.15625,0 -5.65625,-4.25 -1.78125,-4.25 4.25,1.40625 6.34375,0.71875 0.71875,-4.59375 9.1875,1.0625 -6.71875,-5.3125 -6.34375,0.71875 -6.375,0.6875 -1.78125,-1.75 1.78125,-3.1875 4.59375,0.34375 15.90625,-2.125 -2.46875,3.1875 7.78125,6.71875 9.53125,3.1875 6.71875,-1.0625 10.96875,13.09375 -5.65625,-1.0625 -11.65625,-1.78125 2.46875,3.53125 5.65625,2.46875 5.65625,2.125 7.78125,8.5 4.59375,0.34375 0.34375,2.46875 6.71875,4.96875 -6,2.46875 6,5.3125 16.28125,0 17.65625,10.59375 -7.0625,-10.59375 -12.03125,-5.65625 10.625,-2.84375 -10.25,-5.65625 -10.625,-6.375 -8.46875,-11.65625 4.21875,-3.875 8.84375,6.71875 19.09375,9.1875 16.28125,10.59375 -8.5,5.65625 13.4375,-1.0625 4.9375,2.84375 -6.6875,5.3125 2.09375,3.53125 9.5625,-6.03125 7.78125,0 13.0625,7.4375 -8.46875,-8.125 -11.6875,-6.375 -5.28125,-9.53125 10.59375,4.59375 6.03125,-0.375 5.65625,5.65625 6.71875,1.78125 -1.0625,6 10.25,4.25 -1.0625,-7.0625 7.78125,-3.53125 11.3125,1.75 11.3125,-0.34375 3.53125,4.25 11.65625,0.34375 11.6875,-2.46875 -8.15625,-1.78125 -11.65625,-1.40625 -7.0625,-9.90625 7.0625,-2.125 5.65625,8.84375 6.375,-4.59375 -1.78125,-11.65625 9.1875,0.34375 -4.9375,-7.78125 9.1875,1.0625 9.1875,0.71875 2.125,2.125 1.0625,3.875 -4.9375,6 6.34375,-2.8125 -0.6875,6.71875 5.65625,-4.25 0.34375,8.84375 -4.9375,4.25 -7.09375,2.46875 -8.84375,4.59375 -3.15625,9.1875 9.875,1.0625 2.125,5.65625 -3.875,-0.34375 -4.59375,2.8125 0.34375,3.1875 -8.46875,4.59375 L 309,952.5 l 5.3125,0 5.3125,-3.15625 6.71875,0.6875 7.40625,-8.84375 4.25,-3.15625 3.53125,-4.25 9.90625,-6.03125 9.1875,-5.65625 L 361.34375,926 367,924.21875 l 2.125,6.03125 6,-8.5 8.46875,0.34375 4.59375,-6.71875 3.5625,1.4375 6.34375,-3.90625 0,-2.8125 6.71875,-3.1875 5.3125,1.0625 -4.25,2.8125 5.3125,4.96875 5.3125,-5.3125 5.28125,-5.3125 1.4375,-4.9375 4.9375,2.125 6.375,-8.125 2.09375,-4.96875 6.03125,0.375 6.71875,-4.625 1.75,-4.9375 6.71875,0 6.375,4.25 -1.0625,-4.96875 5.3125,-2.46875 8.84375,2.84375 3.53125,-7.78125 8.46875,0 9.90625,-6.375 14.84375,-7.78125 1.40625,-4.21875 21.21875,-6.375 9.90625,-10.59375 9.1875,-0.71875 11.3125,-4.96875 4.96875,-7.75 13.4375,-3.5625 7.0625,-7.75 8.46875,-1.4375 9.1875,-8.46875 11.3125,-4.25 -9.875,7.78125 -7.78125,6.375 -4.25,9.875 -4.25,5.65625 -2.125,7.09375 -9.875,6.34375 -1.4375,3.53125 0.71875,3.5625 -9.90625,6.34375 -0.6875,4.96875 -6.375,1.40625 -7.78125,8.46875 -4.9375,-0.6875 -4.96875,2.8125 -7.0625,3.53125 -4.25,-1.40625 -7.0625,5.65625 -9.1875,5.65625 -11.3125,7.0625 -6.375,-0.6875 -8.46875,2.125 -5.65625,2.8125 -5.65625,4.25 -14.875,4.9375 -4.9375,0 -9.1875,4.25 -7.78125,8.5 7.78125,-5.65625 9.1875,-2.125 7.0625,0 14.84375,-6.375 7.78125,-7.0625 12.03125,1.40625 16.96875,-1.40625 9.90625,-4.96875 8.46875,-2.09375 12.75,-0.71875 -4.25,7.0625 -6.375,4.96875 -5.65625,8.46875 14.15625,-7.0625 9.1875,-7.78125 L 568.5,882.5 l 11.3125,-6.34375 9.21875,-4.96875 7.78125,-2.125 14.125,-6.34375 6.375,-6.375 4.9375,-4.25 9.1875,-5.65625 4.25,-4.21875 10.59375,-0.71875 4.25,0.71875 14.15625,-7.78125 13.4375,-3.5625 9.875,-3.53125 3.5625,-5.65625 9.1875,-3.53125 5.65625,-7.0625 7.0625,-1.40625 10.59375,-0.71875 -7.0625,5.65625 -3.53125,7.78125 -3.53125,3.53125 -5.65625,-0.71875 -5.65625,2.84375 -4.25,8.5 -6.375,1.40625 -10.59375,4.9375 -6.375,5.65625 -1.40625,5.65625 -13.4375,4.25 -2.8125,7.78125 -8.5,1.40625 -6.34375,7.0625 -7.78125,8.5 -8.5,1.40625 2.125,-8.46875 -9.1875,1.40625 -16.28125,9.1875 -16.25,4.25 L 558,907 l -5.5,5 -15,4.5 -15.5,6.5 -6.5,1.5 -11.5,6.5 -3.5,4.5 13,-6.5 6.5,0.5 8.5,-5 7.5,-3 11,-1 3,1.5 -3.5,5.5 -5,2 -5.5,6.5 -10,1.5 -7,1.5 -1.5,2.5 -13.5,4 -4.5,3 -10,2.5 -0.5,4 -13,6 -10,-0.5 -8,5.5 -11.5,3.5 -2.5,3 -4.5,1 -11,1 -9.5,3.5 -4,2 -6,-1.5 -6.5,4 -7,1 -6,1.5 -11,3.5 -10,0.5 -10,2.5 -7,6 -9.5,-0.5 -11.5,9 12,-5 7.5,-0.5 10,-6.5 8,-1.5 6,2.5 9.5,-5 8,0.5 1.5,4 -7,1 5.5,3 9,0.5 5.5,-2 3.5,3.5 6,-1 4,2 -3,4.5 -5,-2 -6.5,-2 -16,4 9.5,-1 10.5,4.5 8.5,3 -8,0 -11,-1 -15.5,0.5 -6,-5 -10,3 -9,0 -13.5,2 -9,-1 -5,3.5 -7.5,2.5 3.5,2.5 10,-5.5 8.5,2 12,-3 7,3.5 10.5,1 3.5,2.5 -9,3 -10,-2 -9.5,-1 -11.5,4.5 -11,0 -6,6.5 -10,1.5 -13,3.5 -12,-2.5 -22.5,3.5 11.5,3 11,0 11.5,-0.5 15.5,0 20.5,1.5 -11,5 -14,-4.5 -16.5,1 -13,0 -14,-1 5.5,6 18,2 16.5,-3 15.5,2 19,-3 14.5,-3 15.5,-5 15.5,-4 8.5,-2 17.5,1.5 12,-1.5 16,-10 18.5,-6.5 23,-7 17,1 12.5,-3 21,-8 6,-4.5 15,-4 6.5,-0.5 17,-6.5 7.5,-7 6.5,-1 11,0.5 7,-3 12.5,4 13.5,-0.5 9,0 17,-7.5 8,-6.5 13,-11.5 16.71875,-15.15625 19.09375,2.125 11.3125,-8.5 L 731.15625,920 750.9375,907.25 764.375,900.90625 770.75,891 l 14.125,-5.65625 7.78125,-17.6875 3.53125,-15.5625 16.28125,-4.21875 7.78125,-16.28125 12,-2.8125 7.78125,-14.875 2.125,-5.65625 11.3125,-7.75 7.09375,4.9375 4.9375,-7.78125 4.9375,-12.71875 2.84375,-10.625 11.3125,-5.65625 2.8125,-7.0625 2.84375,-9.90625 17.6875,-4.25 12.71875,4.25 10.59375,-16.25 10.625,-2.125 1.40625,-9.1875 4.25,-8.5 0.6875,-10.59375 3.5625,-12.03125 3.53125,8.5 2.125,11.3125 9.1875,2.125 0,9.1875 -4.96875,8.46875 0.71875,14.84375 8.46875,1.4375 3.5625,12 -7.78125,12.75 12,-4.96875 10.625,9.90625 -0.75,16.4375 -0.5,6 1.5,6.5 -0.5,6 -2,3 0,3 2.5,4 3.5,3.5 -0.5,7 -2,7 2,5.5 -0.5,7.5 6,5.5 4,7.5 -5.5,3.5 -2.5,6.5 -3,6.5 3,7.5 -5.5,-0.5 -4,4.5 -4.5,5 2,6 0.5,4.5 -3.5,2 1,7 0,3.5 -5,0.5 -1.5,4 0.5,4 -7,5 -1,13.5 -3,0.5 -4,11 -5,10 -0.5,5 7.5,7 7.5,6.5 0.5,9.5 12,4.5 13.5,11.5 14,0 4.5,8.5 13.5,2.75 3.75,1.5 4.25,5.25 6.5,1 6.25,6.5 7.75,2 8.25,6.5 6.25,7 2.25,5 8.5,1.75 2,2.75 7.75,0.25 1.75,4.5 -3.75,1 -0.75,2.75 -3,-1.25 -1.5,4 -3,-2.25 -3.75,0.5 0.25,3 -6.25,-0.75 0.75,3 -5,2 -4.5,9.25 6,-6.25 10.75,-2.25 15.5,-1.75 14.5,-0.25 9.25,2.25 2.75,4 6.75,3.25 4.25,3.5 6.5,2.5 4.25,1 5,5.5 6.5,2 4.5,4 5.75,6.5 6.5,-1.25 7.5,3.75 7.75,0.75 11.75,5 3.5,0.25 5.25,4.75 6,0.5 12.5,3.75 8,-0.75 -7.5,-1.5 -16.5,-5.5 -7.75,-8.25 -7.25,-3 -5,-3 0.25,-2.25 -6.25,-9.25 -6.25,0.75 -7.75,-9.75 11,6.75 -5,-7.5 8,1 7.25,-0.75 1.25,4 9,4.75 10.5,1.75 5.75,4.25 8,5.75 8.75,-1.75 7.25,4.25 3,5.5 6.75,1.25 4,2.75 9,4.25 11.5,0.5 8.25,1.5 10.25,3.25 10.25,3.75 11.75,-2.25 -11.25,0 -5.5,-2.75 -11,-2.75 -12,-4.75 -6.25,-6 -10.25,-3.25 -11,-5.5 9.5,-0.25 4.75,-2.75 6.25,3.25 2.25,5.25 2.25,4.5 5.25,-3.5 1.75,4.5 8.5,1 -5,3 9,0.5 10,0.5 -1.5,4 6,0.5 6,-4 5,3.5 4,4.5 10.5,1.5 7,-0.5 20,2 -17.5,-5.5 -9.5,0.5 -8,-3.5 5,-5.5 -14,-1 -18,-0.5 -0.5,-5 12.5,2.5 18,-2 6.5,4.5 10.5,5 22.5,2.5 28.5,-3 -20.5,-4.5 -9,0.5 -0.5,-4 19,1.5 -9,-4 -13.5,0.5 -15.5,-3 7.5,-4 18.5,-5 -21,2 -18,-0.5 -5.5,-6.5 -7.5,2 -8,-1 -3,-5.5 -6.5,-15 -20,-3 -20.5,-3.5 14.5,-2 -2,-4.5 14,-1.5 -19.5,-0.5 -9,-7.5 -9,1 -8,-5.5 -15,-1 -4,-4.5 -8,-0.5 -10.5,-4.5 -8.5,-2.5 -8.5,-10.5 -8,2 -10.5,-7 -8.5,0 -12.5,-7 -6,-5.5 -7.5,-4.5 -11.5,0 -11,-3.5 -6,-6.5 -11.5,-3 -7.5,-8.5 -6.5,-5 -5.5,-5 -3.5,-7.5 0,-12.5 -10,-9 1.5,-14.5 0,-5.5 -2,-11.5 -3.5,-10 -6,-3 0.5,-11 -2.25,-12.21875 -7.7812,-15.5625 4.25,-4.25 -0.6876,-11.3125 -4.9687,-2.84375 -2.125,-8.46875 4.25,-5.65625 3.5313,-2.125 -1.4063,-9.1875 -3.5313,-9.90625 -2.8437,-7.0625 -3.5313,-5.65625 3.5313,-9.1875 0.7187,-4.96875 -4.25,-6.34375 -2.125,-5.65625 2.125,-10.625 2.125,-2.8125 -4.9374,-16.28125 0,-10.59375 3.5312,-5.65625 -1.4062,-9.1875 -7.7813,-6.375 0,-16.25 -9.9063,-5.6875 -6.375,-11.3125 4.9688,-2.09375 4.2188,2.8125 13.4374,-5.65625 8.5,-4.25 -0.7187,-13.4375 10.625,-5.65625 7.0625,-12 2.125,-4.96875 7.7812,-0.6875 7.7813,-12.03125 1.4063,14.15625 7.0624,16.25 2.8438,6.375 0,12.71875 5.6562,8.46875 -5.6562,7.78125 -6.375,7.09375 0,5.65625 -7.0625,7.0625 4.2187,5.65625 -10.5937,0 -4.25,7.78125 17.6875,4.9375 16.25,-6.34375 18.4062,-1.4375 12,11.3125 7.0938,8.84375 2.4688,18.03125 19.0937,4.59375 7.4063,7.4375 -8.8126,17.3125 10.9376,-0.6875 L 1198,801.5 l 12,9.5 -2,12 10.5,10.5 7,8.5 11.5,-4.5 11.5,8 -18.5,-1 -20,7 -10,-2 13.5,10.5 11,0 9.5,3.5 -2.5,-5 19,4 17,-6 12,10.5 3.5,-2 8.5,8 0.5,7 9,2 4.5,7 10.5,11.5 32.0938,5.6875 8.5,8.5 1.75,8.125 2.125,6.375 7.4374,4.21875 12,3.1875 12.0313,3.1875 3.9063,7.4375 9.5312,-0.71875 13.7812,5.65625 4.5938,7.0625 14.5,3.5625 11.3125,-2.125 13.7813,8.125 12.75,-6.375 12.7187,-1.40625 6.375,6.71875 19.7813,3.1875 13.4374,-3.1875 9.1876,0.34375 -4.2188,5.65625 16.25,0.71875 4.5938,-0.71875 8.8437,0.375 -5.3125,-3.1875 -8.8438,-3.90625 17.6876,0.71875 27.5937,5.3125 22.25,8.125 6.7187,8.46875 12.375,-6 9.9063,4.59375 -9.1875,-8.125 -10.625,3.53125 -0.6875,-4.9375 -3.1875,-4.25 14.8438,1.40625 13.0937,0.34375 14.125,1.4375 10.9687,-5.3125 -14.8437,1.0625 -11.3125,-4.59375 27.9375,1.75 15.1875,-3.15625 -24.4062,-1.78125 -24.75,-1.78125 -6.6876,-5.65625 -23,-5.28125 -29.3437,-7.09375 -17.3125,-9.53125 -12.75,-11.65625 -10.5938,-9.5625 -16.625,-5.65625 -8.125,-9.1875 -10.5937,-0.71875 -13.8125,-6.34375 -9.1875,-1.78125 -1.75,-4.9375 -10.9687,-0.375 -2.8438,-7.40625 -8.8125,-7.4375 11.3125,3.53125 4.5938,-4.59375 11.6562,-1.75 13.4375,-1.78125 -9.9063,-3.1875 2.125,-4.59375 -7.4062,0 -12.0312,-5.65625 -8.5,1.0625 -9.5313,-5.65625 -12.7187,-4.25 8.125,-3.875 14.5,-1.40625 15.1874,0.34375 7.0626,3.875 14.5,-2.8125 L 1492,837.25 l -10.9688,-5.3125 -14.5,-0.6875 -10.5937,-4.59375 -13.4375,2.8125 -17.6875,-1.75 L 1409.625,821 l 15.5625,-1.4375 18.375,2.84375 -9.5625,-7.0625 -17.6562,0 -8.8438,-2.84375 -15.5625,-2.125 16.2813,-2.125 19.7812,1.78125 -5.6562,-4.59375 -16.25,-2.84375 10.9374,-2.09375 -9.1874,-3.5625 -4.25,-4.59375 -13.4063,-2.46875 -10.2813,-1.0625 0.375,-4.25 10.25,1.4375 7.7813,-0.375 4.9375,-2.8125 -14.8438,-2.125 -10.25,-1.40625 2.8126,-2.5 -8.125,-1.40625 -12.375,2.46875 -6.7188,-5.28125 -7.0625,1.0625 -13.0937,-1.0625 14.5,-6.03125 -12,0.375 1.0312,-3.53125 -8.125,0.34375 -12.7188,2.46875 -12.7187,2.84375 -2.5,-2.5 -7.0625,-3.15625 -0.6875,-5.3125 -7.4375,-0.34375 -0.7188,-6.71875 0.7188,-6.375 8.8438,-1.78125 2.8124,-3.15625 -7.4062,-3.90625 -6.7188,-0.71875 -2.8437,-9.1875 4.9687,0 6.3438,2.125 -0.3438,-4.59375 4.9376,-0.34375 -2.4688,-4.59375 -7.4062,-0.375 -7.7813,-1.0625 -4.5937,-6.6875 8.125,2.09375 12,-1.0625 6.7187,3.90625 2.125,-4.9375 18.75,-0.375 7.7813,-0.34375 4.5937,6.71875 7.4375,5.65625 8.4688,6.375 15.5624,-1.0625 3.5313,3.875 3.5313,1.0625 5.6562,5.65625 5.3125,2.8125 3.5313,6.71875 3.5312,2.84375 3.1875,5.65625 5.3125,0 0,3.875 6.7188,2.125 3.5312,4.96875 7.0625,3.53125 1.0625,2.125 -8.8438,0 8.125,3.53125 4.5938,0.6875 1.4375,3.5625 -5.3125,-1.0625 0.3438,4.59375 4.5937,5.28125 8.5,-0.34375 6.375,4.25 3.5313,3.875 -4.9688,-1.0625 -4.5938,1.4375 -6.3437,-0.375 10.25,7.78125 4.5937,-3.53125 8.4688,0.34375 8.8438,1.0625 5.6562,5.3125 -4.9375,-1.0625 -4.25,-0.6875 1.7813,3.15625 8.8124,2.125 4.9688,0.71875 5.6562,-1.0625 3.5313,1.0625 8.125,3.875 -8.125,0 -9.0313,0.1875 -5.125,-2.3125 -3.875,1.59375 -5.6562,1.78125 2.125,0.875 7.0625,-0.34375 4.5937,2.8125 5.3126,1.0625 5.6562,2.84375 8.125,-1.0625 4.9375,2.125 17.3437,-0.71875 6.3438,2.46875 12.75,0 -7.7812,-6.71875 -9.1876,-4.21875 9.5313,-0.71875 6.0313,4.59375 14.4687,8.125 -9.875,3.1875 9.1875,3.1875 9.1875,1.0625 -0.7187,2.8125 3.9062,3.1875 6.7188,4.59375 -5.6563,2.46875 -4.25,-2.46875 -6,2.84375 -4.5937,-1.0625 -6.7188,1.0625 5.6562,2.8125 4.5938,-1.40625 5.6562,-0.71875 5.6563,3.5625 12.375,-0.71875 0,2.8125 -4.9687,3.90625 -7.4063,0.71875 -5.3125,-2.125 3.1875,2.46875 5.3125,1.75 9.5312,1.0625 -6.375,4.25 -7.7812,0.71875 8.5,3.1875 13.4375,-3.90625 -6.375,7.78125 8.125,-3.875 2.125,6 -8.125,6.71875 -10.9687,2.8125 10.9687,0.71875 12.375,-5.3125 7.0625,7.09375 9.2188,-0.71875 6,2.46875 6,-2.8125 3.5312,7.0625 5.3125,-1.40625 -0.3437,3.53125 6.7187,6.71875 13.4375,0.6875 9.5312,0.71875 3.9063,4.25 1.75,-4.59375 3.1875,-1.4375 4.5938,1.78125 5.3124,-1.0625 3.5313,3.1875 4.25,-0.71875 1.75,2.125 11.6875,1.40625 -9.5625,0 -7.7813,1.4375 -2.8124,-3.1875 -5.6563,0.34375 -2.125,1.78125 -7.0937,2.46875 -6.6876,-1.40625 -6.7187,1.40625 -3.1875,3.875 3.1875,3.53125 9.1875,0.71875 4.2188,4.25 4.25,0 1.7812,-2.84375 3.5312,2.125 4.9376,1.4375 -0.3438,-2.84375 8.5,0 5.2812,3.1875 2.4688,-3.1875 5.3125,2.84375 6.375,1.40625 -2.4687,-5.65625 7.7812,0.6875 4.5938,5.3125 5.2812,1.78125 5.3125,3.875 13.0937,-0.71875 3.5313,3.90625 6.7187,-1.40625 3.1876,2.125 15.1874,-2.5 -9.1874,-5.65625 9.9062,3.1875 10.5938,-1.0625 11.3124,8.125 8.5,-1.0625 7.7813,2.125 28.9687,1.4375 -11.3124,-8.5 -14.8438,-3.53125 -9.5312,-7.78125 -8.5,1.40625 -9.5313,-4.9375 -12.0313,-5.65625 -13.4374,-6 -9.9063,-4.25 -2.125,-6.375 -8.125,0 -8.8437,-2.46875 -4.9376,-8.125 -4.5937,0.34375 -1.7813,2.125 -6.7187,-3.1875 -9.9063,-11.65625 -20.5,-8.5 -12.7187,-8.125 -6.375,-1.0625 -1.75,-5.65625 L 1646,848.5 l -23.5,-17 20.5,8 11.5,2.5 14,-2.5 6,8.5 7,0 2,5 10,0 6,2.5 7,10 18,3.5 17,13 17.5,7.5 7.5,12 26.5,-0.5 23.5,8 44.5,-5.5 3.5,8.5 20.5,8.5 53.6562,14.90625 -4,-93.90625 -42.0937,11.3125 -41.3437,-10.59375 -24.4063,2.09375 -42.7813,-4.59375 -44.1874,-0.6875 -31.4688,-5.3125 -10.25,-10.96875 -19.4688,-10.9375 -18.375,-8.15625 -15.9062,-6 -21.9062,-4.9375 -27.5938,-10.96875 -4.5938,-19.09375 -16.25,-11.65625 -6.7187,-6.375 -5.3125,-0.71875 -7.4375,-9.875 -26.1563,-6.375 -33.5937,-21.5625 -3.5313,0.34375 -15.5624,-26.5 2.5,-9.90625 -4.25,-4.96875 -4.5938,2.5 -3.1875,-3.90625 -6.7187,-3.875 -4.25,0 -10.25,-8.15625 0,-6.71875 4.5937,-1.40625 -1.0625,-10.59375 -10.9375,-6.71875 -4.9687,1.75 -5.6563,-4.9375 -13.4375,-2.8125 -1.75,9.875 -3.9062,0.71875 -3.1876,6.71875 -6.7187,1.0625 -0.3437,3.53125 -8.8438,1.78125 -6.7188,-3.90625 -5.6562,1.78125 -16.9688,-0.375 -3.5312,-3.875 0.3438,-11.3125 4.5937,-3.53125 -0.3437,-9.1875 -5.3126,-6.03125 -7.0624,-2.125 2.125,-3.875 2.125,-8.125 -8.125,-3.53125 -8.5,-2.125 -15.5626,-13.4375 -13.7812,-7.4375 -2.4688,-6 1.0626,-8.5 -4.9376,-12.71875 -11.6874,-6.71875 -16.625,-6 -9.5313,-2.125 -8.8437,-7.4375 -6.7188,-5.65625 3.9062,-5.28125 -4.25,-8.15625 -15.9062,-2.8125 -3.5312,-3.90625 -4.25,1.78125 -4.5938,-6 -14.8438,-3.1875 -21.5937,-16.28125 -3.1563,-0.34375 -2.8437,-5.65625 -9.1875,-7.0625 -4.25,-1.4375 -12.7188,-13.78125 -9.9062,-12.71875 -9.5312,0.34375 -1.0626,-4.59375 3.1563,-4.25 -2.0937,-5.65625 -3.1876,0.375 -2.4687,-3.53125 -4.9687,2.8125 -4.5938,-3.53125 z"
+       id="path4654"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6192"
+       d="m 1114.75,408.75 -4.5938,2.8125 -8.125,-2.46875 1.75,5.65625 -18.0312,10.25 1.0625,6.71875 -4.5937,4.25 -6,0.34375 -1.4063,4.25 -1.7813,0.34375 -0.3437,-2.8125 -8.125,-0.71875 -1.0625,2.125 -8.5,2.125 0,10.25 -4.25,8.84375 -3.5312,-1.0625 -1.4063,8.5 -16.625,3.15625 0,3.1875 -5.6563,3.90625 -9.1874,3.1875 0,3.15625 -5.3126,5.3125 -2.4687,-0.34375 -5.6563,5.65625 1.0626,4.25 -7.7813,5.65625 1.78125,6.71875 -3.90625,-2.5 -1.0625,-4.21875 -8.46875,2.09375 -1.0625,2.125 -10.96875,1.0625 -12.375,1.0625 -7.40625,-4.59375 -8.15625,-9.1875 -2.8125,-8.125 -5.3125,-4.96875 -4.9375,-7.40625 0.34375,-9.5625 0,-7.0625 -7.78125,0 0,4.25 -5.65625,4.59375 -11.65625,-1.40625 -3.1875,3.15625 2.125,3.5625 -10.96875,10.25 -10.59375,20.15625 -8.15625,15.1875 -10.59375,7.4375 0,7.0625 -5.3125,0 0.375,8.46875 -6.03125,-2.8125 0,2.46875 -4.21875,5.3125 -6.03125,0 -9.53125,6 -4.59375,-5.65625 -9.5625,-14.84375 -5.65625,-5.65625 -3.1875,0 0,6.375 -1.75,0 -1.40625,-1.78125 -4.25,0.34375 -3.90625,4.25 -2.8125,6.375 -5.3125,1.75 0.71875,3.53125 -4.25,1.78125 0.34375,5.3125 -5.28125,3.53125 -3.5625,4.9375 -7.40625,-2.46875 0,2.84375 -2.125,-0.375 -2.125,-3.53125 -2.125,3.1875 -1.0625,4.9375 -5.65625,-2.125 -2.46875,4.25 -1.40625,6.03125 -3.1875,-2.125 -1.40625,3.875 -6.03125,3.1875 -10.9375,14.125 -11.3125,8.5 -0.375,4.9375 -7.40625,4.59375 0,5.6875 -5.65625,7.40625 -9.90625,7.78125 -0.34375,7.0625 -6.71875,3.1875 0,4.25 -11.3125,1.75 -0.71875,16.96875 -7.0625,11.34375 -14.15625,16.96875 -12.71875,9.53125 -2.125,8.125 -4.9375,-0.34375 -1.78125,7.4375 -17.6875,17.3125 -6.34375,0.34375 -4.59375,3.1875 -7.4375,18.375 -16.25,7.78125 -30.0625,6.71875 -29.6875,14.5 -24.0625,7.78125 L 475,818.75 l -12.5,-1.5 -13.75,5 1,7 -7.5,3 -7.5,0.25 -22.5,12.25 -9.5,1.5 -21.5,11.75 -12.75,4 -33,-2.75 -35,-11.75 -15.5,-4.75 -3.75,-6.5 -12.75,-1 -13.75,-7.75 -13.75,-7.5 -5.5,0.25 -4,-6 -19.75,-8.5 -15,-5.25 -3.5,-4.5 -12.5,-5.5 -19.5,-12 -10.5,-5.25 -21.5,-12 -12.75,-9.75 -2.25,-7 -3,-2.5 -1.5,-6.5 -9.5,-1 L 99,724 l -12.75,0.25 -2.5,-5.25 -5,-3 -6.5,-14.75 -3,-6.5 -4,-1.25 -1.25,-3.25 -3.25,-1.5 -1.5,-6.75 -8.5,-6.5 -1.75,-5 -1,-2.75 -5.75,-2.5 -1.5,-5.25 -3,-0.75 -1.25,-6.5 -4.75,-9.75 0.25,-3.75 -3.25,-1.5 0.5,-4.5 -2.25,-5 -0.75,-6 6.5,0.25 -7,-7 -0.75,-3.25 -5.25,-5.25 0,-1.75 -4.75,-5.5 -1.75,-9.5 -4.5,-6 L 4.25,574 -9,576.75 l -5.875,215.28125 7.4375,0.3125 12.03125,12.375 5.3125,5.3125 1.40625,6 9.90625,7.4375 7.40625,4.9375 9.90625,13.09375 3.53125,-1.78125 10.625,12.75 4.9375,3.15625 4.25,6.375 5.65625,4.25 2.8125,6 4.96875,2.46875 6,7.78125 -10.96875,-6 3.5625,10.96875 8.8125,7.40625 1.0625,6.03125 8.5,9.53125 L 105,926 l 6.375,9.53125 -1.0625,-9.875 -14.5,-15.21875 -7.0625,-14.125 -11.3125,-12.375 3.875,2.09375 2.84375,0 4.21875,3.5625 8.15625,0 -5.65625,-4.25 -1.78125,-4.25 4.25,1.40625 6.34375,0.71875 0.71875,-4.59375 9.1875,1.0625 -6.71875,-5.3125 -6.34375,0.71875 -6.375,0.6875 -1.78125,-1.75 1.78125,-3.1875 4.59375,0.34375 15.90625,-2.125 -2.46875,3.1875 7.78125,6.71875 9.53125,3.1875 6.71875,-1.0625 10.96875,13.09375 -5.65625,-1.0625 -11.65625,-1.78125 2.46875,3.53125 5.65625,2.46875 5.65625,2.125 7.78125,8.5 4.59375,0.34375 0.34375,2.46875 6.71875,4.96875 -6,2.46875 6,5.3125 16.28125,0 17.65625,10.59375 -7.0625,-10.59375 -12.03125,-5.65625 10.625,-2.84375 -10.25,-5.65625 -10.625,-6.375 -8.46875,-11.65625 4.21875,-3.875 8.84375,6.71875 19.09375,9.1875 16.28125,10.59375 -8.5,5.65625 13.4375,-1.0625 4.9375,2.84375 -6.6875,5.3125 2.09375,3.53125 9.5625,-6.03125 7.78125,0 13.0625,7.4375 -8.46875,-8.125 -11.6875,-6.375 -5.28125,-9.53125 10.59375,4.59375 6.03125,-0.375 5.65625,5.65625 6.71875,1.78125 -1.0625,6 10.25,4.25 -1.0625,-7.0625 7.78125,-3.53125 11.3125,1.75 11.3125,-0.34375 3.53125,4.25 11.65625,0.34375 11.6875,-2.46875 -8.15625,-1.78125 -11.65625,-1.40625 -7.0625,-9.90625 7.0625,-2.125 5.65625,8.84375 6.375,-4.59375 -1.78125,-11.65625 9.1875,0.34375 -4.9375,-7.78125 9.1875,1.0625 9.1875,0.71875 2.125,2.125 1.0625,3.875 -4.9375,6 6.34375,-2.8125 -0.6875,6.71875 5.65625,-4.25 0.34375,8.84375 -4.9375,4.25 -7.09375,2.46875 -8.84375,4.59375 -3.15625,9.1875 9.875,1.0625 2.125,5.65625 -3.875,-0.34375 -4.59375,2.8125 0.34375,3.1875 -8.46875,4.59375 L 309,952.5 l 5.3125,0 5.3125,-3.15625 6.71875,0.6875 7.40625,-8.84375 4.25,-3.15625 3.53125,-4.25 9.90625,-6.03125 9.1875,-5.65625 L 361.34375,926 367,924.21875 l 2.125,6.03125 6,-8.5 8.46875,0.34375 4.59375,-6.71875 3.5625,1.4375 6.34375,-3.90625 0,-2.8125 6.71875,-3.1875 5.3125,1.0625 -4.25,2.8125 5.3125,4.96875 5.3125,-5.3125 5.28125,-5.3125 1.4375,-4.9375 4.9375,2.125 6.375,-8.125 2.09375,-4.96875 6.03125,0.375 6.71875,-4.625 1.75,-4.9375 6.71875,0 6.375,4.25 -1.0625,-4.96875 5.3125,-2.46875 8.84375,2.84375 3.53125,-7.78125 8.46875,0 9.90625,-6.375 14.84375,-7.78125 1.40625,-4.21875 21.21875,-6.375 9.90625,-10.59375 9.1875,-0.71875 11.3125,-4.96875 4.96875,-7.75 13.4375,-3.5625 7.0625,-7.75 8.46875,-1.4375 9.1875,-8.46875 11.3125,-4.25 -9.875,7.78125 -7.78125,6.375 -4.25,9.875 -4.25,5.65625 -2.125,7.09375 -9.875,6.34375 -1.4375,3.53125 0.71875,3.5625 -9.90625,6.34375 -0.6875,4.96875 -6.375,1.40625 -7.78125,8.46875 -4.9375,-0.6875 -4.96875,2.8125 -7.0625,3.53125 -4.25,-1.40625 -7.0625,5.65625 -9.1875,5.65625 -11.3125,7.0625 -6.375,-0.6875 -8.46875,2.125 -5.65625,2.8125 -5.65625,4.25 -14.875,4.9375 -4.9375,0 -9.1875,4.25 -7.78125,8.5 7.78125,-5.65625 9.1875,-2.125 7.0625,0 14.84375,-6.375 7.78125,-7.0625 12.03125,1.40625 16.96875,-1.40625 9.90625,-4.96875 8.46875,-2.09375 12.75,-0.71875 -4.25,7.0625 -6.375,4.96875 -5.65625,8.46875 14.15625,-7.0625 9.1875,-7.78125 L 568.5,882.5 l 11.3125,-6.34375 9.21875,-4.96875 7.78125,-2.125 14.125,-6.34375 6.375,-6.375 4.9375,-4.25 9.1875,-5.65625 4.25,-4.21875 10.59375,-0.71875 4.25,0.71875 14.15625,-7.78125 13.4375,-3.5625 9.875,-3.53125 3.5625,-5.65625 9.1875,-3.53125 5.65625,-7.0625 7.0625,-1.40625 10.59375,-0.71875 -7.0625,5.65625 -3.53125,7.78125 -3.53125,3.53125 -5.65625,-0.71875 -5.65625,2.84375 -4.25,8.5 -6.375,1.40625 -10.59375,4.9375 -6.375,5.65625 -1.40625,5.65625 -13.4375,4.25 -2.8125,7.78125 -8.5,1.40625 -6.34375,7.0625 -7.78125,8.5 -8.5,1.40625 2.125,-8.46875 -9.1875,1.40625 -16.28125,9.1875 -16.25,4.25 L 558,907 l -5.5,5 -15,4.5 -15.5,6.5 -6.5,1.5 -11.5,6.5 -3.5,4.5 13,-6.5 6.5,0.5 8.5,-5 7.5,-3 11,-1 3,1.5 -3.5,5.5 -5,2 -5.5,6.5 -10,1.5 -7,1.5 -1.5,2.5 -13.5,4 -4.5,3 -10,2.5 -0.5,4 -13,6 -10,-0.5 -8,5.5 -11.5,3.5 -2.5,3 -4.5,1 -11,1 -9.5,3.5 -4,2 -6,-1.5 -6.5,4 -7,1 -6,1.5 -11,3.5 -10,0.5 -10,2.5 -7,6 -9.5,-0.5 -11.5,9 12,-5 7.5,-0.5 10,-6.5 8,-1.5 6,2.5 9.5,-5 8,0.5 1.5,4 -7,1 5.5,3 9,0.5 5.5,-2 3.5,3.5 6,-1 4,2 -3,4.5 -5,-2 -6.5,-2 -16,4 9.5,-1 10.5,4.5 8.5,3 -8,0 -11,-1 -15.5,0.5 -6,-5 -10,3 -9,0 -13.5,2 -9,-1 -5,3.5 -7.5,2.5 3.5,2.5 10,-5.5 8.5,2 12,-3 7,3.5 10.5,1 3.5,2.5 -9,3 -10,-2 -9.5,-1 -11.5,4.5 -11,0 -6,6.5 -10,1.5 -13,3.5 -12,-2.5 -22.5,3.5 11.5,3 11,0 11.5,-0.5 15.5,0 20.5,1.5 -11,5 -14,-4.5 -16.5,1 -13,0 -14,-1 5.5,6 18,2 16.5,-3 15.5,2 19,-3 14.5,-3 15.5,-5 15.5,-4 8.5,-2 17.5,1.5 12,-1.5 16,-10 18.5,-6.5 23,-7 17,1 12.5,-3 21,-8 6,-4.5 15,-4 6.5,-0.5 17,-6.5 7.5,-7 6.5,-1 11,0.5 7,-3 12.5,4 13.5,-0.5 9,0 17,-7.5 8,-6.5 13,-11.5 16.71875,-15.15625 19.09375,2.125 11.3125,-8.5 L 731.15625,920 750.9375,907.25 764.375,900.90625 770.75,891 l 14.125,-5.65625 7.78125,-17.6875 3.53125,-15.5625 16.28125,-4.21875 7.78125,-16.28125 12,-2.8125 7.78125,-14.875 2.125,-5.65625 11.3125,-7.75 7.09375,4.9375 4.9375,-7.78125 4.9375,-12.71875 2.84375,-10.625 11.3125,-5.65625 2.8125,-7.0625 2.84375,-9.90625 17.6875,-4.25 12.71875,4.25 10.59375,-16.25 10.625,-2.125 1.40625,-9.1875 4.25,-8.5 0.6875,-10.59375 3.5625,-12.03125 3.53125,8.5 2.125,11.3125 9.1875,2.125 0,9.1875 -4.96875,8.46875 0.71875,14.84375 8.46875,1.4375 3.5625,12 -7.78125,12.75 12,-4.96875 10.625,9.90625 -0.75,16.4375 -0.5,6 1.5,6.5 -0.5,6 -2,3 0,3 2.5,4 3.5,3.5 -0.5,7 -2,7 2,5.5 -0.5,7.5 6,5.5 4,7.5 -5.5,3.5 -2.5,6.5 -3,6.5 3,7.5 -5.5,-0.5 -4,4.5 -4.5,5 2,6 0.5,4.5 -3.5,2 1,7 0,3.5 -5,0.5 -1.5,4 0.5,4 -7,5 -1,13.5 -3,0.5 -4,11 -5,10 -0.5,5 7.5,7 7.5,6.5 0.5,9.5 12,4.5 13.5,11.5 14,0 4.5,8.5 13.5,2.75 3.75,1.5 4.25,5.25 6.5,1 6.25,6.5 7.75,2 8.25,6.5 6.25,7 2.25,5 8.5,1.75 2,2.75 7.75,0.25 1.75,4.5 -3.75,1 -0.75,2.75 -3,-1.25 -1.5,4 -3,-2.25 -3.75,0.5 0.25,3 -6.25,-0.75 0.75,3 -5,2 -4.5,9.25 6,-6.25 10.75,-2.25 15.5,-1.75 14.5,-0.25 9.25,2.25 2.75,4 6.75,3.25 4.25,3.5 6.5,2.5 4.25,1 5,5.5 6.5,2 4.5,4 5.75,6.5 6.5,-1.25 7.5,3.75 7.75,0.75 11.75,5 3.5,0.25 5.25,4.75 6,0.5 12.5,3.75 8,-0.75 -7.5,-1.5 -16.5,-5.5 -7.75,-8.25 -7.25,-3 -5,-3 0.25,-2.25 -6.25,-9.25 -6.25,0.75 -7.75,-9.75 11,6.75 -5,-7.5 8,1 7.25,-0.75 1.25,4 9,4.75 10.5,1.75 5.75,4.25 8,5.75 8.75,-1.75 7.25,4.25 3,5.5 6.75,1.25 4,2.75 9,4.25 11.5,0.5 8.25,1.5 10.25,3.25 10.25,3.75 11.75,-2.25 -11.25,0 -5.5,-2.75 -11,-2.75 -12,-4.75 -6.25,-6 -10.25,-3.25 -11,-5.5 9.5,-0.25 4.75,-2.75 6.25,3.25 2.25,5.25 2.25,4.5 5.25,-3.5 1.75,4.5 8.5,1 -5,3 9,0.5 10,0.5 -1.5,4 6,0.5 6,-4 5,3.5 4,4.5 10.5,1.5 7,-0.5 20,2 -17.5,-5.5 -9.5,0.5 -8,-3.5 5,-5.5 -14,-1 -18,-0.5 -0.5,-5 12.5,2.5 18,-2 6.5,4.5 10.5,5 22.5,2.5 28.5,-3 -20.5,-4.5 -9,0.5 -0.5,-4 19,1.5 -9,-4 -13.5,0.5 -15.5,-3 7.5,-4 18.5,-5 -21,2 -18,-0.5 -5.5,-6.5 -7.5,2 -8,-1 -3,-5.5 -6.5,-15 -20,-3 -20.5,-3.5 14.5,-2 -2,-4.5 14,-1.5 -19.5,-0.5 -9,-7.5 -9,1 -8,-5.5 -15,-1 -4,-4.5 -8,-0.5 -10.5,-4.5 -8.5,-2.5 -8.5,-10.5 -8,2 -10.5,-7 -8.5,0 -12.5,-7 -6,-5.5 -7.5,-4.5 -11.5,0 -11,-3.5 -6,-6.5 -11.5,-3 -7.5,-8.5 -6.5,-5 -5.5,-5 -3.5,-7.5 0,-12.5 -10,-9 1.5,-14.5 0,-5.5 -2,-11.5 -3.5,-10 -6,-3 0.5,-11 -2.25,-12.21875 -7.7812,-15.5625 4.25,-4.25 -0.6876,-11.3125 -4.9687,-2.84375 -2.125,-8.46875 4.25,-5.65625 3.5313,-2.125 -1.4063,-9.1875 -3.5313,-9.90625 -2.8437,-7.0625 -3.5313,-5.65625 3.5313,-9.1875 0.7187,-4.96875 -4.25,-6.34375 -2.125,-5.65625 2.125,-10.625 2.125,-2.8125 -4.9374,-16.28125 0,-10.59375 3.5312,-5.65625 -1.4062,-9.1875 -7.7813,-6.375 0,-16.25 -9.9063,-5.6875 -6.375,-11.3125 4.9688,-2.09375 4.2188,2.8125 13.4374,-5.65625 8.5,-4.25 -0.7187,-13.4375 10.625,-5.65625 7.0625,-12 2.125,-4.96875 7.7812,-0.6875 7.7813,-12.03125 1.4063,14.15625 7.0624,16.25 2.8438,6.375 0,12.71875 5.6562,8.46875 -5.6562,7.78125 -6.375,7.09375 0,5.65625 -7.0625,7.0625 4.2187,5.65625 -10.5937,0 -4.25,7.78125 17.6875,4.9375 16.25,-6.34375 18.4062,-1.4375 12,11.3125 7.0938,8.84375 2.4688,18.03125 19.0937,4.59375 7.4063,7.4375 -8.8126,17.3125 10.9376,-0.6875 L 1198,801.5 l 12,9.5 -2,12 10.5,10.5 7,8.5 11.5,-4.5 11.5,8 -18.5,-1 -20,7 -10,-2 13.5,10.5 11,0 9.5,3.5 -2.5,-5 19,4 17,-6 12,10.5 3.5,-2 8.5,8 0.5,7 9,2 4.5,7 10.5,11.5 32.0938,5.6875 8.5,8.5 1.75,8.125 2.125,6.375 7.4374,4.21875 12,3.1875 12.0313,3.1875 3.9063,7.4375 9.5312,-0.71875 13.7812,5.65625 4.5938,7.0625 14.5,3.5625 11.3125,-2.125 13.7813,8.125 12.75,-6.375 12.7187,-1.40625 6.375,6.71875 19.7813,3.1875 13.4374,-3.1875 9.1876,0.34375 -4.2188,5.65625 16.25,0.71875 4.5938,-0.71875 8.8437,0.375 -5.3125,-3.1875 -8.8438,-3.90625 17.6876,0.71875 27.5937,5.3125 22.25,8.125 6.7187,8.46875 12.375,-6 9.9063,4.59375 -9.1875,-8.125 -10.625,3.53125 -0.6875,-4.9375 -3.1875,-4.25 14.8438,1.40625 13.0937,0.34375 14.125,1.4375 10.9687,-5.3125 -14.8437,1.0625 -11.3125,-4.59375 27.9375,1.75 15.1875,-3.15625 -24.4062,-1.78125 -24.75,-1.78125 -6.6876,-5.65625 -23,-5.28125 -29.3437,-7.09375 -17.3125,-9.53125 -12.75,-11.65625 -10.5938,-9.5625 -16.625,-5.65625 -8.125,-9.1875 -10.5937,-0.71875 -13.8125,-6.34375 -9.1875,-1.78125 -1.75,-4.9375 -10.9687,-0.375 -2.8438,-7.40625 -8.8125,-7.4375 11.3125,3.53125 4.5938,-4.59375 11.6562,-1.75 13.4375,-1.78125 -9.9063,-3.1875 2.125,-4.59375 -7.4062,0 -12.0312,-5.65625 -8.5,1.0625 -9.5313,-5.65625 -12.7187,-4.25 8.125,-3.875 14.5,-1.40625 15.1874,0.34375 7.0626,3.875 14.5,-2.8125 L 1492,837.25 l -10.9688,-5.3125 -14.5,-0.6875 -10.5937,-4.59375 -13.4375,2.8125 -17.6875,-1.75 L 1409.625,821 l 15.5625,-1.4375 18.375,2.84375 -9.5625,-7.0625 -17.6562,0 -8.8438,-2.84375 -15.5625,-2.125 16.2813,-2.125 19.7812,1.78125 -5.6562,-4.59375 -16.25,-2.84375 10.9374,-2.09375 -9.1874,-3.5625 -4.25,-4.59375 -13.4063,-2.46875 -10.2813,-1.0625 0.375,-4.25 10.25,1.4375 7.7813,-0.375 4.9375,-2.8125 -14.8438,-2.125 -10.25,-1.40625 2.8126,-2.5 -8.125,-1.40625 -12.375,2.46875 -6.7188,-5.28125 -7.0625,1.0625 -13.0937,-1.0625 14.5,-6.03125 -12,0.375 1.0312,-3.53125 -8.125,0.34375 -12.7188,2.46875 -12.7187,2.84375 -2.5,-2.5 -7.0625,-3.15625 -0.6875,-5.3125 -7.4375,-0.34375 -0.7188,-6.71875 0.7188,-6.375 8.8438,-1.78125 2.8124,-3.15625 -7.4062,-3.90625 -6.7188,-0.71875 -2.8437,-9.1875 4.9687,0 6.3438,2.125 -0.3438,-4.59375 4.9376,-0.34375 -2.4688,-4.59375 -7.4062,-0.375 -7.7813,-1.0625 -4.5937,-6.6875 8.125,2.09375 12,-1.0625 6.7187,3.90625 2.125,-4.9375 18.75,-0.375 7.7813,-0.34375 4.5937,6.71875 7.4375,5.65625 8.4688,6.375 15.5624,-1.0625 3.5313,3.875 3.5313,1.0625 5.6562,5.65625 5.3125,2.8125 3.5313,6.71875 3.5312,2.84375 3.1875,5.65625 5.3125,0 0,3.875 6.7188,2.125 3.5312,4.96875 7.0625,3.53125 1.0625,2.125 -8.8438,0 8.125,3.53125 4.5938,0.6875 1.4375,3.5625 -5.3125,-1.0625 0.3438,4.59375 4.5937,5.28125 8.5,-0.34375 6.375,4.25 3.5313,3.875 -4.9688,-1.0625 -4.5938,1.4375 -6.3437,-0.375 10.25,7.78125 4.5937,-3.53125 8.4688,0.34375 8.8438,1.0625 5.6562,5.3125 -4.9375,-1.0625 -4.25,-0.6875 1.7813,3.15625 8.8124,2.125 4.9688,0.71875 5.6562,-1.0625 3.5313,1.0625 8.125,3.875 -8.125,0 -9.0313,0.1875 -5.125,-2.3125 -3.875,1.59375 -5.6562,1.78125 2.125,0.875 7.0625,-0.34375 4.5937,2.8125 5.3126,1.0625 5.6562,2.84375 8.125,-1.0625 4.9375,2.125 17.3437,-0.71875 6.3438,2.46875 12.75,0 -7.7812,-6.71875 -9.1876,-4.21875 9.5313,-0.71875 6.0313,4.59375 14.4687,8.125 -9.875,3.1875 9.1875,3.1875 9.1875,1.0625 -0.7187,2.8125 3.9062,3.1875 6.7188,4.59375 -5.6563,2.46875 -4.25,-2.46875 -6,2.84375 -4.5937,-1.0625 -6.7188,1.0625 5.6562,2.8125 4.5938,-1.40625 5.6562,-0.71875 5.6563,3.5625 12.375,-0.71875 0,2.8125 -4.9687,3.90625 -7.4063,0.71875 -5.3125,-2.125 3.1875,2.46875 5.3125,1.75 9.5312,1.0625 -6.375,4.25 -7.7812,0.71875 8.5,3.1875 13.4375,-3.90625 -6.375,7.78125 8.125,-3.875 2.125,6 -8.125,6.71875 -10.9687,2.8125 10.9687,0.71875 12.375,-5.3125 7.0625,7.09375 9.2188,-0.71875 6,2.46875 6,-2.8125 3.5312,7.0625 5.3125,-1.40625 -0.3437,3.53125 6.7187,6.71875 13.4375,0.6875 9.5312,0.71875 3.9063,4.25 1.75,-4.59375 3.1875,-1.4375 4.5938,1.78125 5.3124,-1.0625 3.5313,3.1875 4.25,-0.71875 1.75,2.125 11.6875,1.40625 -9.5625,0 -7.7813,1.4375 -2.8124,-3.1875 -5.6563,0.34375 -2.125,1.78125 -7.0937,2.46875 -6.6876,-1.40625 -6.7187,1.40625 -3.1875,3.875 3.1875,3.53125 9.1875,0.71875 4.2188,4.25 4.25,0 1.7812,-2.84375 3.5312,2.125 4.9376,1.4375 -0.3438,-2.84375 8.5,0 5.2812,3.1875 2.4688,-3.1875 5.3125,2.84375 6.375,1.40625 -2.4687,-5.65625 7.7812,0.6875 4.5938,5.3125 5.2812,1.78125 5.3125,3.875 13.0937,-0.71875 3.5313,3.90625 6.7187,-1.40625 3.1876,2.125 15.1874,-2.5 -9.1874,-5.65625 9.9062,3.1875 10.5938,-1.0625 11.3124,8.125 8.5,-1.0625 7.7813,2.125 28.9687,1.4375 -11.3124,-8.5 -14.8438,-3.53125 -9.5312,-7.78125 -8.5,1.40625 -9.5313,-4.9375 -12.0313,-5.65625 -13.4374,-6 -9.9063,-4.25 -2.125,-6.375 -8.125,0 -8.8437,-2.46875 -4.9376,-8.125 -4.5937,0.34375 -1.7813,2.125 -6.7187,-3.1875 -9.9063,-11.65625 -20.5,-8.5 -12.7187,-8.125 -6.375,-1.0625 -1.75,-5.65625 L 1646,848.5 l -23.5,-17 20.5,8 11.5,2.5 14,-2.5 6,8.5 7,0 2,5 10,0 6,2.5 7,10 18,3.5 17,13 17.5,7.5 7.5,12 26.5,-0.5 23.5,8 44.5,-5.5 3.5,8.5 20.5,8.5 53.6562,14.90625 -4,-93.90625 -42.0937,11.3125 -41.3437,-10.59375 -24.4063,2.09375 -42.7813,-4.59375 -44.1874,-0.6875 -31.4688,-5.3125 -10.25,-10.96875 -19.4688,-10.9375 -18.375,-8.15625 -15.9062,-6 -21.9062,-4.9375 -27.5938,-10.96875 -4.5938,-19.09375 -16.25,-11.65625 -6.7187,-6.375 -5.3125,-0.71875 -7.4375,-9.875 -26.1563,-6.375 -33.5937,-21.5625 -3.5313,0.34375 -15.5624,-26.5 2.5,-9.90625 -4.25,-4.96875 -4.5938,2.5 -3.1875,-3.90625 -6.7187,-3.875 -4.25,0 -10.25,-8.15625 0,-6.71875 4.5937,-1.40625 -1.0625,-10.59375 -10.9375,-6.71875 -4.9687,1.75 -5.6563,-4.9375 -13.4375,-2.8125 -1.75,9.875 -3.9062,0.71875 -3.1876,6.71875 -6.7187,1.0625 -0.3437,3.53125 -8.8438,1.78125 -6.7188,-3.90625 -5.6562,1.78125 -16.9688,-0.375 -3.5312,-3.875 0.3438,-11.3125 4.5937,-3.53125 -0.3437,-9.1875 -5.3126,-6.03125 -7.0624,-2.125 2.125,-3.875 2.125,-8.125 -8.125,-3.53125 -8.5,-2.125 -15.5626,-13.4375 -13.7812,-7.4375 -2.4688,-6 1.0626,-8.5 -4.9376,-12.71875 -11.6874,-6.71875 -16.625,-6 -9.5313,-2.125 -8.8437,-7.4375 -6.7188,-5.65625 3.9062,-5.28125 -4.25,-8.15625 -15.9062,-2.8125 -3.5312,-3.90625 -4.25,1.78125 -4.5938,-6 -14.8438,-3.1875 -21.5937,-16.28125 -3.1563,-0.34375 -2.8437,-5.65625 -9.1875,-7.0625 -4.25,-1.4375 -12.7188,-13.78125 -9.9062,-12.71875 -9.5312,0.34375 -1.0626,-4.59375 3.1563,-4.25 -2.0937,-5.65625 -3.1876,0.375 -2.4687,-3.53125 -4.9687,2.8125 -4.5938,-3.53125 z"
+       style="fill:#5a0000;fill-opacity:1;stroke:#000000;stroke-opacity:1;display:inline;filter:url(#filter6258)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="bottom roughen"
+     style="display:inline"
+     sodipodi:insensitive="true"
+     transform="translate(0,-120)">
+    <path
+       style="fill:url(#radialGradient4162);fill-opacity:1;stroke:none;filter:url(#filter3896)"
+       d="m -293.59375,585.80932 0,830.40618 2507.18755,0 0,-830.40618 C 1998.0094,909.94053 1517.8016,1135.5548 960,1135.5548 c -557.80155,0 -1038.009439,-225.61427 -1253.59375,-549.74548 z"
+       id="rect2982"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

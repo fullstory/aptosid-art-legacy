@@ -19,6 +19,11 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2.0+
 
+Files: aether/dm-sddm/Main.qml
+Copyright: 2013, Abdurrahman AVCI <abdurrahmanavci@gmail.com>
+           2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+License: SDDM-Main.qml
+
 Files: apate/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2009, David Creedy <djcreedy@iinet.net.au>
@@ -37,6 +42,11 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2.0+
 
+Files: apate/dm-sddm/Main.qml
+Copyright: 2013, Abdurrahman AVCI <abdurrahmanavci@gmail.com>
+           2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+License: SDDM-Main.qml
+
 Files: apate/splash-kde/svg-anim.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
 License: GPL-2.0+
@@ -51,6 +61,11 @@ Copyright: 2006, Marcin Biernat (Boski Cinek) <boski_cinek@o2.pl>
            2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2.0
 
+Files: erebos/dm-sddm/Main.qml
+Copyright: 2013, Abdurrahman AVCI <abdurrahmanavci@gmail.com>
+           2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+License: SDDM-Main.qml
+
 Files: erebos/theme-kde/*
 Copyright: 2008, knithx <knithx@gmail.com>
            2007-2009, Bernard Gray <bernard.gray@gmail.com>
@@ -60,6 +75,11 @@ Files: eros/*
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2.0+
 
+Files: eros/dm-sddm/Main.qml
+Copyright: 2013, Abdurrahman AVCI <abdurrahmanavci@gmail.com>
+           2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+License: SDDM-Main.qml
+
 Files: eros/theme-kde/*
 Copyright: 2007, knithx <knithx@gmail.com>
            2007-2009, Bernard Gray <bernard.gray@gmail.com>
@@ -68,6 +88,11 @@ License: GPL-2.0+
 Files: gaia/*
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2.0+
+
+Files: gaia/dm-sddm/Main.qml
+Copyright: 2013, Abdurrahman AVCI <abdurrahmanavci@gmail.com>
+           2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+License: SDDM-Main.qml
 
 Files: gaia/splash-kde/*
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
@@ -93,6 +118,11 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2.0+
 
+Files: geras/dm-sddm/Main.qml
+Copyright: 2013, Abdurrahman AVCI <abdurrahmanavci@gmail.com>
+           2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+License: SDDM-Main.qml
+
 Files: hesperides/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2007-2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
@@ -111,6 +141,11 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2.0+
+
+Files: hesperides/dm-sddm/Main.qml
+Copyright: 2013, Abdurrahman AVCI <abdurrahmanavci@gmail.com>
+           2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+License: SDDM-Main.qml
 
 Files: hesperides/splash-kde/composite_pngs.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
@@ -133,6 +168,11 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2.0+
+
+Files: hypnos/dm-sddm/Main.qml
+Copyright: 2013, Abdurrahman AVCI <abdurrahmanavci@gmail.com>
+           2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+License: SDDM-Main.qml
 
 Files: hypnos/splash-kde/svg-anim-r2skew2-fix.pl
        hypnos/splash-kde/composite_pngs.pl
@@ -158,6 +198,11 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2.0+
 
+Files: imera/dm-sddm/Main.qml
+Copyright: 2013, Abdurrahman AVCI <abdurrahmanavci@gmail.com>
+           2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+License: SDDM-Main.qml
+
 Files: imera/splash-kde/svg-anim.pl
        imera/splash-kde/composite_pngs.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
@@ -180,6 +225,11 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2.0+
+
+Files: keres/dm-sddm/Main.qml
+Copyright: 2013, Abdurrahman AVCI <abdurrahmanavci@gmail.com>
+           2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+License: SDDM-Main.qml
 
 Files: keres/splash-kde/svg-anim.pl
        keres/splash-kde/composite_pngs.pl
@@ -204,6 +254,11 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2.0+
 
+Files: momos/dm-sddm/Main.qml
+Copyright: 2013, Abdurrahman AVCI <abdurrahmanavci@gmail.com>
+           2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+License: SDDM-Main.qml
+
 Files: moros/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2009, David Creedy <djcreedy@iinet.net.au>
@@ -220,6 +275,11 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2.0+
+
+Files: moros/dm-sddm/Main.qml
+Copyright: 2013, Abdurrahman AVCI <abdurrahmanavci@gmail.com>
+           2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+License: SDDM-Main.qml
 
 Files: nemesis/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
@@ -240,6 +300,11 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2.0+
+
+Files: nemesis/dm-sddm/Main.qml
+Copyright: 2013, Abdurrahman AVCI <abdurrahmanavci@gmail.com>
+           2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+License: SDDM-Main.qml
 
 Files: nemesis/splash-kde/svg-anim.pl
        nemesis/splash-kde/composite_pngs.pl
@@ -267,9 +332,19 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2.0+
 
+Files: nyx/dm-sddm/Main.qml
+Copyright: 2013, Abdurrahman AVCI <abdurrahmanavci@gmail.com>
+           2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+License: SDDM-Main.qml
+
 Files: ouranos/*
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2.0+
+
+Files: ouranos/dm-sddm/Main.qml
+Copyright: 2013, Abdurrahman AVCI <abdurrahmanavci@gmail.com>
+           2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+License: SDDM-Main.qml
 
 Files: ouranos/theme-kde/aptosid-ouranos-il_silver.kcsrc
 Copyright: 2008, knithx <knithx@gmail.com>
@@ -299,6 +374,11 @@ Copyright: 2008, Daniel Prien <d-s-p@d-s-p.de>
            2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2.0
 
+Files: ourea/dm-sddm/Main.qml
+Copyright: 2013, Abdurrahman AVCI <abdurrahmanavci@gmail.com>
+           2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+License: SDDM-Main.qml
+
 Files: ponos/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2007-2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
@@ -318,6 +398,11 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2.0+
 
+Files: ponos/dm-sddm/Main.qml
+Copyright: 2013, Abdurrahman AVCI <abdurrahmanavci@gmail.com>
+           2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+License: SDDM-Main.qml
+
 Files: ponos/splash-kde/svg-anim.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
 License: GPL-2.0+
@@ -325,6 +410,11 @@ License: GPL-2.0+
 Files: pontos/*
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2.0+
+
+Files: pontos/dm-sddm/Main.qml
+Copyright: 2013, Abdurrahman AVCI <abdurrahmanavci@gmail.com>
+           2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+License: SDDM-Main.qml
 
 Files: thanatos/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
@@ -344,6 +434,11 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2.0+
+
+Files: thanatos/dm-sddm/Main.qml
+Copyright: 2013, Abdurrahman AVCI <abdurrahmanavci@gmail.com>
+           2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+License: SDDM-Main.qml
 
 Files: thanatos/splash-kde/svg-anim.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
@@ -367,6 +462,11 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2.0+
+
+Files: void/dm-sddm/Main.qml
+Copyright: 2013, Abdurrahman AVCI <abdurrahmanavci@gmail.com>
+           2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+License: SDDM-Main.qml
 
 Files: void/splash-kde/svg-anim.pl
        void/splash-kde/composite_pngs.pl
@@ -784,3 +884,22 @@ License: LGPL-2.0+
  On Debian systems, the complete text of the GNU Lesser General
  Public License can be found in '/usr/share/common-licenses/LGPL-2'.
 
+License: SDDM-Main.qml
+ Permission is hereby granted, free of charge, to any person
+ obtaining a copy of this software and associated documentation
+ files (the "Software"), to deal in the Software without restriction,
+ including without limitation the rights to use, copy, modify, merge,
+ publish, distribute, sublicense, and/or sell copies of the Software,
+ and to permit persons to whom the Software is furnished to do so,
+ subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+ OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+ OR OTHER DEALINGS IN THE SOFTWARE.

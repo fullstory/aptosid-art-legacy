@@ -42,8 +42,8 @@ Description: KDE theme for the aptosid void release
 
 Package: aptosid-art-kdm-void
 Architecture: all
-Depends: ${misc:Depends},
- kdm
+Depends: ${misc:Depends}
+Recommends: kdm
 Description: KDM theme for the aptosid void release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
@@ -61,6 +61,21 @@ Description: KDE ksplash theme for the aptosid void release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
  KDE ksplash artwork for: aptosid void (άκυρος)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
+Package: aptosid-art-sddm-void
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: sddm
+Provides: sddm-theme,
+ sddm-theme-aptosid
+Description: sddm theme for the aptosid void release
+ release specific artwork theme for the sddm display manager to be used in
+ combination with the K Desktop Environment.
+ .
+ sddm artwork for: aptosid void (άκυρος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -131,8 +146,8 @@ Description: KDE theme for the aptosid 2010-02 release
 
 Package: aptosid-art-kdm-keres
 Architecture: all
-Depends: ${misc:Depends},
- kdm
+Depends: ${misc:Depends}
+Recommends: kdm
 Description: KDM theme for the aptosid 2010-02 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
@@ -150,6 +165,21 @@ Description: KDE ksplash theme for the aptosid 2010-02 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
  KDE ksplash artwork for: aptosid 2010-02 (Κῆρες)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
+Package: aptosid-art-sddm-keres
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: sddm
+Provides: sddm-theme,
+ sddm-theme-aptosid
+Description: sddm theme for the aptosid 2010-02 release
+ release specific artwork theme for the sddm display manager to be used in
+ combination with the K Desktop Environment.
+ .
+ sddm artwork for: aptosid 2010-02 (Κῆρες)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -220,8 +250,8 @@ Description: KDE theme for the aptosid 2010-03 release
 
 Package: aptosid-art-kdm-apate
 Architecture: all
-Depends: ${misc:Depends},
- kdm
+Depends: ${misc:Depends}
+Recommends: kdm
 Description: KDM theme for the aptosid 2010-03 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
@@ -239,6 +269,21 @@ Description: KDE ksplash theme for the aptosid 2010-03 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
  KDE ksplash artwork for: aptosid 2010-03 (Ἀπάτη)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
+Package: aptosid-art-sddm-apate
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: sddm
+Provides: sddm-theme,
+ sddm-theme-aptosid
+Description: sddm theme for the aptosid 2010-03 release
+ release specific artwork theme for the sddm display manager to be used in
+ combination with the K Desktop Environment.
+ .
+ sddm artwork for: aptosid 2010-03 (Ἀπάτη)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -309,8 +354,8 @@ Description: KDE theme for the aptosid 2011-01 release
 
 Package: aptosid-art-kdm-geras
 Architecture: all
-Depends: ${misc:Depends},
- kdm
+Depends: ${misc:Depends}
+Recommends: kdm
 Description: KDM theme for the aptosid 2011-01 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
@@ -328,6 +373,21 @@ Description: KDE ksplash theme for the aptosid 2011-01 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
  KDE ksplash artwork for: aptosid 2011-01 (Γῆρας)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
+Package: aptosid-art-sddm-geras
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: sddm
+Provides: sddm-theme,
+ sddm-theme-aptosid
+Description: sddm theme for the aptosid 2011-01 release
+ release specific artwork theme for the sddm display manager to be used in
+ combination with the K Desktop Environment.
+ .
+ sddm artwork for: aptosid 2011-01 (Γῆρας)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -398,8 +458,8 @@ Description: KDE theme for the aptosid 2011-02 release
 
 Package: aptosid-art-kdm-imera
 Architecture: all
-Depends: ${misc:Depends},
- kdm
+Depends: ${misc:Depends}
+Recommends: kdm
 Description: KDM theme for the aptosid 2011-02 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
@@ -417,6 +477,21 @@ Description: KDE ksplash theme for the aptosid 2011-02 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
  KDE ksplash artwork for: aptosid 2011-02 (Ἡμέρα)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
+Package: aptosid-art-sddm-imera
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: sddm
+Provides: sddm-theme,
+ sddm-theme-aptosid
+Description: sddm theme for the aptosid 2011-02 release
+ release specific artwork theme for the sddm display manager to be used in
+ combination with the K Desktop Environment.
+ .
+ sddm artwork for: aptosid 2011-02 (Ἡμέρα)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -487,8 +562,8 @@ Description: KDE theme for the aptosid 2011-03 release
 
 Package: aptosid-art-kdm-ponos
 Architecture: all
-Depends: ${misc:Depends},
- kdm
+Depends: ${misc:Depends}
+Recommends: kdm
 Description: KDM theme for the aptosid 2011-03 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
@@ -506,6 +581,21 @@ Description: KDE ksplash theme for the aptosid 2011-03 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
  KDE ksplash artwork for: aptosid 2011-03 (Πόνος)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
+Package: aptosid-art-sddm-ponos
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: sddm
+Provides: sddm-theme,
+ sddm-theme-aptosid
+Description: sddm theme for the aptosid 2011-03 release
+ release specific artwork theme for the sddm display manager to be used in
+ combination with the K Desktop Environment.
+ .
+ sddm artwork for: aptosid 2011-03 (Πόνος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -576,8 +666,8 @@ Description: KDE theme for the aptosid 2012-01 release
 
 Package: aptosid-art-kdm-thanatos
 Architecture: all
-Depends: ${misc:Depends},
- kdm
+Depends: ${misc:Depends}
+Recommends: kdm
 Description: KDM theme for the aptosid 2012-01 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
@@ -595,6 +685,21 @@ Description: KDE ksplash theme for the aptosid 2012-01 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
  KDE ksplash artwork for: aptosid 2012-01 (Θάνατος)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
+Package: aptosid-art-sddm-thanatos
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: sddm
+Provides: sddm-theme,
+ sddm-theme-aptosid
+Description: sddm theme for the aptosid 2012-01 release
+ release specific artwork theme for the sddm display manager to be used in
+ combination with the K Desktop Environment.
+ .
+ sddm artwork for: aptosid 2012-01 (Θάνατος)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -665,8 +770,8 @@ Description: KDE theme for the aptosid 2013-01 release
 
 Package: aptosid-art-kdm-hesperides
 Architecture: all
-Depends: ${misc:Depends},
- kdm
+Depends: ${misc:Depends}
+Recommends: kdm
 Description: KDM theme for the aptosid 2013-01 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
@@ -684,6 +789,21 @@ Description: KDE ksplash theme for the aptosid 2013-01 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
  KDE ksplash artwork for: aptosid 2013-01 (Ἑσπερίδες)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
+Package: aptosid-art-sddm-hesperides
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: sddm
+Provides: sddm-theme,
+ sddm-theme-aptosid
+Description: sddm theme for the aptosid 2013-01 release
+ release specific artwork theme for the sddm display manager to be used in
+ combination with the K Desktop Environment.
+ .
+ sddm artwork for: aptosid 2013-01 (Ἑσπερίδες)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -754,8 +874,8 @@ Description: KDE theme for the aptosid 2015-01 release
 
 Package: aptosid-art-kdm-nemesis
 Architecture: all
-Depends: ${misc:Depends},
- kdm
+Depends: ${misc:Depends}
+Recommends: kdm
 Description: KDM theme for the aptosid 2015-01 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
@@ -773,6 +893,21 @@ Description: KDE ksplash theme for the aptosid 2015-01 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
  KDE ksplash artwork for: aptosid 2015-01 (Νέμεσις)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
+Package: aptosid-art-sddm-nemesis
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: sddm
+Provides: sddm-theme,
+ sddm-theme-aptosid
+Description: sddm theme for the aptosid 2015-01 release
+ release specific artwork theme for the sddm display manager to be used in
+ combination with the K Desktop Environment.
+ .
+ sddm artwork for: aptosid 2015-01 (Νέμεσις)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.

@@ -1,6 +1,10 @@
 aptosid-art-legacy (2015.01.1) UNRELEASED; urgency=medium
 
   * NOT RELEASED YET
+  * add sddm themes based on upstream's sddm-themes-maldives for aptosid.
+  * remove individual COPYRIGHT files for each release artwork,
+    debian/copyright covers this.
+  * only recommend kdm/ sddm from their theme packages.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 04 Jan 2015 03:22:16 +0100
 

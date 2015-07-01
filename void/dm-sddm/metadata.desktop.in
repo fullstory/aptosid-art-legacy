@@ -1,0 +1,16 @@
+[SddmGreeterTheme]
+Name=@CODENAME_SAFE@
+Description=@CODENAME_SAFE@ Theme for aptosid
+Author=Stefan Lippers-Hollmann
+Copyright=(c) 2015, Stefan Lippers-Hollmann
+License=GPL2
+Type=sddm-theme
+Version=@VERSION@
+Website=https://github.com/fullstory/aptosid-art-legacy
+Screenshot=@CODENAME_SAFE@.jpg
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Email=s.l-h@gmx.de
+Theme-Id=@CODENAME_SAFE@
+Theme-API=2.0
