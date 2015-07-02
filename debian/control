@@ -31,7 +31,8 @@ Architecture: all
 Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
  aptosid-art-ksplash-void,
- aptosid-art-kdm-void
+ aptosid-art-kdm-void,
+ aptosid-art-sddm-void
 Recommends: aptosid-art-wallpaper-void,
  dmz-cursor-theme
 Description: KDE theme for the aptosid void release
@@ -56,8 +57,8 @@ Description: KDM theme for the aptosid void release
 
 Package: aptosid-art-ksplash-void
 Architecture: all
-Depends: ${misc:Depends},
- kde-workspace-bin
+Depends: ${misc:Depends}
+Recommends: kde-workspace-bin
 Description: KDE ksplash theme for the aptosid void release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
@@ -109,8 +110,8 @@ Description: Xfce theme for the aptosid void release
 
 Package: aptosid-art-xsplash-void
 Architecture: all
-Depends: ${misc:Depends},
- xfce4-session
+Depends: ${misc:Depends}
+Recommends: xfce4-session
 Description: Xfce splash theme for the aptosid void release
  release specific Xfce splash theme, based on the balou theme engine.
  .
@@ -135,7 +136,8 @@ Architecture: all
 Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
  aptosid-art-ksplash-keres,
- aptosid-art-kdm-keres
+ aptosid-art-kdm-keres,
+ aptosid-art-sddm-keres
 Recommends: aptosid-art-wallpaper-keres,
  dmz-cursor-theme
 Description: KDE theme for the aptosid 2010-02 release
@@ -160,8 +162,8 @@ Description: KDM theme for the aptosid 2010-02 release
 
 Package: aptosid-art-ksplash-keres
 Architecture: all
-Depends: ${misc:Depends},
- kde-workspace-bin
+Depends: ${misc:Depends}
+Recommends: kde-workspace-bin
 Description: KDE ksplash theme for the aptosid 2010-02 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
@@ -213,8 +215,8 @@ Description: Xfce theme for the aptosid 2010-02 release
 
 Package: aptosid-art-xsplash-keres
 Architecture: all
-Depends: ${misc:Depends},
- xfce4-session
+Depends: ${misc:Depends}
+Recommends: xfce4-session
 Description: Xfce splash theme for the aptosid 2010-02 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
@@ -239,7 +241,8 @@ Architecture: all
 Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
  aptosid-art-ksplash-apate,
- aptosid-art-kdm-apate
+ aptosid-art-kdm-apate,
+ aptosid-art-sddm-apate
 Recommends: aptosid-art-wallpaper-apate,
  dmz-cursor-theme
 Description: KDE theme for the aptosid 2010-03 release
@@ -264,8 +267,8 @@ Description: KDM theme for the aptosid 2010-03 release
 
 Package: aptosid-art-ksplash-apate
 Architecture: all
-Depends: ${misc:Depends},
- kde-workspace-bin
+Depends: ${misc:Depends}
+Recommends: kde-workspace-bin
 Description: KDE ksplash theme for the aptosid 2010-03 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
@@ -317,8 +320,8 @@ Description: Xfce theme for the aptosid 2010-03 release
 
 Package: aptosid-art-xsplash-apate
 Architecture: all
-Depends: ${misc:Depends},
- xfce4-session
+Depends: ${misc:Depends}
+Recommends: xfce4-session
 Description: Xfce splash theme for the aptosid 2010-03 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
@@ -343,7 +346,8 @@ Architecture: all
 Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
  aptosid-art-ksplash-geras,
- aptosid-art-kdm-geras
+ aptosid-art-kdm-geras,
+ aptosid-art-sddm-geras
 Recommends: aptosid-art-wallpaper-geras,
  dmz-cursor-theme
 Description: KDE theme for the aptosid 2011-01 release
@@ -368,8 +372,8 @@ Description: KDM theme for the aptosid 2011-01 release
 
 Package: aptosid-art-ksplash-geras
 Architecture: all
-Depends: ${misc:Depends},
- kde-workspace-bin
+Depends: ${misc:Depends}
+Recommends: kde-workspace-bin
 Description: KDE ksplash theme for the aptosid 2011-01 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
@@ -421,8 +425,8 @@ Description: Xfce theme for the aptosid 2011-01 release
 
 Package: aptosid-art-xsplash-geras
 Architecture: all
-Depends: ${misc:Depends},
- xfce4-session
+Depends: ${misc:Depends}
+Recommends: xfce4-session
 Description: Xfce splash theme for the aptosid 2011-01 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
@@ -447,7 +451,8 @@ Architecture: all
 Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
  aptosid-art-ksplash-imera,
- aptosid-art-kdm-imera
+ aptosid-art-kdm-imera,
+ aptosid-art-sddm-imera
 Recommends: aptosid-art-wallpaper-imera,
  dmz-cursor-theme
 Description: KDE theme for the aptosid 2011-02 release
@@ -472,8 +477,8 @@ Description: KDM theme for the aptosid 2011-02 release
 
 Package: aptosid-art-ksplash-imera
 Architecture: all
-Depends: ${misc:Depends},
- kde-workspace-bin
+Depends: ${misc:Depends}
+Recommends: kde-workspace-bin
 Description: KDE ksplash theme for the aptosid 2011-02 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
@@ -525,8 +530,8 @@ Description: Xfce theme for the aptosid 2011-02 release
 
 Package: aptosid-art-xsplash-imera
 Architecture: all
-Depends: ${misc:Depends},
- xfce4-session
+Depends: ${misc:Depends}
+Recommends: xfce4-session
 Description: Xfce splash theme for the aptosid 2011-02 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
@@ -551,7 +556,8 @@ Architecture: all
 Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
  aptosid-art-ksplash-ponos,
- aptosid-art-kdm-ponos
+ aptosid-art-kdm-ponos,
+ aptosid-art-sddm-ponos
 Recommends: aptosid-art-wallpaper-ponos,
  dmz-cursor-theme
 Description: KDE theme for the aptosid 2011-03 release
@@ -576,8 +582,8 @@ Description: KDM theme for the aptosid 2011-03 release
 
 Package: aptosid-art-ksplash-ponos
 Architecture: all
-Depends: ${misc:Depends},
- kde-workspace-bin
+Depends: ${misc:Depends}
+Recommends: kde-workspace-bin
 Description: KDE ksplash theme for the aptosid 2011-03 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
@@ -629,8 +635,8 @@ Description: Xfce theme for the aptosid 2011-03 release
 
 Package: aptosid-art-xsplash-ponos
 Architecture: all
-Depends: ${misc:Depends},
- xfce4-session
+Depends: ${misc:Depends}
+Recommends: xfce4-session
 Description: Xfce splash theme for the aptosid 2011-03 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
@@ -655,7 +661,8 @@ Architecture: all
 Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
  aptosid-art-ksplash-thanatos,
- aptosid-art-kdm-thanatos
+ aptosid-art-kdm-thanatos,
+ aptosid-art-sddm-thanatos
 Recommends: aptosid-art-wallpaper-thanatos,
  dmz-cursor-theme
 Description: KDE theme for the aptosid 2012-01 release
@@ -680,8 +687,8 @@ Description: KDM theme for the aptosid 2012-01 release
 
 Package: aptosid-art-ksplash-thanatos
 Architecture: all
-Depends: ${misc:Depends},
- kde-workspace-bin
+Depends: ${misc:Depends}
+Recommends: kde-workspace-bin
 Description: KDE ksplash theme for the aptosid 2012-01 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
@@ -733,8 +740,8 @@ Description: Xfce theme for the aptosid 2012-01 release
 
 Package: aptosid-art-xsplash-thanatos
 Architecture: all
-Depends: ${misc:Depends},
- xfce4-session
+Depends: ${misc:Depends}
+Recommends: xfce4-session
 Description: Xfce splash theme for the aptosid 2012-01 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
@@ -759,7 +766,8 @@ Architecture: all
 Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
  aptosid-art-ksplash-hesperides,
- aptosid-art-kdm-hesperides
+ aptosid-art-kdm-hesperides,
+ aptosid-art-sddm-hesperides
 Recommends: aptosid-art-wallpaper-hesperides,
  dmz-cursor-theme
 Description: KDE theme for the aptosid 2013-01 release
@@ -784,8 +792,8 @@ Description: KDM theme for the aptosid 2013-01 release
 
 Package: aptosid-art-ksplash-hesperides
 Architecture: all
-Depends: ${misc:Depends},
- kde-workspace-bin
+Depends: ${misc:Depends}
+Recommends: kde-workspace-bin
 Description: KDE ksplash theme for the aptosid 2013-01 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
@@ -837,8 +845,8 @@ Description: Xfce theme for the aptosid 2013-01 release
 
 Package: aptosid-art-xsplash-hesperides
 Architecture: all
-Depends: ${misc:Depends},
- xfce4-session
+Depends: ${misc:Depends}
+Recommends: xfce4-session
 Description: Xfce splash theme for the aptosid 2013-01 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
@@ -863,7 +871,8 @@ Architecture: all
 Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
  aptosid-art-ksplash-nemesis,
- aptosid-art-kdm-nemesis
+ aptosid-art-kdm-nemesis,
+ aptosid-art-sddm-nemesis
 Recommends: aptosid-art-wallpaper-nemesis,
  dmz-cursor-theme
 Description: KDE theme for the aptosid 2015-01 release
@@ -888,8 +897,8 @@ Description: KDM theme for the aptosid 2015-01 release
 
 Package: aptosid-art-ksplash-nemesis
 Architecture: all
-Depends: ${misc:Depends},
- kde-workspace-bin
+Depends: ${misc:Depends}
+Recommends: kde-workspace-bin
 Description: KDE ksplash theme for the aptosid 2015-01 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
@@ -941,8 +950,8 @@ Description: Xfce theme for the aptosid 2015-01 release
 
 Package: aptosid-art-xsplash-nemesis
 Architecture: all
-Depends: ${misc:Depends},
- xfce4-session
+Depends: ${misc:Depends}
+Recommends: xfce4-session
 Description: Xfce splash theme for the aptosid 2015-01 release
  release specific Xfce splash theme, based on the balou theme engine.
  .

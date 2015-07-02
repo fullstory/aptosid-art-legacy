@@ -1,8 +1,12 @@
-aptosid-art-legacy (2015.01.2) UNRELEASED; urgency=medium
+aptosid-art-legacy (2015.01.2) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * add aptosid-art-sddm-@CODENAME_SAFE@ as a hard dependency to
+    aptosid-art-kde-theme, in addition to kdm for the time being (it's rather
+    small).
+  * demote hard dependencies on kde-workspace-bin or xfce4-session to
+    recommends.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 02 Jul 2015 01:28:50 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 02 Jul 2015 02:18:47 +0200
 
 aptosid-art-legacy (2015.01.1) unstable; urgency=medium
 

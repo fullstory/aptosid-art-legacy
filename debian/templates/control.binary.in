@@ -14,7 +14,8 @@ Architecture: all
 Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
  aptosid-art-ksplash-@CODENAME_SAFE@,
- aptosid-art-kdm-@CODENAME_SAFE@
+ aptosid-art-kdm-@CODENAME_SAFE@,
+ aptosid-art-sddm-@CODENAME_SAFE@
 Recommends: aptosid-art-wallpaper-@CODENAME_SAFE@,
  dmz-cursor-theme
 Description: KDE theme for the aptosid @VERSION@ release
@@ -39,8 +40,8 @@ Description: KDM theme for the aptosid @VERSION@ release
 
 Package: aptosid-art-ksplash-@CODENAME_SAFE@
 Architecture: all
-Depends: ${misc:Depends},
- kde-workspace-bin
+Depends: ${misc:Depends}
+Recommends: kde-workspace-bin
 Description: KDE ksplash theme for the aptosid @VERSION@ release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
@@ -92,8 +93,8 @@ Description: Xfce theme for the aptosid @VERSION@ release
 
 Package: aptosid-art-xsplash-@CODENAME_SAFE@
 Architecture: all
-Depends: ${misc:Depends},
- xfce4-session
+Depends: ${misc:Depends}
+Recommends: xfce4-session
 Description: Xfce splash theme for the aptosid @VERSION@ release
  release specific Xfce splash theme, based on the balou theme engine.
  .
