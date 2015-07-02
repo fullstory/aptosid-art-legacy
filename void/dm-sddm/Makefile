@@ -39,7 +39,7 @@ angle-down:
 rectangle:
 	mkdir -p $(THEME)
 	inkscape --without-gui \
-		--export-area=752:409:1168:671 \
+		--export-area=800:380:1120:700 \
 		--export-width=416 \
 		--export-height=262 \
 		--export-png="$(THEME)/$@.png" \
@@ -60,14 +60,12 @@ preview:
 	convert \
 		"$(THEME)/_$(lastword $(subst -, ,$(THEME)))-back.png" \
 		"$(THEME)/_$(lastword $(subst -, ,$(THEME)))-rect.png" \
-		-compose screen \
 			-composite "$(THEME)/_$(lastword $(subst -, ,$(THEME)))_0.png"
 	$(RM)	"$(THEME)/_$(lastword $(subst -, ,$(THEME)))-back.png" \
 		"$(THEME)/_$(lastword $(subst -, ,$(THEME)))-rect.png"
 	convert \
 		"$(THEME)/_$(lastword $(subst -, ,$(THEME)))_0.png" \
 		preview-mask.png \
-		-compose screen \
 			-composite "$(THEME)/$(lastword $(subst -, ,$(THEME))).jpg"
 	$(RM) "$(THEME)/_$(lastword $(subst -, ,$(THEME)))_0.png"
 

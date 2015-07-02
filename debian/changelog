@@ -1,8 +1,8 @@
-aptosid-art-legacy (2015.01.3) UNRELEASED; urgency=medium
+aptosid-art-legacy (2015.01.3) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * fix preview generation for sddm themes.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 02 Jul 2015 02:20:06 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 02 Jul 2015 23:20:19 +0200
 
 aptosid-art-legacy (2015.01.2) unstable; urgency=medium
 
