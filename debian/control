@@ -31,12 +31,11 @@ Architecture: all
 Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
  aptosid-art-ksplash-void,
- aptosid-art-kdm-void,
  aptosid-art-sddm-void
 Recommends: aptosid-art-wallpaper-void,
  dmz-cursor-theme
 Description: KDE theme for the aptosid void release
- release specific metapackage depending on ksplash, kdm and KDE themes to be
+ release specific metapackage depending on ksplash, sddm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
@@ -44,7 +43,8 @@ Description: KDE theme for the aptosid void release
 
 Package: aptosid-art-kdm-void
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},
+ aptosid-art-sddm-void
 Recommends: kdm
 Description: KDM theme for the aptosid void release
  release specific artwork theme for the KDM display manager to be used in
@@ -136,12 +136,11 @@ Architecture: all
 Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
  aptosid-art-ksplash-keres,
- aptosid-art-kdm-keres,
  aptosid-art-sddm-keres
 Recommends: aptosid-art-wallpaper-keres,
  dmz-cursor-theme
 Description: KDE theme for the aptosid 2010-02 release
- release specific metapackage depending on ksplash, kdm and KDE themes to be
+ release specific metapackage depending on ksplash, sddm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
@@ -149,7 +148,8 @@ Description: KDE theme for the aptosid 2010-02 release
 
 Package: aptosid-art-kdm-keres
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},
+ aptosid-art-sddm-keres
 Recommends: kdm
 Description: KDM theme for the aptosid 2010-02 release
  release specific artwork theme for the KDM display manager to be used in
@@ -241,12 +241,11 @@ Architecture: all
 Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
  aptosid-art-ksplash-apate,
- aptosid-art-kdm-apate,
  aptosid-art-sddm-apate
 Recommends: aptosid-art-wallpaper-apate,
  dmz-cursor-theme
 Description: KDE theme for the aptosid 2010-03 release
- release specific metapackage depending on ksplash, kdm and KDE themes to be
+ release specific metapackage depending on ksplash, sddm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
@@ -254,7 +253,8 @@ Description: KDE theme for the aptosid 2010-03 release
 
 Package: aptosid-art-kdm-apate
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},
+ aptosid-art-sddm-apate
 Recommends: kdm
 Description: KDM theme for the aptosid 2010-03 release
  release specific artwork theme for the KDM display manager to be used in
@@ -346,12 +346,11 @@ Architecture: all
 Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
  aptosid-art-ksplash-geras,
- aptosid-art-kdm-geras,
  aptosid-art-sddm-geras
 Recommends: aptosid-art-wallpaper-geras,
  dmz-cursor-theme
 Description: KDE theme for the aptosid 2011-01 release
- release specific metapackage depending on ksplash, kdm and KDE themes to be
+ release specific metapackage depending on ksplash, sddm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
@@ -359,7 +358,8 @@ Description: KDE theme for the aptosid 2011-01 release
 
 Package: aptosid-art-kdm-geras
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},
+ aptosid-art-sddm-geras
 Recommends: kdm
 Description: KDM theme for the aptosid 2011-01 release
  release specific artwork theme for the KDM display manager to be used in
@@ -451,12 +451,11 @@ Architecture: all
 Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
  aptosid-art-ksplash-imera,
- aptosid-art-kdm-imera,
  aptosid-art-sddm-imera
 Recommends: aptosid-art-wallpaper-imera,
  dmz-cursor-theme
 Description: KDE theme for the aptosid 2011-02 release
- release specific metapackage depending on ksplash, kdm and KDE themes to be
+ release specific metapackage depending on ksplash, sddm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
@@ -464,7 +463,8 @@ Description: KDE theme for the aptosid 2011-02 release
 
 Package: aptosid-art-kdm-imera
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},
+ aptosid-art-sddm-imera
 Recommends: kdm
 Description: KDM theme for the aptosid 2011-02 release
  release specific artwork theme for the KDM display manager to be used in
@@ -556,12 +556,11 @@ Architecture: all
 Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
  aptosid-art-ksplash-ponos,
- aptosid-art-kdm-ponos,
  aptosid-art-sddm-ponos
 Recommends: aptosid-art-wallpaper-ponos,
  dmz-cursor-theme
 Description: KDE theme for the aptosid 2011-03 release
- release specific metapackage depending on ksplash, kdm and KDE themes to be
+ release specific metapackage depending on ksplash, sddm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
@@ -569,7 +568,8 @@ Description: KDE theme for the aptosid 2011-03 release
 
 Package: aptosid-art-kdm-ponos
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},
+ aptosid-art-sddm-ponos
 Recommends: kdm
 Description: KDM theme for the aptosid 2011-03 release
  release specific artwork theme for the KDM display manager to be used in
@@ -661,12 +661,11 @@ Architecture: all
 Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
  aptosid-art-ksplash-thanatos,
- aptosid-art-kdm-thanatos,
  aptosid-art-sddm-thanatos
 Recommends: aptosid-art-wallpaper-thanatos,
  dmz-cursor-theme
 Description: KDE theme for the aptosid 2012-01 release
- release specific metapackage depending on ksplash, kdm and KDE themes to be
+ release specific metapackage depending on ksplash, sddm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
@@ -674,7 +673,8 @@ Description: KDE theme for the aptosid 2012-01 release
 
 Package: aptosid-art-kdm-thanatos
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},
+ aptosid-art-sddm-thanatos
 Recommends: kdm
 Description: KDM theme for the aptosid 2012-01 release
  release specific artwork theme for the KDM display manager to be used in
@@ -766,12 +766,11 @@ Architecture: all
 Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
  aptosid-art-ksplash-hesperides,
- aptosid-art-kdm-hesperides,
  aptosid-art-sddm-hesperides
 Recommends: aptosid-art-wallpaper-hesperides,
  dmz-cursor-theme
 Description: KDE theme for the aptosid 2013-01 release
- release specific metapackage depending on ksplash, kdm and KDE themes to be
+ release specific metapackage depending on ksplash, sddm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
@@ -779,7 +778,8 @@ Description: KDE theme for the aptosid 2013-01 release
 
 Package: aptosid-art-kdm-hesperides
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},
+ aptosid-art-sddm-hesperides
 Recommends: kdm
 Description: KDM theme for the aptosid 2013-01 release
  release specific artwork theme for the KDM display manager to be used in
@@ -871,12 +871,11 @@ Architecture: all
 Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
  aptosid-art-ksplash-nemesis,
- aptosid-art-kdm-nemesis,
  aptosid-art-sddm-nemesis
 Recommends: aptosid-art-wallpaper-nemesis,
  dmz-cursor-theme
 Description: KDE theme for the aptosid 2015-01 release
- release specific metapackage depending on ksplash, kdm and KDE themes to be
+ release specific metapackage depending on ksplash, sddm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
@@ -884,7 +883,8 @@ Description: KDE theme for the aptosid 2015-01 release
 
 Package: aptosid-art-kdm-nemesis
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},
+ aptosid-art-sddm-nemesis
 Recommends: kdm
 Description: KDM theme for the aptosid 2015-01 release
  release specific artwork theme for the KDM display manager to be used in

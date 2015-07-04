@@ -1,8 +1,8 @@
-aptosid-art-legacy (2015.01.5) UNRELEASED; urgency=medium
+aptosid-art-legacy (2015.01.5) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * drop kdm themes as mandatory artwork package for KDE based flavours.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 02 Jul 2015 23:37:14 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 04 Jul 2015 03:18:37 +0200
 
 aptosid-art-legacy (2015.01.4) unstable; urgency=medium
 

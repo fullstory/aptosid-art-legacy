@@ -14,12 +14,11 @@ Architecture: all
 Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
  aptosid-art-ksplash-@CODENAME_SAFE@,
- aptosid-art-kdm-@CODENAME_SAFE@,
  aptosid-art-sddm-@CODENAME_SAFE@
 Recommends: aptosid-art-wallpaper-@CODENAME_SAFE@,
  dmz-cursor-theme
 Description: KDE theme for the aptosid @VERSION@ release
- release specific metapackage depending on ksplash, kdm and KDE themes to be
+ release specific metapackage depending on ksplash, sddm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
@@ -27,7 +26,8 @@ Description: KDE theme for the aptosid @VERSION@ release
 
 Package: aptosid-art-kdm-@CODENAME_SAFE@
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},
+ aptosid-art-sddm-@CODENAME_SAFE@
 Recommends: kdm
 Description: KDM theme for the aptosid @VERSION@ release
  release specific artwork theme for the KDM display manager to be used in
