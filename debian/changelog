@@ -1,8 +1,8 @@
-aptosid-art-legacy (2015.01.6) UNRELEASED; urgency=medium
+aptosid-art-legacy (2015.01.6) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * s/kde-workspace-bin/plasma-workspace/.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 04 Jul 2015 03:20:18 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 12 Jul 2015 01:33:57 +0200
 
 aptosid-art-legacy (2015.01.5) unstable; urgency=medium
 

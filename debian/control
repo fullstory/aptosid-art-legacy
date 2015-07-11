@@ -58,7 +58,7 @@ Description: KDM theme for the aptosid void release
 Package: aptosid-art-ksplash-void
 Architecture: all
 Depends: ${misc:Depends}
-Recommends: kde-workspace-bin
+Recommends: plasma-workspace
 Description: KDE ksplash theme for the aptosid void release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
@@ -163,7 +163,7 @@ Description: KDM theme for the aptosid 2010-02 release
 Package: aptosid-art-ksplash-keres
 Architecture: all
 Depends: ${misc:Depends}
-Recommends: kde-workspace-bin
+Recommends: plasma-workspace
 Description: KDE ksplash theme for the aptosid 2010-02 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
@@ -268,7 +268,7 @@ Description: KDM theme for the aptosid 2010-03 release
 Package: aptosid-art-ksplash-apate
 Architecture: all
 Depends: ${misc:Depends}
-Recommends: kde-workspace-bin
+Recommends: plasma-workspace
 Description: KDE ksplash theme for the aptosid 2010-03 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
@@ -373,7 +373,7 @@ Description: KDM theme for the aptosid 2011-01 release
 Package: aptosid-art-ksplash-geras
 Architecture: all
 Depends: ${misc:Depends}
-Recommends: kde-workspace-bin
+Recommends: plasma-workspace
 Description: KDE ksplash theme for the aptosid 2011-01 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
@@ -478,7 +478,7 @@ Description: KDM theme for the aptosid 2011-02 release
 Package: aptosid-art-ksplash-imera
 Architecture: all
 Depends: ${misc:Depends}
-Recommends: kde-workspace-bin
+Recommends: plasma-workspace
 Description: KDE ksplash theme for the aptosid 2011-02 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
@@ -583,7 +583,7 @@ Description: KDM theme for the aptosid 2011-03 release
 Package: aptosid-art-ksplash-ponos
 Architecture: all
 Depends: ${misc:Depends}
-Recommends: kde-workspace-bin
+Recommends: plasma-workspace
 Description: KDE ksplash theme for the aptosid 2011-03 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
@@ -688,7 +688,7 @@ Description: KDM theme for the aptosid 2012-01 release
 Package: aptosid-art-ksplash-thanatos
 Architecture: all
 Depends: ${misc:Depends}
-Recommends: kde-workspace-bin
+Recommends: plasma-workspace
 Description: KDE ksplash theme for the aptosid 2012-01 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
@@ -793,7 +793,7 @@ Description: KDM theme for the aptosid 2013-01 release
 Package: aptosid-art-ksplash-hesperides
 Architecture: all
 Depends: ${misc:Depends}
-Recommends: kde-workspace-bin
+Recommends: plasma-workspace
 Description: KDE ksplash theme for the aptosid 2013-01 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
@@ -898,7 +898,7 @@ Description: KDM theme for the aptosid 2015-01 release
 Package: aptosid-art-ksplash-nemesis
 Architecture: all
 Depends: ${misc:Depends}
-Recommends: kde-workspace-bin
+Recommends: plasma-workspace
 Description: KDE ksplash theme for the aptosid 2015-01 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
