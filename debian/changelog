@@ -1,3 +1,9 @@
+aptosid-art-legacy (2015.01.8) unstable; urgency=medium
+
+  * drop */theme-kde/aptosid-*.colors.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 20 Jul 2015 23:07:04 +0200
+
 aptosid-art-legacy (2015.01.7) unstable; urgency=medium
 
   * drop actual kdm themes and pull in sddm and their corresponding sddm themes

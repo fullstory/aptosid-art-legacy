@@ -48,7 +48,7 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-void,
  sddm
 Breaks: kdm
-Description: meta-package to pull in the sddm theme for the aptosid void release
+Description: metapackage to pull in the sddm theme for the aptosid void release
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -155,7 +155,7 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-keres,
  sddm
 Breaks: kdm
-Description: meta-package to pull in the sddm theme for the aptosid 2010-02 release
+Description: metapackage to pull in the sddm theme for the aptosid 2010-02 release
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -262,7 +262,7 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-apate,
  sddm
 Breaks: kdm
-Description: meta-package to pull in the sddm theme for the aptosid 2010-03 release
+Description: metapackage to pull in the sddm theme for the aptosid 2010-03 release
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -369,7 +369,7 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-geras,
  sddm
 Breaks: kdm
-Description: meta-package to pull in the sddm theme for the aptosid 2011-01 release
+Description: metapackage to pull in the sddm theme for the aptosid 2011-01 release
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -476,7 +476,7 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-imera,
  sddm
 Breaks: kdm
-Description: meta-package to pull in the sddm theme for the aptosid 2011-02 release
+Description: metapackage to pull in the sddm theme for the aptosid 2011-02 release
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -583,7 +583,7 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-ponos,
  sddm
 Breaks: kdm
-Description: meta-package to pull in the sddm theme for the aptosid 2011-03 release
+Description: metapackage to pull in the sddm theme for the aptosid 2011-03 release
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -690,7 +690,7 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-thanatos,
  sddm
 Breaks: kdm
-Description: meta-package to pull in the sddm theme for the aptosid 2012-01 release
+Description: metapackage to pull in the sddm theme for the aptosid 2012-01 release
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -797,7 +797,7 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-hesperides,
  sddm
 Breaks: kdm
-Description: meta-package to pull in the sddm theme for the aptosid 2013-01 release
+Description: metapackage to pull in the sddm theme for the aptosid 2013-01 release
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -904,7 +904,7 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-nemesis,
  sddm
 Breaks: kdm
-Description: meta-package to pull in the sddm theme for the aptosid 2015-01 release
+Description: metapackage to pull in the sddm theme for the aptosid 2015-01 release
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
