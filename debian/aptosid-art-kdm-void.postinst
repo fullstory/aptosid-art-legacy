@@ -19,8 +19,16 @@ set -e
 
 
 case "$1" in
-		configure|abort-upgrade|abort-remove|abort-deconfigure)
-		rm -f /etc/default/kdm.d/wallpaper
+	configure|abort-upgrade|abort-remove|abort-deconfigure)
+		if [ -w /etc/default/kdm.d/kdmtheme ]; then
+			grep -iq void /etc/default/kdm.d/kdmtheme && \
+				rm -f /etc/default/kdm.d/kdmtheme
+		fi
+
+		if [ -w /etc/default/kdm.d/wallpaper ]; then
+			grep -iq void /etc/default/kdm.d/wallpaper && \
+				rm -f /etc/default/kdm.d/wallpaper
+		fi
 		;;
 	*)
 		echo "postinst called with unknown argument \`$1'" >&2
