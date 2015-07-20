@@ -54,7 +54,7 @@ sed	-e "s/\@ALL_CODENAME_SAFE\@/${ALL_CODENAME_SAFE}/g" \
 			> ./Makefile
 
 # create basic structure
-ALL_THEMES="dm-kdm dm-sddm splash-kde splash-xfce wallpaper theme-grub"
+ALL_THEMES="dm-sddm splash-kde splash-xfce wallpaper theme-grub"
 for i in $RELEASES; do
 	for j in $ALL_THEMES; do
 		# create directory structure

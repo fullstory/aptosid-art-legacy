@@ -1,8 +1,9 @@
-aptosid-art-legacy (2015.01.7) UNRELEASED; urgency=medium
+aptosid-art-legacy (2015.01.7) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * drop actual kdm themes and pull in sddm and their corresponding sddm themes
+    instead.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 12 Jul 2015 01:34:56 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 20 Jul 2015 22:46:03 +0200
 
 aptosid-art-legacy (2015.01.6) unstable; urgency=medium
 

@@ -8,34 +8,11 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2009, David Creedy <djcreedy@iinet.net.au>
 License: GPL-2.0+
 
-Files: aether/dm-kdm/session.png
-       aether/dm-kdm/system.png
-Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-           2007, David Vignoni <david@icon-king.com>
-           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
-           2007, Kenneth Wimer <kwwii@bootsplash.org>
-           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
-           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
-           2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA or LGPL-2.0+
-
 Files: apate/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2009, David Creedy <djcreedy@iinet.net.au>
            2010, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2.0+
-
-Files: apate/dm-kdm/oxygen.svg
-       apate/dm-kdm/session.png
-       apate/dm-kdm/system.png
-Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-           2007, David Vignoni <david@icon-king.com>
-           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
-           2007, Kenneth Wimer <kwwii@bootsplash.org>
-           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
-           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
-           2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA or LGPL-2.0+
 
 Files: apate/splash-kde/svg-anim.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
@@ -45,11 +22,6 @@ Files: erebos/*
 Copyright: 2008, Daniel Prien <d-s-p@d-s-p.de>
            2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2.0+
-
-Files: erebos/dm-kdm/erebos.xml
-Copyright: 2006, Marcin Biernat (Boski Cinek) <boski_cinek@o2.pl>
-           2007-2009, Bernard Gray <bernard.gray@gmail.com>
-License: GPL-2.0
 
 Files: erebos/theme-kde/*
 Copyright: 2008, knithx <knithx@gmail.com>
@@ -81,36 +53,12 @@ Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2.0+
 
-Files: geras/dm-kdm/oxygen.svg
-       geras/dm-kdm/session.png
-       geras/dm-kdm/system.png
-Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-           2007, David Vignoni <david@icon-king.com>
-           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
-           2007, Kenneth Wimer <kwwii@bootsplash.org>
-           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
-           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
-           2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA or LGPL-2.0+
-
 Files: hesperides/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2007-2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
            2009, David Creedy <djcreedy@iinet.net.au>
            2010-2013, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2.0+
-
-Files: hesperides/dm-kdm/oxygen.svg
-       hesperides/dm-kdm/session.png
-       hesperides/dm-kdm/system.png
-Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-           2007, David Vignoni <david@icon-king.com>
-           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
-           2007, Kenneth Wimer <kwwii@bootsplash.org>
-           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
-           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
-           2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA or LGPL-2.0+
 
 Files: hesperides/splash-kde/composite_pngs.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
@@ -121,18 +69,6 @@ Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2009, David Creedy <djcreedy@iinet.net.au>
            2010, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2.0+
-
-Files: hypnos/dm-kdm/oxygen.svg
-       hypnos/dm-kdm/session.png
-       hypnos/dm-kdm/system.png
-Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-           2007, David Vignoni <david@icon-king.com>
-           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
-           2007, Kenneth Wimer <kwwii@bootsplash.org>
-           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
-           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
-           2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA or LGPL-2.0+
 
 Files: hypnos/splash-kde/svg-anim-r2skew2-fix.pl
        hypnos/splash-kde/composite_pngs.pl
@@ -146,18 +82,6 @@ Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2.0+
 
-Files: imera/dm-kdm/oxygen.svg
-       imera/dm-kdm/session.png
-       imera/dm-kdm/system.png
-Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-           2007, David Vignoni <david@icon-king.com>
-           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
-           2007, Kenneth Wimer <kwwii@bootsplash.org>
-           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
-           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
-           2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA or LGPL-2.0+
-
 Files: imera/splash-kde/svg-anim.pl
        imera/splash-kde/composite_pngs.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
@@ -168,18 +92,6 @@ Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2009, David Creedy <djcreedy@iinet.net.au>
            2010, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2.0+
-
-Files: keres/dm-kdm/oxygen.svg
-       keres/dm-kdm/session.png
-       keres/dm-kdm/system.png
-Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-           2007, David Vignoni <david@icon-king.com>
-           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
-           2007, Kenneth Wimer <kwwii@bootsplash.org>
-           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
-           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
-           2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA or LGPL-2.0+
 
 Files: keres/splash-kde/svg-anim.pl
        keres/splash-kde/composite_pngs.pl
@@ -192,34 +104,10 @@ Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2010, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2.0+
 
-Files: momos/dm-kdm/oxygen.svg
-       momos/dm-kdm/session.png
-       momos/dm-kdm/system.png
-Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-           2007, David Vignoni <david@icon-king.com>
-           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
-           2007, Kenneth Wimer <kwwii@bootsplash.org>
-           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
-           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
-           2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA or LGPL-2.0+
-
 Files: moros/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2009, David Creedy <djcreedy@iinet.net.au>
 License: GPL-2.0+
-
-Files: moros/dm-kdm/oxygen.svg
-       moros/dm-kdm/session.png
-       moros/dm-kdm/system.png
-Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-           2007, David Vignoni <david@icon-king.com>
-           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
-           2007, Kenneth Wimer <kwwii@bootsplash.org>
-           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
-           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
-           2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA or LGPL-2.0+
 
 Files: nemesis/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
@@ -228,18 +116,6 @@ Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2009, David Creedy <djcreedy@iinet.net.au>
            2010-2013, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2.0+
-
-Files: nemesis/dm-kdm/oxygen.svg
-       nemesis/dm-kdm/session.png
-       nemesis/dm-kdm/system.png
-Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-           2007, David Vignoni <david@icon-king.com>
-           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
-           2007, Kenneth Wimer <kwwii@bootsplash.org>
-           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
-           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
-           2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA or LGPL-2.0+
 
 Files: nemesis/splash-kde/svg-anim.pl
        nemesis/splash-kde/composite_pngs.pl
@@ -255,17 +131,6 @@ Files: nyx/theme-kde/aptosid-nyx-il_silver.kcsrc
 Copyright: 2008, <knithx knithx@gmail.com>
            2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2.0+
-
-Files: nyx/dm-kdm/session.png
-       nyx/dm-kdm/system.png
-Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-           2007, David Vignoni <david@icon-king.com>
-           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
-           2007, Kenneth Wimer <kwwii@bootsplash.org>
-           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
-           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
-           2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA or LGPL-2.0+
 
 Files: ouranos/*
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
@@ -294,29 +159,12 @@ Copyright: 2008, Niall Walsh <niallwalsh@users.berlios.de>
            2007-2009, Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2.0+
 
-Files: ourea/dm-kdm/aptosid-logo.svg
-Copyright: 2008, Daniel Prien <d-s-p@d-s-p.de>
-           2007-2009, Bernard Gray <bernard.gray@gmail.com>
-License: GPL-2.0
-
 Files: ponos/*
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2007-2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
            2009, David Creedy <djcreedy@iinet.net.au>
            2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2.0+
-
-Files: ponos/dm-kdm/oxygen.svg
-       ponos/dm-kdm/session.png
-       ponos/dm-kdm/system.png
-Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-           2007, David Vignoni <david@icon-king.com>
-           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
-           2007, Kenneth Wimer <kwwii@bootsplash.org>
-           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
-           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
-           2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA or LGPL-2.0+
 
 Files: ponos/splash-kde/svg-anim.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
@@ -333,18 +181,6 @@ Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2010-2012, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2.0+
 
-Files: thanatos/dm-kdm/oxygen.svg
-       thanatos/dm-kdm/session.png
-       thanatos/dm-kdm/system.png
-Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-           2007, David Vignoni <david@icon-king.com>
-           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
-           2007, Kenneth Wimer <kwwii@bootsplash.org>
-           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
-           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
-           2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA or LGPL-2.0+
-
 Files: thanatos/splash-kde/svg-anim.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
 License: GPL-2.0+
@@ -355,18 +191,6 @@ Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2009, David Creedy <djcreedy@iinet.net.au>
            2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2.0+
-
-Files: void/dm-kdm/oxygen.svg
-       void/dm-kdm/session.png
-       void/dm-kdm/system.png
-Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-           2007, David Vignoni <david@icon-king.com>
-           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
-           2007, Kenneth Wimer <kwwii@bootsplash.org>
-           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
-           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
-           2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA or LGPL-2.0+
 
 Files: void/dm-sddm/Main.qml
 Copyright: 2013, Abdurrahman AVCI <abdurrahmanavci@gmail.com>
