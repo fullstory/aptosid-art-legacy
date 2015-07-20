@@ -1,3 +1,9 @@
+aptosid-art-legacy (2015.01.10) UNRELEASED; urgency=medium
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 21 Jul 2015 00:11:50 +0200
+
 aptosid-art-legacy (2015.01.9) unstable; urgency=medium
 
   * nuke /etc/default/kdm.d/kdmtheme as well.
