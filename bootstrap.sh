@@ -51,7 +51,7 @@ for i in $RELEASES; do
 done
 sed	-e "s/\@ALL_CODENAME_SAFE\@/${ALL_CODENAME_SAFE}/g" \
 		./debian/templates/Makefile.in \
-			> ./Makefile
+			>./Makefile
 
 # create basic structure
 ALL_THEMES="dm-sddm splash-kde splash-xfce wallpaper theme-grub"
@@ -63,45 +63,50 @@ for i in $RELEASES; do
 		# create internal Makefiles
 		[ -r "./debian/templates/theme/${j}/Makefile.in" ] || continue
 		cat "./debian/templates/theme/${j}/Makefile.in" \
-			> "$(echo ${i} | cut -d\: -f1)/${j}/Makefile"
+			>"$(echo ${i} | cut -d\: -f1)/${j}/Makefile"
 		chmod +x "$(echo ${i} | cut -d\: -f1)/${j}/Makefile"
 	done
 
 	# write sublevel release Makefiles
 	sed	-e "s/\@ALL_CODENAME_SAFE\@/${ALL_THEMES}/g" \
 			./debian/templates/Makefile.in \
-				> "$(echo ${i} | cut -d\: -f1)/Makefile"
+				>"$(echo ${i} | cut -d\: -f1)/Makefile"
 
 	# write theme-control.make
 	printf "THEME = %s\n" "aptosid-$(echo ${i} | cut -d\: -f1)" \
-		> "$(echo ${i} | cut -d\: -f1)/theme-control.make"
+		>"$(echo ${i} | cut -d\: -f1)/theme-control.make"
 done
 
 [ -d ./debian ] || exit 1
-cat ./debian/templates/control.source.in > debian/control
+cat ./debian/templates/control.source.in >debian/control
 for i in $RELEASES; do
-
 	# write debian/control from templates
 	TEMPLATES_BIN="./debian/templates/control.binary.in"
 
 	sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
 		-e s/\@CODENAME\@/$(echo ${i} | cut -d\: -f2)/g \
 		-e s/\@VERSION\@/$(echo ${i} | cut -d\: -f3)/g \
-			${TEMPLATES_BIN} >> ./debian/control
+			${TEMPLATES_BIN} >>./debian/control
 
-	# write debian/*.install from templates
 	for j in kde kdm ksplash sddm wallpaper xfce xsplash grub; do
-		if [ -r  ./debian/templates/aptosid-art-${j}-CODENAME_SAFE.install.in ]; then
-			sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
-					./debian/templates/aptosid-art-${j}-CODENAME_SAFE.install.in \
-						> ./debian/aptosid-art-${j}-$(echo ${i} | cut -d\: -f1).install
-		else
-			continue
+		# write debian/*.install from templates
+		if [ -r ./debian/templates/aptosid-art-${j}-CODENAME_SAFE.install.in ]; then
+			sed s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
+				./debian/templates/aptosid-art-${j}-CODENAME_SAFE.install.in \
+					>./debian/aptosid-art-${j}-$(echo ${i} | cut -d\: -f1).install
+		fi
+
+		# write debian/*.postinst from templates
+		if [ -r ./debian/templates/aptosid-art-${j}-CODENAME_SAFE.postinst.in ]; then
+			sed s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
+				./debian/templates/aptosid-art-${j}-CODENAME_SAFE.postinst.in \
+					>./debian/aptosid-art-${j}-$(echo ${i} | cut -d\: -f1).postinst
+					chmod +x ./debian/aptosid-art-${j}-$(echo ${i} | cut -d\: -f1).postinst
 		fi
 	done
 
 	# link KDE4 style wallpapers to /usr/share/wallpapers/
-	sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
-			./debian/templates/aptosid-art-wallpaper-CODENAME_SAFE.links.in \
-				> ./debian/aptosid-art-wallpaper-$(echo ${i} | cut -d\: -f1).links
+	sed s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
+		./debian/templates/aptosid-art-wallpaper-CODENAME_SAFE.links.in \
+			>./debian/aptosid-art-wallpaper-$(echo ${i} | cut -d\: -f1).links
 done

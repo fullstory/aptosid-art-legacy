@@ -1,8 +1,13 @@
 aptosid-art-legacy (2015.01.8) unstable; urgency=medium
 
   * drop */theme-kde/aptosid-*.colors.
+  * bootstrap.sh: fix whitespace.
+  * bootstrap.sh: hook up *.postinst.in handling.
+  * make sure to delete /etc/default/kdm.d/wallpaper when upgrading
+    aptosid-art-kdm-* to an empty metapackage, so later kdm reinstallations
+    won't fail starting kdm.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 20 Jul 2015 23:07:04 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 20 Jul 2015 23:50:06 +0200
 
 aptosid-art-legacy (2015.01.7) unstable; urgency=medium
 
