@@ -31,7 +31,7 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-@CODENAME_SAFE@,
  sddm
 Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in the corresponding sddm theme
+Description: obsolete metapackage to pull in aptosid-art-sddm-@CODENAME_SAFE@
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .

@@ -48,7 +48,7 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-void,
  sddm
 Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in the corresponding sddm theme
+Description: obsolete metapackage to pull in aptosid-art-sddm-void
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -152,7 +152,7 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-keres,
  sddm
 Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in the corresponding sddm theme
+Description: obsolete metapackage to pull in aptosid-art-sddm-keres
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -256,7 +256,7 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-apate,
  sddm
 Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in the corresponding sddm theme
+Description: obsolete metapackage to pull in aptosid-art-sddm-apate
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -360,7 +360,7 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-geras,
  sddm
 Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in the corresponding sddm theme
+Description: obsolete metapackage to pull in aptosid-art-sddm-geras
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -464,7 +464,7 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-imera,
  sddm
 Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in the corresponding sddm theme
+Description: obsolete metapackage to pull in aptosid-art-sddm-imera
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -568,7 +568,7 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-ponos,
  sddm
 Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in the corresponding sddm theme
+Description: obsolete metapackage to pull in aptosid-art-sddm-ponos
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -672,7 +672,7 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-thanatos,
  sddm
 Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in the corresponding sddm theme
+Description: obsolete metapackage to pull in aptosid-art-sddm-thanatos
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -776,7 +776,7 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-hesperides,
  sddm
 Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in the corresponding sddm theme
+Description: obsolete metapackage to pull in aptosid-art-sddm-hesperides
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -880,7 +880,7 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-nemesis,
  sddm
 Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in the corresponding sddm theme
+Description: obsolete metapackage to pull in aptosid-art-sddm-nemesis
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
