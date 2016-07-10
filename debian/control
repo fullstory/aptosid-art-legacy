@@ -48,14 +48,11 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-void,
  sddm
 Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in the sddm theme for the aptosid void release
+Description: obsolete metapackage to pull in the corresponding sddm theme
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
- sddm artwork for: aptosid void (άκυρος)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
+ This obsolete metapackage is superseded by aptosid-art-sddm-void. 
 
 Package: aptosid-art-ksplash-void
 Architecture: all
@@ -155,14 +152,11 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-keres,
  sddm
 Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in the sddm theme for the aptosid 2010-02 release
+Description: obsolete metapackage to pull in the corresponding sddm theme
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
- sddm artwork for: aptosid 2010-02 (Κῆρες)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
+ This obsolete metapackage is superseded by aptosid-art-sddm-keres. 
 
 Package: aptosid-art-ksplash-keres
 Architecture: all
@@ -262,14 +256,11 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-apate,
  sddm
 Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in the sddm theme for the aptosid 2010-03 release
+Description: obsolete metapackage to pull in the corresponding sddm theme
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
- sddm artwork for: aptosid 2010-03 (Ἀπάτη)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
+ This obsolete metapackage is superseded by aptosid-art-sddm-apate. 
 
 Package: aptosid-art-ksplash-apate
 Architecture: all
@@ -369,14 +360,11 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-geras,
  sddm
 Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in the sddm theme for the aptosid 2011-01 release
+Description: obsolete metapackage to pull in the corresponding sddm theme
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
- sddm artwork for: aptosid 2011-01 (Γῆρας)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
+ This obsolete metapackage is superseded by aptosid-art-sddm-geras. 
 
 Package: aptosid-art-ksplash-geras
 Architecture: all
@@ -476,14 +464,11 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-imera,
  sddm
 Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in the sddm theme for the aptosid 2011-02 release
+Description: obsolete metapackage to pull in the corresponding sddm theme
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
- sddm artwork for: aptosid 2011-02 (Ἡμέρα)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
+ This obsolete metapackage is superseded by aptosid-art-sddm-imera. 
 
 Package: aptosid-art-ksplash-imera
 Architecture: all
@@ -583,14 +568,11 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-ponos,
  sddm
 Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in the sddm theme for the aptosid 2011-03 release
+Description: obsolete metapackage to pull in the corresponding sddm theme
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
- sddm artwork for: aptosid 2011-03 (Πόνος)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
+ This obsolete metapackage is superseded by aptosid-art-sddm-ponos. 
 
 Package: aptosid-art-ksplash-ponos
 Architecture: all
@@ -690,14 +672,11 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-thanatos,
  sddm
 Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in the sddm theme for the aptosid 2012-01 release
+Description: obsolete metapackage to pull in the corresponding sddm theme
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
- sddm artwork for: aptosid 2012-01 (Θάνατος)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
+ This obsolete metapackage is superseded by aptosid-art-sddm-thanatos. 
 
 Package: aptosid-art-ksplash-thanatos
 Architecture: all
@@ -797,14 +776,11 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-hesperides,
  sddm
 Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in the sddm theme for the aptosid 2013-01 release
+Description: obsolete metapackage to pull in the corresponding sddm theme
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
- sddm artwork for: aptosid 2013-01 (Ἑσπερίδες)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
+ This obsolete metapackage is superseded by aptosid-art-sddm-hesperides. 
 
 Package: aptosid-art-ksplash-hesperides
 Architecture: all
@@ -904,14 +880,11 @@ Depends: ${misc:Depends},
  aptosid-art-sddm-nemesis,
  sddm
 Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in the sddm theme for the aptosid 2016-01 release
+Description: obsolete metapackage to pull in the corresponding sddm theme
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
- sddm artwork for: aptosid 2016-01 (Νέμεσις)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
+ This obsolete metapackage is superseded by aptosid-art-sddm-nemesis. 
 
 Package: aptosid-art-ksplash-nemesis
 Architecture: all
