@@ -1,6 +1,5 @@
-aptosid-art-legacy (2015.01.10) UNRELEASED; urgency=medium
+aptosid-art-legacy (2015.01.10) unstable; urgency=medium
 
-  * NOT RELEASED YET
   * make lintian a little happier:
     - W: aptosid-art-kdm-*: breaks-without-version kdm
       the kdm package is no longer in the archive, nor maintained upstream
@@ -12,7 +11,7 @@ aptosid-art-legacy (2015.01.10) UNRELEASED; urgency=medium
   * bump standards version to 3.9.8, no changes necessary.
   * s/2015/2016/.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 21 Jul 2015 00:11:50 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 10 Jul 2016 05:51:20 +0200
 
 aptosid-art-legacy (2015.01.9) unstable; urgency=medium
 
