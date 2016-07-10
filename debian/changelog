@@ -1,6 +1,14 @@
 aptosid-art-legacy (2015.01.10) UNRELEASED; urgency=medium
 
   * NOT RELEASED YET
+  * make lintian a little happier:
+    - W: aptosid-art-kdm-*: breaks-without-version kdm
+      kdm is no longer in the archive, nor maintained upstream anymore, but
+      break with a hypothetical kdm v5~.
+    - I: aptosid-art-legacy source: duplicate-long-description
+         aptosid-art-kdm-* aptosid-art-sddm-*
+    - I: aptosid-art-legacy source: vcs-field-uses-insecure-uri vcs-git
+         git://github.com/fullstory/aptosid-art-legacy.git
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 21 Jul 2015 00:11:50 +0200
 

@@ -12,7 +12,7 @@ Build-Depends: debhelper (>= 9.20120115),
  libxml-parser-perl,
  fonts-dustin
 Standards-Version: 3.9.6
-Vcs-git: git://github.com/fullstory/aptosid-art-legacy.git
+Vcs-git: https://github.com/fullstory/aptosid-art-legacy.git
 Vcs-Browser: https://github.com/fullstory/aptosid-art-legacy
 
 Package: aptosid-art-grub-void
@@ -47,8 +47,8 @@ Architecture: all
 Depends: ${misc:Depends},
  aptosid-art-sddm-void,
  sddm
-Breaks: kdm
-Description: metapackage to pull in the sddm theme for the aptosid void release
+Breaks: kdm (<< 4:5~)
+Description: obsolete metapackage to pull in the sddm theme for the aptosid void release
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -154,8 +154,8 @@ Architecture: all
 Depends: ${misc:Depends},
  aptosid-art-sddm-keres,
  sddm
-Breaks: kdm
-Description: metapackage to pull in the sddm theme for the aptosid 2010-02 release
+Breaks: kdm (<< 4:5~)
+Description: obsolete metapackage to pull in the sddm theme for the aptosid 2010-02 release
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -261,8 +261,8 @@ Architecture: all
 Depends: ${misc:Depends},
  aptosid-art-sddm-apate,
  sddm
-Breaks: kdm
-Description: metapackage to pull in the sddm theme for the aptosid 2010-03 release
+Breaks: kdm (<< 4:5~)
+Description: obsolete metapackage to pull in the sddm theme for the aptosid 2010-03 release
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -368,8 +368,8 @@ Architecture: all
 Depends: ${misc:Depends},
  aptosid-art-sddm-geras,
  sddm
-Breaks: kdm
-Description: metapackage to pull in the sddm theme for the aptosid 2011-01 release
+Breaks: kdm (<< 4:5~)
+Description: obsolete metapackage to pull in the sddm theme for the aptosid 2011-01 release
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -475,8 +475,8 @@ Architecture: all
 Depends: ${misc:Depends},
  aptosid-art-sddm-imera,
  sddm
-Breaks: kdm
-Description: metapackage to pull in the sddm theme for the aptosid 2011-02 release
+Breaks: kdm (<< 4:5~)
+Description: obsolete metapackage to pull in the sddm theme for the aptosid 2011-02 release
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -582,8 +582,8 @@ Architecture: all
 Depends: ${misc:Depends},
  aptosid-art-sddm-ponos,
  sddm
-Breaks: kdm
-Description: metapackage to pull in the sddm theme for the aptosid 2011-03 release
+Breaks: kdm (<< 4:5~)
+Description: obsolete metapackage to pull in the sddm theme for the aptosid 2011-03 release
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -689,8 +689,8 @@ Architecture: all
 Depends: ${misc:Depends},
  aptosid-art-sddm-thanatos,
  sddm
-Breaks: kdm
-Description: metapackage to pull in the sddm theme for the aptosid 2012-01 release
+Breaks: kdm (<< 4:5~)
+Description: obsolete metapackage to pull in the sddm theme for the aptosid 2012-01 release
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -796,8 +796,8 @@ Architecture: all
 Depends: ${misc:Depends},
  aptosid-art-sddm-hesperides,
  sddm
-Breaks: kdm
-Description: metapackage to pull in the sddm theme for the aptosid 2013-01 release
+Breaks: kdm (<< 4:5~)
+Description: obsolete metapackage to pull in the sddm theme for the aptosid 2013-01 release
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
@@ -903,8 +903,8 @@ Architecture: all
 Depends: ${misc:Depends},
  aptosid-art-sddm-nemesis,
  sddm
-Breaks: kdm
-Description: metapackage to pull in the sddm theme for the aptosid 2015-01 release
+Breaks: kdm (<< 4:5~)
+Description: obsolete metapackage to pull in the sddm theme for the aptosid 2015-01 release
  release specific artwork theme for the sddm display manager to be used in
  combination with the K Desktop Environment.
  .
