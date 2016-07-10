@@ -10,6 +10,7 @@ aptosid-art-legacy (2015.01.10) UNRELEASED; urgency=medium
     - I: aptosid-art-legacy source: vcs-field-uses-insecure-uri vcs-git
          git://github.com/fullstory/aptosid-art-legacy.git
   * bump standards version to 3.9.8, no changes necessary.
+  * s/2015/2016/.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 21 Jul 2015 00:11:50 +0200
 
