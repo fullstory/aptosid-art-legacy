@@ -1,8 +1,8 @@
-aptosid-art-legacy (2015.01.11) UNRELEASED; urgency=medium
+aptosid-art-legacy (2015.01.11) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * update sddm theme to upstream's maldives 0.14.0.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 10 Jul 2016 05:53:09 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 15 Nov 2016 05:21:25 +0100
 
 aptosid-art-legacy (2015.01.10) unstable; urgency=medium
 
