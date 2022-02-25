@@ -1,9 +1,18 @@
-aptosid-art-legacy (2015.01.13) UNRELEASED; urgency=medium
+aptosid-art-legacy (2015.01.13) unstable; urgency=medium
 
-  * NOT RELEASED YET
   * drop custom compression format, Debian now defaults to xz anyways.
+  * update sddm theme template:
+    - sync with 0.19.0:
+      - Fix session selection
+    - sync with current master/HEAD:
+      85cbf3f2cda66f8deadea5f1e2e627a466aba885
+      - Display information and errors from PAM in the greeter (#1486)
+        It will be necessary sometimes to know what's going on. This should help
+        us diagnose when pam is telling us something and SDDM just seems to not
+        work well.
+        Also include informationMessage on the themes in data/themes
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 25 Feb 2022 04:08:37 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 25 Feb 2022 05:47:21 +0100
 
 aptosid-art-legacy (2015.01.12) unstable; urgency=medium
 

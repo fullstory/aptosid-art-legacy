@@ -33,6 +33,8 @@ Rectangle {
     LayoutMirroring.enabled: Qt.locale().textDirection == Qt.RightToLeft
     LayoutMirroring.childrenInherit: true
 
+    property int sessionIndex: session.index
+
     TextConstants { id: textConstants }
 
     Connections {
@@ -47,6 +49,10 @@ Rectangle {
             password.text = ""
             errorMessage.color = "red"
             errorMessage.text = textConstants.loginFailed
+        }
+        onInformationMessage: {
+            errorMessage.color = "red"
+            errorMessage.text = message
         }
     }
 
@@ -121,7 +127,7 @@ Rectangle {
 
                         Keys.onPressed: {
                             if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
-                                sddm.login(name.text, password.text, session.index)
+                                sddm.login(name.text, password.text, sessionIndex)
                                 event.accepted = true
                             }
                         }
@@ -148,7 +154,7 @@ Rectangle {
 
                         Keys.onPressed: {
                             if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
-                                sddm.login(name.text, password.text, session.index)
+                                sddm.login(name.text, password.text, sessionIndex)
                                 event.accepted = true
                             }
                         }
@@ -237,7 +243,7 @@ Rectangle {
                         text: textConstants.login
                         width: parent.btnWidth
 
-                        onClicked: sddm.login(name.text, password.text, session.index)
+                        onClicked: sddm.login(name.text, password.text, sessionIndex)
 
                         KeyNavigation.backtab: layoutBox; KeyNavigation.tab: shutdownButton
                     }
