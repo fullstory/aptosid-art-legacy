@@ -1,6 +1,6 @@
 Source: aptosid-art-legacy
 Section: graphics
-Priority: extra
+Priority: optional
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Uploaders: Niall Walsh <niallwalsh@celtux.org>
 Build-Depends: debhelper (>= 9.20120115),
@@ -40,19 +40,6 @@ Description: KDE theme for the aptosid void release
  provides a release specific color scheme for KDE.
  .
  KDE artwork metapackage for: aptosid void (άκυρος)
-
-Package: aptosid-art-kdm-void
-Section: oldlibs
-Architecture: all
-Depends: ${misc:Depends},
- aptosid-art-sddm-void,
- sddm
-Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in aptosid-art-sddm-void
- release specific artwork theme for the sddm display manager to be used in
- combination with the K Desktop Environment.
- .
- This obsolete metapackage is superseded by aptosid-art-sddm-void. 
 
 Package: aptosid-art-ksplash-void
 Architecture: all
@@ -145,19 +132,6 @@ Description: KDE theme for the aptosid 2010-02 release
  .
  KDE artwork metapackage for: aptosid 2010-02 (Κῆρες)
 
-Package: aptosid-art-kdm-keres
-Section: oldlibs
-Architecture: all
-Depends: ${misc:Depends},
- aptosid-art-sddm-keres,
- sddm
-Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in aptosid-art-sddm-keres
- release specific artwork theme for the sddm display manager to be used in
- combination with the K Desktop Environment.
- .
- This obsolete metapackage is superseded by aptosid-art-sddm-keres. 
-
 Package: aptosid-art-ksplash-keres
 Architecture: all
 Depends: ${misc:Depends}
@@ -248,19 +222,6 @@ Description: KDE theme for the aptosid 2010-03 release
  provides a release specific color scheme for KDE.
  .
  KDE artwork metapackage for: aptosid 2010-03 (Ἀπάτη)
-
-Package: aptosid-art-kdm-apate
-Section: oldlibs
-Architecture: all
-Depends: ${misc:Depends},
- aptosid-art-sddm-apate,
- sddm
-Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in aptosid-art-sddm-apate
- release specific artwork theme for the sddm display manager to be used in
- combination with the K Desktop Environment.
- .
- This obsolete metapackage is superseded by aptosid-art-sddm-apate. 
 
 Package: aptosid-art-ksplash-apate
 Architecture: all
@@ -353,19 +314,6 @@ Description: KDE theme for the aptosid 2011-01 release
  .
  KDE artwork metapackage for: aptosid 2011-01 (Γῆρας)
 
-Package: aptosid-art-kdm-geras
-Section: oldlibs
-Architecture: all
-Depends: ${misc:Depends},
- aptosid-art-sddm-geras,
- sddm
-Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in aptosid-art-sddm-geras
- release specific artwork theme for the sddm display manager to be used in
- combination with the K Desktop Environment.
- .
- This obsolete metapackage is superseded by aptosid-art-sddm-geras. 
-
 Package: aptosid-art-ksplash-geras
 Architecture: all
 Depends: ${misc:Depends}
@@ -456,19 +404,6 @@ Description: KDE theme for the aptosid 2011-02 release
  provides a release specific color scheme for KDE.
  .
  KDE artwork metapackage for: aptosid 2011-02 (Ἡμέρα)
-
-Package: aptosid-art-kdm-imera
-Section: oldlibs
-Architecture: all
-Depends: ${misc:Depends},
- aptosid-art-sddm-imera,
- sddm
-Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in aptosid-art-sddm-imera
- release specific artwork theme for the sddm display manager to be used in
- combination with the K Desktop Environment.
- .
- This obsolete metapackage is superseded by aptosid-art-sddm-imera. 
 
 Package: aptosid-art-ksplash-imera
 Architecture: all
@@ -561,19 +496,6 @@ Description: KDE theme for the aptosid 2011-03 release
  .
  KDE artwork metapackage for: aptosid 2011-03 (Πόνος)
 
-Package: aptosid-art-kdm-ponos
-Section: oldlibs
-Architecture: all
-Depends: ${misc:Depends},
- aptosid-art-sddm-ponos,
- sddm
-Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in aptosid-art-sddm-ponos
- release specific artwork theme for the sddm display manager to be used in
- combination with the K Desktop Environment.
- .
- This obsolete metapackage is superseded by aptosid-art-sddm-ponos. 
-
 Package: aptosid-art-ksplash-ponos
 Architecture: all
 Depends: ${misc:Depends}
@@ -664,19 +586,6 @@ Description: KDE theme for the aptosid 2012-01 release
  provides a release specific color scheme for KDE.
  .
  KDE artwork metapackage for: aptosid 2012-01 (Θάνατος)
-
-Package: aptosid-art-kdm-thanatos
-Section: oldlibs
-Architecture: all
-Depends: ${misc:Depends},
- aptosid-art-sddm-thanatos,
- sddm
-Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in aptosid-art-sddm-thanatos
- release specific artwork theme for the sddm display manager to be used in
- combination with the K Desktop Environment.
- .
- This obsolete metapackage is superseded by aptosid-art-sddm-thanatos. 
 
 Package: aptosid-art-ksplash-thanatos
 Architecture: all
@@ -769,19 +678,6 @@ Description: KDE theme for the aptosid 2013-01 release
  .
  KDE artwork metapackage for: aptosid 2013-01 (Ἑσπερίδες)
 
-Package: aptosid-art-kdm-hesperides
-Section: oldlibs
-Architecture: all
-Depends: ${misc:Depends},
- aptosid-art-sddm-hesperides,
- sddm
-Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in aptosid-art-sddm-hesperides
- release specific artwork theme for the sddm display manager to be used in
- combination with the K Desktop Environment.
- .
- This obsolete metapackage is superseded by aptosid-art-sddm-hesperides. 
-
 Package: aptosid-art-ksplash-hesperides
 Architecture: all
 Depends: ${misc:Depends}
@@ -872,19 +768,6 @@ Description: KDE theme for the aptosid 2016-01 release
  provides a release specific color scheme for KDE.
  .
  KDE artwork metapackage for: aptosid 2016-01 (Νέμεσις)
-
-Package: aptosid-art-kdm-nemesis
-Section: oldlibs
-Architecture: all
-Depends: ${misc:Depends},
- aptosid-art-sddm-nemesis,
- sddm
-Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in aptosid-art-sddm-nemesis
- release specific artwork theme for the sddm display manager to be used in
- combination with the K Desktop Environment.
- .
- This obsolete metapackage is superseded by aptosid-art-sddm-nemesis. 
 
 Package: aptosid-art-ksplash-nemesis
 Architecture: all

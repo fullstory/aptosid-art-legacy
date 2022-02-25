@@ -24,19 +24,6 @@ Description: KDE theme for the aptosid @VERSION@ release
  .
  KDE artwork metapackage for: aptosid @VERSION@ (@CODENAME@)
 
-Package: aptosid-art-kdm-@CODENAME_SAFE@
-Section: oldlibs
-Architecture: all
-Depends: ${misc:Depends},
- aptosid-art-sddm-@CODENAME_SAFE@,
- sddm
-Breaks: kdm (<< 4:5~)
-Description: obsolete metapackage to pull in aptosid-art-sddm-@CODENAME_SAFE@
- release specific artwork theme for the sddm display manager to be used in
- combination with the K Desktop Environment.
- .
- This obsolete metapackage is superseded by aptosid-art-sddm-@CODENAME_SAFE@. 
-
 Package: aptosid-art-ksplash-@CODENAME_SAFE@
 Architecture: all
 Depends: ${misc:Depends}

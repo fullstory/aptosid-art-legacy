@@ -88,7 +88,7 @@ for i in $RELEASES; do
 		-e s/\@VERSION\@/$(echo ${i} | cut -d\: -f3)/g \
 			${TEMPLATES_BIN} >>./debian/control
 
-	for j in kde kdm ksplash sddm wallpaper xfce xsplash grub; do
+	for j in kde ksplash sddm wallpaper xfce xsplash grub; do
 		# write debian/*.install from templates
 		if [ -r ./debian/templates/aptosid-art-${j}-CODENAME_SAFE.install.in ]; then
 			sed s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
@@ -104,6 +104,20 @@ for i in $RELEASES; do
 					chmod +x ./debian/aptosid-art-${j}-$(echo ${i} | cut -d\: -f1).postinst
 		fi
 	done
+
+	if [ -r ./debian/templates/aptosid-art-sddm-CODENAME_SAFE.postinst.in ]; then
+		sed s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
+			./debian/templates/aptosid-art-sddm-CODENAME_SAFE.postinst.in \
+				>./debian/aptosid-art-sddm-$(echo ${i} | cut -d\: -f1).postinst
+				chmod +x ./debian/aptosid-art-sddm-$(echo ${i} | cut -d\: -f1).postinst
+	fi
+
+	if [ -r ./debian/templates/aptosid-art-sddm-CODENAME_SAFE.prerm.in ]; then
+		sed s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
+			./debian/templates/aptosid-art-sddm-CODENAME_SAFE.prerm.in \
+				>./debian/aptosid-art-sddm-$(echo ${i} | cut -d\: -f1).prerm
+				chmod +x ./debian/aptosid-art-sddm-$(echo ${i} | cut -d\: -f1).prerm
+	fi
 
 	# link KDE4 style wallpapers to /usr/share/wallpapers/
 	sed s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
