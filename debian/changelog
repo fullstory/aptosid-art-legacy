@@ -2,11 +2,14 @@ aptosid-art-legacy (2015.01.12) unstable; urgency=medium
 
   * switch priority to optional.
   * switch to debhelper 13 (and use its package dependency).
+  * allow R³=no.
+  * use https, where possible.
+  * bump policy version to 4.6.
   * drop aptosid-art-kdm-@CODENAME_SAFE@ metapackage.
   * register aptosid-art-sddm-@CODENAME_SAFE@ as sddm-debian-theme
     alternative.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 25 Feb 2022 02:27:59 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 25 Feb 2022 02:31:43 +0100
 
 aptosid-art-legacy (2015.01.11) unstable; urgency=medium
 

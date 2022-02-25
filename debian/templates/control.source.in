@@ -3,6 +3,7 @@ Section: graphics
 Priority: optional
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Uploaders: Niall Walsh <niallwalsh@celtux.org>
+Rules-Requires-Root: no
 Build-Depends: debhelper (= 13),
  grub-common,
  imagemagick,
