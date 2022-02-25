@@ -8,8 +8,11 @@ aptosid-art-legacy (2015.01.12) unstable; urgency=medium
   * drop aptosid-art-kdm-@CODENAME_SAFE@ metapackage.
   * register aptosid-art-sddm-@CODENAME_SAFE@ as sddm-debian-theme
     alternative.
+  * use --no-parallel, the multi-threaded inkscape implementation will bring
+    any system to its knees at usual concurrency levels.
+  * fix inkscape call syntax.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 25 Feb 2022 02:31:43 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 25 Feb 2022 03:42:48 +0100
 
 aptosid-art-legacy (2015.01.11) unstable; urgency=medium
 
