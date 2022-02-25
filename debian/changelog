@@ -1,3 +1,10 @@
+aptosid-art-legacy (2015.01.13) UNRELEASED; urgency=medium
+
+  * NOT RELEASED YET
+  * drop custom compression format, Debian now defaults to xz anyways.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 25 Feb 2022 04:08:37 +0100
+
 aptosid-art-legacy (2015.01.12) unstable; urgency=medium
 
   * switch priority to optional.

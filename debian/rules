@@ -3,5 +3,3 @@
 %:
 	dh $@ --no-parallel
 
-override_dh_builddeb:
-	dh_builddeb -- -Zxz
