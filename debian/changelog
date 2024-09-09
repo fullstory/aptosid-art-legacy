@@ -1,3 +1,9 @@
+aptosid-art-legacy (2015.01.15) UNRELEASED; urgency=medium
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 09 Sep 2024 11:21:27 +0200
+
 aptosid-art-legacy (2015.01.14) unstable; urgency=medium
 
   * update inkscape calls to new expectations.
