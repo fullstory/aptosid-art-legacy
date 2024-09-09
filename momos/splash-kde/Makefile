@@ -18,14 +18,23 @@ prepare:
 
 icon1:
 	$(ANIMCREATOR) frames=20 effect=opacity:in < $@.svg > $@_anim.svg
-	inkscape --without-gui --export-png="$(THEME)/$(CONTROLDIR)/$@_anim.png" $@_anim.svg
+	inkscape \
+		 --export-type="png" \
+		 --export-filename="$(THEME)/$(CONTROLDIR)/$@_anim.png" \
+			$@_anim.svg
 	$(RM) $@_anim.svg
 
 background:
-	inkscape --without-gui --export-png="$(THEME)/$(CONTROLDIR)/$@.png" $@.svg
+	inkscape \
+		 --export-type="png" \
+		 --export-filename="$(THEME)/$(CONTROLDIR)/$@.png" \
+			$@.svg
 
 text:
-	inkscape --without-gui --export-png="$(THEME)/$(CONTROLDIR)/$@.png" $@.svg
+	inkscape \
+		 --export-type="png" \
+		 --export-filename="$(THEME)/$(CONTROLDIR)/$@.png" \
+			$@.svg
 
 clean:
 	$(RM) -r $(THEME)

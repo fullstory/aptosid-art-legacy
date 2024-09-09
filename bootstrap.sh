@@ -124,3 +124,6 @@ for i in $RELEASES; do
 		./debian/templates/aptosid-art-wallpaper-CODENAME_SAFE.links.in \
 			>./debian/aptosid-art-wallpaper-$(echo ${i} | cut -d\: -f1).links
 done
+
+# drop trailing new line from end of debian/control
+sed -i '${/^$/d;}' ./debian/control

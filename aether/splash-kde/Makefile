@@ -9,7 +9,10 @@ all: $(ICONS)
 
 icon:
 	$(ANIMCREATOR) frames=30 effect=opacity:cycle < $@.svg > $@_anim.svg
-	inkscape --without-gui --export-png="$@_anim.png" $@_anim.svg
+	inkscape \
+		 --export-type="png" \
+		 --export-filename="$@_anim.png" \
+			$@_anim.svg
 
 clean:
 	$(RM) -r *_anim.png *_anim.svg

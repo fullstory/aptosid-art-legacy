@@ -17,18 +17,20 @@ files:
 
 background:
 	mkdir -p $(THEME)
-	inkscape --without-gui \
+	inkscape \
 		 --export-width=1920 \
 		 --export-height=1200 \
-		 --export-png="$(THEME)/background.png" \
+		 --export-type="png" \
+		 --export-filename="$(THEME)/background.png" \
 			$@.svg
 
 fred:
 	mkdir -p $(THEME)
-	inkscape --without-gui \
+	inkscape \
 		 --export-width=94 \
 		 --export-height=100 \
-		 --export-png="$(THEME)/$@.png" \
+		 --export-type="png" \
+		 --export-filename="$(THEME)/$@.png" \
 			$@.svg
 
 clean:

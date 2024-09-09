@@ -13,7 +13,7 @@ Build-Depends: debhelper-compat (= 13),
  libxml-parser-perl,
  fonts-dustin
 Standards-Version: 3.9.8
-Vcs-git: https://github.com/fullstory/aptosid-art-legacy.git
+Vcs-Git: https://github.com/fullstory/aptosid-art-legacy.git
 Vcs-Browser: https://github.com/fullstory/aptosid-art-legacy
 
 Package: aptosid-art-grub-void
@@ -834,4 +834,3 @@ Description: Xfce splash theme for the aptosid 2016-01 release
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
-

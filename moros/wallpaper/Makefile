@@ -11,30 +11,42 @@ all: $(SIZES)
 400x250:
 	mkdir -p $(NAME)/contents/
 	$(RM) $(NAME)/contents/screenshot.png
-	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
-		--export-height=$(lastword $(subst x, ,$@ )) \
-		--export-png="$(NAME)/contents/screenshot.png" $(NAMEWIDE).svg
+	inkscape \
+		 --export-width=$(firstword $(subst x, ,$@ )) \
+		 --export-height=$(lastword $(subst x, ,$@ )) \
+		 --export-type="png" \
+		 --export-filename="$(NAME)/contents/screenshot.png" \
+			$(NAMEWIDE).svg
 
 1280x1024:
 	mkdir -p $(NAME)/contents/images/
 	$(RM) $(NAME)/contents/images/$@.png
-	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
-		--export-height=$(lastword $(subst x, ,$@ )) \
-		--export-png="$(NAME)/contents/images/$@.png" $(NAME).svg
+	inkscape \
+		 --export-width=$(firstword $(subst x, ,$@ )) \
+		 --export-height=$(lastword $(subst x, ,$@ )) \
+		 --export-type="png" \
+		 --export-filename="$(NAME)/contents/images/$@.png" \
+			$(NAME).svg
 
 1024x768 1600x1200:
 	mkdir -p $(NAME)/contents/images/
 	$(RM) $(NAME)/contents/images/$@.png
-	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
-		--export-height=$(lastword $(subst x, ,$@ )) \
-		--export-png="$(NAME)/contents/images/$@.png" $(NAME).svg
+	inkscape \
+		 --export-width=$(firstword $(subst x, ,$@ )) \
+		 --export-height=$(lastword $(subst x, ,$@ )) \
+		 --export-type="png" \
+		 --export-filename="$(NAME)/contents/images/$@.png" \
+			$(NAME).svg
 
 1280x800 1440x900 1920x1200:
 	mkdir -p $(NAME)/contents/images/
 	$(RM) $(NAME)/contents/images/$@.png
-	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
-		--export-height=$(lastword $(subst x, ,$@ )) \
-		--export-png="$(NAME)/contents/images/$@.png" $(NAMEWIDE).svg
+	inkscape \
+		 --export-width=$(firstword $(subst x, ,$@ )) \
+		 --export-height=$(lastword $(subst x, ,$@ )) \
+		 --export-type="png" \
+		 --export-filename="$(NAME)/contents/images/$@.png" \
+			$(NAMEWIDE).svg
 
 clean:
 	$(RM) -r $(NAME)/

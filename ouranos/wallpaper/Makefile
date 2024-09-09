@@ -8,13 +8,21 @@ SVG= $(NAME).svg
 all: $(BITMAPS)
 
 %-1600x1200.png:
-	inkscape --without-gui --export-width=1600 --export-height=1200 \
-		--export-area=160:0:1760:1200 \
-		--export-png="$@" $(SVG)
+	inkscape \
+		 --export-width=1600 \
+		 --export-height=1200 \
+		 --export-area=160:0:1760:1200 \
+		 --export-type="png" \
+		 --export-filename="$@" \
+			$(SVG)
 
 %-1920x1200.png:
-	inkscape --without-gui --export-width=1920 --export-height=1200 \
-		--export-png="$@" $(SVG)
+	inkscape \
+		 --export-width=1920 \
+		 --export-height=1200 \
+		 --export-type="png" \
+		 --export-filename="$@" \
+			$(SVG)
 
 clean:
 	$(RM) *.png

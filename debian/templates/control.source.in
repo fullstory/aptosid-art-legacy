@@ -13,6 +13,6 @@ Build-Depends: debhelper-compat (= 13),
  libxml-parser-perl,
  fonts-dustin
 Standards-Version: 3.9.8
-Vcs-git: https://github.com/fullstory/aptosid-art-legacy.git
+Vcs-Git: https://github.com/fullstory/aptosid-art-legacy.git
 Vcs-Browser: https://github.com/fullstory/aptosid-art-legacy
 

@@ -9,10 +9,11 @@ all: $(BITMAPS)
 
 logo.png:
 	mkdir -p $(THEME)/balou
-	inkscape --without-gui \
+	inkscape \
 		 --export-width=640 \
 		 --export-height=480 \
-		 --export-png="$(THEME)/balou/$@" \
+		 --export-type="png" \
+		 --export-filename="$(THEME)/balou/$@" \
 			$(SVG)
 	cp themerc $(THEME)/balou/
 

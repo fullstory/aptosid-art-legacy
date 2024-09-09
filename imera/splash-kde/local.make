@@ -1,7 +1,8 @@
 streaked-fred unstreaked-fred:
 	./svg-anim.pl $@.svg 30 $@_anim.svg scaley,0.25:1,1:30,sin:middle opacity,0:1,1:30,sin
-	inkscape --without-gui \
-		 --export-png="$@_anim.png" \
+	inkscape \
+		 --export-type="png" \
+		 --export-filename="$@_anim.png" \
 			$@_anim.svg
 	$(RM) $@_anim.svg
 

@@ -22,19 +22,36 @@ prepare:
 
 icon1:
 	$(ANIMCREATOR) frames=20 effect=opacity:in < $@.svg > $@_anim.svg
-	inkscape --without-gui --export-png="$(THEME)/$(CONTROLDIR)/$@_anim.png" $@_anim.svg
+	inkscape \
+		 --export-type="png" \
+		 --export-filename="$(THEME)/$(CONTROLDIR)/$@_anim.png" \
+			$@_anim.svg
 	$(RM) $@_anim.svg
 
 background:
-	inkscape --without-gui --export-png="$(THEME)/$(CONTROLDIR)/$@.png" $@-wide.svg
-	inkscape --without-gui --export-width=1600 --export-height=1200 \
-	         --export-png="$(THEME)/1600x1200/$@.png" $@.svg
-	inkscape --without-gui --export-width=1280 --export-height=1024 \
+	inkscape \
+		 --export-type="png" \
+		 --export-filename="$(THEME)/$(CONTROLDIR)/$@.png" \
+			$@-wide.svg
+	inkscape \
+		 --export-width=1600 \
+		 --export-height=1200 \
+		 --export-type="png" \
+		 --export-filename="$(THEME)/1600x1200/$@.png" \
+			$@.svg
+	inkscape \
+		 --export-width=1280 \
+		 --export-height=1024 \
 		 --export-area=50:0:1550:1200 \
-	         --export-png="$(THEME)/1280x1024/$@.png" $@.svg
+		 --export-type="png" \
+		 --export-filename="$(THEME)/1280x1024/$@.png" \
+			$@.svg
 
 text:
-	inkscape --without-gui --export-png="$(THEME)/$(CONTROLDIR)/$@.png" $@.svg
+	inkscape \
+		 --export-type="png" \
+		 --export-filename="$(THEME)/$(CONTROLDIR)/$@.png" \
+			$@.svg
 
 clean:
 	$(RM) -r $(THEME)

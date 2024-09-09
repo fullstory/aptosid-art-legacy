@@ -16,19 +16,21 @@ prepare:
 1280x1024 1600x1200: prepare
 	mkdir -p $(THEME)/$@
 	[ -f $(THEME)/$@/description.txt ] || ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/$@/description.txt
-	inkscape --without-gui \
+	inkscape \
 		 --export-width=$(firstword $(subst x, ,$@ )) \
 		 --export-height=$(lastword $(subst x, ,$@ )) \
-		 --export-png="$(THEME)/$@/background.png" \
+		 --export-type="png" \
+		 --export-filename="$(THEME)/$@/background.png" \
 			background.svg
 
 1920x1080 1920x1200: prepare
 	mkdir -p $(THEME)/$@
 	[ -f $(THEME)/$@/description.txt ] || ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/$@/description.txt
-	inkscape --without-gui \
+	inkscape \
 		 --export-width=$(firstword $(subst x, ,$@ )) \
 		 --export-height=$(lastword $(subst x, ,$@ )) \
-		 --export-png="$(THEME)/$@/background.png" \
+		 --export-type="png" \
+		 --export-filename="$(THEME)/$@/background.png" \
 			background-really-wide.svg
 
 include local.make

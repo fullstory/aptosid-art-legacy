@@ -1,8 +1,9 @@
-aptosid-art-legacy (2015.01.14) UNRELEASED; urgency=medium
+aptosid-art-legacy (2015.01.14) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * update inkscape calls to new expectations.
+  * fix a few of lintian's whitespace complaints.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 25 Feb 2022 05:49:04 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 09 Sep 2024 06:19:02 +0200
 
 aptosid-art-legacy (2015.01.13) unstable; urgency=medium
 
@@ -317,7 +318,7 @@ aptosid-art-legacy (2011.03.9) unstable; urgency=low
 aptosid-art-legacy (2011.03.8) unstable; urgency=low
 
   [ Rick Battle ]
-  * s/ttf-dustin/fonts-dustin/ 
+  * s/ttf-dustin/fonts-dustin/
 
   [ Stefan Lippers-Hollmann ]
   * parallelize build system for void to the maximum.
@@ -374,7 +375,7 @@ aptosid-art-legacy (2011.03.1) unstable; urgency=low
   * introduce initial step of build concurrency.
 
   [ Rick Battle ]
-  * fred bump + added void text 
+  * fred bump + added void text
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 06 Jan 2012 23:49:05 +0100
 
