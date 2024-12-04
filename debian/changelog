@@ -1,8 +1,10 @@
-aptosid-art-legacy (2015.01.16) UNRELEASED; urgency=medium
+aptosid-art-legacy (2015.01.16) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * fix themes for KDE6/ qt6, thanks to Aleksei Bavshin <alebastr89@gmail.com>
+    https://src.fedoraproject.org/rpms/sddm/raw/rawhide/f/sddm-PR1876.patch
+    https://github.com/sddm/sddm/pull/1876
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 03 Nov 2024 23:05:23 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 04 Dec 2024 05:31:27 +0100
 
 aptosid-art-legacy (2015.01.15) unstable; urgency=medium
 
