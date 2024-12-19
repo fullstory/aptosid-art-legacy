@@ -1,8 +1,8 @@
-aptosid-art-legacy (2015.01.17) UNRELEASED; urgency=medium
+aptosid-art-legacy (2015.01.17) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * refresh SVG graphics, shut up inkscape's migration from old versions.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 04 Dec 2024 05:33:02 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Dec 2024 04:17:29 +0100
 
 aptosid-art-legacy (2015.01.16) unstable; urgency=medium
 

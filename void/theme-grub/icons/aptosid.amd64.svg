@@ -2,62 +2,33 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="32"
    height="32"
    id="svg3616"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="aptosid.686.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="aptosid.amd64.svg"
    enable-background="new"
    inkscape:export-filename="/media/celtux/fullstory.github/roen/mine/aptosid.amd64.png"
    inkscape:export-xdpi="163.12"
-   inkscape:export-ydpi="163.12">
+   inkscape:export-ydpi="163.12"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs3618">
-    <linearGradient
-       id="linearGradient5268"
-       osb:paint="solid">
-      <stop
-         style="stop-color:#000000;stop-opacity:1;"
-         offset="0"
-         id="stop5270" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient5335"
-       osb:paint="solid">
-      <stop
-         style="stop-color:#000000;stop-opacity:1;"
-         offset="0"
-         id="stop5337" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient5329"
-       osb:paint="solid">
-      <stop
-         style="stop-color:#000000;stop-opacity:1;"
-         offset="0"
-         id="stop5331" />
-    </linearGradient>
-    <filter
-       inkscape:collect="always"
-       id="filter5310">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.10860395"
-         id="feGaussianBlur5312" />
-    </filter>
     <filter
        color-interpolation-filters="sRGB"
        inkscape:collect="always"
-       id="filter5310-4">
+       id="filter5310-4"
+       x="-0.024126835"
+       y="-0.02250281"
+       width="1.0482537"
+       height="1.0450057">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="0.10860395"
@@ -66,7 +37,11 @@
     <filter
        id="filter6636-7-6-4-5-7"
        inkscape:collect="always"
-       color-interpolation-filters="sRGB">
+       color-interpolation-filters="sRGB"
+       x="-0.022884179"
+       y="-0.021343799"
+       width="1.0457684"
+       height="1.0426876">
       <feGaussianBlur
          id="feGaussianBlur6638-0-8-6-9-9"
          stdDeviation="2"
@@ -81,8 +56,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="4"
-     inkscape:cx="43.375049"
-     inkscape:cy="-36.762106"
+     inkscape:cx="43.75"
+     inkscape:cy="-36.75"
      inkscape:current-layer="layer3"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -90,10 +65,13 @@
      inkscape:snap-grids="false"
      borderlayer="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1037"
-     inkscape:window-x="-2"
-     inkscape:window-y="-3"
-     inkscape:window-maximized="1" />
+     inkscape:window-height="1156"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#3a3b39" />
   <metadata
      id="metadata3621">
     <rdf:RDF>
@@ -102,7 +80,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -163,7 +141,6 @@
        x="-0.59973419"
        y="25.864061"
        id="text5613"
-       sodipodi:linespacing="125%"
        transform="scale(0.81205267,1.2314472)"><tspan
          sodipodi:role="line"
          id="tspan5615"
